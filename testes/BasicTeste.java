@@ -1,11 +1,16 @@
-import java.io.IOException;
-import java.util.Collection;
-import java.util.Map;
-import java.util.NavigableMap;
-import java.util.Optional;
-import java.util.TreeMap;
-
-public class IntervalSet<T extends Comparable<T>>
-{
-    
+class BasicTeste {
+	int teste()
+	{
+		int x = 1;
+		if(x == 1)
+		{return true;}
+		else{return false;}
+	}
+	
+	void deadCode()
+	{
+		int x = 1;
+		x = 2;
+		x = 3;
+	}
 }
