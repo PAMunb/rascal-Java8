@@ -1,4 +1,4 @@
-class BasicTeste {
+class DeadCodeExamples {
 	int teste()
 	{
 		int x = 1;
@@ -9,8 +9,9 @@ class BasicTeste {
 	
 	void deadCode()
 	{
-		int x = 1;
+		int x = 1,y;
 		x = 2;
 		x = 3;
+		y = 4;
 	}
 }
