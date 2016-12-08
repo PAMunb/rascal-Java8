@@ -40,5 +40,7 @@ CompilationUnit removeDeadAssignment(CompilationUnit unit) =  visit(unit){
     case (Assignment) `<Identifier leftId> <AssignmentOperator s> <Expression rightExp>`  => 
     (Assignment) `<Identifier leftId> <AssignmentOperator s> eliminado` when !checkExpUse(leftId, unit)
     
+    case (PostfixExpression) `<Identifier pExp>`  => 
+    (PostfixExpression) `eliminado` when !checkExpUse(pExp, unit)
 };
 
