@@ -10,18 +10,31 @@ Base: Live variables do livro Principles of Progam Analysis
 
 */
 
-int countAssignment(CompilationUnit unit) {
-  int res = 0;
-  
+bool CheckExpUse(Identifier left, CompilationUnit unit) {
+  bool res = false;
   visit(unit) {
-    case (Assignment) `<Identifier id> <AssignmentOperator s> <Expression e>` : { res += 1; }  
-   
+    case (Assignment)`<LeftHandSide dst> <AssignmentOperator op> <Identifier y>`: { 
+    	println("*********");
+    	print(left); print("--"); 	
+    	print(y); print("===");
+    	res = (left == y);
+    }   
   }
   return res; 
 }
 
+/*
 CompilationUnit removeDeadAssignment(CompilationUnit unit) =  visit(unit){
-    case (Assignment) `<Identifier id> <AssignmentOperator s> <Expression e>`  => 
-    (Assignment) `<Identifier id> <AssignmentOperator s> 22`   
-   
-}; 
+    case (Assignment) `<LeftHandSide leftExp> <AssignmentOperator s> <Expression rightExp>`  => 
+    (Assignment) `<LeftHandSide leftExp> <AssignmentOperator s> 22` when CheckExpUse(leftExp, rightExp)  
+};
+*/
+
+CompilationUnit removeDeadAssignment(CompilationUnit unit) =  visit(unit){
+    case (Assignment) `<Identifier leftId> <AssignmentOperator s> <Expression rightExp>`  => 
+    (Assignment) `<Identifier leftId> <AssignmentOperator s> <Expression rightExp>` when CheckExpUse(leftId, unit)
+    
+    case (Assignment) `<Identifier leftId> <AssignmentOperator s> <Expression rightExp>`  => 
+    (Assignment) `<Identifier leftId> <AssignmentOperator s> eliminado` when !CheckExpUse(leftId, unit)
+};
+

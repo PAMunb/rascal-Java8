@@ -10,8 +10,9 @@ class DeadCodeExamples {
 	void deadCode()
 	{
 		int x = 1,y;
-		x = 2;
-		x = 3;
 		y = 4;
+		x = 2;
+		x = y;
+		
 	}
 }
