@@ -10,31 +10,35 @@ Base: Live variables do livro Principles of Progam Analysis
 
 */
 
-bool CheckExpUse(Identifier left, CompilationUnit unit) {
+bool checkExpUse(Identifier left, CompilationUnit unit) {
   bool res = false;
-  visit(unit) {
+  top-down-break visit(unit) {
     case (Assignment)`<LeftHandSide dst> <AssignmentOperator op> <Identifier y>`: { 
-    	println("*********");
-    	print(left); print("--"); 	
-    	print(y); print("===");
     	res = (left == y);
-    }   
+    }
+    
+    case (Assignment)`<LeftHandSide dst> <AssignmentOperator op> <MethodInvocation m>`:{
+    	res = checkMethodArgs(m, left);
+    }
   }
   return res; 
 }
 
-/*
-CompilationUnit removeDeadAssignment(CompilationUnit unit) =  visit(unit){
-    case (Assignment) `<LeftHandSide leftExp> <AssignmentOperator s> <Expression rightExp>`  => 
-    (Assignment) `<LeftHandSide leftExp> <AssignmentOperator s> 22` when CheckExpUse(leftExp, rightExp)  
-};
-*/
+bool checkMethodArgs(MethodInvocation m, Identifier left){
+	bool res = false;
+	top-down-break visit(m){
+		case (MethodInvocation)`<MethodName mName>(<Identifier arg>)`: {
+			res = (arg == left);
+		}
+	}
+	return res;
+}
+
 
 CompilationUnit removeDeadAssignment(CompilationUnit unit) =  visit(unit){
+        
     case (Assignment) `<Identifier leftId> <AssignmentOperator s> <Expression rightExp>`  => 
-    (Assignment) `<Identifier leftId> <AssignmentOperator s> <Expression rightExp>` when CheckExpUse(leftId, unit)
+    (Assignment) `<Identifier leftId> <AssignmentOperator s> eliminado` when !checkExpUse(leftId, unit)
     
-    case (Assignment) `<Identifier leftId> <AssignmentOperator s> <Expression rightExp>`  => 
-    (Assignment) `<Identifier leftId> <AssignmentOperator s> eliminado` when !CheckExpUse(leftId, unit)
 };
 
