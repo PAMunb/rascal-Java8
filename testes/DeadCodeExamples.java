@@ -1,18 +1,17 @@
 class DeadCodeExamples {
-	int teste()
+	int teste(int var)
 	{
-		int x = 1;
-		if(x == 1)
-		{return true;}
-		else{return false;}
+		return var;
 	}
 	
-	void deadCode()
+	void casos()
 	{
-		int x = 1,y;
+		int x,y,z;
+		
+		//Teste 1 - eliminando atribuicoes
 		y = 4;
 		x = 2;
-		x = y;
+		z = 4;
 		
 	}
 }
