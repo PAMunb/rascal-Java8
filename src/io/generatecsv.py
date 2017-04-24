@@ -2,7 +2,7 @@
 import sys, getopt, random, csv
 
 __lPerc = [10, 30, 50, 70, 90]
-__lRef = ['MC', 'VA', 'SS']
+__lRef = ['MC', 'VA', 'SS', 'DI']
 
 def main(argv):
    inputfile = ''
