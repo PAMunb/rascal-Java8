@@ -68,19 +68,21 @@ public void executeTransformations(list[loc] files, int percent, bool verbose, t
   int totalOfTransformations = 0;
   for(file <- files) {
      contents = readFile(file);
+     int iAcc = 1;
      try {
        unit = parse(#CompilationUnit, contents);
        tuple[int, CompilationUnit] res = transformation(unit);
        if(res[0] > 0) {
          totalOfTransformations = totalOfTransformations + res[0];
          processedFiles += <res[0], file, res[1]>;
-         println("  " + toString(res[0]) + " of " + size(files) + " processed succesfully!");
+         println("  " + toString(iAcc) + " of " + toString(size(files)) + " processed succesfully!");
        }
      }
      catch : { 
      	errors += 1; 
         println("  file processed with errors!");
      };
+     iAcc += 1;
   }
   int total = size(processedFiles);
   int toExecute = numberOfTransformationsToApply(total, percent);
