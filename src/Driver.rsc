@@ -7,6 +7,7 @@ import List;
 import Set;
 import ParseTree; 
 import util::Math;
+import util::Benchmark;
 
 import io::IOUtil; 
 
@@ -14,10 +15,15 @@ import lang::java::refactoring::MultiCatch;
 import lang::java::refactoring::SwitchString;
 import lang::java::refactoring::VarArgs; 
 import lang::java::refactoring::Diamond;
+import lang::java::refactoring::AnonymousToLambda;
+import lang::java::refactoring::FilterPatternToLambda;
 
 import lang::java::util::ManageCompilationUnit;
 import lang::java::m3::M3Util;
 import lang::java::\syntax::Java18;
+
+import util::PrettyPrinter;
+
 datetime  t0, t1;
 str logFile = "";
 
@@ -46,6 +52,8 @@ public void refactorProjects(loc input, bool verbose = true) {
           case /SS/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorSwitchString, "switchstring");
           case /VA/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorVarArgs, "varargs");
           case /DI/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorDiamond, "diamond");
+          case /AC/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorAnonymousInnerClass, "aic");
+          case /FP/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorFilterPattern, "filter pattern");
           default: logMessage(" ... nothing to be done");
        }
     }  
@@ -66,6 +74,7 @@ public void executeTransformations(list[loc] files, int percent, bool verbose, t
   list[tuple[int, loc, CompilationUnit]] processedFiles = [];
   int errors = 0; 
   int totalOfTransformations = 0;
+  int acc = 0;
   for(file <- files) {
      contents = readFile(file);
      int iAcc = 1;
@@ -75,14 +84,15 @@ public void executeTransformations(list[loc] files, int percent, bool verbose, t
        if(res[0] > 0) {
          totalOfTransformations = totalOfTransformations + res[0];
          processedFiles += <res[0], file, res[1]>;
-         println("  " + toString(iAcc) + " of " + toString(size(files)) + " processed succesfully!");
+         println("  " + toString(acc) + " of " + toString((size(files))) + " processed succesfully!");
        }
+       acc += 1;
      }
      catch : { 
      	errors += 1; 
         println("  file processed with errors!");
      };
-     iAcc += 1;
+     //if(acc == 200) break;
   }
   int total = size(processedFiles);
   int toExecute = numberOfTransformationsToApply(total, percent);
@@ -96,7 +106,7 @@ public void executeTransformations(list[loc] files, int percent, bool verbose, t
   logMessage("- Total of transformations: " + toString(totalOfTransformations));
   logMessage("- Errors: " + toString(errors));
   logMessage("- Final Time: " + printTime(now(), "YYYYMMDDHHmmss"));
-  logMessage("- Elapsed Time: " + prettyPrinterDuration(t1 - t0, "ms") + "ms");
+  logMessage("- Elapsed Time: " + toString(prettyPrinterDuration(t1 - t0, "ms")) + "ms");
 }
 
 /**
