@@ -463,7 +463,7 @@ syntax VariableInitializerList = { VariableInitializer "," }+ ;
 syntax Block = "{" BlockStatements? "}"  ;
              
 
-syntax BlockStatements = BlockStatement+ ;
+syntax BlockStatements = BlockStatement BlockStatement* ;
 
 syntax BlockStatement = LocalVariableDeclarationStatement 
                       | ClassDeclaration 
