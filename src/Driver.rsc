@@ -19,6 +19,9 @@ import lang::java::refactoring::AnonymousToLambda;
 import lang::java::refactoring::ExistPatternToLambda;
 import lang::java::refactoring::FilterPattern;
 
+import lang::java::refactoring::forloop::EnhancedForLoopRefactorer;
+import lang::java::analysis::ExceptionFinder;
+
 import lang::java::util::ManageCompilationUnit;
 import lang::java::m3::M3Util;
 import lang::java::\syntax::Java18;
@@ -55,22 +58,18 @@ public void refactorProjects(loc input, bool verbose = true) {
           case /DI/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorDiamond, "diamond");
           case /AC/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorAnonymousInnerClass, "aic");
           case /EP/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorExistPattern, "exist pattern");
-          case /FP/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorFilterPattern, "filter pattern");
+          case /FP/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorFilterPattern, "filter pattern");          
+          case /FUNC/: {
+          	  checkedExceptionClasses = findCheckedExceptions(projectFiles);
+              executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorForLoopToFunctional, "ForLoopToFunctional");
+          }
           default: logMessage(" ... nothing to be done");
        }
     }  
 }
 
 /**
- * Aplica a transformacao multicatch a todos os arquivos de 
- * um projeto. Acredito que essa funcao possa ser generalizada, 
- * uma vez que apenas a linha que chama "refactorMultiCatch" e 
- * uma que realiza o println precisam ser alteradas para as 
- * demais transformacoes. Algor para ser investigado posteriormente. 
- *
- * Alem disso, deve ser possivel utilizar um estilo mais funcional 
- * nessa implementacao. Mas ok, eh a primeira tentativa. Depois 
- * melhoramos. 
+ * Run the transformations according to a specific pattern.
  */ 
 public void executeTransformations(list[loc] files, int percent, bool verbose, tuple[int, CompilationUnit](CompilationUnit) transformation, str name) {
   list[tuple[int, loc, CompilationUnit]] processedFiles = [];
@@ -102,7 +101,7 @@ public void executeTransformations(list[loc] files, int percent, bool verbose, t
   int totalOfChangedFiles = exportResults(toApply, processedFiles, verbose, name);
   t1 = now();
   logMessage("- Number of files:  " + toString(size(files)));
-  logMessage("- Processed Filies: " + toString(size(processedFiles)));
+  logMessage("- Processed Files: " + toString(size(processedFiles)));
   logMessage("- Exported Files:   " + toString(size(toApply))); 
   logMessage("- Total of files changed: " + toString(totalOfChangedFiles));
   logMessage("- Total of transformations: " + toString(totalOfTransformations));

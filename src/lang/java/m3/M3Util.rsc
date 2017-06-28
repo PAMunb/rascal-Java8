@@ -88,3 +88,7 @@ list[M3] createM3FromClassPath(list[loc] locations) {
    list[loc] classes = [ c | l <- locations,  c <- listAllClassFiles(l) ];
    return [ createM3FromJarClass(c) | c <- classes ];
 }
+
+list[loc] listAllJavaFiles(loc location) {
+	return findAllFiles(location, "java");
+}
