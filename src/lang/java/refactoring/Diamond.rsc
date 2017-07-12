@@ -13,40 +13,45 @@ public tuple[int, CompilationUnit] refactorDiamond(CompilationUnit unit) {
   int numberOfOccurences = 0;
   CompilationUnit cu = visit(unit) 
   {
-    case (FieldDeclaration)`<FieldModifier* fm><Identifier idt><TypeArguments tas><VariableDeclaratorList vdl>;` : {
-      VariableDeclaratorList v2 = visit(vdl){ //case lvalue is a generic type
-        //Case where generics isn't especified
-        case (ClassOrInterfaceTypeToInstantiate)`<{AnnotatedType "."}* aType>//Diammond` : {
-          numberOfOccurences += 1; 
-          insert (ClassOrInterfaceTypeToInstantiate)`<{AnnotatedType "."}* aType>\<\>`;
-        }
-        //Case where generics may be simplified to <>
-        case (ClassOrInterfaceTypeToInstantiate)`<{AnnotatedType "."}* aType> <TypeArguments args>` : {
-          numberOfOccurences += 1; 
-          if (/`\<\>`/ !:= toString(args)){
-      	      insert (ClassOrInterfaceTypeToInstantiate)`<{AnnotatedType "."}* aType>\<\>`;
-          }
-        }
-      };
-      insert((FieldDeclaration)`<FieldModifier* fm> <Identifier idt><TypeArguments tas> <VariableDeclaratorList v2>;`);
+    //case (FieldDeclaration)`<FieldModifier fm> <Identifier idt><TypeArguments tas><VariableDeclaratorId vdId>= new <{AnnotatedType "."}* aType>(<ArgumentList? al>);` : {
+    //  numberOfOccurences += 1;  
+    //  insert((FieldDeclaration)`<FieldModifier fm> <Identifier idt><TypeArguments tas> <VariableDeclaratorId vdId>= new <{AnnotatedType "."}* aType>\<\>(<ArgumentList? al>);`);
+    //}
+    //case (FieldDeclaration)`<Identifier idt><TypeArguments tas><VariableDeclaratorId vdId>= new <{AnnotatedType "."}* aType>(<ArgumentList? al>);` : {
+    //  numberOfOccurences += 1;  
+    //  insert((FieldDeclaration)`<Identifier idt><TypeArguments tas> <VariableDeclaratorId vdId>= new <{AnnotatedType "."}* aType>\<\>(<ArgumentList? al>);`);
+    //}  
+    case (FieldDeclaration)`<FieldModifier fm> <Identifier idt><TypeArguments tas><VariableDeclaratorId vdId> = new <{AnnotatedType "."}* aType><TypeArguments args>(<ArgumentList? al>);` : {
+      if(args !:= (TypeArguments)`\<\>`){
+        numberOfOccurences += 1;
+        insert((FieldDeclaration)`<FieldModifier fm> <Identifier idt><TypeArguments tas> <VariableDeclaratorId vdId>= new <{AnnotatedType "."}* aType>\<\>(<ArgumentList? al>);`);
+      }
     }
-   
-    case (LocalVariableDeclaration)`<Identifier idt> <TypeArguments tas> <VariableDeclaratorList vdl>` : {
-      VariableDeclaratorList v2 = visit(vdl){ //case lvalue is a generic type
-        //Case where generics isn't especified
-        case (ClassOrInterfaceTypeToInstantiate)`<{AnnotatedType "."}* aType>` : {
-          numberOfOccurences += 1; 
-          insert (ClassOrInterfaceTypeToInstantiate)`<{AnnotatedType "."}* aType>\<\>`;
-        }
-        //Case where generics may be simplified to <>
-        case (ClassOrInterfaceTypeToInstantiate)`<{AnnotatedType "."}* aType> <TypeArguments args>` : {
-          numberOfOccurences += 1; 
-          if (/`\<\>`/ !:= toString(args)){
-      	    insert (ClassOrInterfaceTypeToInstantiate)`<{AnnotatedType "."}* aType>\<\>`;
-          }
-        }
-      };  
-      insert((LocalVariableDeclaration)`<Identifier idt><TypeArguments tas> <VariableDeclaratorList v2>`);  
+    case (FieldDeclaration)`<Identifier idt><TypeArguments tas><VariableDeclaratorId vdId> = new <{AnnotatedType "."}* aType><TypeArguments args>(<ArgumentList? al>);` : {
+      if(args !:= (TypeArguments)`\<\>`){
+        numberOfOccurences += 1;
+        insert((FieldDeclaration)`<Identifier idt><TypeArguments tas> <VariableDeclaratorId vdId>= new <{AnnotatedType "."}* aType>\<\>(<ArgumentList? al>);`);
+      }
+    }    
+    //case (LocalVariableDeclaration)`<VariableModifier vm> <Identifier idt><TypeArguments tas><VariableDeclaratorId vdId> = new <{AnnotatedType "."}* aType>(<ArgumentList? al>)` : {
+    //  numberOfOccurences += 1;  
+    //  insert((LocalVariableDeclaration)`<VariableModifier vm> <Identifier idt><TypeArguments tas> <VariableDeclaratorId vdId>= new <{AnnotatedType "."}* aType>\<\>(<ArgumentList? al>)`);
+    //}
+    //case (LocalVariableDeclaration)`<Identifier idt><TypeArguments tas><VariableDeclaratorId vdId> = new <{AnnotatedType "."}* aType>(<ArgumentList? al>)` : {
+    //  numberOfOccurences += 1;  
+    //  insert((LocalVariableDeclaration)`<Identifier idt><TypeArguments tas> <VariableDeclaratorId vdId>= new <{AnnotatedType "."}* aType>\<\>(<ArgumentList? al>)`);
+    //}    
+    case (LocalVariableDeclaration)      `<VariableModifier vm> <Identifier idt><TypeArguments tas><VariableDeclaratorId vdId> = new <{AnnotatedType "."}* aType><TypeArguments args>(<ArgumentList? al>)` : {
+       if(args !:= (TypeArguments)`\<\>`){
+        numberOfOccurences += 1;
+        insert((LocalVariableDeclaration)`<VariableModifier vm> <Identifier idt><TypeArguments tas> <VariableDeclaratorId vdId>= new <{AnnotatedType "."}* aType>\<\>(<ArgumentList? al>)`);
+      }
+    }
+    case (LocalVariableDeclaration)`<Identifier idt><TypeArguments tas><VariableDeclaratorId vdId> = new <{AnnotatedType "."}* aType><TypeArguments args>(<ArgumentList? al>)` : {
+      if(args !:= (TypeArguments)`\<\>`){
+        numberOfOccurences += 1;
+        insert((LocalVariableDeclaration)`<Identifier idt><TypeArguments tas> <VariableDeclaratorId vdId>= new <{AnnotatedType "."}* aType>\<\>(<ArgumentList? al>)`);
+      }
     }    
   };
   return <numberOfOccurences, cu>;
