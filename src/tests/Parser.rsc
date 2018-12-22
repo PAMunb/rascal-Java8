@@ -33,6 +33,10 @@ void parseAllFiles(bool verbose, loc baseDir) {
         println("... found an error at line <l.begin.line>, column <l.begin.column> "); 
         nok = nok + 1.0;
      }
+     catch : {
+      	print("[parsing file:] " + s.path);
+        nok = nok + 1.0;
+     }
    	}
    	real res = ok / (nok + ok);
     println("[Total of Java Files]: <nok + ok>");

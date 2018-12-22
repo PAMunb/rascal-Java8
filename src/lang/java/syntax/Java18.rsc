@@ -138,13 +138,13 @@ syntax ImportDeclaration = importDeclaration: SingleTypeImportDeclaration       
                          | StaticImportOnDemandDeclaration   // import static br.unb.rascal.Foo.*;
                          ;
  
-syntax SingleTypeImportDeclaration = "import" TypeName ";" ;
+syntax SingleTypeImportDeclaration = "import" TypeName ";"+ ;
 
-syntax TypeImportOnDemandDeclaration = "import" PackageOrTypeName "." "*" ";" ;
+syntax TypeImportOnDemandDeclaration = "import" PackageOrTypeName "." "*" ";"+ ;
 
-syntax SingleStaticImportDeclaration = "import" "static" TypeName "." Identifier ";";
+syntax SingleStaticImportDeclaration = "import" "static" TypeName "." Identifier ";"+;
 
-syntax StaticImportOnDemandDeclaration = "import" "static" TypeName "." "*" ";" ;                         
+syntax StaticImportOnDemandDeclaration = "import" "static" TypeName "." "*" ";"+ ;                         
 
 
 syntax TypeDeclaration = ClassDeclaration ";"*
@@ -173,7 +173,7 @@ syntax Superclass = "extends" ClassType ;
 
 syntax Superinterfaces = "implements" {InterfaceType ","}+ ;
 
-syntax ClassBody = classBody : "{" ClassBodyDeclaration* decls "}" ;
+syntax ClassBody = classBody : "{" ClassBodyDeclaration* decls "}" ";"? ;
 
 syntax ClassBodyDeclaration = ClassMemberDeclaration 
                             | InstanceInitializer 
@@ -239,7 +239,7 @@ syntax UnannArrayType = UnannPrimitiveType Dims
              //  |UnannTypeVariable Dims
                ;
 
-syntax MethodDeclaration = methodDeclaration: MethodModifier* MethodHeader MethodBody ";"?;
+syntax MethodDeclaration = methodDeclaration: MethodModifier* MethodHeader MethodBody ;
 
 syntax MethodModifier = Annotation 
                       | "public" 
@@ -320,13 +320,13 @@ syntax ExceptionType = ClassType
                      ; 
 
 
-syntax MethodBody = Block 
+syntax MethodBody = Block ";"*
                   | ";"
                   ;
                    
 syntax InstanceInitializer = Block ;
 
-syntax StaticInitializer = "static" Block ;
+syntax StaticInitializer = "static" Block ";"* ;
 
 syntax ConstructorDeclaration = ConstructorModifier* ConstructorDeclarator Throws? ConstructorBody ;
 
@@ -334,13 +334,14 @@ syntax ConstructorModifier = Annotation
                            | "public" 
                            | "protected" 
                            | "private" 
+                           | "strictfp"
                            ;
                            
 syntax ConstructorDeclarator = TypeParameters? SimpleTypeName "(" FormalParameterList? ")" ;
 
 syntax SimpleTypeName = Identifier ;
 
-syntax ConstructorBody = "{" ExplicitConstructorInvocation? BlockStatements? "}" ;
+syntax ConstructorBody = "{" ExplicitConstructorInvocation? BlockStatements? "}" ";"* ;
 
 syntax ExplicitConstructorInvocation = TypeArguments? "this" "(" ArgumentList? ")" ";"  
                                      | TypeArguments? "super" "(" ArgumentList? ")" ";" 
@@ -412,6 +413,7 @@ syntax AnnotationTypeMemberDeclaration = AnnotationTypeElementDeclaration
                                        | ConstantDeclaration 
                                        | ClassDeclaration 
                                        | InterfaceDeclaration 
+                                    //   | InterfaceMemberDeclaration
                                     //   | ";"
                                        ;
 
@@ -460,7 +462,7 @@ syntax VariableInitializerList = { VariableInitializer "," }+ ;
  * Productions from §14 (Blocks and Statements)
  */
  
-syntax Block = "{" BlockStatements? "}"  ;
+syntax Block = "{" BlockStatements? "}" ;
              
 
 syntax BlockStatements = BlockStatement BlockStatement* ;
