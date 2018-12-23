@@ -56,7 +56,7 @@ list[loc] listJavaFiles(loc location) {
       res = res + (listJavaFiles(l));
     }
     else {
-      if(l.extension == "java") {
+      if(l.extension == "java" && l.file != "package-info.java") {
          res = l + res;
       };
     };
