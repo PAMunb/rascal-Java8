@@ -78,6 +78,7 @@ public void executeTransformations(list[loc] files, int percent, bool verbose, t
   int acc = 0;
   for(file <- files) {
      contents = readFile(file);
+     int iAcc = 1;
      try {
        unit = parse(#CompilationUnit, contents);
        tuple[int, CompilationUnit] res = transformation(unit);
