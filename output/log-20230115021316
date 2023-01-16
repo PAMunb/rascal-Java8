@@ -1,0 +1,71 @@
+[Project Analyzer] processing project: opengrok
+- Number of files:  859
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115021333
+- Elapsed Time: 17508.0ms
+[Project Analyzer] processing project: opengrok
+- applying filter pattern into /home/dataset/opengrok/opengrok-web/src/main/java/org/opengrok/web/api/v1/suggester/query/SuggesterQueryParser.java
+- Number of files:  859
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 1
+- Final Time: 20230115021346
+- Elapsed Time: 12625.0ms
+[Project Analyzer] processing project: opengrok
+- applying exist pattern into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/configuration/ConfigurationHelp.java
+- applying exist pattern into /home/dataset/opengrok/opengrok-web/src/main/java/org/opengrok/web/ProjectHelper.java
+- applying exist pattern into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/search/QueryBuilder.java
+- applying exist pattern into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/configuration/Groups.java
+- Number of files:  859
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 1
+- Final Time: 20230115021359
+- Elapsed Time: 12629.0ms
+[Project Analyzer] processing project: opengrok
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/MercurialHistoryParser.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/configuration/IgnoredNames.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/index/IndexerTest.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/history/BitKeeperRepositoryTest.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/history/GitRepositoryTest.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/PerforceAnnotationParser.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/suggester/src/main/java/org/opengrok/suggest/Suggester.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/configuration/Filter.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/analysis/executables/JavaClassAnalyzer.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/history/RepositoryFactoryTest.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/AnnotationData.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/configuration/IgnoredNamesTest.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/search/Summarizer.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/search/context/QueryMatchers.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-web/src/test/java/org/opengrok/web/ProjectHelperExtendedTest.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/HistoryReader.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/configuration/Groups.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/plugins/src/main/java/opengrok/auth/plugin/ldap/LdapFacade.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-web/src/test/java/org/opengrok/web/ProjectHelperTest.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/search/Summary.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/history/FileHistoryCacheTest.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/util/FileExtraZipper.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/suggester/src/test/java/org/opengrok/suggest/SuggesterTest.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/util/BoundedBlockingObjectPool.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/analysis/AnalyzerGuru.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/history/PerforceRepositoryTest.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/analysis/Definitions.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-web/src/main/java/org/opengrok/web/api/v1/controller/SuggesterController.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/analysis/LangTreeMap.java
+- applying ForLoopToFunctional into /home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/web/messages/MessagesContainerTest.java
+- Number of files:  859
+- Processed Files: 30
+- Exported Files:   30
+- Total of files changed: 56
+- Total of transformations: 56
+- Errors: 42
+- Final Time: 20230115021619
+- Elapsed Time: 140495.0ms

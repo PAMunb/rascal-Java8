@@ -1,0 +1,65 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: retrofit
+Creating log file at: /output/log-20230115023146
+Processing retrofit...
+|file:///home/dataset/retrofit/samples/src/main/java/com/example/retrofit/InvocationMetrics.java|
+ParseError(|unknown:///|(2025,1,<62,36>,<62,37>))
+|file:///home/dataset/retrofit/retrofit/src/test/java/retrofit2/RequestFactoryTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/retrofit/retrofit/src/main/java/retrofit2/package-info.java|
+ParseError(|unknown:///|(295,1,<14,0>,<14,1>))
+0
+[Project Analyzer] project: retrofit
+Processing retrofit...
+|file:///home/dataset/retrofit/samples/src/main/java/com/example/retrofit/InvocationMetrics.java|
+ParseError(|unknown:///|(2025,1,<62,36>,<62,37>))
+|file:///home/dataset/retrofit/retrofit/src/test/java/retrofit2/RequestFactoryTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/retrofit/retrofit/src/main/java/retrofit2/package-info.java|
+ParseError(|unknown:///|(295,1,<14,0>,<14,1>))
+0
+[Project Analyzer] project: retrofit
+Processing retrofit...
+|file:///home/dataset/retrofit/samples/src/main/java/com/example/retrofit/InvocationMetrics.java|
+ParseError(|unknown:///|(2025,1,<62,36>,<62,37>))
+|file:///home/dataset/retrofit/retrofit/src/test/java/retrofit2/RequestFactoryTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  233 of 290 processed succesfully!
+|file:///home/dataset/retrofit/retrofit/src/main/java/retrofit2/package-info.java|
+ParseError(|unknown:///|(295,1,<14,0>,<14,1>))
+1
+[Project Analyzer] project: retrofit
+Processing retrofit...
+
+|file:///home/dataset/retrofit/samples/src/main/java/com/example/retrofit/InvocationMetrics.java|
+ParseError(|unknown:///|(2025,1,<62,36>,<62,37>))
+|file:///home/dataset/retrofit/samples/src/main/java/com/example/retrofit/SimpleService.java|
+EmptySet()
+|file:///home/dataset/retrofit/samples/src/main/java/com/example/retrofit/Crawler.java|
+EmptySet()
+|file:///home/dataset/retrofit/retrofit-converters/moshi/src/test/java/retrofit2/converter/moshi/MoshiConverterFactoryTest.java|
+EmptySet()
+  93 of 290 processed succesfully!
+  122 of 290 processed succesfully!
+  127 of 290 processed succesfully!
+  131 of 290 processed succesfully!
+  143 of 290 processed succesfully!
+  146 of 290 processed succesfully!
+  171 of 290 processed succesfully!
+  176 of 290 processed succesfully!
+  180 of 290 processed succesfully!
+  192 of 290 processed succesfully!
+  195 of 290 processed succesfully!
+|file:///home/dataset/retrofit/retrofit/src/test/java/retrofit2/RequestFactoryTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/retrofit/retrofit/src/main/java/retrofit2/package-info.java|
+ParseError(|unknown:///|(295,1,<14,0>,<14,1>))
+|file:///home/dataset/retrofit/retrofit/src/main/java/retrofit2/ParameterHandler.java|
+EmptySet()
+11
+INFO:root:  Formating the source code
+INFO:root:   Done

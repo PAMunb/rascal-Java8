@@ -1,0 +1,115 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: universal-g-code-sender
+Creating log file at: /output/log-20230115005713
+Processing universal-g-code-sender...
+|file:///home/dataset/universal-g-code-sender/new-module-archetype/src/main/resources/archetype-resources/src/main/java/__artifactId__TopComponent.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  0 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-ugslib/src/main/java/com/willwinder/ugs/nbp/lib/options/package-info.java|
+ParseError(|unknown:///|(943,1,<26,0>,<26,1>))
+  42 of 1024 processed succesfully!
+  102 of 1024 processed succesfully!
+  538 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-gcode-editor/src/main/java/com/willwinder/ugs/nbp/editor/package-info.java|
+ParseError(|unknown:///|(797,1,<20,0>,<20,1>))
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/firmware/grbl/GrblFirmwareSettings.java|
+ParseError(|unknown:///|(8310,1,<200,38>,<200,39>))
+4
+[Project Analyzer] project: universal-g-code-sender
+Processing universal-g-code-sender...
+|file:///home/dataset/universal-g-code-sender/new-module-archetype/src/main/resources/archetype-resources/src/main/java/__artifactId__TopComponent.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-ugslib/src/main/java/com/willwinder/ugs/nbp/lib/options/package-info.java|
+ParseError(|unknown:///|(943,1,<26,0>,<26,1>))
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-gcode-editor/src/main/java/com/willwinder/ugs/nbp/editor/package-info.java|
+ParseError(|unknown:///|(797,1,<20,0>,<20,1>))
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/firmware/grbl/GrblFirmwareSettings.java|
+ParseError(|unknown:///|(8310,1,<200,38>,<200,39>))
+0
+[Project Analyzer] project: universal-g-code-sender
+Processing universal-g-code-sender...
+|file:///home/dataset/universal-g-code-sender/new-module-archetype/src/main/resources/archetype-resources/src/main/java/__artifactId__TopComponent.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-ugslib/src/main/java/com/willwinder/ugs/nbp/lib/options/package-info.java|
+ParseError(|unknown:///|(943,1,<26,0>,<26,1>))
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-gcode-editor/src/main/java/com/willwinder/ugs/nbp/editor/package-info.java|
+ParseError(|unknown:///|(797,1,<20,0>,<20,1>))
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/firmware/grbl/GrblFirmwareSettings.java|
+ParseError(|unknown:///|(8310,1,<200,38>,<200,39>))
+0
+[Project Analyzer] project: universal-g-code-sender
+Processing universal-g-code-sender...
+
+|file:///home/dataset/universal-g-code-sender/new-module-archetype/src/main/resources/archetype-resources/src/main/java/__artifactId__TopComponent.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/universal-g-code-sender/ugs-classic/src/main/java/com/willwinder/universalgcodesender/MainWindow.java|
+EmptySet()
+|file:///home/dataset/universal-g-code-sender/ugs-classic/src/main/java/com/willwinder/universalgcodesender/visualizer/VisualizerCanvas.java|
+EmptySet()
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-ugslib/src/main/java/com/willwinder/ugs/nbp/lib/options/package-info.java|
+ParseError(|unknown:///|(943,1,<26,0>,<26,1>))
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-plugin-setup-wizard/src/main/java/com/willwinder/ugs/nbp/setupwizard/panels/WizardPanelConnection.java|
+EmptySet()
+  104 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-visualizer/src/main/java/com/willwinder/ugs/nbm/visualizer/renderables/GcodeModel.java|
+EmptySet()
+  122 of 1024 processed succesfully!
+  218 of 1024 processed succesfully!
+  227 of 1024 processed succesfully!
+  285 of 1024 processed succesfully!
+  534 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-surfacescanner/src/main/java/com/willwinder/ugs/platform/surfacescanner/AutoLevelPreview.java|
+EmptySet()
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-gcode-editor/src/main/java/com/willwinder/ugs/nbp/editor/package-info.java|
+ParseError(|unknown:///|(797,1,<20,0>,<20,1>))
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-ugscore/src/main/java/com/willwinder/ugs/nbp/core/services/PendantService.java|
+EmptySet()
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-ugscore/src/main/java/com/willwinder/ugs/nbp/core/actions/PortAction.java|
+EmptySet()
+  648 of 1024 processed succesfully!
+  649 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-welcome-page/src/main/java/com/willwinder/ugp/welcome/RecentWorkTab.java|
+EmptySet()
+  670 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-core/test/com/willwinder/universalgcodesender/gcode/GcodeParserTest.java|
+EmptySet()
+  698 of 1024 processed succesfully!
+  703 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-core/test/com/willwinder/universalgcodesender/model/GUIBackendPreprocessorTest.java|
+EmptySet()
+  751 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/firmware/grbl/GrblFirmwareSettings.java|
+ParseError(|unknown:///|(8310,1,<200,38>,<200,39>))
+  805 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/gcode/GcodePreprocessorUtils.java|
+EmptySet()
+  812 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/gcode/util/GcodeParserUtils.java|
+EmptySet()
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/gcode/processors/ArcExpander.java|
+EmptySet()
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/gcode/processors/CommandProcessorList.java|
+EmptySet()
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/uielements/panels/ControllerProcessorSettingsPanel.java|
+EmptySet()
+  873 of 1024 processed succesfully!
+  886 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/uielements/macros/MacroActionPanel.java|
+EmptySet()
+  906 of 1024 processed succesfully!
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/visualizer/GcodeViewParse.java|
+EmptySet()
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/utils/FirmwareUtils.java|
+EmptySet()
+|file:///home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/utils/MathUtils.java|
+EmptySet()
+|file:///home/dataset/universal-g-code-sender/ugs-pendant/src/main/java/com/willwinder/universalgcodesender/uielements/components/PendantMenu.java|
+EmptySet()
+  988 of 1024 processed succesfully!
+18
+INFO:root:  Formating the source code
+INFO:root:   Done

@@ -1,0 +1,133 @@
+[Project Analyzer] processing project: spring-batch
+- applying aic into /home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/support/builder/SynchronizedItemStreamReaderBuilderTests.java
+- applying aic into /home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/support/SynchronizedItemStreamReaderTests.java
+- Number of files:  1800
+- Processed Files: 2
+- Exported Files:   2
+- Total of files changed: 2
+- Total of transformations: 2
+- Errors: 95
+- Final Time: 20230115024111
+- Elapsed Time: 22704.0ms
+[Project Analyzer] processing project: spring-batch
+- applying filter pattern into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/DefaultJobLoader.java
+- Number of files:  1800
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 95
+- Final Time: 20230115024128
+- Elapsed Time: 16579.0ms
+[Project Analyzer] processing project: spring-batch
+- applying exist pattern into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/FlatFileItemReader.java
+- applying exist pattern into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/skip/CompositeSkipPolicy.java
+- applying exist pattern into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/builder/FlowBuilder.java
+- applying exist pattern into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/support/DefaultDataFieldMaxValueIncrementerFactory.java
+- Number of files:  1800
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 95
+- Final Time: 20230115024144
+- Elapsed Time: 16535.0ms
+[Project Analyzer] processing project: spring-batch
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/transform/RecursiveCollectionLineAggregator.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/trade/internal/CustomerCreditUpdateWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/support/CompositeItemStream.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/test/java/org/springframework/batch/sample/RestartFileSampleFunctionalTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/launch/EmptyItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/football/internal/JdbcGameDao.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/async/AsyncItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/test/java/org/springframework/batch/sample/TradeJobFunctionalTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/DefaultJobKeyGenerator.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/DataSourceInitializer.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/step/item/SkipWriterStub.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/step/item/BatchRetryTemplateTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/listener/CompositeRepeatListener.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/jms/JmsItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/ClasspathXmlApplicationContextsFactoryBean.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-integration/src/test/java/org/springframework/batch/integration/async/AsyncItemProcessorTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/kafka/KafkaItemReader.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/AutomaticJobRegistrar.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/job/JobSupport.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-integration/src/test/java/org/springframework/batch/integration/async/AsyncItemProcessorMessagingGatewayTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/support/CompositeItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/xml/StepNameTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/test/java/org/springframework/batch/sample/iosample/internal/TradeCustomerItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/test/football/internal/JdbcPlayerSummaryDao.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/data/Neo4jItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/data/RepositoryItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/support/RepeatTemplate.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/item/SimpleChunkProvider.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/DefaultJobLoader.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/kafka/KafkaItemReaderTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/listener/JobParameterExecutionContextCopyListener.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/item/SimpleChunkProcessor.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/listener/MulticasterBatchListener.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/scope/context/JobContext.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/test/java/org/springframework/batch/sample/domain/multiline/AggregateItemReaderTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/scope/AsyncJobScopeIntegrationTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/test/java/org/springframework/batch/sample/CustomerFilterJobFunctionalTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/amqp/AmqpItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/support/builder/CompositeItemWriterBuilderTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/xml/JobParser.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/trade/internal/CustomerUpdateWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/MapStepRegistry.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/scope/AsyncStepScopeIntegrationTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-integration/src/test/java/org/springframework/batch/integration/async/PollingAsyncItemProcessorMessagingGatewayTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/SimpleJob.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/football/internal/PlayerItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-integration/src/test/java/org/springframework/batch/integration/async/AsyncItemWriterTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/KeyValueItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/test/java/org/springframework/batch/sample/CompositeItemWriterSampleFunctionalTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/step/item/AlmostStatefulRetryChunkTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/JobExecution.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/JobRepositoryTestUtils.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/step/item/FaultTolerantStepFactoryBeanNonBufferingTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/CompositeJobParametersValidator.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/exception/SimpleLimitExceptionHandler.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/builder/FlowBuilder.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/trade/internal/CustomerCreditItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/support/MapStepRegistryTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/support/builder/ScriptItemProcessorBuilderTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/xml/StepParserStepFactoryBean.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/trade/internal/HibernateAwareCustomerCreditItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/repository/dao/JdbcJobInstanceDaoTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/test/jdbc/datasource/DataSourceInitializer.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/transform/RecordFieldExtractor.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/support/SimpleFlow.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/transform/DelimitedLineTokenizer.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/repeat/exception/SimpleLimitExceptionHandlerTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/launch/support/SimpleJobOperator.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/scope/context/StepContext.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/factory/FaultTolerantStepFactoryBean.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/retry/jms/ExternalRetryTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/test/football/internal/PlayerItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/test/java/org/springframework/batch/sample/iosample/internal/MultiLineTradeItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/builder/SimpleJobBuilder.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/validator/SpringValidator.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/test/java/org/springframework/batch/sample/domain/trade/internal/ItemTrackingTradeItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/test/football/internal/JdbcGameDao.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/listener/OrderedComposite.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/FlatFileItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/file/mapping/BeanWrapperFieldSetMapperConcurrentTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/adapter/ItemWriterAdapter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/football/internal/JdbcPlayerSummaryDao.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-integration/src/test/java/org/springframework/batch/integration/JobRepositorySupport.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/JobRegistryBeanPostProcessor.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/test/step/FaultTolerantStepFactoryBeanIntegrationTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/support/state/SplitState.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/test/java/test/jdbc/datasource/DataSourceInitializer.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/support/ClassifierCompositeItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/support/ScriptItemProcessorTests.java
+- applying ForLoopToFunctional into /home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/job/DefaultJobParametersExtractor.java
+- Number of files:  1800
+- Processed Files: 90
+- Exported Files:   90
+- Total of files changed: 120
+- Total of transformations: 120
+- Errors: 143
+- Final Time: 20230115024445
+- Elapsed Time: 181003.0ms

@@ -1,0 +1,296 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: mapstruct
+Creating log file at: /output/log-20230114234216
+Processing mapstruct...
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/GenericRecord.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/CustomerDto.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/CarDto.java|
+ParseError(|unknown:///|(251,1,<13,7>,<13,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/MemberDto.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/moduleInfoTest/src/main/java/module-info.java|
+ParseError(|unknown:///|(148,1,<6,0>,<6,1>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/lombokModuleTest/src/main/java/module-info.java|
+ParseError(|unknown:///|(148,1,<6,0>,<6,1>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/expressionTextBlocksTest/src/main/java/org/mapstruct/itest/textBlocks/CarDto.java|
+ParseError(|unknown:///|(254,1,<13,7>,<13,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/expressionTextBlocksTest/src/main/java/org/mapstruct/itest/textBlocks/CarAndWheelMapper.java|
+ParseError(|unknown:///|(605,1,<23,14>,<23,15>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsCrossModuleTest/api/src/main/java/org/mapstruct/itest/records/api/CustomerDto.java|
+ParseError(|unknown:///|(231,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/testutil/compilation/annotation/ExpectedCompilationOutcome.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomRepeatableAnnotationContainer.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomAnnotationWithParamsContainer.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomAnnotationWithParams.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/IterableMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Mapper.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Mapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/MapperConfig.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/AnnotateWith.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Builder.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/MapMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/BeanMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: mapstruct
+Processing mapstruct...
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/GenericRecord.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/CustomerDto.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/CarDto.java|
+ParseError(|unknown:///|(251,1,<13,7>,<13,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/MemberDto.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/moduleInfoTest/src/main/java/module-info.java|
+ParseError(|unknown:///|(148,1,<6,0>,<6,1>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/lombokModuleTest/src/main/java/module-info.java|
+ParseError(|unknown:///|(148,1,<6,0>,<6,1>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/expressionTextBlocksTest/src/main/java/org/mapstruct/itest/textBlocks/CarDto.java|
+ParseError(|unknown:///|(254,1,<13,7>,<13,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/expressionTextBlocksTest/src/main/java/org/mapstruct/itest/textBlocks/CarAndWheelMapper.java|
+ParseError(|unknown:///|(605,1,<23,14>,<23,15>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsCrossModuleTest/api/src/main/java/org/mapstruct/itest/records/api/CustomerDto.java|
+ParseError(|unknown:///|(231,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/testutil/compilation/annotation/ExpectedCompilationOutcome.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomRepeatableAnnotationContainer.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomAnnotationWithParamsContainer.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomAnnotationWithParams.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  3168 of 3438 processed succesfully!
+  3206 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/IterableMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Mapper.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Mapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/MapperConfig.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/AnnotateWith.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Builder.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/MapMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/BeanMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+2
+[Project Analyzer] project: mapstruct
+Processing mapstruct...
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/GenericRecord.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/CustomerDto.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/CarDto.java|
+ParseError(|unknown:///|(251,1,<13,7>,<13,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/MemberDto.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/moduleInfoTest/src/main/java/module-info.java|
+ParseError(|unknown:///|(148,1,<6,0>,<6,1>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/lombokModuleTest/src/main/java/module-info.java|
+ParseError(|unknown:///|(148,1,<6,0>,<6,1>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/expressionTextBlocksTest/src/main/java/org/mapstruct/itest/textBlocks/CarDto.java|
+ParseError(|unknown:///|(254,1,<13,7>,<13,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/expressionTextBlocksTest/src/main/java/org/mapstruct/itest/textBlocks/CarAndWheelMapper.java|
+ParseError(|unknown:///|(605,1,<23,14>,<23,15>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsCrossModuleTest/api/src/main/java/org/mapstruct/itest/records/api/CustomerDto.java|
+ParseError(|unknown:///|(231,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/testutil/compilation/annotation/ExpectedCompilationOutcome.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomRepeatableAnnotationContainer.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomAnnotationWithParamsContainer.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomAnnotationWithParams.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  1731 of 3438 processed succesfully!
+  1733 of 3438 processed succesfully!
+  3168 of 3438 processed succesfully!
+  3316 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/IterableMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Mapper.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Mapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/MapperConfig.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/AnnotateWith.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Builder.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/MapMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/BeanMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+4
+[Project Analyzer] project: mapstruct
+Processing mapstruct...
+
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/GenericRecord.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/CustomerDto.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/CarDto.java|
+ParseError(|unknown:///|(251,1,<13,7>,<13,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsTest/src/main/java/org/mapstruct/itest/records/MemberDto.java|
+ParseError(|unknown:///|(227,1,<11,7>,<11,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/superTypeGenerationTest/generator/src/main/java/org/mapstruct/itest/supertypegeneration/BaseGenerationProcessor.java|
+EmptySet()
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/moduleInfoTest/src/main/java/module-info.java|
+ParseError(|unknown:///|(148,1,<6,0>,<6,1>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/lombokModuleTest/src/main/java/module-info.java|
+ParseError(|unknown:///|(148,1,<6,0>,<6,1>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/expressionTextBlocksTest/src/main/java/org/mapstruct/itest/textBlocks/CarDto.java|
+ParseError(|unknown:///|(254,1,<13,7>,<13,8>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/expressionTextBlocksTest/src/main/java/org/mapstruct/itest/textBlocks/CarAndWheelMapper.java|
+ParseError(|unknown:///|(605,1,<23,14>,<23,15>))
+|file:///home/dataset/mapstruct/integrationtest/src/test/resources/recordsCrossModuleTest/api/src/main/java/org/mapstruct/itest/records/api/CustomerDto.java|
+ParseError(|unknown:///|(231,1,<11,7>,<11,8>))
+  167 of 3438 processed succesfully!
+  184 of 3438 processed succesfully!
+  187 of 3438 processed succesfully!
+  188 of 3438 processed succesfully!
+  189 of 3438 processed succesfully!
+  202 of 3438 processed succesfully!
+  203 of 3438 processed succesfully!
+  204 of 3438 processed succesfully!
+  226 of 3438 processed succesfully!
+  229 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/bugs/_913/DomainDtoWithNvmsNullMapperImpl.java|
+EmptySet()
+|file:///home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/bugs/_913/DomainDtoWithPresenceCheckMapperImpl.java|
+EmptySet()
+|file:///home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/bugs/_913/DomainDtoWithNcvsAlwaysMapperImpl.java|
+EmptySet()
+|file:///home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/bugs/_913/DomainDtoWithNvmsDefaultMapperImpl.java|
+EmptySet()
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/testutil/runner/GeneratedSource.java|
+EmptySet()
+  253 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/testutil/runner/JdkCompilingExtension.java|
+EmptySet()
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/testutil/runner/CompilingExtension.java|
+EmptySet()
+  261 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/testutil/compilation/model/CompilationOutcomeDescriptor.java|
+EmptySet()
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/testutil/compilation/annotation/ExpectedCompilationOutcome.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  328 of 3438 processed succesfully!
+  571 of 3438 processed succesfully!
+  950 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/updatemethods/selection/ExternalHandWrittenMapper.java|
+EmptySet()
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomRepeatableAnnotationContainer.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomAnnotationWithParamsContainer.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/annotatewith/CustomAnnotationWithParams.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  2991 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/MappingProcessor.java|
+EmptySet()
+  3038 of 3438 processed succesfully!
+  3059 of 3438 processed succesfully!
+  3077 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/util/Collections.java|
+EmptySet()
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/util/Filters.java|
+EmptySet()
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/BeanMappingMethod.java|
+EmptySet()
+  3155 of 3438 processed succesfully!
+  3157 of 3438 processed succesfully!
+  3160 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/LifecycleMethodResolver.java|
+EmptySet()
+  3163 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/NestedPropertyMappingMethod.java|
+EmptySet()
+  3164 of 3438 processed succesfully!
+  3166 of 3438 processed succesfully!
+  3167 of 3438 processed succesfully!
+  3169 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/ValueMappingMethod.java|
+EmptySet()
+  3173 of 3438 processed succesfully!
+  3174 of 3438 processed succesfully!
+  3177 of 3438 processed succesfully!
+  3179 of 3438 processed succesfully!
+  3180 of 3438 processed succesfully!
+  3181 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/AdditionalAnnotationsBuilder.java|
+EmptySet()
+  3193 of 3438 processed succesfully!
+  3201 of 3438 processed succesfully!
+  3202 of 3438 processed succesfully!
+  3204 of 3438 processed succesfully!
+  3206 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/MethodMatcher.java|
+EmptySet()
+  3212 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/SubclassMappingOptions.java|
+EmptySet()
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/selector/TypeSelector.java|
+EmptySet()
+  3252 of 3438 processed succesfully!
+  3254 of 3438 processed succesfully!
+  3255 of 3438 processed succesfully!
+  3258 of 3438 processed succesfully!
+  3263 of 3438 processed succesfully!
+  3268 of 3438 processed succesfully!
+  3274 of 3438 processed succesfully!
+  3276 of 3438 processed succesfully!
+  3278 of 3438 processed succesfully!
+  3282 of 3438 processed succesfully!
+  3284 of 3438 processed succesfully!
+  3286 of 3438 processed succesfully!
+  3287 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/common/Type.java|
+EmptySet()
+  3302 of 3438 processed succesfully!
+  3307 of 3438 processed succesfully!
+  3313 of 3438 processed succesfully!
+  3314 of 3438 processed succesfully!
+  3323 of 3438 processed succesfully!
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/IterableMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Mapper.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Mapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/MapperConfig.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/AnnotateWith.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/Builder.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/MapMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mapstruct/core/src/main/java/org/mapstruct/BeanMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+57
+INFO:root:  Formating the source code
+INFO:root:   Done

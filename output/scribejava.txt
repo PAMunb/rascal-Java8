@@ -1,0 +1,27 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: scribejava
+Creating log file at: /output/log-20230114225615
+Processing scribejava...
+0
+[Project Analyzer] project: scribejava
+Processing scribejava...
+0
+[Project Analyzer] project: scribejava
+Processing scribejava...
+  123 of 315 processed succesfully!
+1
+[Project Analyzer] project: scribejava
+Processing scribejava...
+
+  60 of 315 processed succesfully!
+  163 of 315 processed succesfully!
+  253 of 315 processed succesfully!
+  262 of 315 processed succesfully!
+  308 of 315 processed succesfully!
+5
+INFO:root:  Formating the source code
+INFO:root:   Done

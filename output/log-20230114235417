@@ -1,0 +1,99 @@
+[Project Analyzer] processing project: azkaban
+- Number of files:  1000
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 2
+- Final Time: 20230114235440
+- Elapsed Time: 22934.0ms
+[Project Analyzer] processing project: azkaban
+- applying filter pattern into /home/dataset/azkaban/az-core/src/main/java/azkaban/utils/Utils.java
+- Number of files:  1000
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 2
+- Final Time: 20230114235456
+- Elapsed Time: 16638.0ms
+[Project Analyzer] processing project: azkaban
+- Number of files:  1000
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 2
+- Final Time: 20230114235513
+- Elapsed Time: 16497.0ms
+[Project Analyzer] processing project: azkaban
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/event/EventHandler.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/container/models/PodTemplateMergeUtils.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/validator/ValidatorClassLoader.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/test/java/azkaban/trigger/JdbcTriggerImplTest.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/container/ContainerCleanupManager.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-exec-server/src/test/java/azkaban/execapp/FlowPreparerTest.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/imagemgmt/daos/ImageRampupDaoImpl.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/user/User.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/test/java/azkaban/executor/MockExecutorLoader.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/imagemgmt/rampup/ImageRampupManagerImpl.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-exec-server/src/main/java/azkaban/dag/Dag.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/webapp/servlet/ProjectServlet.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/hiveutils/azkaban/hive/actions/DropAllPartitionsAddLatest.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-exec-server/src/test/java/azkaban/execapp/FlowRunner2Test.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-exec-server/src/main/java/azkaban/execapp/Trigger.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-exec-server/src/main/java/azkaban/execapp/StatsServlet.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/imagemgmt/daos/ImageMgmtCommonDaoImpl.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/az-flow-trigger-dependency-type/kafka-event-trigger/src/main/java/trigger/kafka/KafkaEventMonitor.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/jobcallback/JobCallbackManager.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/az-reportal/src/main/java/azkaban/reportal/util/ReportalUtil.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/database/AzkabanDatabaseSetup.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/webapp/servlet/ProjectManagerServlet.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/PigProcessJob.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/webapp/StatusService.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/flow/Edge.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/ExecutorApiGateway.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/jobtype/JobTypeManager.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/HadoopPigJob.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/utils/ThinArchiveUtils.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-exec-server/src/main/java/azkaban/execapp/event/RemoteFlowWatcher.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/metric/inmemoryemitter/InMemoryMetricEmitter.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/InMemoryProjectCache.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/utils/SplitterOutputStream.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/az-reportal/src/main/java/azkaban/reportal/util/ReportalHelper.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/hiveutils/azkaban/hive/actions/UpdateTableLocationToLatest.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/az-reportal/src/main/java/azkaban/viewer/reportal/ReportalServlet.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/imagemgmt/permission/PermissionManagerImpl.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-exec-server/src/main/java/azkaban/dag/Node.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/flowtrigger/TriggerInstance.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/test/java/azkaban/executor/ExecutorDaoTest.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/webapp/servlet/FlowTriggerInstanceServlet.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/test/java/azkaban/cluster/ClusterTest.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/AzkabanFlow.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/webapp/servlet/ScheduleServlet.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/test/java/azkaban/executor/container/KubernetesContainerizedImplTest.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/storage/StorageCleaner.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/ExecutableFlow.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/FlowLoaderUtils.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/utils/DIUtils.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/AzkabanPigListener.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/ExecutorUtils.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/hiveutils/azkaban/Utils.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/utils/StringUtils.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/QueuedExecutions.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/user/XmlUserManager.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/server/MBeanRegistrationManager.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/test/java/azkaban/user/XmlUserManagerTest.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-db/src/main/java/azkaban/db/DatabaseSetup.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/webapp/AzkabanWebServer.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/jobExecutor/JavaProcessJob.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/trigger/Trigger.java
+- applying ForLoopToFunctional into /home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/AbstractProjectCache.java
+- Number of files:  1000
+- Processed Files: 62
+- Exported Files:   62
+- Total of files changed: 118
+- Total of transformations: 118
+- Errors: 68
+- Final Time: 20230114235832
+- Elapsed Time: 198911.0ms

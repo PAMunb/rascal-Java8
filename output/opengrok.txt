@@ -1,0 +1,146 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: opengrok
+Creating log file at: /output/log-20230115021316
+Processing opengrok...
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/web/api/constraints/PositiveDuration.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: opengrok
+Processing opengrok...
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/web/api/constraints/PositiveDuration.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  763 of 859 processed succesfully!
+1
+[Project Analyzer] project: opengrok
+Processing opengrok...
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/web/api/constraints/PositiveDuration.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  394 of 859 processed succesfully!
+  402 of 859 processed succesfully!
+  660 of 859 processed succesfully!
+  724 of 859 processed succesfully!
+4
+[Project Analyzer] project: opengrok
+Processing opengrok...
+
+|file:///home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/util/CustomAssertions.java|
+EmptySet()
+  33 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/web/messages/MessagesUtilsTest.java|
+EmptySet()
+  38 of 859 processed succesfully!
+  44 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/history/HistoryGuruTest.java|
+EmptySet()
+  59 of 859 processed succesfully!
+  60 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/history/RepositoryLookupTest.java|
+EmptySet()
+  65 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/history/GitRepositoryOctopusTest.java|
+EmptySet()
+  81 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/index/IndexDatabaseTest.java|
+EmptySet()
+  91 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/test/java/org/opengrok/indexer/authorization/AuthorizationFrameworkTest.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/util/OptionParser.java|
+EmptySet()
+  227 of 859 processed succesfully!
+  239 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/web/SearchHelper.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/web/Util.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/web/messages/MessagesUtils.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/web/api/constraints/PositiveDuration.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  284 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/GitRepository.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/RepositoryWithHistoryTraversal.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/AbstractCache.java|
+EmptySet()
+  310 of 859 processed succesfully!
+  316 of 859 processed succesfully!
+  318 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/RepositoriesHelp.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/FileHistoryCache.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/HistoryEntry.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/RepositoryWithPerPartesHistory.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/history/HistoryGuru.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/configuration/RuntimeEnvironment.java|
+EmptySet()
+  363 of 859 processed succesfully!
+  374 of 859 processed succesfully!
+  380 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/index/NumLinesLOCAccessor.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/index/PendingFileCompleter.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/index/IndexDatabase.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/index/IndexCheck.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/index/Indexer.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/analysis/JFlexXrefUtils.java|
+EmptySet()
+  433 of 859 processed succesfully!
+  435 of 859 processed succesfully!
+  438 of 859 processed succesfully!
+  609 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/search/DirectoryExtraReader.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/search/SearchEngine.java|
+EmptySet()
+  631 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-indexer/src/main/java/org/opengrok/indexer/search/QueryBuilder.java|
+EmptySet()
+  634 of 859 processed succesfully!
+  645 of 859 processed succesfully!
+  655 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-web/src/test/java/org/opengrok/web/DirectoryListingTest.java|
+EmptySet()
+  659 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-web/src/test/java/org/opengrok/web/api/v1/controller/ProjectsControllerTest.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-web/src/main/java/org/opengrok/web/PageConfig.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-web/src/main/java/org/opengrok/web/Scripts.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-web/src/main/java/org/opengrok/web/api/v1/controller/ProjectsController.java|
+EmptySet()
+  709 of 859 processed succesfully!
+|file:///home/dataset/opengrok/opengrok-web/src/main/java/org/opengrok/web/api/v1/suggester/provider/service/impl/SuggesterServiceImpl.java|
+EmptySet()
+|file:///home/dataset/opengrok/opengrok-web/src/main/java/org/opengrok/web/api/v1/suggester/query/SuggesterQueryParser.java|
+EmptySet()
+  734 of 859 processed succesfully!
+|file:///home/dataset/opengrok/suggester/src/main/java/org/opengrok/suggest/SuggesterProjectData.java|
+EmptySet()
+  750 of 859 processed succesfully!
+|file:///home/dataset/opengrok/suggester/src/main/java/org/opengrok/suggest/query/customized/CustomSloppyPhraseScorer.java|
+EmptySet()
+|file:///home/dataset/opengrok/plugins/src/test/java/opengrok/auth/plugin/UserWhiteListPluginTest.java|
+EmptySet()
+|file:///home/dataset/opengrok/plugins/src/main/java/opengrok/auth/plugin/LdapUserPlugin.java|
+EmptySet()
+  812 of 859 processed succesfully!
+|file:///home/dataset/opengrok/plugins/src/main/java/opengrok/auth/plugin/ldap/FakeLdapFacade.java|
+EmptySet()
+30
+INFO:root:  Formating the source code
+INFO:root:   Done

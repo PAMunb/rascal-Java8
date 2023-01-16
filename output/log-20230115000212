@@ -1,0 +1,152 @@
+[Project Analyzer] processing project: cat
+- Number of files:  1359
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 5
+- Final Time: 20230115000232
+- Elapsed Time: 19951.0ms
+[Project Analyzer] processing project: cat
+- applying filter pattern into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/state/StateBuilder.java
+- Number of files:  1359
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 5
+- Final Time: 20230115000246
+- Elapsed Time: 14667.0ms
+[Project Analyzer] processing project: cat
+- applying exist pattern into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/report/service/BaseCompositeModelService.java
+- applying exist pattern into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/business/graph/BusinessGraphCreator.java
+- applying exist pattern into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/system/page/router/config/AdjustStateReportVisitor.java
+- applying exist pattern into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/config/transaction/TpValueStatisticConfigManager.java
+- Number of files:  1359
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 5
+- Final Time: 20230115000301
+- Elapsed Time: 14634.0ms
+[Project Analyzer] processing project: cat
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/transaction/service/CompositeTransactionService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/test/java/com/dianping/cat/report/alert/summary/AlertSummaryStringDecorator.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-alarm/src/main/java/com/dianping/cat/alarm/spi/rule/DefaultDataChecker.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/main/java/com/dianping/cat/message/internal/DefaultForkedTransaction.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/state/service/LocalStateService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-consumer/src/main/java/com/dianping/cat/consumer/cross/CrossAnalyzer.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/message/codec/HtmlMessageCodec.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/service/ProjectService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/heartbeat/config/HeartbeatDisplayPolicyManager.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/alert/exception/AlertExceptionBuilder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/report/service/LocalModelService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/statistics/task/heavy/HeavyReportBuilder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/heartbeat/HistoryGraphs.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/test/java/com/dianping/cat/report/task/metric/AlertConfigTest.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/main/java/com/dianping/cat/message/internal/MockMessageBuilder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/alert/transaction/TransactionAlert.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/dependency/graph/ProductLinesDashboard.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/alteration/Handler.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/mvc/AbstractReportModel.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/system/page/router/Handler.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/alert/summary/build/RelatedSummaryBuilder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/storage/display/StorageSorter.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/dependency/task/DependencyReportBuilder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/analysis/Period.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/system/page/config/processor/ExceptionConfigProcessor.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/state/task/StateReportBuilder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-consumer/src/main/java/com/dianping/cat/consumer/problem/LongExecutionProblemHandler.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/problem/service/CompositeProblemService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/system/page/router/config/RouterConfigAdjustor.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/system/page/business/config/BusinessTagConfigManager.java
+- applying ForLoopToFunctional into /home/dataset/cat/lib/java/src/main/java/com/dianping/cat/message/internal/DefaultMessageProducer.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/event/service/CompositeEventService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/cross/service/CompositeCrossService.java
+- applying ForLoopToFunctional into /home/dataset/cat/lib/java/src/main/java/com/dianping/cat/configuration/client/transform/DefaultLinker.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/cache/Handler.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/matrix/service/CompositeMatrixService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/business/service/LocalBusinessService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/cross/service/LocalCrossService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-consumer/src/main/java/com/dianping/cat/consumer/heartbeat/HeartbeatAnalyzer.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/dependency/service/CompositeDependencyService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/service/HostinfoService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/system/page/config/processor/GlobalConfigProcessor.java
+- applying ForLoopToFunctional into /home/dataset/cat/lib/java/src/main/java/com/dianping/cat/configuration/property/transform/DefaultLinker.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/storage/service/LocalStorageService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/test/java/com/dianping/cat/network/ClientTransportManagerTest.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-hadoop/src/main/java/com/dianping/cat/hadoop/hdfs/HdfsMessageBucketManager.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/main/java/com/dianping/cat/message/pipeline/DefaultMessagePipeline.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/main/java/com/dianping/cat/status/model/transform/DefaultLinker.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/task/current/CurrentReportBuilder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/storage/task/StorageReportBuilder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/dependency/service/LocalDependencyService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/analysis/DefaultMessageAnalyzerManager.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/heartbeat/service/LocalHeartbeatService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-consumer/src/main/java/com/dianping/cat/consumer/storage/StorageReportUpdater.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/message/codec/NativeMessageCodec.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/test/java/com/dianping/cat/report/alert/RuleConfigTest.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-alarm/src/main/java/com/dianping/cat/alarm/spi/sender/SendMessageEntity.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/statistics/Handler.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/transaction/Handler.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/heartbeat/HeartbeatSvgGraph.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/report/DefaultReportManager.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/statistics/task/jar/JarReportBuilder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/heartbeat/service/CompositeHeartbeatService.java
+- applying ForLoopToFunctional into /home/dataset/cat/lib/java/src/main/java/com/dianping/cat/message/internal/DefaultForkedTransaction.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/main/java/com/dianping/cat/message/internal/DefaultForkableTransaction.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/top/TopExceptionExclude.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-hadoop/src/main/java/org/unidal/cat/message/storage/internals/DefaultMessageDumper.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/transaction/service/LocalTransactionService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/main/java/com/dianping/cat/message/internal/DefaultTransaction.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/state/StateDisplay.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/test/java/com/dianping/cat/message/MessageTest.java
+- applying ForLoopToFunctional into /home/dataset/cat/lib/java/src/main/java/com/dianping/cat/status/model/transform/DefaultLinker.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/storage/service/CompositeStorageService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-consumer/src/main/java/com/dianping/cat/consumer/business/BusinessAnalyzer.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/state/service/CompositeStateService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/main/java/com/dianping/cat/message/encoder/NativeMessageTreeEncoder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-hadoop/src/main/java/org/unidal/cat/message/storage/local/LocalTokenMappingManager.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/dependency/TopExceptionExclude.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/alert/Handler.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/main/java/com/dianping/cat/support/Threads.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/task/reload/AbstractReportReloader.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-hadoop/src/main/java/org/unidal/cat/message/storage/hdfs/HdfsTokenMappingManager.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/event/DisplayNames.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/top/service/LocalTopService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/event/service/LocalEventService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/business/service/CompositeBusinessService.java
+- applying ForLoopToFunctional into /home/dataset/cat/lib/java/src/main/java/com/dianping/cat/message/internal/DefaultTransaction.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/problem/service/LocalProblemService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/transaction/DisplayNames.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-consumer/src/main/java/com/dianping/cat/consumer/problem/ProblemAnalyzer.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/top/service/CompositeTopService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/graph/metric/AbstractGraphCreator.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-consumer/src/main/java/com/dianping/cat/consumer/top/TopAnalyzer.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/problem/Handler.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/matrix/service/LocalMatrixService.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/task/reload/ReportReloadTask.java
+- applying ForLoopToFunctional into /home/dataset/cat/lib/java/src/main/java/com/dianping/cat/message/spi/codec/NativeMessageCodec.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/dependency/LineGraphBuilder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-consumer/src/main/java/com/dianping/cat/consumer/matrix/MatrixAnalyzer.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/test/java/com/dianping/cat/message/context/MessageIdFactoryTest.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-core/src/main/java/com/dianping/cat/helper/SortHelper.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/storage/Handler.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/problem/transform/ProblemStatistics.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/top/Handler.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/dependency/graph/LineGraphBuilder.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/test/java/com/dianping/cat/report/analyzer/MonthlyMaxTpsAnalyzer.java
+- applying ForLoopToFunctional into /home/dataset/cat/lib/java/src/main/java/com/dianping/cat/status/jvm/ThreadInfoWriter.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/page/event/Handler.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-client/src/main/java/com/dianping/cat/configuration/model/transform/DefaultLinker.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-hadoop/src/main/java/org/unidal/cat/message/storage/internals/DefaultBlockDumper.java
+- applying ForLoopToFunctional into /home/dataset/cat/cat-home/src/main/java/com/dianping/cat/report/alert/event/EventAlert.java
+- Number of files:  1359
+- Processed Files: 111
+- Exported Files:   111
+- Total of files changed: 138
+- Total of transformations: 138
+- Errors: 97
+- Final Time: 20230115000539
+- Elapsed Time: 158529.0ms

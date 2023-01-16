@@ -1,0 +1,140 @@
+[Project Analyzer] processing project: libgdx
+- applying aic into /home/dataset/libgdx/backends/gdx-backend-lwjgl/src/com/badlogic/gdx/backends/lwjgl/LwjglAWTFrame.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/particleeditor/OptionsPanel.java
+- applying aic into /home/dataset/libgdx/backends/gdx-backend-lwjgl/src/com/badlogic/gdx/backends/lwjgl/LwjglCanvas.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-setup/src/com/badlogic/gdx/setup/ExternalExtensionsDialog.java
+- applying aic into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Tree.java
+- applying aic into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/math/Interpolation.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/FlameMain.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/particleeditor/NumericPanel.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/particleeditor/RangedNumericPanel.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/particleeditor/EditorPanel.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/PreAlpha.java
+- applying aic into /home/dataset/libgdx/backends/gdx-backends-gwt/src/com/badlogic/gdx/backends/gwt/widgets/TextInputDialogBox.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/particleeditor/ScaledNumericPanel.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/RangedNumericPanel.java
+- applying aic into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/net/NetAPITest.java
+- applying aic into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/TextureAtlas.java
+- applying aic into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/NoncontinuousRenderingTest.java
+- applying aic into /home/dataset/libgdx/tests/gdx-tests-gwt/src/com/badlogic/gdx/tests/gwt/client/GwtTestWrapper.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/NumericPanel.java
+- applying aic into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TooltipManager.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/DrawPanel.java
+- applying aic into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Value.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/DynamicsInfluencerPanel.java
+- applying aic into /home/dataset/libgdx/backends/gdx-backend-lwjgl3/src/com/badlogic/gdx/backends/lwjgl3/Sync.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/BillboardBatchPanel.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/EffectPanel.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/TextureLoaderPanel.java
+- applying aic into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/Scene2dTest.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/GradientPanel.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/particleeditor/CountPanel.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-lwjgl3-glfw-awt-macos/src/com/badlogic/gdx/backends/lwjgl3/awt/GlfwAWTLoader.java
+- applying aic into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/utils/DragScrollListener.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/ScaledNumericPanel.java
+- applying aic into /home/dataset/libgdx/tests/gdx-tests-lwjgl/src/com/badlogic/gdx/tests/lwjgl/LwjglTestStarter.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-setup/src/com/badlogic/gdx/setup/GdxSetupUI.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/particleeditor/GradientPanel.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/hiero/Hiero.java
+- applying aic into /home/dataset/libgdx/backends/gdx-backend-lwjgl/src/com/badlogic/gdx/backends/lwjgl/LwjglFrame.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/hiero/unicodefont/effects/EffectUtil.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/particleeditor/EffectPanel.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-setup/src/com/badlogic/gdx/setup/SettingsDialog.java
+- applying aic into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Table.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/EditorPanel.java
+- applying aic into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/particleeditor/ParticleEditor.java
+- Number of files:  2379
+- Processed Files: 44
+- Exported Files:   44
+- Total of files changed: 211
+- Total of transformations: 211
+- Errors: 3
+- Final Time: 20230115024831
+- Elapsed Time: 57736.0ms
+[Project Analyzer] processing project: libgdx
+- applying filter pattern into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/math/Octree.java
+- Number of files:  2379
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 2
+- Total of transformations: 2
+- Errors: 3
+- Final Time: 20230115024915
+- Elapsed Time: 44024.0ms
+[Project Analyzer] processing project: libgdx
+- applying exist pattern into /home/dataset/libgdx/extensions/gdx-setup/src/com/badlogic/gdx/setup/GdxSetup.java
+- Number of files:  2379
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 3
+- Final Time: 20230115024959
+- Elapsed Time: 43841.0ms
+[Project Analyzer] processing project: libgdx
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/MeshBuilder.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/backends/gdx-backend-lwjgl/src/com/badlogic/gdx/backends/lwjgl/LwjglAWTCanvas.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/backends/gdx-backend-headless/src/com/badlogic/gdx/backends/headless/HeadlessApplication.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/DecalTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/math/Octree.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/backends/gdx-backend-lwjgl3/src/com/badlogic/gdx/backends/lwjgl3/Lwjgl3Window.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/Attributes.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/g3d/TangentialAccelerationTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/bullet/BaseBulletTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/utils/I18NBundle.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/g3d/ParticleControllerTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleController.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/net/HttpParametersUtils.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ResourceData.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/model/data/ModelData.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/g3d/PolarAccelerationTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/AtlasTmxMapLoader.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/math/collision/OrientedBoundingBoxTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TideMapLoader.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/g3d/utils/DefaultTextureBinderTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/ModelInfluencer.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/DynamicsInfluencerPanel.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/utils/GdxTests.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/backends/gdx-backend-robovm/src/com/badlogic/gdx/backends/iosrobovm/IOSGraphics.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/extensions/FreeTypePackTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/loader/G3dModelLoader.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/extensions/gdx-bullet/jni/swig-src/collision/com/badlogic/gdx/physics/bullet/collision/btTriangleIndexVertexArray.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleSystem.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/math/CollisionPlaygroundTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/SortedSpriteTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/extensions/gdx-bullet/jni/swig-src/collision/com/badlogic/gdx/physics/bullet/collision/btCompoundShape.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/TiledMap.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/shapebuilders/RenderableShapeBuilder.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/maps/tiled/BaseTmxMapLoader.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/g3d/Basic3DSceneTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/ParticleEffect.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/math/collision/BoundingBox.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/ParticleControllerInfluencerPanel.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/ParticleEffect.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/ParticleEmittersTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/utils/XmlReader.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/backends/gdx-backend-robovm-metalangle/src/com/badlogic/gdx/backends/iosrobovm/IOSGraphics.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/backends/gdx-backends-gwt/src/com/badlogic/gdx/backends/gwt/GwtApplication.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/Box2DTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/EventManager.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/particles/influencers/RegionInfluencer.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/backends/gdx-backend-robovm/src/com/badlogic/gdx/backends/iosrobovm/IOSApplication.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g3d/utils/BaseShaderProvider.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/particleeditor/ImagePanel.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/backends/gdx-backend-android/src/com/badlogic/gdx/backends/android/ZipResourceFile.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/bullet/BasicBulletTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/backends/gdx-backend-robovm-metalangle/src/com/badlogic/gdx/backends/iosrobovm/IOSApplication.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/graphics/g2d/ParticleEmitter.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/TooltipManager.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/extensions/gdx-tools/src/com/badlogic/gdx/tools/flame/TextureAtlasPanel.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/backends/gdx-backend-lwjgl/src/com/badlogic/gdx/backends/lwjgl/LwjglCanvas.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/g3d/ParticleControllerInfluencerSingleTest.java
+- applying ForLoopToFunctional into /home/dataset/libgdx/tests/gdx-tests/src/com/badlogic/gdx/tests/ScrollPaneScrollBarsTest.java
+- Number of files:  2379
+- Processed Files: 58
+- Exported Files:   58
+- Total of files changed: 99
+- Total of transformations: 99
+- Errors: 71
+- Final Time: 20230115025715
+- Elapsed Time: 436662.0ms

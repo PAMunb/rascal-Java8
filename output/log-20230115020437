@@ -1,0 +1,47 @@
+[Project Analyzer] processing project: zxing
+- Number of files:  516
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115020450
+- Elapsed Time: 12834.0ms
+[Project Analyzer] processing project: zxing
+- Number of files:  516
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115020458
+- Elapsed Time: 8237.0ms
+[Project Analyzer] processing project: zxing
+- applying exist pattern into /home/dataset/zxing/javase/src/main/java/com/google/zxing/client/j2se/CommandLineRunner.java
+- Number of files:  516
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 1
+- Final Time: 20230115020506
+- Elapsed Time: 8158.0ms
+[Project Analyzer] processing project: zxing
+- applying ForLoopToFunctional into /home/dataset/zxing/core/src/main/java/com/google/zxing/client/result/VCardResultParser.java
+- applying ForLoopToFunctional into /home/dataset/zxing/android/src/com/google/zxing/client/android/ViewfinderView.java
+- applying ForLoopToFunctional into /home/dataset/zxing/core/src/test/java/com/google/zxing/multi/qrcode/MultiQRCodeTestCase.java
+- applying ForLoopToFunctional into /home/dataset/zxing/android-integration/src/main/java/com/google/zxing/integration/android/IntentIntegrator.java
+- applying ForLoopToFunctional into /home/dataset/zxing/android/src/com/google/zxing/client/android/result/supplement/SupplementalInfoRetriever.java
+- applying ForLoopToFunctional into /home/dataset/zxing/core/src/test/java/com/google/zxing/pdf417/PDF417BlackBox4TestCase.java
+- applying ForLoopToFunctional into /home/dataset/zxing/core/src/main/java/com/google/zxing/oned/rss/expanded/RSSExpandedReader.java
+- applying ForLoopToFunctional into /home/dataset/zxing/zxing.appspot.com/src/main/java/com/google/zxing/web/generator/client/Generator.java
+- applying ForLoopToFunctional into /home/dataset/zxing/core/src/main/java/com/google/zxing/oned/Code128Writer.java
+- applying ForLoopToFunctional into /home/dataset/zxing/core/src/main/java/com/google/zxing/qrcode/encoder/MinimalEncoder.java
+- Number of files:  516
+- Processed Files: 10
+- Exported Files:   10
+- Total of files changed: 13
+- Total of transformations: 13
+- Errors: 17
+- Final Time: 20230115020631
+- Elapsed Time: 85482.0ms

@@ -1,0 +1,121 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: heritrix3
+Creating log file at: /output/log-20230115010134
+Processing heritrix3...
+  53 of 582 processed succesfully!
+  54 of 582 processed succesfully!
+[0,1,0,0,0,0]
+  58 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/fetcher/FetchHTTP.java|
+Ambiguity(|unknown:///|(34264,879,<928,16>,<948,34>),"BlockStatements","AuthScheme authScheme = AUTH_SCHEME_REGISTRY.lookup(authSchemeName).create(null);;\n                BasicHeader challenge = new BasicHeader(challengeHeaderKey, challenges.get(authSchemeName));\n\n                try {\n                    authScheme.processChallenge(challenge);\n                } catch (MalformedChallengeException e) {\n                    logger.fine(e.getMessage() + \" \" + challenge);\n                    continue;\n                }\n                if (authScheme.isConnectionBased()) {\n                    logger.fine(\"Connection based \" + authScheme);\n                    continue;\n                }\n\n                if (authScheme.getRealm() == null\n                        || authScheme.getRealm().length() \<= 0) {\n                    logger.fine(\"Empty realm \" + authScheme);\n                    continue;\n                }\n\n                return authScheme;")
+  143 of 582 processed succesfully!
+  254 of 582 processed succesfully!
+  255 of 582 processed succesfully!
+  256 of 582 processed succesfully!
+  278 of 582 processed succesfully!
+  379 of 582 processed succesfully!
+  463 of 582 processed succesfully!
+  471 of 582 processed succesfully!
+  476 of 582 processed succesfully!
+  504 of 582 processed succesfully!
+  509 of 582 processed succesfully!
+14
+[Project Analyzer] project: heritrix3
+Processing heritrix3...
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/fetcher/FetchHTTP.java|
+Ambiguity(|unknown:///|(34264,879,<928,16>,<948,34>),"BlockStatements","AuthScheme authScheme = AUTH_SCHEME_REGISTRY.lookup(authSchemeName).create(null);;\n                BasicHeader challenge = new BasicHeader(challengeHeaderKey, challenges.get(authSchemeName));\n\n                try {\n                    authScheme.processChallenge(challenge);\n                } catch (MalformedChallengeException e) {\n                    logger.fine(e.getMessage() + \" \" + challenge);\n                    continue;\n                }\n                if (authScheme.isConnectionBased()) {\n                    logger.fine(\"Connection based \" + authScheme);\n                    continue;\n                }\n\n                if (authScheme.getRealm() == null\n                        || authScheme.getRealm().length() \<= 0) {\n                    logger.fine(\"Empty realm \" + authScheme);\n                    continue;\n                }\n\n                return authScheme;")
+0
+[Project Analyzer] project: heritrix3
+Processing heritrix3...
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/fetcher/FetchHTTP.java|
+Ambiguity(|unknown:///|(34264,879,<928,16>,<948,34>),"BlockStatements","AuthScheme authScheme = AUTH_SCHEME_REGISTRY.lookup(authSchemeName).create(null);;\n                BasicHeader challenge = new BasicHeader(challengeHeaderKey, challenges.get(authSchemeName));\n\n                try {\n                    authScheme.processChallenge(challenge);\n                } catch (MalformedChallengeException e) {\n                    logger.fine(e.getMessage() + \" \" + challenge);\n                    continue;\n                }\n                if (authScheme.isConnectionBased()) {\n                    logger.fine(\"Connection based \" + authScheme);\n                    continue;\n                }\n\n                if (authScheme.getRealm() == null\n                        || authScheme.getRealm().length() \<= 0) {\n                    logger.fine(\"Empty realm \" + authScheme);\n                    continue;\n                }\n\n                return authScheme;")
+0
+[Project Analyzer] project: heritrix3
+Processing heritrix3...
+
+  8 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/ProcessorChain.java|
+EmptySet()
+  72 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/fetcher/FetchHTTPRequest.java|
+EmptySet()
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/fetcher/FetchHTTP.java|
+Ambiguity(|unknown:///|(34264,879,<928,16>,<948,34>),"BlockStatements","AuthScheme authScheme = AUTH_SCHEME_REGISTRY.lookup(authSchemeName).create(null);;\n                BasicHeader challenge = new BasicHeader(challengeHeaderKey, challenges.get(authSchemeName));\n\n                try {\n                    authScheme.processChallenge(challenge);\n                } catch (MalformedChallengeException e) {\n                    logger.fine(e.getMessage() + \" \" + challenge);\n                    continue;\n                }\n                if (authScheme.isConnectionBased()) {\n                    logger.fine(\"Connection based \" + authScheme);\n                    continue;\n                }\n\n                if (authScheme.getRealm() == null\n                        || authScheme.getRealm().length() \<= 0) {\n                    logger.fine(\"Empty realm \" + authScheme);\n                    continue;\n                }\n\n                return authScheme;")
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/fetcher/AbstractCookieStore.java|
+EmptySet()
+  90 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/forms/HTMLForm.java|
+EmptySet()
+  148 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/extractor/ExtractorPDF.java|
+EmptySet()
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/extractor/StringExtractorTestBase.java|
+EmptySet()
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/extractor/PDFParser.java|
+EmptySet()
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/extractor/JerichoExtractorHTML.java|
+EmptySet()
+|file:///home/dataset/heritrix3/modules/src/main/java/org/archive/modules/extractor/ExtractorURI.java|
+EmptySet()
+  217 of 582 processed succesfully!
+  226 of 582 processed succesfully!
+  232 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/contrib/src/test/java/org/archive/modules/extractor/ExtractorChromeTest.java|
+EmptySet()
+  243 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/contrib/src/main/java/org/archive/modules/extractor/ExtractorYoutubeDL.java|
+EmptySet()
+|file:///home/dataset/heritrix3/contrib/src/main/java/org/archive/modules/extractor/ExtractorPDFContent.java|
+EmptySet()
+|file:///home/dataset/heritrix3/contrib/src/main/java/org/archive/modules/extractor/ExtractorYoutubeFormatStream.java|
+EmptySet()
+  270 of 582 processed succesfully!
+  272 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/contrib/src/main/java/org/archive/crawler/frontier/AMQPUrlReceiver.java|
+EmptySet()
+|file:///home/dataset/heritrix3/commons/src/test/java/org/archive/settings/file/PrefixFinderTest.java|
+EmptySet()
+|file:///home/dataset/heritrix3/commons/src/test/java/org/archive/io/ArchiveTest.java|
+EmptySet()
+|file:///home/dataset/heritrix3/commons/src/main/java/org/archive/bdb/BdbModule.java|
+EmptySet()
+|file:///home/dataset/heritrix3/commons/src/main/java/org/archive/util/JSONUtils.java|
+EmptySet()
+  356 of 582 processed succesfully!
+  361 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/commons/src/main/java/org/archive/net/ClientSFTP.java|
+EmptySet()
+|file:///home/dataset/heritrix3/commons/src/main/java/org/archive/net/ClientFTP.java|
+EmptySet()
+|file:///home/dataset/heritrix3/commons/src/main/java/org/archive/io/CrawlerJournal.java|
+EmptySet()
+|file:///home/dataset/heritrix3/engine/src/test/java/org/archive/crawler/util/BdbUriUniqFilterTest.java|
+EmptySet()
+|file:///home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/frontier/AbstractFrontier.java|
+EmptySet()
+|file:///home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/frontier/BdbFrontier.java|
+EmptySet()
+|file:///home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/reporting/HostsReport.java|
+EmptySet()
+|file:///home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/reporting/SourceTagsReport.java|
+EmptySet()
+  485 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/migrate/MigrateH1to3Tool.java|
+EmptySet()
+|file:///home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/spring/SheetOverlaysManager.java|
+EmptySet()
+|file:///home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/restlet/PagedRepresentation.java|
+EmptySet()
+  541 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/restlet/JobRelatedResource.java|
+EmptySet()
+  546 of 582 processed succesfully!
+|file:///home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/restlet/models/EngineModel.java|
+EmptySet()
+15
+INFO:root:  Formating the source code
+INFO:root:   Done

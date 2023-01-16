@@ -1,0 +1,48 @@
+[Project Analyzer] processing project: truth
+- Number of files:  184
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 3
+- Final Time: 20230115011104
+- Elapsed Time: 7484.0ms
+[Project Analyzer] processing project: truth
+- applying filter pattern into /home/dataset/truth/core/src/main/java/com/google/common/truth/IterableSubject.java
+- Number of files:  184
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 3
+- Final Time: 20230115011109
+- Elapsed Time: 4978.0ms
+[Project Analyzer] processing project: truth
+- applying exist pattern into /home/dataset/truth/core/src/main/java/com/google/common/truth/StackTraceCleaner.java
+- Number of files:  184
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 3
+- Final Time: 20230115011114
+- Elapsed Time: 4822.0ms
+[Project Analyzer] processing project: truth
+- applying ForLoopToFunctional into /home/dataset/truth/core/src/main/java/com/google/common/truth/Fact.java
+- applying ForLoopToFunctional into /home/dataset/truth/extensions/proto/src/test/java/com/google/common/truth/extensions/proto/ProtoSubjectTestBase.java
+- applying ForLoopToFunctional into /home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/FieldNumberTree.java
+- applying ForLoopToFunctional into /home/dataset/truth/core/src/main/java/com/google/common/truth/IterableSubject.java
+- applying ForLoopToFunctional into /home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/FieldScopeLogic.java
+- applying ForLoopToFunctional into /home/dataset/truth/core/src/test/java/com/google/common/truth/ExpectTest.java
+- applying ForLoopToFunctional into /home/dataset/truth/core/src/main/java/com/google/common/truth/LazyMessage.java
+- applying ForLoopToFunctional into /home/dataset/truth/refactorings/src/main/java/com/google/common/truth/refactorings/CorrespondenceSubclassToFactoryCall.java
+- applying ForLoopToFunctional into /home/dataset/truth/core/src/test/java/com/google/common/truth/IntegerSubjectTest.java
+- applying ForLoopToFunctional into /home/dataset/truth/core/src/main/java/com/google/common/truth/MultimapSubject.java
+- Number of files:  184
+- Processed Files: 10
+- Exported Files:   10
+- Total of files changed: 17
+- Total of transformations: 17
+- Errors: 7
+- Final Time: 20230115011220
+- Elapsed Time: 66327.0ms

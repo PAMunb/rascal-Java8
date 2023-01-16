@@ -1,0 +1,264 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: jadx
+Creating log file at: /output/log-20230114225116
+Processing jadx...
+  129 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-plugins/jadx-java-input/src/main/java/jadx/plugins/input/java/data/DataReader.java|
+ParseError(|unknown:///|(1828,1,<94,30>,<94,31>))
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/types/TestTypeResolver19.java|
+ParseError(|unknown:///|(657,1,<28,35>,<28,36>))
+  755 of 1312 processed succesfully!
+  775 of 1312 processed succesfully!
+  781 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/rename/TestRenameEnum.java|
+Ambiguity(|unknown:///|(348,189,<14,36>,<28,1>),"EnumBody","{\n\t\t\tONE {\n\t\t\t\t@Override\n\t\t\t\tpublic void run() {\n\t\t\t\t\tSystem.out.println(\"ONE\");\n\t\t\t\t}\n\t\t\t},\n\t\t\tTWO {\n\t\t\t\t@Override\n\t\t\t\tpublic void run() {\n\t\t\t\t\tSystem.out.println(\"TWO\");\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t")
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/JadxVisitor.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+4
+[Project Analyzer] project: jadx
+Processing jadx...
+|file:///home/dataset/jadx/jadx-plugins/jadx-java-input/src/main/java/jadx/plugins/input/java/data/DataReader.java|
+ParseError(|unknown:///|(1828,1,<94,30>,<94,31>))
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/types/TestTypeResolver19.java|
+ParseError(|unknown:///|(657,1,<28,35>,<28,36>))
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/rename/TestRenameEnum.java|
+Ambiguity(|unknown:///|(348,189,<14,36>,<28,1>),"EnumBody","{\n\t\t\tONE {\n\t\t\t\t@Override\n\t\t\t\tpublic void run() {\n\t\t\t\t\tSystem.out.println(\"ONE\");\n\t\t\t\t}\n\t\t\t},\n\t\t\tTWO {\n\t\t\t\t@Override\n\t\t\t\tpublic void run() {\n\t\t\t\t\tSystem.out.println(\"TWO\");\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t")
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/JadxVisitor.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  1218 of 1312 processed succesfully!
+1
+[Project Analyzer] project: jadx
+Processing jadx...
+  126 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-plugins/jadx-java-input/src/main/java/jadx/plugins/input/java/data/DataReader.java|
+ParseError(|unknown:///|(1828,1,<94,30>,<94,31>))
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/types/TestTypeResolver19.java|
+ParseError(|unknown:///|(657,1,<28,35>,<28,36>))
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/rename/TestRenameEnum.java|
+Ambiguity(|unknown:///|(348,189,<14,36>,<28,1>),"EnumBody","{\n\t\t\tONE {\n\t\t\t\t@Override\n\t\t\t\tpublic void run() {\n\t\t\t\t\tSystem.out.println(\"ONE\");\n\t\t\t\t}\n\t\t\t},\n\t\t\tTWO {\n\t\t\t\t@Override\n\t\t\t\tpublic void run() {\n\t\t\t\t\tSystem.out.println(\"TWO\");\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t")
+  1046 of 1312 processed succesfully!
+  1066 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/JadxVisitor.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  1119 of 1312 processed succesfully!
+  1256 of 1312 processed succesfully!
+  1286 of 1312 processed succesfully!
+6
+[Project Analyzer] project: jadx
+Processing jadx...
+
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/treemodel/JRoot.java|
+EmptySet()
+  12 of 1312 processed succesfully!
+  16 of 1312 processed succesfully!
+  18 of 1312 processed succesfully!
+  21 of 1312 processed succesfully!
+  33 of 1312 processed succesfully!
+  36 of 1312 processed succesfully!
+  39 of 1312 processed succesfully!
+  40 of 1312 processed succesfully!
+  50 of 1312 processed succesfully!
+  59 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/ui/dialog/RenameDialog.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/ui/dialog/SearchDialog.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/ui/dialog/ADBDialog.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/ui/panel/StartPagePanel.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/ui/treenodes/SummaryNode.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/device/debugger/DebugController.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/device/debugger/SmaliDebugger.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/device/debugger/RegisterObserver.java|
+EmptySet()
+  123 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/device/debugger/smali/Smali.java|
+EmptySet()
+  145 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/utils/LafManager.java|
+EmptySet()
+  159 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/utils/codecache/disk/DiskCodeCache.java|
+EmptySet()
+  177 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/plugins/mappings/MappingExporter.java|
+EmptySet()
+  189 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/plugins/quark/QuarkReportPanel.java|
+EmptySet()
+  192 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-plugins/jadx-plugins-api/src/main/java/jadx/api/plugins/input/data/attributes/types/AnnotationsAttr.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-plugins/jadx-plugins-api/src/main/java/jadx/api/plugins/input/data/attributes/types/AnnotationMethodParamsAttr.java|
+EmptySet()
+  262 of 1312 processed succesfully!
+  264 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-plugins/jadx-dex-input/src/main/java/jadx/plugins/input/dex/sections/DexAnnotationsConvert.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-plugins/jadx-java-convert/src/main/java/jadx/plugins/input/javaconvert/JavaConvertLoader.java|
+EmptySet()
+  297 of 1312 processed succesfully!
+  306 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-plugins/jadx-java-input/src/main/java/jadx/plugins/input/java/data/DataReader.java|
+ParseError(|unknown:///|(1828,1,<94,30>,<94,31>))
+|file:///home/dataset/jadx/jadx-cli/src/test/java/jadx/cli/TestInput.java|
+EmptySet()
+  359 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/api/IntegrationTest.java|
+EmptySet()
+  377 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/api/utils/JadxMatchers.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/api/utils/assertj/JadxCodeAssertions.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/types/TestTypeResolver19.java|
+ParseError(|unknown:///|(657,1,<28,35>,<28,36>))
+  513 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/variables/TestVariablesUsageWithLoops.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/variables/TestVariablesDefinitions.java|
+EmptySet()
+  813 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/names/TestCaseSensitiveChecks.java|
+EmptySet()
+  832 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/trycatch/TestTryCatchFinally3.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/rename/TestRenameEnum.java|
+Ambiguity(|unknown:///|(348,189,<14,36>,<28,1>),"EnumBody","{\n\t\t\tONE {\n\t\t\t\t@Override\n\t\t\t\tpublic void run() {\n\t\t\t\t\tSystem.out.println(\"ONE\");\n\t\t\t\t}\n\t\t\t},\n\t\t\tTWO {\n\t\t\t\t@Override\n\t\t\t\tpublic void run() {\n\t\t\t\t\tSystem.out.println(\"TWO\");\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t")
+  886 of 1312 processed succesfully!
+  914 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/api/JadxDecompiler.java|
+EmptySet()
+  920 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/ProcessClass.java|
+EmptySet()
+  963 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResProtoParser.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/FillArrayData.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/SSAVar.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/ClassNode.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/RootNode.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/MethodNode.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/BlockNode.java|
+EmptySet()
+  1039 of 1312 processed succesfully!
+  1042 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/regions/SwitchRegion.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfInfo.java|
+EmptySet()
+  1046 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/InitCodeVariables.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ConstructorVisitor.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/OverrideMethodVisitor.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ModVisitor.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/PrepareForCodeGen.java|
+EmptySet()
+  1062 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/JadxVisitor.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ClassModifier.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/InlineMethods.java|
+EmptySet()
+  1067 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/AnonymousClassVisitor.java|
+EmptySet()
+  1069 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SimplifyVisitor.java|
+EmptySet()
+  1074 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ExtractFieldInit.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/ShadowFieldVisitor.java|
+EmptySet()
+  1082 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeInferenceVisitor.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeSearch.java|
+EmptySet()
+  1100 of 1312 processed succesfully!
+  1109 of 1312 processed succesfully!
+  1112 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/TernaryMod.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/LoopRegionVisitor.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMaker.java|
+EmptySet()
+  1121 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/variables/ProcessVariables.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/variables/CollectUsageRegionVisitor.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/rename/RenameVisitor.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/rename/CodeRenameVisitor.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/rename/UserRenames.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocks/BlockProcessor.java|
+EmptySet()
+  1129 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocks/DominatorTree.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocks/BlockExceptionHandler.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocks/BlockSplitter.java|
+EmptySet()
+  1130 of 1312 processed succesfully!
+  1132 of 1312 processed succesfully!
+  1138 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/LoopInfo.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/PhiListAttr.java|
+EmptySet()
+  1169 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/info/MethodInfo.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/info/ConstStorage.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/codegen/RegionGen.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/codegen/SimpleModeHelper.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/codegen/ClassGen.java|
+EmptySet()
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/codegen/json/JsonMappingGen.java|
+EmptySet()
+  1198 of 1312 processed succesfully!
+  1199 of 1312 processed succesfully!
+  1202 of 1312 processed succesfully!
+  1206 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/utils/InsnRemover.java|
+EmptySet()
+  1211 of 1312 processed succesfully!
+  1215 of 1312 processed succesfully!
+  1217 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/utils/CodeGenUtils.java|
+EmptySet()
+  1220 of 1312 processed succesfully!
+|file:///home/dataset/jadx/jadx-core/src/main/java/jadx/core/utils/files/FileUtils.java|
+EmptySet()
+54
+INFO:root:  Formating the source code
+INFO:root:   Done

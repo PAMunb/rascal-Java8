@@ -1,0 +1,50 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: omni-notes
+Creating log file at: /output/log-20230115023326
+Processing omni-notes...
+0
+[Project Analyzer] project: omni-notes
+Processing omni-notes...
+0
+[Project Analyzer] project: omni-notes
+Processing omni-notes...
+  173 of 212 processed succesfully!
+  187 of 212 processed succesfully!
+  203 of 212 processed succesfully!
+  207 of 212 processed succesfully!
+4
+[Project Analyzer] project: omni-notes
+Processing omni-notes...
+
+  56 of 212 processed succesfully!
+|file:///home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/ListFragment.java|
+EmptySet()
+|file:///home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/DetailFragment.java|
+EmptySet()
+|file:///home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/async/AlarmRestoreOnRebootService.java|
+EmptySet()
+  110 of 212 processed succesfully!
+|file:///home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/async/notes/SaveNoteTask.java|
+EmptySet()
+|file:///home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/async/upgrade/UpgradeProcessor.java|
+EmptySet()
+  131 of 212 processed succesfully!
+|file:///home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/models/views/SketchView.java|
+EmptySet()
+|file:///home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/helpers/BackupHelper.java|
+EmptySet()
+|file:///home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/helpers/NotesHelper.java|
+EmptySet()
+|file:///home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/db/DbHelper.java|
+EmptySet()
+|file:///home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/utils/SystemHelper.java|
+EmptySet()
+|file:///home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/utils/TagsHelper.java|
+EmptySet()
+3
+INFO:root:  Formating the source code
+INFO:root:   Done

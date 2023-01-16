@@ -1,0 +1,134 @@
+[Project Analyzer] processing project: ambry
+- applying aic into /home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/tools/perf/ServerReadPerformance.java
+- applying aic into /home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/store/IndexReadPerformance.java
+- applying aic into /home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/store/IndexWritePerformance.java
+- applying aic into /home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/tools/perf/ServerWritePerformance.java
+- Number of files:  1253
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 1
+- Final Time: 20230115013321
+- Elapsed Time: 47645.0ms
+[Project Analyzer] processing project: ambry
+- applying filter pattern into /home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/StaticClusterManager.java
+- applying filter pattern into /home/dataset/ambry/ambry-api/src/main/java/com/github/ambry/account/AccountService.java
+- Number of files:  1253
+- Processed Files: 2
+- Exported Files:   2
+- Total of files changed: 2
+- Total of transformations: 2
+- Errors: 1
+- Final Time: 20230115013357
+- Elapsed Time: 35682.0ms
+[Project Analyzer] processing project: ambry
+- Number of files:  1253
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115013432
+- Elapsed Time: 35498.0ms
+[Project Analyzer] processing project: ambry
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-router/src/main/java/com/github/ambry/router/PutOperation.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-replication/src/main/java/com/github/ambry/replication/BlobIdTransformer.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-server/src/integration-test/java/com/github/ambry/server/VcrBackupTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/tools/admin/BlobValidator.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/PersistentIndex.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-frontend/src/test/java/com/github/ambry/frontend/PostAccountContainersHandlerTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-messageformat/src/main/java/com/github/ambry/messageformat/MessageFormatRecord.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-messageformat/src/main/java/com/github/ambry/messageformat/MessageFormatSend.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-cloud/src/main/java/com/github/ambry/cloud/HelixVcrClusterParticipant.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-messageformat/src/main/java/com/github/ambry/messageformat/MessageFormatWriteSet.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-cloud/src/test/java/com/github/ambry/cloud/LatchBasedInMemoryCloudDestination.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-cloud/src/main/java/com/github/ambry/cloud/HelixVcrClusterSpectator.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-network/src/main/java/com/github/ambry/network/http2/Http2MultiplexedChannelPool.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-test-utils/src/main/java/com/github/ambry/account/InMemAccountService.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/test/java/com/github/ambry/clustermap/InstanceConfigToDataNodeConfigAdapterTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-api/src/main/java/com/github/ambry/account/Account.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-rest/src/main/java/com/github/ambry/rest/NettyRequest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/test/java/com/github/ambry/clustermap/MockHelixAdmin.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-test-utils/src/main/java/com/github/ambry/rest/MockRestRequest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-api/src/main/java/com/github/ambry/rest/RestUtils.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-rest/src/test/java/com/github/ambry/rest/NettyMultipartRequestTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/Log.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/store/DiskReformatter.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/CompactionPolicyTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/OperationTrackerTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/CryptoJobHandlerTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-network/src/main/java/com/github/ambry/network/SocketServer.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/PartitionLayout.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/test/java/com/github/ambry/clustermap/HelixClusterManagerTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-network/src/main/java/com/github/ambry/network/BlockingChannelInfo.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/HardwareLayout.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/DataNode.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/HelixClusterAgentsFactory.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/test/java/com/github/ambry/clustermap/HelixParticipantTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/store/StoreCopier.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-test-utils/src/main/java/com/github/ambry/utils/AccountTestUtils.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/tools/admin/TestPartitionAlloc.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-rest/src/test/java/com/github/ambry/rest/EchoMethodHandler.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-network/src/main/java/com/github/ambry/network/CompositeNetworkClient.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/test/java/com/github/ambry/clustermap/PropertyStoreToDataNodeConfigAdapterTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-replication/src/main/java/com/github/ambry/replication/PartitionInfo.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/test/java/com/github/ambry/clustermap/MockClusterAgentsFactory.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-test-utils/src/main/java/com/github/ambry/router/ByteBufferRSC.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-api/src/main/java/com/github/ambry/account/AccountBuilder.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-account/src/test/java/com/github/ambry/account/MockNotifier.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-frontend/src/main/java/com/github/ambry/frontend/GetReplicasHandler.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-messageformat/src/test/java/com/github/ambry/messageformat/CompositeBlobInfoTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-server/src/integration-test/java/com/github/ambry/server/MockCluster.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/account/AccountTool.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/IndexSegment.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-cloud/src/main/java/com/github/ambry/cloud/StaticVcrClusterParticipant.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-messageformat/src/main/java/com/github/ambry/messageformat/BlobStoreRecovery.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-cloud/src/test/java/com/github/ambry/cloud/azure/AzureCloudDestinationTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-cloud/src/main/java/com/github/ambry/cloud/azure/ShardedStorageClient.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-network/src/main/java/com/github/ambry/network/http2/MultiplexedChannelRecord.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-account/src/main/java/com/github/ambry/account/MySqlAccountService.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-replication/src/main/java/com/github/ambry/replication/ReplicaTokenPersistor.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/DiskManager.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-network/src/main/java/com/github/ambry/network/NettyServerRequestResponseChannel.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/test/java/com/github/ambry/clustermap/ClusterChangeHandlerTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-frontend/src/main/java/com/github/ambry/frontend/GetBlobHandler.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/CompactionLog.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-network/src/test/java/com/github/ambry/network/EchoServer.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-router/src/main/java/com/github/ambry/router/SimpleOperationTracker.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-account/src/test/java/com/github/ambry/account/JsonAccountServiceTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-router/src/main/java/com/github/ambry/router/RouterCallback.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-network/src/test/java/com/github/ambry/network/http2/MultiplexedChannelRecordTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/StaticClusterAgentsFactory.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-protocol/src/main/java/com/github/ambry/protocol/PartitionRequestInfo.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/CompositeClusterManager.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/Datacenter.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-network/src/main/java/com/github/ambry/network/SocketRequestResponseChannel.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/BlobStoreStatsTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/ClusterMapMetrics.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/account/AccountUpdateTool.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-account/src/main/java/com/github/ambry/account/mysql/AccountDao.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/QuotaRejectingOperationController.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/store/DumpLogTool.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-commons/src/main/java/com/github/ambry/clustermap/HelixVcrUtil.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/StaticClusterManager.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/GetManagerTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-network/src/main/java/com/github/ambry/network/Selector.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-test-utils/src/main/java/com/github/ambry/clustermap/MockClusterMap.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-frontend/src/main/java/com/github/ambry/frontend/GetPeersHandler.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-api/src/test/java/com/github/ambry/account/AccountContainerTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/test/java/com/github/ambry/clustermap/MockVcrClusterSpectator.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/CompactionManagerTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-account/src/main/java/com/github/ambry/account/AccountInfoMap.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-test-utils/src/main/java/com/github/ambry/rest/MockRestResponseChannel.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-server/src/main/java/com/github/ambry/server/AmbryServer.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-network/src/test/java/com/github/ambry/network/http2/Http2MultiplexedChannelPoolTest.java
+- applying ForLoopToFunctional into /home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/MySqlReportAggregatorTask.java
+- Number of files:  1253
+- Processed Files: 92
+- Exported Files:   92
+- Total of files changed: 172
+- Total of transformations: 172
+- Errors: 153
+- Final Time: 20230115014119
+- Elapsed Time: 406675.0ms

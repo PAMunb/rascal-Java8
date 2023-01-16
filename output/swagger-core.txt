@@ -1,0 +1,379 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: swagger-core
+Creating log file at: /output/log-20230114225814
+Processing swagger-core...
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Parameters.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Parameter.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/OpenAPIDefinition.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Operation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/ExternalDocumentation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/headers/Header.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/callbacks/Callbacks.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/callbacks/Callback.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/tags/Tag.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/tags/Tags.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/links/Link.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/links/LinkParameter.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/extensions/Extensions.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Schema.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Encoding.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/ArraySchema.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/ExampleObject.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/DiscriminatorMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/SchemaProperties.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/PatternProperties.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Content.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/ServerVariable.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/Server.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/Servers.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthFlows.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthScope.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityRequirements.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityRequirement.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthFlow.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityScheme.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecuritySchemes.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/parameters/RequestBody.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/responses/ApiResponse.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/responses/ApiResponses.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/Info.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/Contact.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/License.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-integration/src/main/java/io/swagger/v3/oas/integration/api/ObjectMapperProcessor.java|
+Ambiguity(|unknown:///|,"InterfaceMemberDeclaration+","default void processJsonObjectMapper(ObjectMapper mapper) {};\n\n    /**\n     * @deprecated since 2.0.7, as no-op\n     *\n     */\n    ")
+|file:///home/dataset/swagger-core/modules/swagger-jaxrs2/src/test/java/io/swagger/v3/jaxrs2/annotations/operations/AnnotatedOperationMethodTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: swagger-core
+Processing swagger-core...
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Parameters.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Parameter.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/OpenAPIDefinition.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Operation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/ExternalDocumentation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/headers/Header.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/callbacks/Callbacks.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/callbacks/Callback.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/tags/Tag.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/tags/Tags.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/links/Link.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/links/LinkParameter.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/extensions/Extensions.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Schema.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Encoding.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/ArraySchema.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/ExampleObject.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/DiscriminatorMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/SchemaProperties.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/PatternProperties.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Content.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/ServerVariable.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/Server.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/Servers.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthFlows.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthScope.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityRequirements.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityRequirement.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthFlow.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityScheme.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecuritySchemes.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/parameters/RequestBody.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/responses/ApiResponse.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/responses/ApiResponses.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/Info.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/Contact.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/License.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  313 of 834 processed succesfully!
+|file:///home/dataset/swagger-core/modules/swagger-integration/src/main/java/io/swagger/v3/oas/integration/api/ObjectMapperProcessor.java|
+Ambiguity(|unknown:///|,"InterfaceMemberDeclaration+","default void processJsonObjectMapper(ObjectMapper mapper) {};\n\n    /**\n     * @deprecated since 2.0.7, as no-op\n     *\n     */\n    ")
+|file:///home/dataset/swagger-core/modules/swagger-jaxrs2/src/test/java/io/swagger/v3/jaxrs2/annotations/operations/AnnotatedOperationMethodTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  441 of 834 processed succesfully!
+  560 of 834 processed succesfully!
+  574 of 834 processed succesfully!
+  575 of 834 processed succesfully!
+  578 of 834 processed succesfully!
+  580 of 834 processed succesfully!
+  593 of 834 processed succesfully!
+  683 of 834 processed succesfully!
+  728 of 834 processed succesfully!
+10
+[Project Analyzer] project: swagger-core
+Processing swagger-core...
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Parameters.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Parameter.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/OpenAPIDefinition.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Operation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/ExternalDocumentation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/headers/Header.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/callbacks/Callbacks.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/callbacks/Callback.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/tags/Tag.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/tags/Tags.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/links/Link.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/links/LinkParameter.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/extensions/Extensions.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Schema.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Encoding.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/ArraySchema.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/ExampleObject.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/DiscriminatorMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/SchemaProperties.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/PatternProperties.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Content.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/ServerVariable.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/Server.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/Servers.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthFlows.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthScope.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityRequirements.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityRequirement.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthFlow.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityScheme.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecuritySchemes.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/parameters/RequestBody.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/responses/ApiResponse.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/responses/ApiResponses.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/Info.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/Contact.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/License.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  240 of 834 processed succesfully!
+|file:///home/dataset/swagger-core/modules/swagger-integration/src/main/java/io/swagger/v3/oas/integration/api/ObjectMapperProcessor.java|
+Ambiguity(|unknown:///|,"InterfaceMemberDeclaration+","default void processJsonObjectMapper(ObjectMapper mapper) {};\n\n    /**\n     * @deprecated since 2.0.7, as no-op\n     *\n     */\n    ")
+  344 of 834 processed succesfully!
+|file:///home/dataset/swagger-core/modules/swagger-jaxrs2/src/test/java/io/swagger/v3/jaxrs2/annotations/operations/AnnotatedOperationMethodTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  564 of 834 processed succesfully!
+3
+[Project Analyzer] project: swagger-core
+Processing swagger-core...
+
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Parameters.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Parameter.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/OpenAPIDefinition.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/Operation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/ExternalDocumentation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/headers/Header.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/callbacks/Callbacks.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/callbacks/Callback.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/tags/Tag.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/tags/Tags.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/links/Link.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/links/LinkParameter.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/extensions/Extensions.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Schema.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Encoding.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/ArraySchema.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/ExampleObject.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/DiscriminatorMapping.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/SchemaProperties.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/PatternProperties.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/media/Content.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/ServerVariable.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/Server.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/servers/Servers.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthFlows.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthScope.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityRequirements.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityRequirement.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/OAuthFlow.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecurityScheme.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/security/SecuritySchemes.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/parameters/RequestBody.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/responses/ApiResponse.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/responses/ApiResponses.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/Info.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/Contact.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-annotations/src/main/java/io/swagger/v3/oas/annotations/info/License.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/swagger-core/modules/swagger-core/src/test/java/io/swagger/v3/core/filter/SpecFilterTest.java|
+EmptySet()
+|file:///home/dataset/swagger-core/modules/swagger-core/src/main/java/io/swagger/v3/core/util/AnnotationsUtils.java|
+EmptySet()
+|file:///home/dataset/swagger-core/modules/swagger-core/src/main/java/io/swagger/v3/core/util/ParameterProcessor.java|
+EmptySet()
+|file:///home/dataset/swagger-core/modules/swagger-core/src/main/java/io/swagger/v3/core/util/PrimitiveType.java|
+EmptySet()
+  259 of 834 processed succesfully!
+  264 of 834 processed succesfully!
+  289 of 834 processed succesfully!
+  297 of 834 processed succesfully!
+|file:///home/dataset/swagger-core/modules/swagger-integration/src/main/java/io/swagger/v3/oas/integration/GenericOpenApiContext.java|
+EmptySet()
+|file:///home/dataset/swagger-core/modules/swagger-integration/src/main/java/io/swagger/v3/oas/integration/GenericOpenApiScanner.java|
+EmptySet()
+|file:///home/dataset/swagger-core/modules/swagger-integration/src/main/java/io/swagger/v3/oas/integration/api/ObjectMapperProcessor.java|
+Ambiguity(|unknown:///|,"InterfaceMemberDeclaration+","default void processJsonObjectMapper(ObjectMapper mapper) {};\n\n    /**\n     * @deprecated since 2.0.7, as no-op\n     *\n     */\n    ")
+  333 of 834 processed succesfully!
+|file:///home/dataset/swagger-core/modules/swagger-jaxrs2/src/test/java/io/swagger/v3/jaxrs2/annotations/operations/AnnotatedOperationMethodTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  408 of 834 processed succesfully!
+|file:///home/dataset/swagger-core/modules/swagger-jaxrs2/src/test/java/io/swagger/v3/jaxrs2/resources/data/PetData.java|
+EmptySet()
+|file:///home/dataset/swagger-core/modules/swagger-jaxrs2/src/main/java/io/swagger/v3/jaxrs2/Reader.java|
+EmptySet()
+|file:///home/dataset/swagger-core/modules/swagger-jaxrs2/src/main/java/io/swagger/v3/jaxrs2/DefaultParameterExtension.java|
+EmptySet()
+|file:///home/dataset/swagger-core/modules/swagger-jaxrs2/src/main/java/io/swagger/v3/jaxrs2/util/ReaderUtils.java|
+EmptySet()
+|file:///home/dataset/swagger-core/modules/swagger-jaxrs2/src/main/java/io/swagger/v3/jaxrs2/integration/JaxrsAnnotationScanner.java|
+EmptySet()
+|file:///home/dataset/swagger-core/modules/swagger-gradle-plugin/src/test/java/io/swagger/v3/plugins/gradle/resources/data/PetData.java|
+EmptySet()
+|file:///home/dataset/swagger-core/modules/swagger-maven-plugin/src/test/java/io/swagger/v3/plugin/maven/resources/data/PetData.java|
+EmptySet()
+  780 of 834 processed succesfully!
+7
+INFO:root:  Formating the source code
+INFO:root:   Done

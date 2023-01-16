@@ -1,0 +1,97 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: roaringbitmap
+Creating log file at: /output/log-20230115023454
+Processing roaringbitmap...
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/art/Node48Test.java|
+ParseError(|unknown:///|(15272,1,<387,34>,<387,35>))
+0
+[Project Analyzer] project: roaringbitmap
+Processing roaringbitmap...
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/art/Node48Test.java|
+ParseError(|unknown:///|(15272,1,<387,34>,<387,35>))
+0
+[Project Analyzer] project: roaringbitmap
+Processing roaringbitmap...
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/art/Node48Test.java|
+ParseError(|unknown:///|(15272,1,<387,34>,<387,35>))
+0
+[Project Analyzer] project: roaringbitmap
+Processing roaringbitmap...
+
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/TestContainer.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/TestRunContainer.java|
+EmptySet()
+  9 of 357 processed succesfully!
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/OrNotTruncationTest.java|
+EmptySet()
+  26 of 357 processed succesfully!
+  33 of 357 processed succesfully!
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/TestUtil.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/art/Node48Test.java|
+ParseError(|unknown:///|(15272,1,<387,34>,<387,35>))
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/buffer/TestContainer.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/buffer/TestRunContainer.java|
+EmptySet()
+  51 of 357 processed succesfully!
+  52 of 357 processed succesfully!
+  53 of 357 processed succesfully!
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/buffer/TestMappeableArrayContainer.java|
+EmptySet()
+  64 of 357 processed succesfully!
+  65 of 357 processed succesfully!
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/main/java/org/roaringbitmap/ArrayContainer.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/main/java/org/roaringbitmap/ContainerAppender.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/main/java/org/roaringbitmap/ParallelAggregation.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/main/java/org/roaringbitmap/FastAggregation.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/main/java/org/roaringbitmap/ConstantMemoryContainerAppender.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/main/java/org/roaringbitmap/buffer/BufferParallelAggregation.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/main/java/org/roaringbitmap/buffer/BufferFastAggregation.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/main/java/org/roaringbitmap/longlong/Roaring64Bitmap.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/RoaringBitmap/src/main/java/org/roaringbitmap/longlong/Roaring64NavigableMap.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/examples/src/main/java/Basic.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/simplebenchmark/src/main/java/simplebenchmark.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/jmh/src/jmh/java/org/roaringbitmap/RoaringOnlyBenchmarkState.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/jmh/src/jmh/java/org/roaringbitmap/AbstractBenchmarkState.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/jmh/src/jmh/java/org/roaringbitmap/realdata/RealDataBenchmarkContains.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/jmh/src/jmh/java/org/roaringbitmap/realdata/wrapper/ImmutableConciseSetWrapper.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/jmh/src/jmh/java/org/roaringbitmap/realdata/wrapper/ConciseSetWrapper.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/jmh/src/jmh/java/org/roaringbitmap/needwork/RandomAccess.java|
+EmptySet()
+  275 of 357 processed succesfully!
+  277 of 357 processed succesfully!
+|file:///home/dataset/roaringbitmap/fuzz-tests/src/test/java/org/roaringbitmap/BufferFuzzer.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/fuzz-tests/src/test/java/org/roaringbitmap/Fuzzer.java|
+EmptySet()
+  324 of 357 processed succesfully!
+  327 of 357 processed succesfully!
+|file:///home/dataset/roaringbitmap/bsi/src/main/java/org/roaringbitmap/bsi/buffer/ImmutableBitSliceIndex.java|
+EmptySet()
+|file:///home/dataset/roaringbitmap/bsi/src/main/java/org/roaringbitmap/bsi/buffer/MutableBitSliceIndex.java|
+EmptySet()
+12
+INFO:root:  Formating the source code
+INFO:root:   Done

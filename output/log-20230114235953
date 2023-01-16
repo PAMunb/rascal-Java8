@@ -1,0 +1,42 @@
+[Project Analyzer] processing project: initializr
+- Number of files:  560
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 13
+- Final Time: 20230115000001
+- Elapsed Time: 7892.0ms
+[Project Analyzer] processing project: initializr
+- Number of files:  560
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 13
+- Final Time: 20230115000006
+- Elapsed Time: 5085.0ms
+[Project Analyzer] processing project: initializr
+- Number of files:  560
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 13
+- Final Time: 20230115000011
+- Elapsed Time: 5008.0ms
+[Project Analyzer] processing project: initializr
+- applying ForLoopToFunctional into /home/dataset/initializr/initializr-generator-test/src/main/java/io/spring/initializr/generator/test/project/ProjectAssetTester.java
+- applying ForLoopToFunctional into /home/dataset/initializr/initializr-web/src/test/java/io/spring/initializr/web/test/MockMvcClientHttpRequestFactory.java
+- applying ForLoopToFunctional into /home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/project/DefaultProjectAssetGenerator.java
+- applying ForLoopToFunctional into /home/dataset/initializr/initializr-web/src/main/java/io/spring/initializr/web/support/SpringBootMetadataReader.java
+- applying ForLoopToFunctional into /home/dataset/initializr/initializr-metadata/src/main/java/io/spring/initializr/metadata/InitializrMetadataBuilder.java
+- applying ForLoopToFunctional into /home/dataset/initializr/initializr-generator-spring/src/main/java/io/spring/initializr/generator/spring/documentation/HelpDocument.java
+- Number of files:  560
+- Processed Files: 6
+- Exported Files:   6
+- Total of files changed: 7
+- Total of transformations: 7
+- Errors: 24
+- Final Time: 20230115000057
+- Elapsed Time: 46239.0ms

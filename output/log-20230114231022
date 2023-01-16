@@ -1,0 +1,59 @@
+[Project Analyzer] processing project: jedis
+- applying aic into /home/dataset/jedis/src/test/java/redis/clients/jedis/commands/jedis/ClusterValuesCommandsTest.java
+- applying aic into /home/dataset/jedis/src/test/java/redis/clients/jedis/commands/jedis/PublishSubscribeCommandsTest.java
+- applying aic into /home/dataset/jedis/src/test/java/redis/clients/jedis/benchmark/PoolBenchmark.java
+- Number of files:  513
+- Processed Files: 3
+- Exported Files:   3
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 0
+- Final Time: 20230114231052
+- Elapsed Time: 29756.0ms
+[Project Analyzer] processing project: jedis
+- Number of files:  513
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230114231105
+- Elapsed Time: 12826.0ms
+[Project Analyzer] processing project: jedis
+- applying exist pattern into /home/dataset/jedis/src/test/java/redis/clients/jedis/collections/JedisByteHashMapTest.java
+- Number of files:  513
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 2
+- Total of transformations: 2
+- Errors: 0
+- Final Time: 20230114231118
+- Elapsed Time: 13064.0ms
+[Project Analyzer] processing project: jedis
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/JedisClusterInfoCache.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/search/FTSearchParams.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/Pipeline.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/test/java/redis/clients/jedis/modules/search/SearchWithParamsTest.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/test/java/redis/clients/jedis/benchmark/PooledBenchmark.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/providers/SentineledConnectionProvider.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/resps/Slowlog.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/TransactionBase.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/test/java/redis/clients/jedis/util/ByteArrayUtil.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/MultiNodePipelineBase.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/test/java/redis/clients/jedis/commands/jedis/ClusterBinaryValuesCommandsTest.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/util/SafeEncoder.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/search/Schema.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/test/java/redis/clients/jedis/commands/jedis/ClusterCommandsTest.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/JedisSentinelPool.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/search/querybuilder/QueryNode.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/test/java/redis/clients/jedis/benchmark/PoolBenchmark.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/main/java/redis/clients/jedis/search/aggr/Group.java
+- applying ForLoopToFunctional into /home/dataset/jedis/src/test/java/redis/clients/jedis/JedisClusterTest.java
+- Number of files:  513
+- Processed Files: 19
+- Exported Files:   19
+- Total of files changed: 23
+- Total of transformations: 23
+- Errors: 17
+- Final Time: 20230114231325
+- Elapsed Time: 126662.0ms

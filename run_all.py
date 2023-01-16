@@ -38,7 +38,7 @@ for file in os.listdir(rootdir):
 
             os.system(f"docker build -t rjtl -f Dockerfile.rj .")
 
-            os.system(f"docker run --name rjtl -w /home/rascal-Java8/ -it -v /home/walterlucas/Documents/dataset:/home/dataset -v /home/walterlucas/Documents/rascal-Java8/output:/home/rascal-Java8/output rjtl python3 driver.py -i home/input.csv > ../output/{project}.txt")
+            os.system(f"docker run --name rjtl -w /home/rascal-Java8/ -it -v /home/walterlucas/Documents/dataset:/home/dataset -v /home/walterlucas/eclipse-workspace/rascal-Java8/output:/home/rascal-Java8/output rjtl python3 driver.py -i home/input.csv > ../output/{project}.txt")
 
             os.system(f"docker rm rjtl && docker rmi rjtl")
 

@@ -1,0 +1,68 @@
+[Project Analyzer] processing project: canal
+- applying aic into /home/dataset/canal/protocol/src/main/java/com/alibaba/otter/canal/protocol/AdminPacket.java
+- applying aic into /home/dataset/canal/protocol/src/main/java/com/alibaba/otter/canal/protocol/CanalEntry.java
+- applying aic into /home/dataset/canal/protocol/src/main/java/com/alibaba/otter/canal/protocol/CanalPacket.java
+- applying aic into /home/dataset/canal/parse/src/main/java/com/alibaba/otter/canal/parse/inbound/AbstractEventParser.java
+- Number of files:  668
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 7
+- Total of transformations: 7
+- Errors: 0
+- Final Time: 20230115014627
+- Elapsed Time: 17913.0ms
+[Project Analyzer] processing project: canal
+- applying filter pattern into /home/dataset/canal/client-adapter/hbase/src/main/java/com/alibaba/otter/canal/client/adapter/hbase/service/HbaseSyncService.java
+- Number of files:  668
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 0
+- Final Time: 20230115014639
+- Elapsed Time: 12724.0ms
+[Project Analyzer] processing project: canal
+- applying exist pattern into /home/dataset/canal/client-adapter/tablestore/src/main/java/com/alibaba/otter/canal/client/adapter/tablestore/service/TablestoreSyncService.java
+- applying exist pattern into /home/dataset/canal/connector/core/src/main/java/com/alibaba/otter/canal/connector/core/producer/MQMessageUtils.java
+- Number of files:  668
+- Processed Files: 2
+- Exported Files:   2
+- Total of files changed: 2
+- Total of transformations: 2
+- Errors: 0
+- Final Time: 20230115014652
+- Elapsed Time: 12654.0ms
+[Project Analyzer] processing project: canal
+- applying ForLoopToFunctional into /home/dataset/canal/driver/src/main/java/com/alibaba/otter/canal/parse/driver/mysql/MysqlQueryExecutor.java
+- applying ForLoopToFunctional into /home/dataset/canal/filter/src/main/java/com/alibaba/otter/canal/filter/aviater/AviaterRegexFilter.java
+- applying ForLoopToFunctional into /home/dataset/canal/parse/src/main/java/com/alibaba/otter/canal/parse/inbound/mysql/tsdb/DatabaseTableMeta.java
+- applying ForLoopToFunctional into /home/dataset/canal/deployer/src/main/java/com/alibaba/otter/canal/deployer/monitor/SpringInstanceConfigMonitor.java
+- applying ForLoopToFunctional into /home/dataset/canal/parse/src/main/java/com/alibaba/otter/canal/parse/index/FileMixedLogPositionManager.java
+- applying ForLoopToFunctional into /home/dataset/canal/store/src/main/java/com/alibaba/otter/canal/store/memory/MemoryEventStoreWithBuffer.java
+- applying ForLoopToFunctional into /home/dataset/canal/instance/core/src/main/java/com/alibaba/otter/canal/instance/core/AbstractCanalInstance.java
+- applying ForLoopToFunctional into /home/dataset/canal/parse/src/main/java/com/alibaba/otter/canal/parse/inbound/mysql/local/BinLogFileQueue.java
+- applying ForLoopToFunctional into /home/dataset/canal/client-adapter/escore/src/main/java/com/alibaba/otter/canal/client/adapter/es/core/ESAdapter.java
+- applying ForLoopToFunctional into /home/dataset/canal/parse/src/main/java/com/alibaba/otter/canal/parse/index/PeriodMixedLogPositionManager.java
+- applying ForLoopToFunctional into /home/dataset/canal/prometheus/src/main/java/com/alibaba/otter/canal/prometheus/impl/EntryCollector.java
+- applying ForLoopToFunctional into /home/dataset/canal/parse/src/main/java/com/alibaba/otter/canal/parse/inbound/group/GroupEventParser.java
+- applying ForLoopToFunctional into /home/dataset/canal/client-adapter/escore/src/main/java/com/alibaba/otter/canal/client/adapter/es/core/service/ESSyncService.java
+- applying ForLoopToFunctional into /home/dataset/canal/client-adapter/logger/src/main/java/com/alibaba/otter/canal/client/adapter/logger/LoggerAdapterExample.java
+- applying ForLoopToFunctional into /home/dataset/canal/client-adapter/common/src/main/java/com/alibaba/otter/canal/client/adapter/support/AbstractEtlService.java
+- applying ForLoopToFunctional into /home/dataset/canal/client-adapter/launcher/src/main/java/com/alibaba/otter/canal/adapter/launcher/config/AdapterCanalConfig.java
+- applying ForLoopToFunctional into /home/dataset/canal/connector/core/src/main/java/com/alibaba/otter/canal/connector/core/filter/AviaterRegexFilter.java
+- applying ForLoopToFunctional into /home/dataset/canal/instance/manager/src/main/java/com/alibaba/otter/canal/instance/manager/model/CanalParameter.java
+- applying ForLoopToFunctional into /home/dataset/canal/client-adapter/hbase/src/main/java/com/alibaba/otter/canal/client/adapter/hbase/HbaseAdapter.java
+- applying ForLoopToFunctional into /home/dataset/canal/parse/src/main/java/com/alibaba/otter/canal/parse/inbound/EventTransactionBuffer.java
+- applying ForLoopToFunctional into /home/dataset/canal/parse/src/main/java/com/alibaba/otter/canal/parse/inbound/mysql/tsdb/MemoryTableMeta.java
+- applying ForLoopToFunctional into /home/dataset/canal/server/src/main/java/com/alibaba/otter/canal/server/embedded/CanalServerWithEmbedded.java
+- applying ForLoopToFunctional into /home/dataset/canal/parse/src/main/java/com/alibaba/otter/canal/parse/inbound/TableMeta.java
+- applying ForLoopToFunctional into /home/dataset/canal/common/src/main/java/com/alibaba/otter/canal/common/utils/ExecutorTemplate.java
+- applying ForLoopToFunctional into /home/dataset/canal/meta/src/main/java/com/alibaba/otter/canal/meta/PeriodMixedMetaManager.java
+- Number of files:  668
+- Processed Files: 25
+- Exported Files:   25
+- Total of files changed: 36
+- Total of transformations: 36
+- Errors: 49
+- Final Time: 20230115014918
+- Elapsed Time: 146517.0ms

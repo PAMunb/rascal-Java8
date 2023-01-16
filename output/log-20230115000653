@@ -1,0 +1,100 @@
+[Project Analyzer] processing project: gephi
+- applying aic into /home/dataset/gephi/modules/ImportPluginUI/src/main/java/org/gephi/ui/importer/plugin/spreadsheet/wizard/WizardVisualPanel1Excel.java
+- applying aic into /home/dataset/gephi/modules/DesktopImport/src/main/java/org/gephi/desktop/importer/WizardVisualPanel1.java
+- applying aic into /home/dataset/gephi/modules/StatisticsPluginUI/src/main/java/org/gephi/ui/statistics/plugin/ModularityPanel.java
+- applying aic into /home/dataset/gephi/modules/ImportPluginUI/src/main/java/org/gephi/ui/importer/plugin/EdgeListPanel.java
+- applying aic into /home/dataset/gephi/modules/ExportPluginUI/src/main/java/org/gephi/ui/exporter/plugin/UIExporterSpreadsheetPanel.java
+- applying aic into /home/dataset/gephi/modules/ImportPluginUI/src/main/java/org/gephi/ui/importer/plugin/spreadsheet/wizard/WizardVisualPanel1CSV.java
+- applying aic into /home/dataset/gephi/modules/DesktopDataLaboratory/src/main/java/org/gephi/desktop/datalab/ConfigurationPanel.java
+- applying aic into /home/dataset/gephi/modules/DataLaboratoryPlugin/src/main/java/org/gephi/datalab/plugin/manipulators/columns/ui/ConvertColumnToDynamicTimestampsUI.java
+- Number of files:  1321
+- Processed Files: 8
+- Exported Files:   8
+- Total of files changed: 18
+- Total of transformations: 18
+- Errors: 0
+- Final Time: 20230115000720
+- Elapsed Time: 27129.0ms
+[Project Analyzer] processing project: gephi
+- applying filter pattern into /home/dataset/gephi/modules/ExportPlugin/src/main/java/org/gephi/io/exporter/plugin/ExporterGDF.java
+- applying filter pattern into /home/dataset/gephi/modules/PreviewAPI/src/main/java/org/gephi/preview/api/PreviewProperties.java
+- Number of files:  1321
+- Processed Files: 2
+- Exported Files:   2
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 0
+- Final Time: 20230115000740
+- Elapsed Time: 20325.0ms
+[Project Analyzer] processing project: gephi
+- applying exist pattern into /home/dataset/gephi/modules/FiltersImpl/src/main/java/org/gephi/filters/FilterModelImpl.java
+- applying exist pattern into /home/dataset/gephi/modules/LayoutPlugin/src/main/java/org/gephi/layout/plugin/force/quadtree/QuadTree.java
+- applying exist pattern into /home/dataset/gephi/modules/DesktopStatistics/src/main/java/org/gephi/desktop/statistics/StatisticsModelUIImpl.java
+- applying exist pattern into /home/dataset/gephi/modules/ImportPlugin/src/main/java/org/gephi/io/importer/plugin/file/spreadsheet/ImporterSpreadsheetCSVBuilder.java
+- applying exist pattern into /home/dataset/gephi/modules/ImportPlugin/src/main/java/org/gephi/io/importer/plugin/file/ImporterGDF.java
+- applying exist pattern into /home/dataset/gephi/modules/ImportPlugin/src/main/java/org/gephi/io/importer/plugin/file/spreadsheet/ImporterSpreadsheetExcelBuilder.java
+- applying exist pattern into /home/dataset/gephi/modules/ExportPlugin/src/main/java/org/gephi/io/exporter/plugin/ExporterGDF.java
+- applying exist pattern into /home/dataset/gephi/modules/PreviewAPI/src/main/java/org/gephi/preview/PreviewModelImpl.java
+- Number of files:  1321
+- Processed Files: 8
+- Exported Files:   8
+- Total of files changed: 10
+- Total of transformations: 10
+- Errors: 0
+- Final Time: 20230115000800
+- Elapsed Time: 20298.0ms
+[Project Analyzer] processing project: gephi
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopFilters/src/main/java/org/gephi/desktop/filters/FilterUIModel.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/LayoutPlugin/src/main/java/org/gephi/layout/plugin/AutoLayout.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/ImportPluginUI/src/main/java/org/gephi/ui/importer/plugin/EdgeListDatabaseManager.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopPreview/src/main/java/org/gephi/desktop/preview/PreviewUIControllerImpl.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/VisualizationImpl/src/main/java/org/gephi/visualization/octree/Octree.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DataLaboratoryPlugin/src/main/java/org/gephi/datalab/plugin/manipulators/nodes/MergeNodes.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopStatistics/src/main/java/org/gephi/desktop/statistics/AvailableStatisticsChooser.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopDataLaboratory/src/main/java/org/gephi/desktop/datalab/general/actions/AddColumnUI.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/Utils/src/main/java/org/gephi/utils/sparklines/SparklineGraph.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DataLaboratoryAPI/src/main/java/org/gephi/datalab/impl/GraphElementsControllerImpl.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopDataLaboratory/src/main/java/org/gephi/desktop/datalab/DataTablesObservers.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/UIComponents/src/main/java/org/gephi/ui/components/splineeditor/equation/AbstractEquation.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DataLaboratoryAPI/src/main/java/org/gephi/datalab/impl/AttributeColumnsControllerImpl.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/FiltersPlugin/src/main/java/org/gephi/filters/plugin/operator/MASKBuilderEdge.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/UIComponents/src/main/java/org/gephi/ui/components/JPopupButton.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DataLaboratoryPlugin/src/main/java/org/gephi/datalab/plugin/manipulators/general/ui/SearchReplaceUI.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopStatistics/src/main/java/org/gephi/desktop/statistics/StatisticsModelUIImpl.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopStatistics/src/main/java/org/gephi/desktop/statistics/StatisticsPanel.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopAppearance/src/main/java/org/gephi/desktop/appearance/AppearanceUIController.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DataLaboratoryPlugin/src/main/java/org/gephi/datalab/plugin/manipulators/columns/ui/DuplicateColumnUI.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/StatisticsPlugin/src/main/java/org/gephi/statistics/plugin/PageRank.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DataLaboratoryPlugin/src/main/java/org/gephi/datalab/plugin/manipulators/general/MergeNodeDuplicates.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/FiltersPlugin/src/main/java/org/gephi/filters/plugin/operator/INTERSECTIONBuilder.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/UIComponents/src/main/java/org/gephi/ui/components/richtooltip/BasicRichTooltipPanelUI.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/StatisticsPlugin/src/main/java/org/gephi/statistics/plugin/GraphDistance.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopImport/src/main/java/org/gephi/desktop/importer/DesktopImportControllerUI.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopDataLaboratory/src/main/java/org/gephi/desktop/datalab/AvailableColumnsModel.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopProject/src/main/java/org/gephi/desktop/project/ProjectControllerUIImpl.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/StatisticsPlugin/src/main/java/org/gephi/statistics/plugin/Hits.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/UIUtils/src/main/java/org/gephi/ui/utils/DialogFileFilter.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/ProjectAPI/src/main/java/org/gephi/project/impl/WorkspaceInformationImpl.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DataLaboratoryPlugin/src/main/java/org/gephi/datalab/plugin/manipulators/general/ManageColumnEstimators.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopAppearance/src/main/java/org/gephi/desktop/appearance/AppearanceTopComponent.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/UIComponents/src/main/java/org/gephi/ui/components/splineeditor/equation/EquationDisplay.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopPreview/src/main/java/org/gephi/desktop/preview/RendererManager.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopSearch/src/main/java/org/gephi/desktop/search/impl/SearchControllerImpl.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/VisualizationImpl/src/main/java/org/gephi/visualization/text/TextModelImpl.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/FiltersImpl/src/main/java/org/gephi/filters/FilterModelImpl.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/VisualizationImpl/src/main/java/org/gephi/visualization/opengl/CompatibilityEngine.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/ImportPluginUI/src/main/java/org/gephi/ui/importer/plugin/spreadsheet/wizard/WizardVisualPanel2.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/VisualizationImpl/src/main/java/org/gephi/visualization/api/selection/SelectionManager.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/LayoutPlugin/src/main/java/org/gephi/layout/plugin/forceAtlas2/ForceAtlas2.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/ProjectAPI/src/main/java/org/gephi/project/impl/ProjectInformationImpl.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DataLaboratoryPlugin/src/main/java/org/gephi/datalab/plugin/manipulators/columns/ui/CopyDataToOtherColumnUI.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/FiltersPlugin/src/main/java/org/gephi/filters/plugin/operator/UNIONBuilder.java
+- applying ForLoopToFunctional into /home/dataset/gephi/modules/DesktopBranding/src/main/java/org/gephi/branding/desktop/reporter/Report.java
+- Number of files:  1321
+- Processed Files: 46
+- Exported Files:   46
+- Total of files changed: 66
+- Total of transformations: 66
+- Errors: 40
+- Final Time: 20230115001211
+- Elapsed Time: 250731.0ms

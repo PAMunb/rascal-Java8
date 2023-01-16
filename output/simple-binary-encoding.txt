@@ -1,0 +1,104 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: simple-binary-encoding
+Creating log file at: /output/log-20230115023900
+Processing simple-binary-encoding...
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/codec/java/TypesTest.java|
+ParseError(|unknown:///|(1160,1,<36,33>,<36,34>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/generation/java/JavaGeneratorTest.java|
+ParseError(|unknown:///|(5766,1,<154,35>,<154,36>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/generation/java/CompositeElementsGenerationTest.java|
+ParseError(|unknown:///|(3189,1,<86,55>,<86,56>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/PrimitiveValue.java|
+ParseError(|unknown:///|(4033,1,<150,54>,<150,55>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/otf/Types.java|
+ParseError(|unknown:///|(3543,1,<107,74>,<107,75>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/ir/IrUtil.java|
+ParseError(|unknown:///|(10379,1,<380,92>,<380,93>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/TargetCodeGeneratorLoader.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+0
+[Project Analyzer] project: simple-binary-encoding
+Processing simple-binary-encoding...
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/codec/java/TypesTest.java|
+ParseError(|unknown:///|(1160,1,<36,33>,<36,34>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/generation/java/JavaGeneratorTest.java|
+ParseError(|unknown:///|(5766,1,<154,35>,<154,36>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/generation/java/CompositeElementsGenerationTest.java|
+ParseError(|unknown:///|(3189,1,<86,55>,<86,56>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/PrimitiveValue.java|
+ParseError(|unknown:///|(4033,1,<150,54>,<150,55>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/otf/Types.java|
+ParseError(|unknown:///|(3543,1,<107,74>,<107,75>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/ir/IrUtil.java|
+ParseError(|unknown:///|(10379,1,<380,92>,<380,93>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/TargetCodeGeneratorLoader.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+0
+[Project Analyzer] project: simple-binary-encoding
+Processing simple-binary-encoding...
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/codec/java/TypesTest.java|
+ParseError(|unknown:///|(1160,1,<36,33>,<36,34>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/generation/java/JavaGeneratorTest.java|
+ParseError(|unknown:///|(5766,1,<154,35>,<154,36>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/generation/java/CompositeElementsGenerationTest.java|
+ParseError(|unknown:///|(3189,1,<86,55>,<86,56>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/PrimitiveValue.java|
+ParseError(|unknown:///|(4033,1,<150,54>,<150,55>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/otf/Types.java|
+ParseError(|unknown:///|(3543,1,<107,74>,<107,75>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/ir/IrUtil.java|
+ParseError(|unknown:///|(10379,1,<380,92>,<380,93>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/TargetCodeGeneratorLoader.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+0
+[Project Analyzer] project: simple-binary-encoding
+Processing simple-binary-encoding...
+
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/xml/SinceVersionSchemaTransformerTest.java|
+EmptySet()
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/codec/java/TypesTest.java|
+ParseError(|unknown:///|(1160,1,<36,33>,<36,34>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/generation/java/JavaGeneratorTest.java|
+ParseError(|unknown:///|(5766,1,<154,35>,<154,36>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/test/java/uk/co/real_logic/sbe/generation/java/CompositeElementsGenerationTest.java|
+ParseError(|unknown:///|(3189,1,<86,55>,<86,56>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/PrimitiveValue.java|
+ParseError(|unknown:///|(4033,1,<150,54>,<150,55>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/xml/IrGenerator.java|
+EmptySet()
+  59 of 150 processed succesfully!
+  67 of 150 processed succesfully!
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/xml/Message.java|
+EmptySet()
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/otf/Types.java|
+ParseError(|unknown:///|(3543,1,<107,74>,<107,75>))
+  79 of 150 processed succesfully!
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/ir/IrUtil.java|
+ParseError(|unknown:///|(10379,1,<380,92>,<380,93>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/ir/GenerationUtil.java|
+EmptySet()
+  102 of 150 processed succesfully!
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/TargetCodeGeneratorLoader.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/c/CGenerator.java|
+EmptySet()
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/csharp/CSharpGenerator.java|
+EmptySet()
+  115 of 150 processed succesfully!
+  116 of 150 processed succesfully!
+  118 of 150 processed succesfully!
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/rust/LibRsDef.java|
+EmptySet()
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/cpp/CppGenerator.java|
+EmptySet()
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/java/JavaGenerator.java|
+EmptySet()
+|file:///home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/golang/GolangGenerator.java|
+EmptySet()
+7
+INFO:root:  Formating the source code
+INFO:root:   Done

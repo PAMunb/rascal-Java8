@@ -1,0 +1,88 @@
+[Project Analyzer] processing project: byte-buddy
+- applying aic into /home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/TrivialClassCreationBenchmark.java
+- applying aic into /home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/agent/builder/AgentBuilderDefaultWarmupStrategyTest.java
+- applying aic into /home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/dynamic/DynamicTypeDefaultTest.java
+- applying aic into /home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/agent/builder/AgentBuilderRedefinitionStrategyResubmissionStrategyTest.java
+- applying aic into /home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/dynamic/loading/ByteArrayClassLoaderTest.java
+- applying aic into /home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/ClassByImplementationBenchmark.java
+- applying aic into /home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/agent/builder/AgentBuilderDefaultTest.java
+- applying aic into /home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/asm/MemberSubstitutionTest.java
+- applying aic into /home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/ClassByExtensionBenchmark.java
+- Number of files:  1241
+- Processed Files: 9
+- Exported Files:   9
+- Total of files changed: 13
+- Total of transformations: 13
+- Errors: 52
+- Final Time: 20230114233210
+- Elapsed Time: 38016.0ms
+[Project Analyzer] processing project: byte-buddy
+- Number of files:  1241
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 52
+- Final Time: 20230114233239
+- Elapsed Time: 28953.0ms
+[Project Analyzer] processing project: byte-buddy
+- applying exist pattern into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/DynamicType.java
+- applying exist pattern into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/annotation/AnnotationList.java
+- applying exist pattern into /home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/implementation/bind/AbstractArgumentTypeResolverTest.java
+- applying exist pattern into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/matcher/MethodOverrideMatcher.java
+- applying exist pattern into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/agent/builder/AgentBuilder.java
+- applying exist pattern into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/build/BuildLogger.java
+- applying exist pattern into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/matcher/CollectionItemMatcher.java
+- applying exist pattern into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/type/TypeDescription.java
+- applying exist pattern into /home/dataset/byte-buddy/byte-buddy-maven-plugin/src/main/java/net/bytebuddy/build/maven/ByteBuddyMojo.java
+- applying exist pattern into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/matcher/ElementMatcher.java
+- applying exist pattern into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/LoadedTypeInitializer.java
+- Number of files:  1241
+- Processed Files: 11
+- Exported Files:   11
+- Total of files changed: 20
+- Total of transformations: 20
+- Errors: 52
+- Final Time: 20230114233308
+- Elapsed Time: 29463.0ms
+[Project Analyzer] processing project: byte-buddy
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/type/TypeDescription.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/StackSize.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/matcher/ElementMatchers.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-maven-plugin/src/test/java/net/bytebuddy/build/maven/ByteBuddyMojoTest.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/pool/TypePoolDefaultLazyParameterListTest.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/DefaultMethodCall.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/AsmVisitorWrapper.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/MemberSubstitution.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/LoadedTypeInitializer.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/attribute/FieldAttributeAppender.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-maven-plugin/src/main/java/net/bytebuddy/build/maven/Transformation.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/modifier/ModifierContributor.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/matcher/CollectionErasureMatcher.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/MethodDelegationBinder.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/Transformer.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/RecordComponentRegistry.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/ModifierAdjustment.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/MethodDelegation.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/Implementation.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/MemberRemoval.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/FieldRegistry.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/DynamicType.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/build/BuildLogger.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/ByteCodeElement.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/loading/MultipleParentClassLoader.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/method/MethodDescription.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/attribute/RecordComponentAttributeAppender.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/method/ParameterListForLoadedParameterTest.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/attribute/MethodAttributeAppender.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/loading/ClassInjector.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/attribute/TypeAttributeAppender.java
+- applying ForLoopToFunctional into /home/dataset/byte-buddy/byte-buddy-gradle-plugin/android-plugin/src/main/java/net/bytebuddy/build/gradle/android/ByteBuddyAndroidService.java
+- Number of files:  1241
+- Processed Files: 32
+- Exported Files:   32
+- Total of files changed: 72
+- Total of transformations: 72
+- Errors: 97
+- Final Time: 20230114233752
+- Elapsed Time: 284248.0ms

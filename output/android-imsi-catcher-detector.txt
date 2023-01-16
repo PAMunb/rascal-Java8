@@ -1,0 +1,35 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: android-imsi-catcher-detector
+Creating log file at: /output/log-20230115014219
+Processing android-imsi-catcher-detector...
+  30 of 105 processed succesfully!
+1
+[Project Analyzer] project: android-imsi-catcher-detector
+Processing android-imsi-catcher-detector...
+0
+[Project Analyzer] project: android-imsi-catcher-detector
+Processing android-imsi-catcher-detector...
+0
+[Project Analyzer] project: android-imsi-catcher-detector
+Processing android-imsi-catcher-detector...
+
+  2 of 105 processed succesfully!
+  35 of 105 processed succesfully!
+|file:///home/dataset/android-imsi-catcher-detector/AIMSICD/src/main/java/com/secupwn/aimsicd/ui/fragments/MapFragment.java|
+EmptySet()
+|file:///home/dataset/android-imsi-catcher-detector/AIMSICD/src/main/java/com/secupwn/aimsicd/ui/activities/MainActivity.java|
+EmptySet()
+|file:///home/dataset/android-imsi-catcher-detector/AIMSICD/src/main/java/com/secupwn/aimsicd/ui/activities/MapViewerOsmDroid.java|
+EmptySet()
+  57 of 105 processed succesfully!
+|file:///home/dataset/android-imsi-catcher-detector/AIMSICD/src/main/java/com/secupwn/aimsicd/service/CellTracker.java|
+EmptySet()
+|file:///home/dataset/android-imsi-catcher-detector/AIMSICD/src/main/java/com/secupwn/aimsicd/utils/RealmHelper.java|
+EmptySet()
+3
+INFO:root:  Formating the source code
+INFO:root:   Done

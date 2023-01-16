@@ -1,0 +1,150 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: auto
+Creating log file at: /output/log-20230115002735
+Processing auto...
+|file:///home/dataset/auto/factory/src/main/java/com/google/auto/factory/AutoFactory.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/AutoAnnotationTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/AutoAnnotationDefaultsTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/annotations/TestAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/BuilderRequiredPropertiesTest.java|
+ParseError(|unknown:///|(14591,1,<298,48>,<298,49>))
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/AutoValue.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/service/processor/src/test/resources/test/NoServices.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/common/src/test/java/com/google/auto/common/AnnotationMirrorsTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: auto
+Processing auto...
+|file:///home/dataset/auto/factory/src/main/java/com/google/auto/factory/AutoFactory.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/AutoAnnotationTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/AutoAnnotationDefaultsTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/annotations/TestAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/BuilderRequiredPropertiesTest.java|
+ParseError(|unknown:///|(14591,1,<298,48>,<298,49>))
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/AutoValue.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  216 of 306 processed succesfully!
+|file:///home/dataset/auto/service/processor/src/test/resources/test/NoServices.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/common/src/test/java/com/google/auto/common/AnnotationMirrorsTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+1
+[Project Analyzer] project: auto
+Processing auto...
+|file:///home/dataset/auto/factory/src/main/java/com/google/auto/factory/AutoFactory.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/AutoAnnotationTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/AutoAnnotationDefaultsTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/annotations/TestAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/BuilderRequiredPropertiesTest.java|
+ParseError(|unknown:///|(14591,1,<298,48>,<298,49>))
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/AutoValue.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/service/processor/src/test/resources/test/NoServices.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/common/src/test/java/com/google/auto/common/AnnotationMirrorsTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: auto
+Processing auto...
+
+|file:///home/dataset/auto/factory/src/main/java/com/google/auto/factory/AutoFactory.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  101 of 306 processed succesfully!
+|file:///home/dataset/auto/factory/src/main/java/com/google/auto/factory/processor/AutoFactoryProcessor.java|
+EmptySet()
+  109 of 306 processed succesfully!
+  118 of 306 processed succesfully!
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/AutoAnnotationTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/AutoValueTest.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/AutoAnnotationDefaultsTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/annotations/TestAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/TypeSimplifierTest.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/GuavaCollectionBuildersTest.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/TypeEncoderTest.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/BuilderRequiredPropertiesTest.java|
+ParseError(|unknown:///|(14591,1,<298,48>,<298,49>))
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/AutoValueCompilationTest.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/PropertyAnnotationsTest.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/SimplifyWithAnnotationsTest.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/SimpleServiceLoaderTest.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/test/java/com/google/auto/value/processor/NullablesTest.java|
+EmptySet()
+  168 of 306 processed succesfully!
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/AutoValue.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/extension/serializable/processor/SerializableAutoValueExtension.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/extension/toprettystring/processor/ToPrettyStringValidator.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/processor/EclipseHack.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/processor/AutoOneOfProcessor.java|
+EmptySet()
+  201 of 306 processed succesfully!
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/processor/BuilderMethodClassifier.java|
+EmptySet()
+  202 of 306 processed succesfully!
+  204 of 306 processed succesfully!
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/processor/TypeSimplifier.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/processor/AutoValueProcessor.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/processor/AutoValueBuilderProcessor.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/processor/TypeEncoder.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/processor/BuilderSpec.java|
+EmptySet()
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/processor/AutoValueishProcessor.java|
+EmptySet()
+  230 of 306 processed succesfully!
+|file:///home/dataset/auto/value/src/main/java/com/google/auto/value/processor/AutoAnnotationProcessor.java|
+EmptySet()
+|file:///home/dataset/auto/service/processor/src/test/resources/test/NoServices.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/service/processor/src/main/java/com/google/auto/service/processor/AutoServiceProcessor.java|
+EmptySet()
+  248 of 306 processed succesfully!
+|file:///home/dataset/auto/common/src/test/java/com/google/auto/common/MoreTypesTest.java|
+EmptySet()
+|file:///home/dataset/auto/common/src/test/java/com/google/auto/common/AnnotationMirrorsTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/auto/common/src/test/java/com/google/auto/common/MoreElementsTest.java|
+EmptySet()
+  256 of 306 processed succesfully!
+|file:///home/dataset/auto/common/src/test/java/com/google/auto/common/MoreTypesIsTypeOfTest.java|
+EmptySet()
+|file:///home/dataset/auto/common/src/main/java/com/google/auto/common/BasicAnnotationProcessor.java|
+EmptySet()
+10
+INFO:root:  Formating the source code
+INFO:root:   Done

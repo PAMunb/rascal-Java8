@@ -1,0 +1,43 @@
+[Project Analyzer] processing project: simple-binary-encoding
+- Number of files:  150
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 7
+- Final Time: 20230115023906
+- Elapsed Time: 6450.0ms
+[Project Analyzer] processing project: simple-binary-encoding
+- Number of files:  150
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 7
+- Final Time: 20230115023910
+- Elapsed Time: 4279.0ms
+[Project Analyzer] processing project: simple-binary-encoding
+- Number of files:  150
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 7
+- Final Time: 20230115023915
+- Elapsed Time: 4192.0ms
+[Project Analyzer] processing project: simple-binary-encoding
+- applying ForLoopToFunctional into /home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/rust/MessageCoderDef.java
+- applying ForLoopToFunctional into /home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/xml/MessageSchema.java
+- applying ForLoopToFunctional into /home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/codec/java/MethodSelector.java
+- applying ForLoopToFunctional into /home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/ir/IrEncoder.java
+- applying ForLoopToFunctional into /home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/rust/RustGenerator.java
+- applying ForLoopToFunctional into /home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/generation/rust/SubGroup.java
+- applying ForLoopToFunctional into /home/dataset/simple-binary-encoding/sbe-tool/src/main/java/uk/co/real_logic/sbe/xml/SinceVersionSchemaTransformer.java
+- Number of files:  150
+- Processed Files: 7
+- Exported Files:   7
+- Total of files changed: 10
+- Total of transformations: 10
+- Errors: 17
+- Final Time: 20230115023956
+- Elapsed Time: 41819.0ms

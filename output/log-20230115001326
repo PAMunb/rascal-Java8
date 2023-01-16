@@ -1,0 +1,310 @@
+[Project Analyzer] processing project: druid
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pool/ui/DruidDataSourceUIManager.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/pool/DruidDataSourceTest_interrupt.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pool/TestMockPerf.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/TestTransform.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pool/ConcurrentTest.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/benckmark/wall/WallBenchmarkTest_mysql_concurrent.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pvt/pool/TestIdle3_Concurrent_Starvation.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pvt/pool/Large10ConcurrentTest.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/pool/TestConnectTimeout.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/pool/DruidDataSourceTest_recycle2.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pool/MaxWaitTest.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/benckmark/pool/Case_Concurrent_50.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pool/ConcurrentTest2.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/pool/DruidDataSourceTest_interrupt3.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/pool/ValidationQueryLogTest.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/pool/exception/OracleExceptionSorterTest_concurrent.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pvt/pool/TestConcurrent.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/benckmark/pool/Case3.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/pool/Case0.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pvt/pool/DiscardTest.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/bug/Bug_for_xuershan.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/pool/DruidDataSourceTest_notEmptyWait2.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pool/Test_C2.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pool/TestOracle_DruidDataSource.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/log/LoggerTest.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pool/oracle/QueryTimeoutTest.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/pool/ValidationQueryLogDB2Test.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/pool/TestIdle3_Concurrent_Starvation_Longtime.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/pool/DruidDataSourceTest_interrupt2.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/proxy/filter/StatFilterConcurrentTest.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/pool/DruidDataSourceTest_fill2.java
+- applying aic into /home/dataset/druid/core/src/test/java/com/alibaba/druid/DBCPTest.java
+- Number of files:  5070
+- Processed Files: 32
+- Exported Files:   32
+- Total of files changed: 34
+- Total of transformations: 34
+- Errors: 3
+- Final Time: 20230115001440
+- Elapsed Time: 74106.0ms
+[Project Analyzer] processing project: druid
+- Number of files:  5070
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 3
+- Final Time: 20230115001537
+- Elapsed Time: 56500.0ms
+[Project Analyzer] processing project: druid
+- applying exist pattern into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLCreateTableStatement.java
+- applying exist pattern into /home/dataset/druid/core/src/main/java/com/alibaba/druid/support/http/ResourceServlet.java
+- applying exist pattern into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlCreateTableStatement.java
+- applying exist pattern into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLSubPartitionByRange.java
+- applying exist pattern into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLOrderBy.java
+- applying exist pattern into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLZOrderBy.java
+- applying exist pattern into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLColumnDefinition.java
+- applying exist pattern into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlSubPartitionByKey.java
+- Number of files:  5070
+- Processed Files: 8
+- Exported Files:   8
+- Total of files changed: 8
+- Total of transformations: 8
+- Errors: 3
+- Final Time: 20230115001633
+- Elapsed Time: 56450.0ms
+[Project Analyzer] processing project: druid
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/Kill_Test.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest19.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLSetStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLPartitionBy.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLArrayDataType.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/test/TestUtils.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/support/opds/udf/ExportTables.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/postgresql/parser/PGSQLStatementParser.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/demo/sql/Issue2038.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/clause/OracleReturningClause.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/semantic/SemanticCheck.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/pool/ha/node/NodeEvent.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_exception_8.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLArrayExpr.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/TestTransform.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLAlterTableAddClusteringKey.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/parser/CommentTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/support/opds/udf/SqlTypeUDF.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/oracle_pl_open_1.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLColumnDefinition.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleExceptionStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/SHOW_STATUS_Syntax_Test.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/parser/MySqlStatementParser.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/parser/PerfTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_for_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlAlterUserStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLOver.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_if_1.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLRecordDataType.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/pool/ha/node/ZookeeperNodeRegister.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/stat/DruidStatServiceTest2.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest17.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLInsertStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/select/MySqlSelectTest_mtr.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_for_3.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/create/OracleCreateProcedureTest2.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLWhileStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLExprUtils.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/hive/visitor/HiveOutputVisitor.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/PGTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLInListExpr.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLContainsExpr.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleExecuteImmediateStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/select/OracleSelectGroupingTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/clause/CycleClause.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/IdentifierTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/stat/JdbcDataSourceStat.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/proxy/jdbc/DataSourceProxyImpl.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/OracleDataTypeIntervalDay.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLColumnReference.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/create/OracleCreateProcedureTest3.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_forall_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/odps/visitor/OdpsOutputVisitor.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/TestMigrate.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleInsertStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest7.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLBinaryOpExprGroup.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLMethodInvokeExpr.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/stat/JdbcStatManager.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_param_inout_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/demo/sql/OracleVisitorDemo.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oscar/ast/stmt/OscarInsertStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLBlockStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/pool/DruidPooledStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/stat/DruidDataSourceStatManager.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_loop_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_exception_2.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLIfStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_case_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest14.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/mysql_block_2.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLUnionQuery.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlSubPartitionByValue.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_exception_3.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest18.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/SQLSelectTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/AntlrMySqlTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/repository/SchemaResolveVisitorFactory.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLCreateFunctionStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/EncryptionAndCompressionFunctionsTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_if_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/demo/sql/MySqlVisitorDemo.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/pool/ha/selector/RandomDataSourceValidateThread.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_3.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/repository/SchemaRepository.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/sqlserver/ast/SQLServerOutput.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlManageInstanceGroupStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/hive/stmt/HiveCreateTableStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/visitor/transform/OrderByResolve.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLTableDataType.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/parser/SQLMergeTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleCreatePackageStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/select/OracleSelectParserTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest15.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLSubPartitionByRange.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/repository/OracleJoinResolveTest_2_join.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/visitor/SchemaStatVisitor.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/param/MySqlParameterizedOutputVisitorTest_17.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/benckmark/sql/MySqlPerfMain_visitor.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLMatchAgainstExpr.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLListExpr.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/bug/Bug_for_qianbi.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/proxy/jdbc/StatementProxyImpl.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLSelect.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/util/OracleUtils.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/create/MySqlCreateTableUnitTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_exception_4.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/create/OracleCreateProcedureTest4.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleSupplementalLogGrp.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/visitor/functions/ToChar.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/clause/PartitionExtensionClause.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_exception_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/OracleTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_exception_1.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLIndexDefinition.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLForeignKeyImpl.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/pool/ha/selector/RandomDataSourceSelector.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/clause/SearchClause.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/not_support/sql/sqlserver/AntlrSqlServerTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/postgresql/ast/stmt/PGInsertStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/support/opds/udf/ExportConditionColumns.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/DB2Test.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLCaseExpr.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/parser/SQLStatementParser.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLSubPartitionBy.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest13.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/mysql/demo/Demo0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLAlterViewStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/RegularExpressionsTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_exit_1.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLRowDataType.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_open_for_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_2.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLUnionDataType.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLGroupingSetExpr.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLStructDataType.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLParameter.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLInsertInto.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/oracle/demo/Demo0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/MySqlIndexHintImpl.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_exception_6.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/clause/OracleLobStorageClause.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest16.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/pool/ha/node/ZookeeperNodeListener.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/support/opds/udf/ExportColumns.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/PagerUtils.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/odps/visitor/OdpsSchemaStatVisitor.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLExprTableSource.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_exception_5.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/visitor/SQLDataTypeValidator.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/CallTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/MySqlBeginTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/bug/Bug_for_ruiyi.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_case_2.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/support/opds/udf/ExportSelectListColumns.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/support/opds/udf/ExportConditions.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLPartitionValue.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/visitor/MySqlOutputVisitor.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/param/MySqlParameterizedOutputVisitorTest_16.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest8.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleSelectPivot.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLOrderBy.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/sqlserver/SQLServerParameterizedOutputVisitorTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/benckmark/sql/MySqlPerfMain_schemaStat.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLPartition.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/visitor/functions/DateAdd.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_case_1.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLZOrderBy.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/visitor/MySqlResourceTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest22_comment.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_loop_1.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/param/MySqlParameterizedOutputVisitorTest_9.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest12.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/odps/OdpsListResourcesTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/support/http/stat/WebURIStatValue.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlSubPartitionByKey.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleUsingIndexClause.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_external_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLSelectGroupByClause.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_4.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlSubPartitionByList.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/mysql_block_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/Binlog_Test.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLSubqueryTableSource.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/parser/OracleFunctionDataType.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest9.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oscar/visitor/OscarStatementParser.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_exception_7.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/mysql_block_1.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/parser/OracleProcedureDataType.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/pool/DruidAbstractDataSource.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/demo/sql/CreateTableSetSchemaDemo.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlExtPartition.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_if_3.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_exit_0.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLUpdateStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/pool/ha/HighAvailableDataSource.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/demo/sql/PGVisitorDemo.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_5.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/visitor/OracleSchemaStatVisitor.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLCreateViewStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLWithSubqueryClause.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/MySqlRevokeTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_if_2.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest21.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/wall/WallProviderStatValue.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_for_2.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/benckmark/sql/SqlHolder.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/param/MySqlParameterizedOutputVisitorTest_8.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/MysqlTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLValuesExpr.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/visitor/OracleRowNumToLimit.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/create/OracleCreateProcedureTest1.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/support/opds/udf/SqlCodeStat.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_for_1.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLPartitionSpec.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_for_4.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/clause/SampleClause.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/support/profile/ProfileStat.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/pl/Oracle_pl_1.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest20.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleDeleteStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest10.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLCaseStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlCreateTableStatement.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/hive/visitor/HiveSchemaStatVisitor.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/Reset_Test.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLDataTypeImpl.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/show/SHOW_STATUS_Syntax_Test.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/OracleSQLParserTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/parser/MySqlParserResourceTest.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLUnnestTableSource.java
+- applying ForLoopToFunctional into /home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLJoinTableSource.java
+- Number of files:  5070
+- Processed Files: 234
+- Exported Files:   234
+- Total of files changed: 324
+- Total of transformations: 324
+- Errors: 69
+- Final Time: 20230115002622
+- Elapsed Time: 589023.0ms

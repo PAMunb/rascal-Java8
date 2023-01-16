@@ -1,0 +1,1296 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: deeplearning4j
+Creating log file at: /output/log-20230115025806
+Processing deeplearning4j...
+|file:///home/dataset/deeplearning4j/contrib/benchmarking_nd4j/src/main/java/org/nd4j/BlasWrapper.java|
+ParseError(|unknown:///|(338,1,<14,8>,<14,9>))
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/frameworkimport/keras/weights/KerasWeightSettingTests.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int nOut = 12;\r\n        int mb = 10;\r\n        ;")
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/convolution/LocallyConnectedLayerTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","MultiLayerConfiguration conf = builder.build();\n        MultiLayerNetwork network = new MultiLayerNetwork(conf);\n        network.init();\n        INDArray input = Nd4j.ones(10, 3, 8);\n        INDArray output = network.output(input, false);\n        ;")
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/ops/DerivativeTests.java|
+Ambiguity(|unknown:///|,"BlockStatement+","double[] expDerivOut = new double[300];\n        INDArray xArr = Nd4j.linspace(-3, 3, 300, Nd4j.dataType());\n        for (int i = 0; i \< xArr.length(); i++) {\n            double x = xArr.getDouble(i);\n            double hs = 0.2 * x + 0.5;\n            if (hs \< 0)\n                hs = 0;\n            if (hs \> 1)\n                hs = 1;\n            expHSOut[i] = hs;\n\n            double hsDeriv;\n            if (x \< -2.5 || x \> 2.5)\n                hsDeriv = 0;\n            else\n                hsDeriv = 0.2;\n\n            expDerivOut[i] = hsDeriv;\n        }\n\n        INDArray z = Transforms.hardSigmoid(xArr, true);\n        INDArray zPrime = Nd4j.getExecutioner().exec(new HardSigmoidDerivative(xArr.dup()));;")
+  922 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/jackson/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/guava/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/netty-common/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/protobuf/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tensorflow-lite/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-tensorflow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-onnx/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-rocksdb-storage/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-model/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-node/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-client/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-onnxruntime/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tensorflow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-kryo/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-aeron/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-arrow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-minimizer-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-minimizer/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-presets-common/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-native-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-native/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-native-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  1415 of 4652 processed succesfully!
+  1416 of 4652 processed succesfully!
+  1417 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/listeners/impl/ScoreListener.java|
+ParseError(|unknown:///|(6654,1,<171,36>,<171,37>))
+  2517 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tvm/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-arrow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  3173 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-data/datavec-data-image/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-jdbc/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-local/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-core/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-zoo/src/main/java/org/deeplearning4j/zoo/package-info.java|
+ParseError(|unknown:///|(210,1,<9,0>,<9,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-zoo/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datavec-iterators/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datasets/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-utility-iterators/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/deeplearning4j-scaleout-parallelwrapper/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/deeplearning4j-scaleout-parallelwrapper-parameter-server/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/impl/common/repartition/HashingBalancedPartitioner.java|
+Ambiguity(|unknown:///|,"BlockStatement+","checkArgument(!pw.isEmpty(), \"Partition weights are required\");\n        checkArgument(pw.size() \>= 1, \"There should be at least one element class\");\n        checkArgument(!checkNotNull(pw.get(0)).isEmpty(), \"At least one partition is required\");\n        this.numClasses = pw.size();\n        this.numPartitions = pw.get(0).size();\n        for (int i = 1; i \< pw.size(); i++) {\n            checkArgument(checkNotNull(pw.get(i)).size() == this.numPartitions,\n                            \"Non-consistent partition weight specification\");\n            // you also should have sum(pw.get(i)) = this.numPartitions\n        }\n        this.partitionWeightsByClass = partitionWeightsByClass; // p_(j, i)\n\n        List\<List\<Double\>\> jumpsByClass = new ArrayList\<\>();;")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/objdetect/Yolo2OutputLayer.java|
+Ambiguity(|unknown:///|,"BlockStatement+","long h = labelTL.size(2);\n        long w = labelTL.size(3);\n        long b = predictedWH.size(1);\n\n        INDArray labelWH = labelBR.sub(labelTL);                //4d [mb, 2, H, W], label W/H in terms of number of grid boxes\n\n        long gridH = labelTL.size(2);\n        long gridW = labelTL.size(3);\n        //Add grid positions to the predicted XY values (to get predicted XY in terms of grid cell units in image,\n        // from (0 to 1 in grid cell) format)\n        INDArray linspaceX = Nd4j.linspace(0, gridW-1, gridW, predictedWH.dataType());\n        INDArray linspaceY = Nd4j.linspace(0, gridH-1, gridH, predictedWH.dataType());\n        INDArray grid = Nd4j.createUninitialized(predictedWH.dataType(), new long[]{2, gridH, gridW}, \'c\');\n        INDArray gridX = grid.get(point(0), all(), all());\n        INDArray gridY = grid.get(point(1), all(), all());\n        Broadcast.copy(gridX, linspaceX, gridX, 1);\n        Broadcast.copy(gridY, linspaceY, gridY, 0);\n\n        //Calculate X/Y position overall (in grid box units) from \"position in current grid box\" format\n        INDArray predictedXY = predictedXYinGridBox.ulike();;")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/recurrent/SimpleRnn.java|
+Ambiguity(|unknown:///|(13767,556,<270,20>,<274,42>),"BlockStatements","INDArray currRecPreNorm = forBackprop ? recPreNorm.get(all(), all(), point(i)) : workspaceMgr.createUninitialized(ArrayType.FF_WORKING_MEM, currOut.dataType(), currOut.shape(), \'f\');;\n                    Nd4j.gemm(prevStepOut, rw, currRecPreNorm, false, false, 1.0, 0.0);\n                    INDArray recNorm = workspaceMgr.createUninitialized(ArrayType.FF_WORKING_MEM, currOut.dataType(), currOut.shape(), \'f\');\n                    Nd4j.getExecutioner().exec(new LayerNorm(currRecPreNorm, gr, recNorm, true, 1));\n                    currOut.addi(recNorm);")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-modelimport/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/VarDataUTF8Decoder.java|
+ParseError(|unknown:///|(1808,1,<56,84>,<56,85>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/StaticInfoDecoder.java|
+ParseError(|unknown:///|(12720,1,<484,89>,<484,90>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/StorageMetaDataDecoder.java|
+ParseError(|unknown:///|(8223,1,<271,85>,<271,86>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/UpdateDecoder.java|
+ParseError(|unknown:///|(28703,1,<875,89>,<875,90>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-components/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-vertx/src/main/java/org/deeplearning4j/ui/api/UIServer.java|
+Ambiguity(|unknown:///|(1331,5743,<33,26>,<180,0>),"InterfaceBody","{\n\n    /**\n     * Get (and, initialize if necessary) the UI server. This synchronous function will wait until the server started.\n     * Singleton pattern - all calls to getInstance() will return the same UI instance.\n     *\n     * @return UI instance for this JVM\n     * @throws DL4JException if UI server failed to start;\n     * if the instance has already started in a different mode (multi/single-session);\n     * if interrupted while waiting for completion\n     */\n    static UIServer getInstance() throws DL4JException {\n        if (VertxUIServer.getInstance() != null && !VertxUIServer.getInstance().isStopped()) {\n            return VertxUIServer.getInstance();\n        } else {\n            return getInstance(false, null);\n        }\n    }\n\n    /**\n     * Get (and, initialize if necessary) the UI server. This synchronous function will wait until the server started.\n     * Singleton pattern - all calls to getInstance() will return the same UI instance.\n     *\n     * @param multiSession         in multi-session mode, multiple training sessions can be visualized in separate browser tabs.\n     *                             \<br/\>URL path will include session ID as a parameter, i.e.: /train becomes /train/:sessionId\n     * @param statsStorageProvider function that returns a StatsStorage containing the given session ID.\n     *                             \<br/\>Use this to auto-attach StatsStorage if an unknown session ID is passed\n     *                             as URL path parameter in multi-session mode, or leave it {@code null}.\n     * @return UI instance for this JVM\n     * @throws DL4JException if UI server failed to start;\n     * if the instance has already started in a different mode (multi/single-session);\n     * if interrupted while waiting for completion\n     */\n    static UIServer getInstance(boolean multiSession, Function\<String, StatsStorage\> statsStorageProvider)\n            throws DL4JException {\n        return VertxUIServer.getInstance(null, multiSession, statsStorageProvider);\n    }\n\n    /**\n     * Stop UIServer instance, if already running\n     */\n    static void stopInstance() throws Exception {\n        VertxUIServer.stopInstance();\n    }\n\n    boolean isStopped();\n\n    /**\n     * Check if the instance initialized with one of the factory methods\n     * ({@link #getInstance()} or {@link #getInstance(boolean, Function)}) is in multi-session mode\n     *\n     * @return {@code true} if the instance is in multi-session\n     */\n    boolean isMultiSession();\n\n    /**\n     * Get the address of the UI\n     *\n     * @return Address of the UI\n     */\n    String getAddress();\n\n    /**\n     * Get the current port for the UI\n     */\n    int getPort();\n\n    /**\n     * Attach the given StatsStorage instance to the UI, so the data can be visualized\n     *\n     * @param statsStorage StatsStorage instance to attach to the UI\n     */\n    void attach(StatsStorage statsStorage);\n\n    /**\n     * Detach the specified StatsStorage instance from the UI\n     *\n     * @param statsStorage StatsStorage instance to detach. If not attached: no op.\n     */\n    void detach(StatsStorage statsStorage);\n\n    /**\n     * Check whether the specified StatsStorage instance is attached to the UI instance\n     *\n     * @param statsStorage StatsStorage instance to attach\n     * @return True if attached\n     */\n    boolean isAttached(StatsStorage statsStorage);\n\n    /**\n     * @return A list of all StatsStorage instances currently attached\n     */\n    List\<StatsStorage\> getStatsStorageInstances();\n\n    /**\n     * Enable the remote listener functionality, storing all data in memory, and attaching the instance to the UI.\n     * Typically used with {@link RemoteUIStatsStorageRouter}, which will send information\n     * remotely to this UI instance\n     *\n     * @see #enableRemoteListener(StatsStorageRouter, boolean)\n     */\n    void enableRemoteListener();\n\n    /**\n     * Enable the remote listener functionality, storing the received results in the specified StatsStorageRouter.\n     * If the StatsStorageRouter is a {@link StatsStorage} instance, it may (optionally) be attached to the UI,\n     * as if {@link #attach(StatsStorage)} was called on it.\n     *\n     * @param statsStorage StatsStorageRouter to post the received results to\n     * @param attach       Whether to attach the given StatsStorage instance to the UI server\n     */\n    void enableRemoteListener(StatsStorageRouter statsStorage, boolean attach);\n\n    /**\n     * Disable the remote listener functionality (disabled by default)\n     */\n    void disableRemoteListener();\n\n    /**\n     * @return Whether the remote listener functionality is currently enabled\n     */\n    boolean isRemoteListenerEnabled();\n\n    /**\n     * Stop/shut down the UI server. This synchronous function should wait until the server is stopped.\n     * @throws InterruptedException if the current thread is interrupted while waiting\n     */\n    void stop() throws InterruptedException;\n\n    /**\n     * Stop/shut down the UI server.\n     * This asynchronous function should immediately return, and notify the callback {@link Promise} on completion:\n     * either call {@link Promise#complete} or {@link io.vertx.core.Promise#fail}.\n     * @param stopCallback callback {@link Promise} to notify on completion\n     */\n    void stopAsync(Promise\<Void\> stopCallback);\n\n    /**\n     * Get shutdown hook of UI server, that will stop the server when the Runtime is stopped.\n     * You may de-register this shutdown hook with {@link Runtime#removeShutdownHook(Thread)},\n     * and add your own hook with {@link Runtime#addShutdownHook(Thread)}\n     * @return shutdown hook\n     */\n    static Thread getShutdownHook() {\n        return VertxUIServer.getShutdownHook();\n    };\n}\n")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-graph/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-common-tests/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/python4j/python4j-numpy/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/python4j/python4j-core/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+6
+[Project Analyzer] project: deeplearning4j
+Processing deeplearning4j...
+|file:///home/dataset/deeplearning4j/contrib/benchmarking_nd4j/src/main/java/org/nd4j/BlasWrapper.java|
+ParseError(|unknown:///|(338,1,<14,8>,<14,9>))
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/frameworkimport/keras/weights/KerasWeightSettingTests.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int nOut = 12;\r\n        int mb = 10;\r\n        ;")
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/convolution/LocallyConnectedLayerTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","MultiLayerConfiguration conf = builder.build();\n        MultiLayerNetwork network = new MultiLayerNetwork(conf);\n        network.init();\n        INDArray input = Nd4j.ones(10, 3, 8);\n        INDArray output = network.output(input, false);\n        ;")
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/ops/DerivativeTests.java|
+Ambiguity(|unknown:///|,"BlockStatement+","double[] expDerivOut = new double[300];\n        INDArray xArr = Nd4j.linspace(-3, 3, 300, Nd4j.dataType());\n        for (int i = 0; i \< xArr.length(); i++) {\n            double x = xArr.getDouble(i);\n            double hs = 0.2 * x + 0.5;\n            if (hs \< 0)\n                hs = 0;\n            if (hs \> 1)\n                hs = 1;\n            expHSOut[i] = hs;\n\n            double hsDeriv;\n            if (x \< -2.5 || x \> 2.5)\n                hsDeriv = 0;\n            else\n                hsDeriv = 0.2;\n\n            expDerivOut[i] = hsDeriv;\n        }\n\n        INDArray z = Transforms.hardSigmoid(xArr, true);\n        INDArray zPrime = Nd4j.getExecutioner().exec(new HardSigmoidDerivative(xArr.dup()));;")
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/jackson/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/guava/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/netty-common/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/protobuf/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tensorflow-lite/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-tensorflow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-onnx/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-rocksdb-storage/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-model/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-node/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-client/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-onnxruntime/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tensorflow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-kryo/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-aeron/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-arrow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-minimizer-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-minimizer/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-presets-common/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-native-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-native/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-native-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/listeners/impl/ScoreListener.java|
+ParseError(|unknown:///|(6654,1,<171,36>,<171,37>))
+  1469 of 4652 processed succesfully!
+  1508 of 4652 processed succesfully!
+  1540 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tvm/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-arrow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-data/datavec-data-image/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-jdbc/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-local/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-core/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-zoo/src/main/java/org/deeplearning4j/zoo/package-info.java|
+ParseError(|unknown:///|(210,1,<9,0>,<9,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-zoo/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datavec-iterators/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datasets/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-utility-iterators/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/deeplearning4j-scaleout-parallelwrapper/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/deeplearning4j-scaleout-parallelwrapper-parameter-server/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/impl/common/repartition/HashingBalancedPartitioner.java|
+Ambiguity(|unknown:///|,"BlockStatement+","checkArgument(!pw.isEmpty(), \"Partition weights are required\");\n        checkArgument(pw.size() \>= 1, \"There should be at least one element class\");\n        checkArgument(!checkNotNull(pw.get(0)).isEmpty(), \"At least one partition is required\");\n        this.numClasses = pw.size();\n        this.numPartitions = pw.get(0).size();\n        for (int i = 1; i \< pw.size(); i++) {\n            checkArgument(checkNotNull(pw.get(i)).size() == this.numPartitions,\n                            \"Non-consistent partition weight specification\");\n            // you also should have sum(pw.get(i)) = this.numPartitions\n        }\n        this.partitionWeightsByClass = partitionWeightsByClass; // p_(j, i)\n\n        List\<List\<Double\>\> jumpsByClass = new ArrayList\<\>();;")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/objdetect/Yolo2OutputLayer.java|
+Ambiguity(|unknown:///|,"BlockStatement+","long h = labelTL.size(2);\n        long w = labelTL.size(3);\n        long b = predictedWH.size(1);\n\n        INDArray labelWH = labelBR.sub(labelTL);                //4d [mb, 2, H, W], label W/H in terms of number of grid boxes\n\n        long gridH = labelTL.size(2);\n        long gridW = labelTL.size(3);\n        //Add grid positions to the predicted XY values (to get predicted XY in terms of grid cell units in image,\n        // from (0 to 1 in grid cell) format)\n        INDArray linspaceX = Nd4j.linspace(0, gridW-1, gridW, predictedWH.dataType());\n        INDArray linspaceY = Nd4j.linspace(0, gridH-1, gridH, predictedWH.dataType());\n        INDArray grid = Nd4j.createUninitialized(predictedWH.dataType(), new long[]{2, gridH, gridW}, \'c\');\n        INDArray gridX = grid.get(point(0), all(), all());\n        INDArray gridY = grid.get(point(1), all(), all());\n        Broadcast.copy(gridX, linspaceX, gridX, 1);\n        Broadcast.copy(gridY, linspaceY, gridY, 0);\n\n        //Calculate X/Y position overall (in grid box units) from \"position in current grid box\" format\n        INDArray predictedXY = predictedXYinGridBox.ulike();;")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/recurrent/SimpleRnn.java|
+Ambiguity(|unknown:///|(13767,556,<270,20>,<274,42>),"BlockStatements","INDArray currRecPreNorm = forBackprop ? recPreNorm.get(all(), all(), point(i)) : workspaceMgr.createUninitialized(ArrayType.FF_WORKING_MEM, currOut.dataType(), currOut.shape(), \'f\');;\n                    Nd4j.gemm(prevStepOut, rw, currRecPreNorm, false, false, 1.0, 0.0);\n                    INDArray recNorm = workspaceMgr.createUninitialized(ArrayType.FF_WORKING_MEM, currOut.dataType(), currOut.shape(), \'f\');\n                    Nd4j.getExecutioner().exec(new LayerNorm(currRecPreNorm, gr, recNorm, true, 1));\n                    currOut.addi(recNorm);")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-modelimport/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/VarDataUTF8Decoder.java|
+ParseError(|unknown:///|(1808,1,<56,84>,<56,85>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/StaticInfoDecoder.java|
+ParseError(|unknown:///|(12720,1,<484,89>,<484,90>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/StorageMetaDataDecoder.java|
+ParseError(|unknown:///|(8223,1,<271,85>,<271,86>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/UpdateDecoder.java|
+ParseError(|unknown:///|(28703,1,<875,89>,<875,90>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-components/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-vertx/src/main/java/org/deeplearning4j/ui/api/UIServer.java|
+Ambiguity(|unknown:///|(1331,5743,<33,26>,<180,0>),"InterfaceBody","{\n\n    /**\n     * Get (and, initialize if necessary) the UI server. This synchronous function will wait until the server started.\n     * Singleton pattern - all calls to getInstance() will return the same UI instance.\n     *\n     * @return UI instance for this JVM\n     * @throws DL4JException if UI server failed to start;\n     * if the instance has already started in a different mode (multi/single-session);\n     * if interrupted while waiting for completion\n     */\n    static UIServer getInstance() throws DL4JException {\n        if (VertxUIServer.getInstance() != null && !VertxUIServer.getInstance().isStopped()) {\n            return VertxUIServer.getInstance();\n        } else {\n            return getInstance(false, null);\n        }\n    }\n\n    /**\n     * Get (and, initialize if necessary) the UI server. This synchronous function will wait until the server started.\n     * Singleton pattern - all calls to getInstance() will return the same UI instance.\n     *\n     * @param multiSession         in multi-session mode, multiple training sessions can be visualized in separate browser tabs.\n     *                             \<br/\>URL path will include session ID as a parameter, i.e.: /train becomes /train/:sessionId\n     * @param statsStorageProvider function that returns a StatsStorage containing the given session ID.\n     *                             \<br/\>Use this to auto-attach StatsStorage if an unknown session ID is passed\n     *                             as URL path parameter in multi-session mode, or leave it {@code null}.\n     * @return UI instance for this JVM\n     * @throws DL4JException if UI server failed to start;\n     * if the instance has already started in a different mode (multi/single-session);\n     * if interrupted while waiting for completion\n     */\n    static UIServer getInstance(boolean multiSession, Function\<String, StatsStorage\> statsStorageProvider)\n            throws DL4JException {\n        return VertxUIServer.getInstance(null, multiSession, statsStorageProvider);\n    }\n\n    /**\n     * Stop UIServer instance, if already running\n     */\n    static void stopInstance() throws Exception {\n        VertxUIServer.stopInstance();\n    }\n\n    boolean isStopped();\n\n    /**\n     * Check if the instance initialized with one of the factory methods\n     * ({@link #getInstance()} or {@link #getInstance(boolean, Function)}) is in multi-session mode\n     *\n     * @return {@code true} if the instance is in multi-session\n     */\n    boolean isMultiSession();\n\n    /**\n     * Get the address of the UI\n     *\n     * @return Address of the UI\n     */\n    String getAddress();\n\n    /**\n     * Get the current port for the UI\n     */\n    int getPort();\n\n    /**\n     * Attach the given StatsStorage instance to the UI, so the data can be visualized\n     *\n     * @param statsStorage StatsStorage instance to attach to the UI\n     */\n    void attach(StatsStorage statsStorage);\n\n    /**\n     * Detach the specified StatsStorage instance from the UI\n     *\n     * @param statsStorage StatsStorage instance to detach. If not attached: no op.\n     */\n    void detach(StatsStorage statsStorage);\n\n    /**\n     * Check whether the specified StatsStorage instance is attached to the UI instance\n     *\n     * @param statsStorage StatsStorage instance to attach\n     * @return True if attached\n     */\n    boolean isAttached(StatsStorage statsStorage);\n\n    /**\n     * @return A list of all StatsStorage instances currently attached\n     */\n    List\<StatsStorage\> getStatsStorageInstances();\n\n    /**\n     * Enable the remote listener functionality, storing all data in memory, and attaching the instance to the UI.\n     * Typically used with {@link RemoteUIStatsStorageRouter}, which will send information\n     * remotely to this UI instance\n     *\n     * @see #enableRemoteListener(StatsStorageRouter, boolean)\n     */\n    void enableRemoteListener();\n\n    /**\n     * Enable the remote listener functionality, storing the received results in the specified StatsStorageRouter.\n     * If the StatsStorageRouter is a {@link StatsStorage} instance, it may (optionally) be attached to the UI,\n     * as if {@link #attach(StatsStorage)} was called on it.\n     *\n     * @param statsStorage StatsStorageRouter to post the received results to\n     * @param attach       Whether to attach the given StatsStorage instance to the UI server\n     */\n    void enableRemoteListener(StatsStorageRouter statsStorage, boolean attach);\n\n    /**\n     * Disable the remote listener functionality (disabled by default)\n     */\n    void disableRemoteListener();\n\n    /**\n     * @return Whether the remote listener functionality is currently enabled\n     */\n    boolean isRemoteListenerEnabled();\n\n    /**\n     * Stop/shut down the UI server. This synchronous function should wait until the server is stopped.\n     * @throws InterruptedException if the current thread is interrupted while waiting\n     */\n    void stop() throws InterruptedException;\n\n    /**\n     * Stop/shut down the UI server.\n     * This asynchronous function should immediately return, and notify the callback {@link Promise} on completion:\n     * either call {@link Promise#complete} or {@link io.vertx.core.Promise#fail}.\n     * @param stopCallback callback {@link Promise} to notify on completion\n     */\n    void stopAsync(Promise\<Void\> stopCallback);\n\n    /**\n     * Get shutdown hook of UI server, that will stop the server when the Runtime is stopped.\n     * You may de-register this shutdown hook with {@link Runtime#removeShutdownHook(Thread)},\n     * and add your own hook with {@link Runtime#addShutdownHook(Thread)}\n     * @return shutdown hook\n     */\n    static Thread getShutdownHook() {\n        return VertxUIServer.getShutdownHook();\n    };\n}\n")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-graph/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-common-tests/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/python4j/python4j-numpy/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/python4j/python4j-core/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+3
+[Project Analyzer] project: deeplearning4j
+Processing deeplearning4j...
+|file:///home/dataset/deeplearning4j/contrib/benchmarking_nd4j/src/main/java/org/nd4j/BlasWrapper.java|
+ParseError(|unknown:///|(338,1,<14,8>,<14,9>))
+  61 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/frameworkimport/keras/weights/KerasWeightSettingTests.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int nOut = 12;\r\n        int mb = 10;\r\n        ;")
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/convolution/LocallyConnectedLayerTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","MultiLayerConfiguration conf = builder.build();\n        MultiLayerNetwork network = new MultiLayerNetwork(conf);\n        network.init();\n        INDArray input = Nd4j.ones(10, 3, 8);\n        INDArray output = network.output(input, false);\n        ;")
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/ops/DerivativeTests.java|
+Ambiguity(|unknown:///|,"BlockStatement+","double[] expDerivOut = new double[300];\n        INDArray xArr = Nd4j.linspace(-3, 3, 300, Nd4j.dataType());\n        for (int i = 0; i \< xArr.length(); i++) {\n            double x = xArr.getDouble(i);\n            double hs = 0.2 * x + 0.5;\n            if (hs \< 0)\n                hs = 0;\n            if (hs \> 1)\n                hs = 1;\n            expHSOut[i] = hs;\n\n            double hsDeriv;\n            if (x \< -2.5 || x \> 2.5)\n                hsDeriv = 0;\n            else\n                hsDeriv = 0.2;\n\n            expDerivOut[i] = hsDeriv;\n        }\n\n        INDArray z = Transforms.hardSigmoid(xArr, true);\n        INDArray zPrime = Nd4j.getExecutioner().exec(new HardSigmoidDerivative(xArr.dup()));;")
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/jackson/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/guava/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/netty-common/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/protobuf/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tensorflow-lite/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-tensorflow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-onnx/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-rocksdb-storage/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-model/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-node/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-client/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-onnxruntime/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tensorflow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-kryo/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-aeron/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-arrow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-minimizer-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-minimizer/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-presets-common/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-native-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-native/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-native-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/listeners/impl/ScoreListener.java|
+ParseError(|unknown:///|(6654,1,<171,36>,<171,37>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tvm/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-arrow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  2827 of 4652 processed succesfully!
+  2922 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-data/datavec-data-image/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-jdbc/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-local/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  3373 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-core/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-zoo/src/main/java/org/deeplearning4j/zoo/package-info.java|
+ParseError(|unknown:///|(210,1,<9,0>,<9,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-zoo/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  3462 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datavec-iterators/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datasets/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-utility-iterators/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/deeplearning4j-scaleout-parallelwrapper/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/deeplearning4j-scaleout-parallelwrapper-parameter-server/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/impl/common/repartition/HashingBalancedPartitioner.java|
+Ambiguity(|unknown:///|,"BlockStatement+","checkArgument(!pw.isEmpty(), \"Partition weights are required\");\n        checkArgument(pw.size() \>= 1, \"There should be at least one element class\");\n        checkArgument(!checkNotNull(pw.get(0)).isEmpty(), \"At least one partition is required\");\n        this.numClasses = pw.size();\n        this.numPartitions = pw.get(0).size();\n        for (int i = 1; i \< pw.size(); i++) {\n            checkArgument(checkNotNull(pw.get(i)).size() == this.numPartitions,\n                            \"Non-consistent partition weight specification\");\n            // you also should have sum(pw.get(i)) = this.numPartitions\n        }\n        this.partitionWeightsByClass = partitionWeightsByClass; // p_(j, i)\n\n        List\<List\<Double\>\> jumpsByClass = new ArrayList\<\>();;")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/objdetect/Yolo2OutputLayer.java|
+Ambiguity(|unknown:///|,"BlockStatement+","long h = labelTL.size(2);\n        long w = labelTL.size(3);\n        long b = predictedWH.size(1);\n\n        INDArray labelWH = labelBR.sub(labelTL);                //4d [mb, 2, H, W], label W/H in terms of number of grid boxes\n\n        long gridH = labelTL.size(2);\n        long gridW = labelTL.size(3);\n        //Add grid positions to the predicted XY values (to get predicted XY in terms of grid cell units in image,\n        // from (0 to 1 in grid cell) format)\n        INDArray linspaceX = Nd4j.linspace(0, gridW-1, gridW, predictedWH.dataType());\n        INDArray linspaceY = Nd4j.linspace(0, gridH-1, gridH, predictedWH.dataType());\n        INDArray grid = Nd4j.createUninitialized(predictedWH.dataType(), new long[]{2, gridH, gridW}, \'c\');\n        INDArray gridX = grid.get(point(0), all(), all());\n        INDArray gridY = grid.get(point(1), all(), all());\n        Broadcast.copy(gridX, linspaceX, gridX, 1);\n        Broadcast.copy(gridY, linspaceY, gridY, 0);\n\n        //Calculate X/Y position overall (in grid box units) from \"position in current grid box\" format\n        INDArray predictedXY = predictedXYinGridBox.ulike();;")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/recurrent/SimpleRnn.java|
+Ambiguity(|unknown:///|(13767,556,<270,20>,<274,42>),"BlockStatements","INDArray currRecPreNorm = forBackprop ? recPreNorm.get(all(), all(), point(i)) : workspaceMgr.createUninitialized(ArrayType.FF_WORKING_MEM, currOut.dataType(), currOut.shape(), \'f\');;\n                    Nd4j.gemm(prevStepOut, rw, currRecPreNorm, false, false, 1.0, 0.0);\n                    INDArray recNorm = workspaceMgr.createUninitialized(ArrayType.FF_WORKING_MEM, currOut.dataType(), currOut.shape(), \'f\');\n                    Nd4j.getExecutioner().exec(new LayerNorm(currRecPreNorm, gr, recNorm, true, 1));\n                    currOut.addi(recNorm);")
+  4122 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-modelimport/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/VarDataUTF8Decoder.java|
+ParseError(|unknown:///|(1808,1,<56,84>,<56,85>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/StaticInfoDecoder.java|
+ParseError(|unknown:///|(12720,1,<484,89>,<484,90>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/StorageMetaDataDecoder.java|
+ParseError(|unknown:///|(8223,1,<271,85>,<271,86>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/UpdateDecoder.java|
+ParseError(|unknown:///|(28703,1,<875,89>,<875,90>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-components/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-vertx/src/main/java/org/deeplearning4j/ui/api/UIServer.java|
+Ambiguity(|unknown:///|(1331,5743,<33,26>,<180,0>),"InterfaceBody","{\n\n    /**\n     * Get (and, initialize if necessary) the UI server. This synchronous function will wait until the server started.\n     * Singleton pattern - all calls to getInstance() will return the same UI instance.\n     *\n     * @return UI instance for this JVM\n     * @throws DL4JException if UI server failed to start;\n     * if the instance has already started in a different mode (multi/single-session);\n     * if interrupted while waiting for completion\n     */\n    static UIServer getInstance() throws DL4JException {\n        if (VertxUIServer.getInstance() != null && !VertxUIServer.getInstance().isStopped()) {\n            return VertxUIServer.getInstance();\n        } else {\n            return getInstance(false, null);\n        }\n    }\n\n    /**\n     * Get (and, initialize if necessary) the UI server. This synchronous function will wait until the server started.\n     * Singleton pattern - all calls to getInstance() will return the same UI instance.\n     *\n     * @param multiSession         in multi-session mode, multiple training sessions can be visualized in separate browser tabs.\n     *                             \<br/\>URL path will include session ID as a parameter, i.e.: /train becomes /train/:sessionId\n     * @param statsStorageProvider function that returns a StatsStorage containing the given session ID.\n     *                             \<br/\>Use this to auto-attach StatsStorage if an unknown session ID is passed\n     *                             as URL path parameter in multi-session mode, or leave it {@code null}.\n     * @return UI instance for this JVM\n     * @throws DL4JException if UI server failed to start;\n     * if the instance has already started in a different mode (multi/single-session);\n     * if interrupted while waiting for completion\n     */\n    static UIServer getInstance(boolean multiSession, Function\<String, StatsStorage\> statsStorageProvider)\n            throws DL4JException {\n        return VertxUIServer.getInstance(null, multiSession, statsStorageProvider);\n    }\n\n    /**\n     * Stop UIServer instance, if already running\n     */\n    static void stopInstance() throws Exception {\n        VertxUIServer.stopInstance();\n    }\n\n    boolean isStopped();\n\n    /**\n     * Check if the instance initialized with one of the factory methods\n     * ({@link #getInstance()} or {@link #getInstance(boolean, Function)}) is in multi-session mode\n     *\n     * @return {@code true} if the instance is in multi-session\n     */\n    boolean isMultiSession();\n\n    /**\n     * Get the address of the UI\n     *\n     * @return Address of the UI\n     */\n    String getAddress();\n\n    /**\n     * Get the current port for the UI\n     */\n    int getPort();\n\n    /**\n     * Attach the given StatsStorage instance to the UI, so the data can be visualized\n     *\n     * @param statsStorage StatsStorage instance to attach to the UI\n     */\n    void attach(StatsStorage statsStorage);\n\n    /**\n     * Detach the specified StatsStorage instance from the UI\n     *\n     * @param statsStorage StatsStorage instance to detach. If not attached: no op.\n     */\n    void detach(StatsStorage statsStorage);\n\n    /**\n     * Check whether the specified StatsStorage instance is attached to the UI instance\n     *\n     * @param statsStorage StatsStorage instance to attach\n     * @return True if attached\n     */\n    boolean isAttached(StatsStorage statsStorage);\n\n    /**\n     * @return A list of all StatsStorage instances currently attached\n     */\n    List\<StatsStorage\> getStatsStorageInstances();\n\n    /**\n     * Enable the remote listener functionality, storing all data in memory, and attaching the instance to the UI.\n     * Typically used with {@link RemoteUIStatsStorageRouter}, which will send information\n     * remotely to this UI instance\n     *\n     * @see #enableRemoteListener(StatsStorageRouter, boolean)\n     */\n    void enableRemoteListener();\n\n    /**\n     * Enable the remote listener functionality, storing the received results in the specified StatsStorageRouter.\n     * If the StatsStorageRouter is a {@link StatsStorage} instance, it may (optionally) be attached to the UI,\n     * as if {@link #attach(StatsStorage)} was called on it.\n     *\n     * @param statsStorage StatsStorageRouter to post the received results to\n     * @param attach       Whether to attach the given StatsStorage instance to the UI server\n     */\n    void enableRemoteListener(StatsStorageRouter statsStorage, boolean attach);\n\n    /**\n     * Disable the remote listener functionality (disabled by default)\n     */\n    void disableRemoteListener();\n\n    /**\n     * @return Whether the remote listener functionality is currently enabled\n     */\n    boolean isRemoteListenerEnabled();\n\n    /**\n     * Stop/shut down the UI server. This synchronous function should wait until the server is stopped.\n     * @throws InterruptedException if the current thread is interrupted while waiting\n     */\n    void stop() throws InterruptedException;\n\n    /**\n     * Stop/shut down the UI server.\n     * This asynchronous function should immediately return, and notify the callback {@link Promise} on completion:\n     * either call {@link Promise#complete} or {@link io.vertx.core.Promise#fail}.\n     * @param stopCallback callback {@link Promise} to notify on completion\n     */\n    void stopAsync(Promise\<Void\> stopCallback);\n\n    /**\n     * Get shutdown hook of UI server, that will stop the server when the Runtime is stopped.\n     * You may de-register this shutdown hook with {@link Runtime#removeShutdownHook(Thread)},\n     * and add your own hook with {@link Runtime#addShutdownHook(Thread)}\n     * @return shutdown hook\n     */\n    static Thread getShutdownHook() {\n        return VertxUIServer.getShutdownHook();\n    };\n}\n")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-graph/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-common-tests/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/python4j/python4j-numpy/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/python4j/python4j-core/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+6
+[Project Analyzer] project: deeplearning4j
+Processing deeplearning4j...
+
+|file:///home/dataset/deeplearning4j/contrib/benchmarking_nd4j/src/main/java/org/nd4j/BlasWrapper.java|
+ParseError(|unknown:///|(338,1,<14,8>,<14,9>))
+  16 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/contrib/aurora/inference/src/main/java/org/nd4j/contrib/aurora/WrapHashSet.java|
+EmptySet()
+  23 of 4652 processed succesfully!
+  26 of 4652 processed succesfully!
+  27 of 4652 processed succesfully!
+  30 of 4652 processed succesfully!
+  31 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/nd4j/parameterserver/distributed/util/NetworkOrganizerTest.java|
+EmptySet()
+  32 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/nd4j/python4j/PythonInterpreterTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/frameworkimport/tensorflow/TFGraphTestAllHelper.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/frameworkimport/tensorflow/TFGraphTestAllLibnd4j.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/frameworkimport/tensorflow/NodeReader.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/frameworkimport/keras/weights/KerasWeightSettingTests.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int nOut = 12;\r\n        int mb = 10;\r\n        ;")
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/LayerHelperValidationUtil.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/optimizer/listener/TestListeners.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/regressiontest/TestRegressionTest100b4.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/regressiontest/TestRegressionTest100b6.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/datasets/iterator/MultiDataSetSplitterTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/datasets/datavec/RecordReaderDataSetiteratorTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/parallelism/ParallelExistingMiniBatchDataSetIteratorTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/graph/TestCompGraphUnsupervised.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/graph/ComputationGraphTestRNN.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/graph/TestComputationGraphNetwork.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/multilayer/TestMasking.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/multilayer/TestVariableLengthTS.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/multilayer/MultiLayerTestRNN.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/transferlearning/TestFrozenLayers.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/weights/LegacyWeightInitTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/misc/CloseNetworkTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/misc/WorkspaceTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/misc/TestMemoryReports.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/CacheModeTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/OutputLayerTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/convolution/LocallyConnectedLayerTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","MultiLayerConfiguration conf = builder.build();\n        MultiLayerNetwork network = new MultiLayerNetwork(conf);\n        network.init();\n        INDArray input = Nd4j.ones(10, 3, 8);\n        INDArray output = network.output(input, false);\n        ;")
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/convolution/ConvDataFormatTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/convolution/TestConvolutionModes.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/objdetect/TestYolo2OutputLayer.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/normalization/BatchNormalizationTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/feedforward/embedding/EmbeddingLayerTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/variational/TestVAE.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/variational/TestReconstructionDistributions.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/recurrent/TestTimeDistributed.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/recurrent/GravesLSTMTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/recurrent/TestSimpleRnn.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/recurrent/MaskZeroLayerTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/recurrent/RnnDataFormatTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/recurrent/TestLastTimeStepLayer.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/recurrent/TestRnnLayers.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/recurrent/GravesBidirectionalLSTMTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/recurrent/BidirectionalTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/samediff/TestSameDiffLambda.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/samediff/TestSameDiffDense.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/samediff/TestSameDiffDenseVertex.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/samediff/TestSameDiffOutput.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/layers/pooling/GlobalPoolingMaskingTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/conf/preprocessor/TestPreProcessors.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/dtypes/DTypeTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/nn/rl/TestMultiModelGradientApplication.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/earlystopping/TestEarlyStoppingCompGraph.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/earlystopping/TestEarlyStopping.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/GradientCheckTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/GlobalPoolingGradientCheckTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/GradientCheckTestsComputationGraph.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/VaeGradientCheckTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/TestUtilLayerGradientChecks.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/LossFunctionGradientCheck.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/NoBiasGradientCheckTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/CNNGradientCheckTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/TestRnnGradientChecks.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/YoloGradientCheckTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/CNN1DGradientCheckTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/BNGradientCheckTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/gradientcheck/AttentionLayerTest.java|
+EmptySet()
+  287 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/eval/ROCTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/eval/EvalTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/eval/EvaluationToolsTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/TestSessions.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/opvalidation/TestReductionBpOpValidation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/opvalidation/TestReductionOpValidation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/opvalidation/TestLayerOpValidation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/opvalidation/TestShapeOpValidation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/opvalidation/TestMiscOpValidation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/opvalidation/TestLossOpValidation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/opvalidation/TestTransformOpValidation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/opvalidation/TestRandomOpValidation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/samediff/SameDiffSpecifiedLossVarsTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/samediff/SameDiffTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/autodiff/samediff/FlatBufferSerdeTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/evaluation/EvalCustomThreshold.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/evaluation/CustomEvaluationTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/evaluation/RegressionEvalTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/evaluation/ROCTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/evaluation/EvaluationBinaryTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/evaluation/EvalTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/evaluation/EvaluationCalibrationTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/evaluation/ROCBinaryTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/NDArrayTestsFortran.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/Nd4jTestsC.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/TestEigen.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/convolution/ConvolutionTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/convolution/ConvolutionTestsC.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/convolution/DeconvTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/specials/SortCooTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/shape/ShapeTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/shape/TADTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/shape/concat/ConcatTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/shape/concat/ConcatTestsC.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/inverse/TestInvertMatrices.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/dataset/DataSetTest.java|
+EmptySet()
+  373 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/api/buffer/DataBufferTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/custom/CustomOpsTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/mixed/MixedDataTypesTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/crash/SpecialTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/serde/JsonSerdeTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/factory/Nd4jTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/factory/DataTypeCreationTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/ops/DerivativeTests.java|
+Ambiguity(|unknown:///|,"BlockStatement+","double[] expDerivOut = new double[300];\n        INDArray xArr = Nd4j.linspace(-3, 3, 300, Nd4j.dataType());\n        for (int i = 0; i \< xArr.length(); i++) {\n            double x = xArr.getDouble(i);\n            double hs = 0.2 * x + 0.5;\n            if (hs \< 0)\n                hs = 0;\n            if (hs \> 1)\n                hs = 1;\n            expHSOut[i] = hs;\n\n            double hsDeriv;\n            if (x \< -2.5 || x \> 2.5)\n                hsDeriv = 0;\n            else\n                hsDeriv = 0.2;\n\n            expDerivOut[i] = hsDeriv;\n        }\n\n        INDArray z = Transforms.hardSigmoid(xArr, true);\n        INDArray zPrime = Nd4j.getExecutioner().exec(new HardSigmoidDerivative(xArr.dup()));;")
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/ops/OpExecutionerTestsC.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/ops/OpExecutionerTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/workspace/BasicWorkspaceTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/rng/RngValidationTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/profiling/OperationProfilerTests.java|
+EmptySet()
+  457 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/memory/DeviceLocalNDArrayTests.java|
+EmptySet()
+  461 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/longrunning/downloads/TestEmnistDataSetIterator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/integration/IntegrationTestRunner.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/integration/IntegrationTestBaselineGenerator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/image/LabelGeneratorTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/image/recordreader/TestObjectDetectionRecordReader.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/image/loader/TestNativeImageLoader.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/image/loader/LoaderTests.java|
+EmptySet()
+  499 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/api/records/reader/impl/TestSerialization.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/api/records/reader/impl/FileBatchRecordReaderTest.java|
+EmptySet()
+  533 of 4652 processed succesfully!
+  534 of 4652 processed succesfully!
+  540 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/api/writable/WritableTest.java|
+EmptySet()
+  551 of 4652 processed succesfully!
+  555 of 4652 processed succesfully!
+  566 of 4652 processed succesfully!
+  569 of 4652 processed succesfully!
+  575 of 4652 processed succesfully!
+  578 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/graph/data/TestGraphLoadingWeighted.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/iterator/TestCnnSentenceDataSetIterator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/parallelism/ParallelInferenceTest.java|
+EmptySet()
+  592 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/text/tokenization/tokenizer/BertWordPieceTokenizerTests.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/ui/stats/TestStatsListener.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/ui/stats/TestStatsClasses.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/ui/storage/TestStatsStorage.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/models/paragraphvectors/ParagraphVectorsTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/models/sequencevectors/SequenceVectorsTest.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/spark/util/TestRepartitioning.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/spark/ui/TestListeners.java|
+EmptySet()
+  659 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/spark/impl/graph/TestSparkComputationGraph.java|
+EmptySet()
+  664 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/spark/impl/multilayer/TestSparkDl4jMultiLayer.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/spark/impl/paramavg/TestCompareParameterAveragingSparkVsSingleMachine.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/spark/impl/paramavg/TestSparkMultiLayerParameterAveraging.java|
+EmptySet()
+  683 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/resources/src/main/java/org/nd4j/common/resources/strumpf/StrumpfResolver.java|
+EmptySet()
+  726 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java/org/nd4j/common/util/ArrayUtil.java|
+EmptySet()
+  747 of 4652 processed succesfully!
+  752 of 4652 processed succesfully!
+  753 of 4652 processed succesfully!
+  754 of 4652 processed succesfully!
+  764 of 4652 processed succesfully!
+  797 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java/org/nd4j/common/loader/FileBatch.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/jackson/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/guava/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/netty-common/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-shade/protobuf/src/main/modules/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tensorflow-lite/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-tensorflow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/samediff-import/samediff-import-onnx/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-rocksdb-storage/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-model/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  844 of 4652 processed succesfully!
+  845 of 4652 processed succesfully!
+  846 of 4652 processed succesfully!
+  850 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-node/src/main/java/org/nd4j/parameterserver/distributed/messages/Frame.java|
+EmptySet()
+  936 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-node/src/main/java/org/nd4j/parameterserver/distributed/conf/VoidConfiguration.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-node/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-client/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-onnxruntime/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  961 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tensorflow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-kryo/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  982 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-aeron/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-arrow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  1022 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cpu-backend-common/src/main/java/org/nd4j/linalg/cpu/nativecpu/ops/NativeOpExecutioner.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cpu-backend-common/src/main/java/org/nd4j/linalg/cpu/nativecpu/workspace/CpuWorkspaceDeallocator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cpu-backend-common/src/main/java/org/nd4j/linalg/cpu/nativecpu/workspace/CpuWorkspace.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda/src/main/java/org/nd4j/jita/workspace/CudaWorkspace.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda/src/main/java/org/nd4j/jita/workspace/CudaWorkspaceDeallocator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda/src/main/java/org/nd4j/jita/conf/Configuration.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda/src/main/java/org/nd4j/jita/memory/CudaMemoryManager.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda/src/main/java/org/nd4j/linalg/jcublas/CublasPointer.java|
+EmptySet()
+  1105 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda/src/main/java/org/nd4j/linalg/jcublas/ops/executioner/CudaExecutioner.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-minimizer-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-minimizer/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-presets-common/src/main/java/org/nd4j/presets/OpExclusionUtils.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-presets-common/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-native-preset/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-native/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-native-api/src/main/java/org/nd4j/nativeblas/NativeOpsHolder.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-native-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  1170 of 4652 processed succesfully!
+  1171 of 4652 processed succesfully!
+  1263 of 4652 processed succesfully!
+  1265 of 4652 processed succesfully!
+  1266 of 4652 processed succesfully!
+  1280 of 4652 processed succesfully!
+  1285 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/listeners/profiler/comparison/ProfileAnalyzer.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/listeners/impl/UIListener.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/listeners/impl/ScoreListener.java|
+ParseError(|unknown:///|(6654,1,<171,36>,<171,37>))
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/validation/GradCheckUtil.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/validation/OpValidation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/SameDiff.java|
+EmptySet()
+  1319 of 4652 processed succesfully!
+  1321 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/serde/FlatBuffersMapper.java|
+EmptySet()
+  1329 of 4652 processed succesfully!
+  1343 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/internal/InferenceSession.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/internal/AbstractSession.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/internal/TrainingSession.java|
+EmptySet()
+  1350 of 4652 processed succesfully!
+  1352 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/internal/memory/DependencyMap.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/transform/GraphTransformUtil.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/transform/SubGraph.java|
+EmptySet()
+  1377 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/imports/tensorflow/TensorFlowImportValidator.java|
+EmptySet()
+  1398 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/systeminfo/SystemInfo.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/evaluation/custom/CustomEvaluation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/evaluation/regression/RegressionEvaluation.java|
+EmptySet()
+  1427 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/evaluation/classification/Evaluation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/evaluation/classification/ROCMultiClass.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/evaluation/classification/ConfusionMatrix.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/evaluation/classification/ROCBinary.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/evaluation/classification/EvaluationBinary.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/util/LinAlgExceptions.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/dataset/DataSet.java|
+EmptySet()
+  1506 of 4652 processed succesfully!
+  1530 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/environment/Nd4jEnvironment.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/shape/Shape.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ndarray/BaseNDArray.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/BaseOpContext.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/DynamicCustomOp.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/BaseTransformSameOp.java|
+EmptySet()
+  1636 of 4652 processed succesfully!
+  1637 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/performance/PerformanceTracker.java|
+EmptySet()
+  1689 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/impl/transforms/dtype/Cast.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/impl/transforms/custom/LayerNorm.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/impl/transforms/custom/LayerNormBp.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/impl/layers/convolution/Conv3D.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/aggregates/Batch.java|
+EmptySet()
+  2344 of 4652 processed succesfully!
+  2351 of 4652 processed succesfully!
+  2371 of 4652 processed succesfully!
+  2377 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/factory/DataTypeValidation.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/factory/Nd4j.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/factory/Broadcast.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/factory/BaseNDArrayFactory.java|
+EmptySet()
+  2435 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/indexing/NDArrayIndex.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/compression/BasicNDArrayCompressor.java|
+EmptySet()
+  2531 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/dimensionalityreduction/RandomProjection.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  2566 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/nd4j/nd4j-tvm/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  2585 of 4652 processed succesfully!
+  2586 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-arrow/src/main/java/org/datavec/arrow/recordreader/ArrowWritableRecordBatch.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/datavec/datavec-arrow/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/util/ndarray/RecordConverter.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/split/FileSplit.java|
+EmptySet()
+  2624 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/FileRecordReader.java|
+EmptySet()
+  2627 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/jackson/JacksonRecordReader.java|
+EmptySet()
+  2629 of 4652 processed succesfully!
+  2632 of 4652 processed succesfully!
+  2633 of 4652 processed succesfully!
+  2634 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/regex/RegexSequenceRecordReader.java|
+EmptySet()
+  2637 of 4652 processed succesfully!
+  2641 of 4652 processed succesfully!
+  2644 of 4652 processed succesfully!
+  2645 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/csv/CSVMultiSequenceRecordReader.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/csv/CSVLineSequenceRecordReader.java|
+EmptySet()
+  2650 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/writer/impl/csv/CSVRecordWriter.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/timeseries/util/TimeSeriesWritableUtils.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/io/WritableUtils.java|
+EmptySet()
+  2714 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/TransformProcess.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/schema/Schema.java|
+EmptySet()
+  2731 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/sequence/split/SequenceSplitTimeSeparation.java|
+EmptySet()
+  2738 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/sequence/window/TimeWindowFunction.java|
+EmptySet()
+  2741 of 4652 processed succesfully!
+  2744 of 4652 processed succesfully!
+  2749 of 4652 processed succesfully!
+  2808 of 4652 processed succesfully!
+  2819 of 4652 processed succesfully!
+  2822 of 4652 processed succesfully!
+  2827 of 4652 processed succesfully!
+  2831 of 4652 processed succesfully!
+  2865 of 4652 processed succesfully!
+  2885 of 4652 processed succesfully!
+  2886 of 4652 processed succesfully!
+  2887 of 4652 processed succesfully!
+  2891 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/categorical/FirstDigitTransform.java|
+EmptySet()
+  2892 of 4652 processed succesfully!
+  2893 of 4652 processed succesfully!
+  2895 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/string/StringListToCategoricalSetTransform.java|
+EmptySet()
+  2900 of 4652 processed succesfully!
+  2907 of 4652 processed succesfully!
+  2908 of 4652 processed succesfully!
+  2910 of 4652 processed succesfully!
+  2913 of 4652 processed succesfully!
+  2914 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/doubletransform/DoubleColumnsMathOpTransform.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/longtransform/LongColumnsMathOpTransform.java|
+EmptySet()
+  2924 of 4652 processed succesfully!
+  2925 of 4652 processed succesfully!
+  2926 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/floattransform/FloatColumnsMathOpTransform.java|
+EmptySet()
+  2927 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/integer/IntegerColumnsMathOpTransform.java|
+EmptySet()
+  2935 of 4652 processed succesfully!
+  2937 of 4652 processed succesfully!
+  2939 of 4652 processed succesfully!
+  2940 of 4652 processed succesfully!
+  2941 of 4652 processed succesfully!
+  2966 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-api/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-data/datavec-data-image/src/main/java/org/datavec/image/recordreader/BaseImageRecordReader.java|
+EmptySet()
+  2976 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-data/datavec-data-image/src/main/java/org/datavec/image/transform/PipelineImageTransform.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/datavec/datavec-data/datavec-data-image/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/datavec/datavec-spark/src/main/java/org/datavec/spark/transform/DataFrames.java|
+EmptySet()
+  3024 of 4652 processed succesfully!
+  3050 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-spark/src/main/java/org/datavec/spark/transform/misc/SequenceWritablesToStringFunction.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/datavec/datavec-spark/src/main/java/org/datavec/spark/transform/misc/WritablesToNDArrayFunction.java|
+EmptySet()
+  3075 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-spark/src/main/java/org/datavec/spark/transform/utils/SparkExport.java|
+EmptySet()
+  3079 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-jdbc/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  3083 of 4652 processed succesfully!
+  3084 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-local/src/main/java/org/datavec/local/transforms/misc/SequenceWritablesToStringFunction.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/datavec/datavec-local/src/main/java/org/datavec/local/transforms/misc/WritablesToNDArrayFunction.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/datavec/datavec-local/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  3129 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/datavec/datavec-excel/src/main/java/org/datavec/poi/excel/ExcelRecordWriter.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/codegen/op-codegen/src/test/java/org/nd4j/codegen/dsl/TestGeneration.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/codegen/op-codegen/src/main/java/org/nd4j/codegen/impl/python/PythonGenerator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/codegen/op-codegen/src/main/java/org/nd4j/codegen/impl/cpp/CppGenerator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/codegen/op-codegen/src/main/java/org/nd4j/codegen/impl/java/DocsGenerator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/codegen/op-codegen/src/main/java/org/nd4j/codegen/impl/java/Nd4jNamespaceGenerator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/codegen/libnd4j-gen/src/main/java/org/nd4j/descriptor/proposal/impl/ArgDescriptorParserUtils.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/codegen/libnd4j-gen/src/main/java/org/nd4j/descriptor/proposal/impl/JavaSourceArgDescriptorSource.java|
+EmptySet()
+  3162 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-core/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-zoo/src/main/java/org/deeplearning4j/zoo/package-info.java|
+ParseError(|unknown:///|(210,1,<9,0>,<9,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-zoo/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/iterator/BertIterator.java|
+EmptySet()
+  3227 of 4652 processed succesfully!
+  3233 of 4652 processed succesfully!
+  3238 of 4652 processed succesfully!
+  3259 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/text/movingwindow/ContextLabelRetriever.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/text/movingwindow/WordConverter.java|
+EmptySet()
+  3271 of 4652 processed succesfully!
+  3281 of 4652 processed succesfully!
+  3283 of 4652 processed succesfully!
+  3284 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/word2vec/wordstore/VocabConstructor.java|
+EmptySet()
+  3288 of 4652 processed succesfully!
+  3290 of 4652 processed succesfully!
+  3294 of 4652 processed succesfully!
+  3301 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/embeddings/loader/WordVectorSerializer.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/sequencevectors/SequenceVectors.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/sequencevectors/graph/primitives/Graph.java|
+EmptySet()
+TODO
+  3324 of 4652 processed succesfully!
+  3327 of 4652 processed succesfully!
+  3332 of 4652 processed succesfully!
+  3351 of 4652 processed succesfully!
+  3354 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datavec-iterators/src/main/java/org/deeplearning4j/datasets/datavec/SequenceRecordReaderDataSetIterator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datavec-iterators/src/main/java/org/deeplearning4j/datasets/datavec/RecordReaderDataSetIterator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datavec-iterators/src/main/java/org/deeplearning4j/datasets/datavec/RecordReaderMultiDataSetIterator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datavec-iterators/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datasets/src/main/java/org/deeplearning4j/datasets/iterator/impl/Cifar10DataSetIterator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datasets/src/main/java/org/deeplearning4j/datasets/iterator/impl/TinyImageNetDataSetIterator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datasets/src/main/java/org/deeplearning4j/datasets/fetchers/UciSequenceDataFetcher.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-datasets/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  3379 of 4652 processed succesfully!
+  3382 of 4652 processed succesfully!
+  3407 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-utility-iterators/src/main/java/org/deeplearning4j/datasets/iterator/file/BaseFileIterator.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-utility-iterators/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/deeplearning4j-scaleout-parallelwrapper/src/main/java/org/deeplearning4j/parallelism/ParallelWrapper.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/deeplearning4j-scaleout-parallelwrapper/src/main/java/org/deeplearning4j/parallelism/ParallelInference.java|
+EmptySet()
+  3429 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/deeplearning4j-scaleout-parallelwrapper/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/deeplearning4j-scaleout-parallelwrapper-parameter-server/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  3459 of 4652 processed succesfully!
+  3478 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/stats/StatsUtils.java|
+EmptySet()
+  3491 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/util/MLLibUtil.java|
+EmptySet()
+  3512 of 4652 processed succesfully!
+  3515 of 4652 processed succesfully!
+  3519 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/impl/SparkListenable.java|
+EmptySet()
+  3575 of 4652 processed succesfully!
+  3576 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/impl/paramavg/ParameterAveragingTrainingWorker.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/impl/common/repartition/HashingBalancedPartitioner.java|
+Ambiguity(|unknown:///|,"BlockStatement+","checkArgument(!pw.isEmpty(), \"Partition weights are required\");\n        checkArgument(pw.size() \>= 1, \"There should be at least one element class\");\n        checkArgument(!checkNotNull(pw.get(0)).isEmpty(), \"At least one partition is required\");\n        this.numClasses = pw.size();\n        this.numPartitions = pw.get(0).size();\n        for (int i = 1; i \< pw.size(); i++) {\n            checkArgument(checkNotNull(pw.get(i)).size() == this.numPartitions,\n                            \"Non-consistent partition weight specification\");\n            // you also should have sum(pw.get(i)) = this.numPartitions\n        }\n        this.partitionWeightsByClass = partitionWeightsByClass; // p_(j, i)\n\n        List\<List\<Double\>\> jumpsByClass = new ArrayList\<\>();;")
+  3603 of 4652 processed succesfully!
+  3606 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/util/NetworkUtils.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/util/CrashReportingUtil.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/graph/ComputationGraph.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/multilayer/MultiLayerNetwork.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/params/SameDiffParamInitializer.java|
+EmptySet()
+  3680 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/updater/UpdaterBlock.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/updater/BaseMultiLayerUpdater.java|
+EmptySet()
+  3697 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/transferlearning/TransferLearning.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/BaseLayer.java|
+EmptySet()
+  3732 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/objdetect/Yolo2OutputLayer.java|
+Ambiguity(|unknown:///|,"BlockStatement+","long h = labelTL.size(2);\n        long w = labelTL.size(3);\n        long b = predictedWH.size(1);\n\n        INDArray labelWH = labelBR.sub(labelTL);                //4d [mb, 2, H, W], label W/H in terms of number of grid boxes\n\n        long gridH = labelTL.size(2);\n        long gridW = labelTL.size(3);\n        //Add grid positions to the predicted XY values (to get predicted XY in terms of grid cell units in image,\n        // from (0 to 1 in grid cell) format)\n        INDArray linspaceX = Nd4j.linspace(0, gridW-1, gridW, predictedWH.dataType());\n        INDArray linspaceY = Nd4j.linspace(0, gridH-1, gridH, predictedWH.dataType());\n        INDArray grid = Nd4j.createUninitialized(predictedWH.dataType(), new long[]{2, gridH, gridW}, \'c\');\n        INDArray gridX = grid.get(point(0), all(), all());\n        INDArray gridY = grid.get(point(1), all(), all());\n        Broadcast.copy(gridX, linspaceX, gridX, 1);\n        Broadcast.copy(gridY, linspaceY, gridY, 0);\n\n        //Calculate X/Y position overall (in grid box units) from \"position in current grid box\" format\n        INDArray predictedXY = predictedXYinGridBox.ulike();;")
+  3782 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/variational/VariationalAutoencoder.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/recurrent/SimpleRnn.java|
+Ambiguity(|unknown:///|(13767,556,<270,20>,<274,42>),"BlockStatements","INDArray currRecPreNorm = forBackprop ? recPreNorm.get(all(), all(), point(i)) : workspaceMgr.createUninitialized(ArrayType.FF_WORKING_MEM, currOut.dataType(), currOut.shape(), \'f\');;\n                    Nd4j.gemm(prevStepOut, rw, currRecPreNorm, false, false, 1.0, 0.0);\n                    INDArray recNorm = workspaceMgr.createUninitialized(ArrayType.FF_WORKING_MEM, currOut.dataType(), currOut.shape(), \'f\');\n                    Nd4j.getExecutioner().exec(new LayerNorm(currRecPreNorm, gr, recNorm, true, 1));\n                    currOut.addi(recNorm);")
+  3794 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/MultiLayerConfiguration.java|
+EmptySet()
+  3811 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/layers/SeparableConvolution2D.java|
+EmptySet()
+  3894 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/layers/Layer.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/layers/GravesLSTM.java|
+EmptySet()
+  3905 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/layers/GravesBidirectionalLSTM.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/layers/LSTM.java|
+EmptySet()
+  3959 of 4652 processed succesfully!
+  3960 of 4652 processed succesfully!
+  4026 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/optimize/solvers/StochasticGradientDescent.java|
+EmptySet()
+  4032 of 4652 processed succesfully!
+  4052 of 4652 processed succesfully!
+  4059 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-modelimport/src/main/java/org/deeplearning4j/nn/modelimport/keras/KerasModel.java|
+EmptySet()
+  4094 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-modelimport/src/main/java/org/deeplearning4j/nn/modelimport/keras/utils/KerasModelUtils.java|
+EmptySet()
+  4172 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-modelimport/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/BaseStatsListener.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/VarDataUTF8Decoder.java|
+ParseError(|unknown:///|(1808,1,<56,84>,<56,85>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/StaticInfoDecoder.java|
+ParseError(|unknown:///|(12720,1,<484,89>,<484,90>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/StorageMetaDataDecoder.java|
+ParseError(|unknown:///|(8223,1,<271,85>,<271,86>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/sbe/UpdateDecoder.java|
+ParseError(|unknown:///|(28703,1,<875,89>,<875,90>))
+  4202 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/impl/SbeStatsReport.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/impl/java/JavaStatsReport.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/storage/InMemoryStatsStorage.java|
+EmptySet()
+  4211 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/storage/mapdb/MapDBStatsStorage.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/storage/sqlite/J7FileStatsStorage.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-components/src/main/java/org/deeplearning4j/ui/components/chart/ChartLine.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-components/src/main/java/org/deeplearning4j/ui/components/chart/ChartScatter.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-components/src/main/java/org/deeplearning4j/ui/components/chart/ChartStackedArea.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-components/src/main/java/org/deeplearning4j/ui/standalone/StaticPageUtil.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-components/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-vertx/src/main/java/org/deeplearning4j/ui/VertxUIServer.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-vertx/src/main/java/org/deeplearning4j/ui/module/convolutional/ConvolutionalListenerModule.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-vertx/src/main/java/org/deeplearning4j/ui/module/train/TrainModule.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-vertx/src/main/java/org/deeplearning4j/ui/module/train/TrainModuleUtils.java|
+EmptySet()
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-vertx/src/main/java/org/deeplearning4j/ui/api/UIServer.java|
+Ambiguity(|unknown:///|(1331,5743,<33,26>,<180,0>),"InterfaceBody","{\n\n    /**\n     * Get (and, initialize if necessary) the UI server. This synchronous function will wait until the server started.\n     * Singleton pattern - all calls to getInstance() will return the same UI instance.\n     *\n     * @return UI instance for this JVM\n     * @throws DL4JException if UI server failed to start;\n     * if the instance has already started in a different mode (multi/single-session);\n     * if interrupted while waiting for completion\n     */\n    static UIServer getInstance() throws DL4JException {\n        if (VertxUIServer.getInstance() != null && !VertxUIServer.getInstance().isStopped()) {\n            return VertxUIServer.getInstance();\n        } else {\n            return getInstance(false, null);\n        }\n    }\n\n    /**\n     * Get (and, initialize if necessary) the UI server. This synchronous function will wait until the server started.\n     * Singleton pattern - all calls to getInstance() will return the same UI instance.\n     *\n     * @param multiSession         in multi-session mode, multiple training sessions can be visualized in separate browser tabs.\n     *                             \<br/\>URL path will include session ID as a parameter, i.e.: /train becomes /train/:sessionId\n     * @param statsStorageProvider function that returns a StatsStorage containing the given session ID.\n     *                             \<br/\>Use this to auto-attach StatsStorage if an unknown session ID is passed\n     *                             as URL path parameter in multi-session mode, or leave it {@code null}.\n     * @return UI instance for this JVM\n     * @throws DL4JException if UI server failed to start;\n     * if the instance has already started in a different mode (multi/single-session);\n     * if interrupted while waiting for completion\n     */\n    static UIServer getInstance(boolean multiSession, Function\<String, StatsStorage\> statsStorageProvider)\n            throws DL4JException {\n        return VertxUIServer.getInstance(null, multiSession, statsStorageProvider);\n    }\n\n    /**\n     * Stop UIServer instance, if already running\n     */\n    static void stopInstance() throws Exception {\n        VertxUIServer.stopInstance();\n    }\n\n    boolean isStopped();\n\n    /**\n     * Check if the instance initialized with one of the factory methods\n     * ({@link #getInstance()} or {@link #getInstance(boolean, Function)}) is in multi-session mode\n     *\n     * @return {@code true} if the instance is in multi-session\n     */\n    boolean isMultiSession();\n\n    /**\n     * Get the address of the UI\n     *\n     * @return Address of the UI\n     */\n    String getAddress();\n\n    /**\n     * Get the current port for the UI\n     */\n    int getPort();\n\n    /**\n     * Attach the given StatsStorage instance to the UI, so the data can be visualized\n     *\n     * @param statsStorage StatsStorage instance to attach to the UI\n     */\n    void attach(StatsStorage statsStorage);\n\n    /**\n     * Detach the specified StatsStorage instance from the UI\n     *\n     * @param statsStorage StatsStorage instance to detach. If not attached: no op.\n     */\n    void detach(StatsStorage statsStorage);\n\n    /**\n     * Check whether the specified StatsStorage instance is attached to the UI instance\n     *\n     * @param statsStorage StatsStorage instance to attach\n     * @return True if attached\n     */\n    boolean isAttached(StatsStorage statsStorage);\n\n    /**\n     * @return A list of all StatsStorage instances currently attached\n     */\n    List\<StatsStorage\> getStatsStorageInstances();\n\n    /**\n     * Enable the remote listener functionality, storing all data in memory, and attaching the instance to the UI.\n     * Typically used with {@link RemoteUIStatsStorageRouter}, which will send information\n     * remotely to this UI instance\n     *\n     * @see #enableRemoteListener(StatsStorageRouter, boolean)\n     */\n    void enableRemoteListener();\n\n    /**\n     * Enable the remote listener functionality, storing the received results in the specified StatsStorageRouter.\n     * If the StatsStorageRouter is a {@link StatsStorage} instance, it may (optionally) be attached to the UI,\n     * as if {@link #attach(StatsStorage)} was called on it.\n     *\n     * @param statsStorage StatsStorageRouter to post the received results to\n     * @param attach       Whether to attach the given StatsStorage instance to the UI server\n     */\n    void enableRemoteListener(StatsStorageRouter statsStorage, boolean attach);\n\n    /**\n     * Disable the remote listener functionality (disabled by default)\n     */\n    void disableRemoteListener();\n\n    /**\n     * @return Whether the remote listener functionality is currently enabled\n     */\n    boolean isRemoteListenerEnabled();\n\n    /**\n     * Stop/shut down the UI server. This synchronous function should wait until the server is stopped.\n     * @throws InterruptedException if the current thread is interrupted while waiting\n     */\n    void stop() throws InterruptedException;\n\n    /**\n     * Stop/shut down the UI server.\n     * This asynchronous function should immediately return, and notify the callback {@link Promise} on completion:\n     * either call {@link Promise#complete} or {@link io.vertx.core.Promise#fail}.\n     * @param stopCallback callback {@link Promise} to notify on completion\n     */\n    void stopAsync(Promise\<Void\> stopCallback);\n\n    /**\n     * Get shutdown hook of UI server, that will stop the server when the Runtime is stopped.\n     * You may de-register this shutdown hook with {@link Runtime#removeShutdownHook(Thread)},\n     * and add your own hook with {@link Runtime#addShutdownHook(Thread)}\n     * @return shutdown hook\n     */\n    static Thread getShutdownHook() {\n        return VertxUIServer.getShutdownHook();\n    };\n}\n")
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-graph/src/main/java/org/deeplearning4j/graph/Graph.java|
+EmptySet()
+  4249 of 4652 processed succesfully!
+  4277 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-graph/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  4281 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-common-tests/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+|file:///home/dataset/deeplearning4j/python4j/python4j-numpy/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+  4283 of 4652 processed succesfully!
+|file:///home/dataset/deeplearning4j/python4j/python4j-core/src/main/java9/module-info.java|
+ParseError(|unknown:///|(0,1,<1,0>,<1,1>))
+179
+INFO:root:  Formating the source code
+INFO:root:   Done

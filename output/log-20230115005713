@@ -1,0 +1,58 @@
+[Project Analyzer] processing project: universal-g-code-sender
+- applying aic into /home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-plugin-workflow/src/main/java/com/willwinder/ugs/nbm/workflow/WorkflowWindowTopComponent.java
+- applying aic into /home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-surfacescanner/src/main/java/com/willwinder/ugs/platform/surfacescanner/AutoLevelerTopComponent.java
+- applying aic into /home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-visualizer/src/main/java/com/willwinder/ugs/nbm/visualizer/JOGLGearsDemo.java
+- applying aic into /home/dataset/universal-g-code-sender/ugs-classic/src/main/java/com/willwinder/universalgcodesender/MainWindow.java
+- Number of files:  1024
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 38
+- Total of transformations: 38
+- Errors: 4
+- Final Time: 20230115005731
+- Elapsed Time: 18120.0ms
+[Project Analyzer] processing project: universal-g-code-sender
+- Number of files:  1024
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 4
+- Final Time: 20230115005744
+- Elapsed Time: 12687.0ms
+[Project Analyzer] processing project: universal-g-code-sender
+- Number of files:  1024
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 4
+- Final Time: 20230115005756
+- Elapsed Time: 12567.0ms
+[Project Analyzer] processing project: universal-g-code-sender
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-core/test/com/willwinder/universalgcodesender/gcode/processors/ArcExpanderTest.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/model/GUIBackend.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-plugin-cloud-storage/src/main/java/com/willwinder/ugs/nbp/S3FileSystemView.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-visualizer/src/main/java/com/willwinder/ugs/nbm/visualizer/shared/GcodeRenderer.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-plugin-designer/src/main/java/com/willwinder/ugs/nbp/designer/actions/ChangeCutSettingsAction.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/gcode/util/CommandProcessorLoader.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/uielements/panels/OverridesPanel.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-core/test/com/willwinder/universalgcodesender/gcode/fixtures/FixturesTest.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-plugin-designer/src/main/java/com/willwinder/ugs/nbp/designer/gui/tree/EntityTreeModel.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/MacroHelper.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-plugin-cloud-storage/src/test/java/com/willwinder/ugs/nbp/S3FileSystemViewTest.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/gcode/GcodeParser.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-core/src/com/willwinder/universalgcodesender/uielements/macros/MacroSettingsPanel.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-visualizer/src/main/java/com/willwinder/ugs/nbm/visualizer/options/VisualizerOptionsPanel.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-surfacescanner/src/main/java/com/willwinder/ugs/platform/surfacescanner/AutoLevelerTopComponent.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-platform/GcodeTools/src/main/java/com/willwinder/ugp/tools/GcodeTilerTopComponent.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-pendant/src/main/java/com/willwinder/universalgcodesender/pendantui/v1/resources/MachineResource.java
+- applying ForLoopToFunctional into /home/dataset/universal-g-code-sender/ugs-platform/ugs-platform-plugin-designer/src/main/java/com/willwinder/ugs/nbp/designer/io/dxf/DxfReader.java
+- Number of files:  1024
+- Processed Files: 18
+- Exported Files:   18
+- Total of files changed: 21
+- Total of transformations: 21
+- Errors: 24
+- Final Time: 20230115005952
+- Elapsed Time: 115492.0ms

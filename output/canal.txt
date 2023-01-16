@@ -1,0 +1,151 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: canal
+Creating log file at: /output/log-20230115014609
+Processing canal...
+  82 of 668 processed succesfully!
+  397 of 668 processed succesfully!
+  400 of 668 processed succesfully!
+  401 of 668 processed succesfully!
+4
+[Project Analyzer] project: canal
+Processing canal...
+  591 of 668 processed succesfully!
+1
+[Project Analyzer] project: canal
+Processing canal...
+  368 of 668 processed succesfully!
+  525 of 668 processed succesfully!
+2
+[Project Analyzer] project: canal
+Processing canal...
+
+|file:///home/dataset/canal/meta/src/main/java/com/alibaba/otter/canal/meta/ZooKeeperMetaManager.java|
+EmptySet()
+|file:///home/dataset/canal/meta/src/main/java/com/alibaba/otter/canal/meta/FileMixedMetaManager.java|
+EmptySet()
+  10 of 668 processed succesfully!
+  19 of 668 processed succesfully!
+|file:///home/dataset/canal/parse/src/test/java/com/alibaba/otter/canal/parse/inbound/EventTransactionBufferTest.java|
+EmptySet()
+|file:///home/dataset/canal/parse/src/test/java/com/alibaba/otter/canal/parse/inbound/group/DummyEventStore.java|
+EmptySet()
+|file:///home/dataset/canal/parse/src/test/java/com/alibaba/otter/canal/parse/inbound/mysql/MysqlDumpTest.java|
+EmptySet()
+|file:///home/dataset/canal/parse/src/test/java/com/alibaba/otter/canal/parse/inbound/mysql/LocalBinlogDumpTest.java|
+EmptySet()
+|file:///home/dataset/canal/parse/src/test/java/com/alibaba/otter/canal/parse/inbound/mysql/RdsLocalBinlogDumpTest.java|
+EmptySet()
+|file:///home/dataset/canal/parse/src/test/java/com/alibaba/otter/canal/parse/inbound/mysql/tsdb/MemoryTableMeta_Random_DDL_Test.java|
+EmptySet()
+|file:///home/dataset/canal/parse/src/test/java/com/alibaba/otter/canal/parse/inbound/mysql/tsdb/MetaHistoryDAOTest.java|
+EmptySet()
+|file:///home/dataset/canal/parse/src/test/java/com/alibaba/otter/canal/parse/inbound/mysql/tsdb/MemoryTableMeta_DDL_Test.java|
+EmptySet()
+  58 of 668 processed succesfully!
+  60 of 668 processed succesfully!
+  77 of 668 processed succesfully!
+  78 of 668 processed succesfully!
+  79 of 668 processed succesfully!
+|file:///home/dataset/canal/parse/src/main/java/com/alibaba/otter/canal/parse/inbound/mysql/ddl/DruidDdlParser.java|
+EmptySet()
+  96 of 668 processed succesfully!
+  97 of 668 processed succesfully!
+  106 of 668 processed succesfully!
+|file:///home/dataset/canal/parse/src/main/java/com/alibaba/otter/canal/parse/inbound/mysql/rds/BinlogDownloadQueue.java|
+EmptySet()
+|file:///home/dataset/canal/example/src/main/java/com/alibaba/otter/canal/example/BaseCanalClientTest.java|
+EmptySet()
+|file:///home/dataset/canal/sink/src/main/java/com/alibaba/otter/canal/sink/entry/HeartBeatEntryEventHandler.java|
+EmptySet()
+|file:///home/dataset/canal/admin/admin-web/src/main/java/com/alibaba/otter/canal/admin/model/Model.java|
+EmptySet()
+|file:///home/dataset/canal/driver/src/test/java/com/alibaba/otter/canal/parse/driver/mysql/MysqlGTIDSetTest.java|
+EmptySet()
+  248 of 668 processed succesfully!
+|file:///home/dataset/canal/driver/src/main/java/com/alibaba/otter/canal/parse/driver/mysql/socket/BioSocketChannel.java|
+EmptySet()
+|file:///home/dataset/canal/driver/src/main/java/com/alibaba/otter/canal/parse/driver/mysql/packets/UUIDSet.java|
+EmptySet()
+|file:///home/dataset/canal/driver/src/main/java/com/alibaba/otter/canal/parse/driver/mysql/utils/PacketManager.java|
+EmptySet()
+  297 of 668 processed succesfully!
+|file:///home/dataset/canal/prometheus/src/main/java/com/alibaba/otter/canal/prometheus/impl/ParserCollector.java|
+EmptySet()
+|file:///home/dataset/canal/client/src/main/java/com/alibaba/otter/canal/client/rocketmq/RocketMQCanalConnector.java|
+EmptySet()
+|file:///home/dataset/canal/client/src/main/java/com/alibaba/otter/canal/client/kafka/KafkaOffsetCanalConnector.java|
+EmptySet()
+|file:///home/dataset/canal/client/src/main/java/com/alibaba/otter/canal/client/kafka/KafkaCanalConnector.java|
+EmptySet()
+|file:///home/dataset/canal/client/src/main/java/com/alibaba/otter/canal/client/impl/ClusterNodeAccessStrategy.java|
+EmptySet()
+|file:///home/dataset/canal/connector/rocketmq-connector/src/main/java/com/alibaba/otter/canal/connector/rocketmq/producer/CanalRocketMQProducer.java|
+EmptySet()
+|file:///home/dataset/canal/connector/rocketmq-connector/src/main/java/com/alibaba/otter/canal/connector/rocketmq/consumer/CanalRocketMQConsumer.java|
+EmptySet()
+|file:///home/dataset/canal/connector/pulsarmq-connector/src/test/java/com/alibaba/otter/canal/connector/pulsarmq/consumer/CanalPulsarMQConsumerTest.java|
+EmptySet()
+|file:///home/dataset/canal/connector/pulsarmq-connector/src/main/java/com/alibaba/otter/canal/connector/pulsarmq/producer/CanalPulsarMQProducer.java|
+EmptySet()
+|file:///home/dataset/canal/connector/pulsarmq-connector/src/main/java/com/alibaba/otter/canal/connector/pulsarmq/consumer/CanalPulsarMQConsumer.java|
+EmptySet()
+|file:///home/dataset/canal/connector/rabbitmq-connector/src/main/java/com/alibaba/otter/canal/connector/rabbitmq/producer/CanalRabbitMQProducer.java|
+EmptySet()
+|file:///home/dataset/canal/connector/core/src/main/java/com/alibaba/otter/canal/connector/core/producer/MQMessageUtils.java|
+EmptySet()
+|file:///home/dataset/canal/connector/core/src/main/java/com/alibaba/otter/canal/connector/core/util/MessageUtil.java|
+EmptySet()
+|file:///home/dataset/canal/connector/core/src/main/java/com/alibaba/otter/canal/connector/core/util/CanalMessageSerializerUtil.java|
+EmptySet()
+  354 of 668 processed succesfully!
+|file:///home/dataset/canal/connector/kafka-connector/src/main/java/com/alibaba/otter/canal/connector/kafka/producer/CanalKafkaProducer.java|
+EmptySet()
+|file:///home/dataset/canal/connector/kafka-connector/src/main/java/com/alibaba/otter/canal/connector/kafka/consumer/CanalKafkaConsumer.java|
+EmptySet()
+|file:///home/dataset/canal/protocol/src/test/java/com/alibaba/otter/canal/protocol/ProtocolTest.java|
+EmptySet()
+|file:///home/dataset/canal/store/src/test/java/com/alibaba/otter/canal/store/memory/buffer/MemoryEventStoreMultiThreadTest.java|
+EmptySet()
+  392 of 668 processed succesfully!
+  403 of 668 processed succesfully!
+|file:///home/dataset/canal/instance/manager/src/main/java/com/alibaba/otter/canal/instance/manager/CanalInstanceWithManager.java|
+EmptySet()
+  408 of 668 processed succesfully!
+  419 of 668 processed succesfully!
+  441 of 668 processed succesfully!
+|file:///home/dataset/canal/server/src/main/java/com/alibaba/otter/canal/server/netty/handler/SessionHandler.java|
+EmptySet()
+|file:///home/dataset/canal/common/src/main/java/com/alibaba/otter/canal/common/utils/MQUtil.java|
+EmptySet()
+  471 of 668 processed succesfully!
+|file:///home/dataset/canal/client-adapter/tablestore/src/main/java/com/alibaba/otter/canal/client/adapter/tablestore/TablestoreAdapter.java|
+EmptySet()
+|file:///home/dataset/canal/client-adapter/tablestore/src/main/java/com/alibaba/otter/canal/client/adapter/tablestore/service/TablestoreEtlService.java|
+EmptySet()
+|file:///home/dataset/canal/client-adapter/phoenix/src/main/java/com/alibaba/otter/canal/client/adapter/phoenix/service/PhoenixSyncService.java|
+EmptySet()
+  502 of 668 processed succesfully!
+  510 of 668 processed succesfully!
+|file:///home/dataset/canal/client-adapter/escore/src/main/java/com/alibaba/otter/canal/client/adapter/es/core/config/SqlParser.java|
+EmptySet()
+  518 of 668 processed succesfully!
+  537 of 668 processed succesfully!
+|file:///home/dataset/canal/client-adapter/hbase/src/main/java/com/alibaba/otter/canal/client/adapter/hbase/support/HbaseTemplate.java|
+EmptySet()
+|file:///home/dataset/canal/client-adapter/hbase/src/main/java/com/alibaba/otter/canal/client/adapter/hbase/service/HbaseSyncService.java|
+EmptySet()
+|file:///home/dataset/canal/client-adapter/rdb/src/main/java/com/alibaba/otter/canal/client/adapter/rdb/service/RdbSyncService.java|
+EmptySet()
+|file:///home/dataset/canal/client-adapter/common/src/main/java/com/alibaba/otter/canal/client/adapter/support/MessageUtil.java|
+EmptySet()
+  597 of 668 processed succesfully!
+  613 of 668 processed succesfully!
+|file:///home/dataset/canal/client-adapter/launcher/src/main/java/com/alibaba/otter/canal/adapter/launcher/common/SyncSwitch.java|
+EmptySet()
+25
+INFO:root:  Formating the source code
+INFO:root:   Done

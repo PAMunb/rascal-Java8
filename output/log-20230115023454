@@ -1,0 +1,48 @@
+[Project Analyzer] processing project: roaringbitmap
+- Number of files:  357
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115023513
+- Elapsed Time: 19243.0ms
+[Project Analyzer] processing project: roaringbitmap
+- Number of files:  357
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115023527
+- Elapsed Time: 13706.0ms
+[Project Analyzer] processing project: roaringbitmap
+- Number of files:  357
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115023541
+- Elapsed Time: 13706.0ms
+[Project Analyzer] processing project: roaringbitmap
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/bsi/src/main/java/org/roaringbitmap/bsi/RoaringBitmapSliceIndex.java
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/buffer/TestIterators.java
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/TestRoaringBitmap.java
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/buffer/TestImmutableRoaringBitmap.java
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/jmh/src/jmh/java/org/roaringbitmap/needwork/SlowMappedORaggregate1.java
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/TestSerialization.java
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/buffer/TestMemoryMapping.java
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/bsi/src/main/java/org/roaringbitmap/bsi/buffer/BitSliceIndexBase.java
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/buffer/TestRoaringBitmap.java
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/RoaringBitmapSubsetTest.java
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/RoaringBitmap/src/test/java/org/roaringbitmap/buffer/MutableRoaringBitmapSubsetTest.java
+- applying ForLoopToFunctional into /home/dataset/roaringbitmap/jmh/src/jmh/java/org/roaringbitmap/needwork/SlowMappedORaggregate2.java
+- Number of files:  357
+- Processed Files: 12
+- Exported Files:   12
+- Total of files changed: 21
+- Total of transformations: 21
+- Errors: 29
+- Final Time: 20230115023808
+- Elapsed Time: 147423.0ms

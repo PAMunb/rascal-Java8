@@ -1,0 +1,43 @@
+[Project Analyzer] processing project: omni-notes
+- Number of files:  212
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230115023330
+- Elapsed Time: 4261.0ms
+[Project Analyzer] processing project: omni-notes
+- Number of files:  212
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230115023333
+- Elapsed Time: 2692.0ms
+[Project Analyzer] processing project: omni-notes
+- applying exist pattern into /home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/utils/IntentChecker.java
+- applying exist pattern into /home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/utils/AssetUtils.java
+- applying exist pattern into /home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/utils/TagsHelper.java
+- applying exist pattern into /home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/helpers/AttachmentsHelper.java
+- Number of files:  212
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 0
+- Final Time: 20230115023335
+- Elapsed Time: 2658.0ms
+[Project Analyzer] processing project: omni-notes
+- applying ForLoopToFunctional into /home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/async/notes/NoteProcessor.java
+- applying ForLoopToFunctional into /home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/NoteAdapter.java
+- applying ForLoopToFunctional into /home/dataset/omni-notes/omniNotes/src/main/java/it/feio/android/omninotes/GalleryActivity.java
+- Number of files:  212
+- Processed Files: 3
+- Exported Files:   3
+- Total of files changed: 3
+- Total of transformations: 3
+- Errors: 11
+- Final Time: 20230115023402
+- Elapsed Time: 26338.0ms

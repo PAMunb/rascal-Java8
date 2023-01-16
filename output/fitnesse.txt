@@ -1,0 +1,149 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: fitnesse
+Creating log file at: /output/log-20230114231439
+Processing fitnesse...
+0
+[Project Analyzer] project: fitnesse
+Processing fitnesse...
+  950 of 1197 processed succesfully!
+1
+[Project Analyzer] project: fitnesse
+Processing fitnesse...
+  456 of 1197 processed succesfully!
+  905 of 1197 processed succesfully!
+2
+[Project Analyzer] project: fitnesse
+Processing fitnesse...
+
+|file:///home/dataset/fitnesse/test/fitnesse/testrunner/run/PageListPartitionerImplTest.java|
+EmptySet()
+  23 of 1197 processed succesfully!
+  41 of 1197 processed succesfully!
+  42 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/test/fitnesse/slim/HashWidgetConversionTest.java|
+EmptySet()
+|file:///home/dataset/fitnesse/test/fitnesse/slim/converters/MapConverterTest.java|
+EmptySet()
+|file:///home/dataset/fitnesse/test/fitnesse/components/PluginsClassLoaderFactoryTest.java|
+EmptySet()
+  213 of 1197 processed succesfully!
+  221 of 1197 processed succesfully!
+  230 of 1197 processed succesfully!
+  235 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/test/fitnesse/testsystems/slim/SlimScenarioUsageTest.java|
+EmptySet()
+  268 of 1197 processed succesfully!
+  275 of 1197 processed succesfully!
+  294 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/test/fitnesse/responders/WikiPageResponderTest.java|
+EmptySet()
+|file:///home/dataset/fitnesse/test/fitnesse/responders/run/TestResponderTest.java|
+EmptySet()
+|file:///home/dataset/fitnesse/test/fitnesse/responders/editing/PropertiesResponderTest.java|
+EmptySet()
+|file:///home/dataset/fitnesse/test/fitnesse/responders/search/SearchFormResponderTest.java|
+EmptySet()
+|file:///home/dataset/fitnesse/test/fitnesse/responders/search/SearchPropertiesResponderTest.java|
+EmptySet()
+  372 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/test/fit/ColumnFixtureTest.java|
+EmptySet()
+|file:///home/dataset/fitnesse/test/fit/ActionFixtureTest.java|
+EmptySet()
+|file:///home/dataset/fitnesse/test/fit/FixtureTest.java|
+EmptySet()
+|file:///home/dataset/fitnesse/src/fitnesse/testrunner/MultipleTestsRunner.java|
+EmptySet()
+|file:///home/dataset/fitnesse/src/fitnesse/testrunner/SuiteContentsFinder.java|
+EmptySet()
+  440 of 1197 processed succesfully!
+  442 of 1197 processed succesfully!
+  451 of 1197 processed succesfully!
+  453 of 1197 processed succesfully!
+  458 of 1197 processed succesfully!
+  461 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/testrunner/run/PageListSetUpTearDownInserter.java|
+EmptySet()
+  463 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/fixtures/PagesRunInSuite.java|
+EmptySet()
+|file:///home/dataset/fitnesse/src/fitnesse/util/WikiPageLineProcessingUtil.java|
+EmptySet()
+  548 of 1197 processed succesfully!
+  552 of 1197 processed succesfully!
+  560 of 1197 processed succesfully!
+  570 of 1197 processed succesfully!
+  600 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/slim/test/TableTableIncFirstCol.java|
+EmptySet()
+|file:///home/dataset/fitnesse/src/fitnesse/slim/test/statementexecutorconsumer/TableTableIncFirstCol.java|
+EmptySet()
+  658 of 1197 processed succesfully!
+  667 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/components/PluginsClassLoaderFactory.java|
+EmptySet()
+  703 of 1197 processed succesfully!
+  704 of 1197 processed succesfully!
+  708 of 1197 processed succesfully!
+  712 of 1197 processed succesfully!
+  726 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/html/TagGroup.java|
+EmptySet()
+|file:///home/dataset/fitnesse/src/fitnesse/html/HtmlTag.java|
+EmptySet()
+  763 of 1197 processed succesfully!
+  774 of 1197 processed succesfully!
+  778 of 1197 processed succesfully!
+  792 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/wikitext/parser/SyntaxTreeV2.java|
+EmptySet()
+|file:///home/dataset/fitnesse/src/fitnesse/wikitext/parser/Symbol.java|
+EmptySet()
+  846 of 1197 processed succesfully!
+  863 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/wiki/fs/SimpleFileVersionsController.java|
+EmptySet()
+  867 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/wiki/fs/ZipFileVersionsController.java|
+EmptySet()
+  883 of 1197 processed succesfully!
+  903 of 1197 processed succesfully!
+  929 of 1197 processed succesfully!
+  930 of 1197 processed succesfully!
+  946 of 1197 processed succesfully!
+  949 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/testsystems/slim/InstructionTestSystem.java|
+EmptySet()
+  959 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/testsystems/slim/SlimTestSystem.java|
+EmptySet()
+  972 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/testsystems/slim/tables/SlimAssertion.java|
+EmptySet()
+|file:///home/dataset/fitnesse/src/fitnesse/testsystems/slim/tables/QueryTable.java|
+EmptySet()
+  1000 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/responders/WikiImporter.java|
+EmptySet()
+  1022 of 1197 processed succesfully!
+  1023 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fitnesse/responders/editing/PropertiesResponder.java|
+EmptySet()
+  1034 of 1197 processed succesfully!
+  1038 of 1197 processed succesfully!
+  1062 of 1197 processed succesfully!
+  1070 of 1197 processed succesfully!
+  1098 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/util/FileUtil.java|
+EmptySet()
+  1103 of 1197 processed succesfully!
+  1105 of 1197 processed succesfully!
+|file:///home/dataset/fitnesse/src/fit/RowFixture.java|
+EmptySet()
+55
+INFO:root:  Formating the source code
+INFO:root:   Done

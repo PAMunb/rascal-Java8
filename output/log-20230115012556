@@ -1,0 +1,62 @@
+[Project Analyzer] processing project: fastjson
+- applying aic into /home/dataset/fastjson/src/main/java/com/alibaba/fastjson/util/TypeUtils.java
+- applying aic into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/support/hsf/HSFJSONUtilsTest_1.java
+- applying aic into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/support/hsf/HSFJSONUtilsTest_4.java
+- applying aic into /home/dataset/fastjson/src/main/java/com/alibaba/fastjson/parser/ParserConfig.java
+- applying aic into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/support/hsf/HSFJSONUtilsTest_2.java
+- applying aic into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/support/hsf/HSFJSONUtilsTest_3.java
+- applying aic into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/serializer/JSONSerializerTest.java
+- applying aic into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/support/spring/security/DefaultSavedRequestTest.java
+- applying aic into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/issue_1600/Issue1653.java
+- applying aic into /home/dataset/fastjson/src/main/java/com/alibaba/fastjson/util/ASMClassLoader.java
+- Number of files:  3119
+- Processed Files: 10
+- Exported Files:   10
+- Total of files changed: 14
+- Total of transformations: 14
+- Errors: 10
+- Final Time: 20230115012631
+- Elapsed Time: 35637.0ms
+[Project Analyzer] processing project: fastjson
+- Number of files:  3119
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 10
+- Final Time: 20230115012658
+- Elapsed Time: 26937.0ms
+[Project Analyzer] processing project: fastjson
+- applying exist pattern into /home/dataset/fastjson/src/main/java/com/alibaba/fastjson/JSONPath.java
+- Number of files:  3119
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 10
+- Final Time: 20230115012725
+- Elapsed Time: 26617.0ms
+[Project Analyzer] processing project: fastjson
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_generic.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/support/jaxrs/mock/service/FastJsonRestfulServiceTestImpl.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/test/performance/ObjectDecodePerformanceTest.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/test/performance/case1/IntObjectDecodePerformanceTest.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/main/java/com/alibaba/fastjson/util/ServiceLoader.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/issue_2200/issue2224/KeyedCollection.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/test/performance/PageModelPerformanceTest.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/test/performance/case1/IntDecoderPerformanceTest.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/bug/Bug_for_dragoon26.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/JSONObjectTest_getObj.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/cn/com/tx/domain/pagination/Pagination.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/test/performance/DecoderPerformanceTest.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/test/performance/case1/IntObjectEncodePerformanceTest.java
+- applying ForLoopToFunctional into /home/dataset/fastjson/src/test/java/com/alibaba/json/bvt/support/spring/mock/controller/FastJsonControllerTest.java
+- Number of files:  3119
+- Processed Files: 15
+- Exported Files:   15
+- Total of files changed: 16
+- Total of transformations: 16
+- Errors: 32
+- Final Time: 20230115013140
+- Elapsed Time: 254965.0ms

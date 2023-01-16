@@ -1,0 +1,65 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: truth
+Creating log file at: /output/log-20230115011057
+Processing truth...
+|file:///home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/package-info.java|
+ParseError(|unknown:///|(861,1,<25,0>,<25,1>))
+|file:///home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/FieldDescriptorValidator.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+|file:///home/dataset/truth/core/src/main/java/com/google/common/truth/package-info.java|
+ParseError(|unknown:///|(1127,1,<32,0>,<32,1>))
+0
+[Project Analyzer] project: truth
+Processing truth...
+|file:///home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/package-info.java|
+ParseError(|unknown:///|(861,1,<25,0>,<25,1>))
+|file:///home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/FieldDescriptorValidator.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+|file:///home/dataset/truth/core/src/main/java/com/google/common/truth/package-info.java|
+ParseError(|unknown:///|(1127,1,<32,0>,<32,1>))
+  167 of 184 processed succesfully!
+1
+[Project Analyzer] project: truth
+Processing truth...
+|file:///home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/package-info.java|
+ParseError(|unknown:///|(861,1,<25,0>,<25,1>))
+|file:///home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/FieldDescriptorValidator.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+|file:///home/dataset/truth/core/src/main/java/com/google/common/truth/package-info.java|
+ParseError(|unknown:///|(1127,1,<32,0>,<32,1>))
+  154 of 184 processed succesfully!
+1
+[Project Analyzer] project: truth
+Processing truth...
+
+  4 of 184 processed succesfully!
+  15 of 184 processed succesfully!
+  18 of 184 processed succesfully!
+|file:///home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/package-info.java|
+ParseError(|unknown:///|(861,1,<25,0>,<25,1>))
+|file:///home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/FieldScopeLogicMap.java|
+EmptySet()
+  32 of 184 processed succesfully!
+|file:///home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/FieldDescriptorValidator.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+|file:///home/dataset/truth/extensions/proto/src/main/java/com/google/common/truth/extensions/proto/ProtoTruthMessageDifferencer.java|
+EmptySet()
+  64 of 184 processed succesfully!
+  106 of 184 processed succesfully!
+|file:///home/dataset/truth/core/src/main/java/com/google/common/truth/Expect.java|
+EmptySet()
+|file:///home/dataset/truth/core/src/main/java/com/google/common/truth/package-info.java|
+ParseError(|unknown:///|(1127,1,<32,0>,<32,1>))
+  157 of 184 processed succesfully!
+  159 of 184 processed succesfully!
+  162 of 184 processed succesfully!
+  164 of 184 processed succesfully!
+|file:///home/dataset/truth/core/src/main/java/com/google/common/truth/Subject.java|
+EmptySet()
+10
+INFO:root:  Formating the source code
+INFO:root:   Done

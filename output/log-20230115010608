@@ -1,0 +1,57 @@
+[Project Analyzer] processing project: twelvemonkeys
+- applying aic into /home/dataset/twelvemonkeys/common/common-lang/src/main/java/com/twelvemonkeys/lang/SystemUtil.java
+- applying aic into /home/dataset/twelvemonkeys/imageio/imageio-psd/src/main/java/com/twelvemonkeys/imageio/plugins/psd/PSDMetadata.java
+- applying aic into /home/dataset/twelvemonkeys/common/common-lang/src/main/java/com/twelvemonkeys/util/CollectionUtil.java
+- applying aic into /home/dataset/twelvemonkeys/imageio/imageio-bmp/src/main/java/com/twelvemonkeys/imageio/plugins/bmp/DIBImageReader.java
+- applying aic into /home/dataset/twelvemonkeys/common/common-lang/src/main/java/com/twelvemonkeys/util/service/ServiceRegistry.java
+- applying aic into /home/dataset/twelvemonkeys/common/common-io/src/test/java/com/twelvemonkeys/io/SeekableInputStreamAbstractTest.java
+- applying aic into /home/dataset/twelvemonkeys/imageio/imageio-thumbsdb/src/main/java/com/twelvemonkeys/imageio/plugins/thumbsdb/ThumbsDBImageReader.java
+- Number of files:  785
+- Processed Files: 7
+- Exported Files:   7
+- Total of files changed: 10
+- Total of transformations: 10
+- Errors: 4
+- Final Time: 20230115010631
+- Elapsed Time: 22821.0ms
+[Project Analyzer] processing project: twelvemonkeys
+- Number of files:  785
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 4
+- Final Time: 20230115010647
+- Elapsed Time: 16157.0ms
+[Project Analyzer] processing project: twelvemonkeys
+- applying exist pattern into /home/dataset/twelvemonkeys/imageio/imageio-psd/src/main/java/com/twelvemonkeys/imageio/plugins/psd/PSDMetadata.java
+- applying exist pattern into /home/dataset/twelvemonkeys/common/common-lang/src/main/java/com/twelvemonkeys/util/AbstractDecoratedMap.java
+- applying exist pattern into /home/dataset/twelvemonkeys/imageio/imageio-tiff/src/main/java/com/twelvemonkeys/imageio/plugins/tiff/TIFFImageReader.java
+- applying exist pattern into /home/dataset/twelvemonkeys/imageio/imageio-core/src/main/java/com/twelvemonkeys/imageio/ImageReaderBase.java
+- Number of files:  785
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 4
+- Final Time: 20230115010704
+- Elapsed Time: 16378.0ms
+[Project Analyzer] processing project: twelvemonkeys
+- applying ForLoopToFunctional into /home/dataset/twelvemonkeys/common/common-image/src/test/java/com/twelvemonkeys/image/AffineTransformOpTest.java
+- applying ForLoopToFunctional into /home/dataset/twelvemonkeys/imageio/imageio-core/src/test/java/com/twelvemonkeys/imageio/spi/ReaderWriterProviderInfoTest.java
+- applying ForLoopToFunctional into /home/dataset/twelvemonkeys/imageio/imageio-tiff/src/main/java/com/twelvemonkeys/imageio/plugins/tiff/TIFFImageWriter.java
+- applying ForLoopToFunctional into /home/dataset/twelvemonkeys/common/common-io/src/main/java/com/twelvemonkeys/io/CompoundReader.java
+- applying ForLoopToFunctional into /home/dataset/twelvemonkeys/imageio/imageio-core/src/main/java/com/twelvemonkeys/imageio/StandardImageMetadataSupport.java
+- applying ForLoopToFunctional into /home/dataset/twelvemonkeys/imageio/imageio-jpeg/src/main/java/com/twelvemonkeys/imageio/plugins/jpeg/JPEGLosslessDecoder.java
+- applying ForLoopToFunctional into /home/dataset/twelvemonkeys/common/common-lang/src/test/java/com/twelvemonkeys/util/MapAbstractTest.java
+- applying ForLoopToFunctional into /home/dataset/twelvemonkeys/imageio/imageio-thumbsdb/src/test/java/com/twelvemonkeys/imageio/plugins/thumbsdb/ThumbsDBProviderInfoTest.java
+- applying ForLoopToFunctional into /home/dataset/twelvemonkeys/imageio/imageio-metadata/src/main/java/com/twelvemonkeys/imageio/metadata/AbstractCompoundDirectory.java
+- applying ForLoopToFunctional into /home/dataset/twelvemonkeys/common/common-image/src/main/java/com/twelvemonkeys/image/BufferedImageFactory.java
+- Number of files:  785
+- Processed Files: 10
+- Exported Files:   10
+- Total of files changed: 11
+- Total of transformations: 11
+- Errors: 27
+- Final Time: 20230115011005
+- Elapsed Time: 181606.0ms

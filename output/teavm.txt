@@ -1,0 +1,391 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: teavm
+Creating log file at: /output/log-20230115015010
+Processing teavm...
+|file:///home/dataset/teavm/samples/benchmark/src/main/java/org/teavm/samples/benchmark/teavm/Gtk3BenchmarkStarter.java|
+ParseError(|unknown:///|(5148,1,<126,92>,<126,93>))
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/tests/JSOTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  182 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/jso/test/ConversionTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/jso/test/JavaInvocationTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/metaprogramming/test/MetaprogrammingTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/metaprogramming/test/subpackage/package-info.java|
+ParseError(|unknown:///|(623,1,<17,0>,<17,1>))
+|file:///home/dataset/teavm/html4j/src/test/java/org/teavm/html4j/test/JavaScriptBodyTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/html4j/src/test/java/org/teavm/html4j/test/KnockoutFXTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/java/util/concurrent/TFlow.java|
+ParseError(|unknown:///|(982,1,<32,20>,<32,21>))
+  1403 of 2753 processed succesfully!
+  1406 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tools/maven/webapp/src/main/resources/archetype-resources/src/main/java/Client.java|
+ParseError(|unknown:///|(9,1,<1,9>,<1,10>))
+|file:///home/dataset/teavm/jso/apis/src/main/java/org/teavm/jso/core/JSDate.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/jso/core/src/main/java/org/teavm/jso/JSBody.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+3
+[Project Analyzer] project: teavm
+Processing teavm...
+|file:///home/dataset/teavm/samples/benchmark/src/main/java/org/teavm/samples/benchmark/teavm/Gtk3BenchmarkStarter.java|
+ParseError(|unknown:///|(5148,1,<126,92>,<126,93>))
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/tests/JSOTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/jso/test/ConversionTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/jso/test/JavaInvocationTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/metaprogramming/test/MetaprogrammingTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/metaprogramming/test/subpackage/package-info.java|
+ParseError(|unknown:///|(623,1,<17,0>,<17,1>))
+|file:///home/dataset/teavm/html4j/src/test/java/org/teavm/html4j/test/JavaScriptBodyTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/html4j/src/test/java/org/teavm/html4j/test/KnockoutFXTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/java/util/concurrent/TFlow.java|
+ParseError(|unknown:///|(982,1,<32,20>,<32,21>))
+  1378 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tools/maven/webapp/src/main/resources/archetype-resources/src/main/java/Client.java|
+ParseError(|unknown:///|(9,1,<1,9>,<1,10>))
+|file:///home/dataset/teavm/jso/apis/src/main/java/org/teavm/jso/core/JSDate.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/jso/core/src/main/java/org/teavm/jso/JSBody.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+1
+[Project Analyzer] project: teavm
+Processing teavm...
+|file:///home/dataset/teavm/samples/benchmark/src/main/java/org/teavm/samples/benchmark/teavm/Gtk3BenchmarkStarter.java|
+ParseError(|unknown:///|(5148,1,<126,92>,<126,93>))
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/tests/JSOTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/jso/test/ConversionTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/jso/test/JavaInvocationTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/metaprogramming/test/MetaprogrammingTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/metaprogramming/test/subpackage/package-info.java|
+ParseError(|unknown:///|(623,1,<17,0>,<17,1>))
+|file:///home/dataset/teavm/html4j/src/test/java/org/teavm/html4j/test/JavaScriptBodyTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/html4j/src/test/java/org/teavm/html4j/test/KnockoutFXTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  429 of 2753 processed succesfully!
+|file:///home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/java/util/concurrent/TFlow.java|
+ParseError(|unknown:///|(982,1,<32,20>,<32,21>))
+|file:///home/dataset/teavm/tools/maven/webapp/src/main/resources/archetype-resources/src/main/java/Client.java|
+ParseError(|unknown:///|(9,1,<1,9>,<1,10>))
+  1951 of 2753 processed succesfully!
+  2118 of 2753 processed succesfully!
+  2343 of 2753 processed succesfully!
+|file:///home/dataset/teavm/jso/apis/src/main/java/org/teavm/jso/core/JSDate.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/jso/core/src/main/java/org/teavm/jso/JSBody.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+4
+[Project Analyzer] project: teavm
+Processing teavm...
+
+|file:///home/dataset/teavm/samples/benchmark/src/main/java/org/teavm/samples/benchmark/teavm/Gtk3BenchmarkStarter.java|
+ParseError(|unknown:///|(5148,1,<126,92>,<126,93>))
+  44 of 2753 processed succesfully!
+  59 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/dependency/DependencyTestData.java|
+EmptySet()
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/dependency/DependencyTest.java|
+EmptySet()
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/tests/JSOTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/util/PriorityQueueTest.java|
+EmptySet()
+  118 of 2753 processed succesfully!
+  128 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/util/stream/Helper.java|
+EmptySet()
+  178 of 2753 processed succesfully!
+  181 of 2753 processed succesfully!
+  182 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/time/TestLocalDateTime.java|
+EmptySet()
+  207 of 2753 processed succesfully!
+  210 of 2753 processed succesfully!
+  213 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/time/chrono/TestChronology.java|
+EmptySet()
+  315 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/vm/VMTest.java|
+EmptySet()
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/jso/test/ConversionTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/jso/test/JavaInvocationTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/metaprogramming/test/MetaprogrammingTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/tests/src/test/java/org/teavm/metaprogramming/test/subpackage/package-info.java|
+ParseError(|unknown:///|(623,1,<17,0>,<17,1>))
+|file:///home/dataset/teavm/html4j/src/test/java/org/teavm/html4j/test/JavaScriptBodyTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/teavm/html4j/src/test/java/org/teavm/html4j/test/KnockoutFXTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  410 of 2753 processed succesfully!
+  425 of 2753 processed succesfully!
+  436 of 2753 processed succesfully!
+  439 of 2753 processed succesfully!
+|file:///home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/impl/ServiceLoaderCSupport.java|
+EmptySet()
+  482 of 2753 processed succesfully!
+  485 of 2753 processed succesfully!
+  491 of 2753 processed succesfully!
+|file:///home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/impl/tz/DateTimeZoneBuilder.java|
+EmptySet()
+|file:///home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/impl/tz/TimeZoneCache.java|
+EmptySet()
+  529 of 2753 processed succesfully!
+|file:///home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/java/util/TEnumSet.java|
+EmptySet()
+|file:///home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/java/util/concurrent/TFlow.java|
+ParseError(|unknown:///|(982,1,<32,20>,<32,21>))
+|file:///home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/java/lang/TString.java|
+EmptySet()
+  1106 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tools/idea/src/main/java/org/teavm/idea/debug/TeaVMStackFrame.java|
+EmptySet()
+|file:///home/dataset/teavm/tools/idea/src/main/java/org/teavm/idea/debug/TeaVMOriginalValue.java|
+EmptySet()
+|file:///home/dataset/teavm/tools/idea/src/main/java/org/teavm/idea/devserver/DevServerRunner.java|
+EmptySet()
+  1299 of 2753 processed succesfully!
+  1304 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tools/chrome-rdp/src/main/java/org/teavm/chromerdp/ChromeRDPDebugger.java|
+EmptySet()
+|file:///home/dataset/teavm/tools/chrome-rdp/src/main/java/org/teavm/chromerdp/ChromeRDPRunner.java|
+EmptySet()
+|file:///home/dataset/teavm/tools/junit/src/main/java/org/teavm/junit/WasiRunStrategy.java|
+EmptySet()
+  1352 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tools/junit/src/main/java/org/teavm/junit/CRunStrategy.java|
+EmptySet()
+|file:///home/dataset/teavm/tools/junit/src/main/java/org/teavm/junit/TestEntryPointTransformerForWholeClass.java|
+EmptySet()
+|file:///home/dataset/teavm/tools/junit/src/main/java/org/teavm/junit/TeaVMTestRunner.java|
+EmptySet()
+  1359 of 2753 processed succesfully!
+  1363 of 2753 processed succesfully!
+  1400 of 2753 processed succesfully!
+  1411 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tools/core/src/main/java/org/teavm/tooling/daemon/BuildDaemon.java|
+EmptySet()
+  1423 of 2753 processed succesfully!
+  1434 of 2753 processed succesfully!
+  1445 of 2753 processed succesfully!
+  1446 of 2753 processed succesfully!
+  1447 of 2753 processed succesfully!
+|file:///home/dataset/teavm/tools/classlib-comparison-gen/src/main/java/org/teavm/tools/classlibcomparison/JCLComparisonBuilder.java|
+EmptySet()
+|file:///home/dataset/teavm/tools/maven/webapp/src/main/resources/archetype-resources/src/main/java/Client.java|
+ParseError(|unknown:///|(9,1,<1,9>,<1,10>))
+|file:///home/dataset/teavm/core/src/test/java/org/teavm/common/GraphTest.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/dependency/TypeSet.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/dependency/DataFlowGraphBuilder.java|
+EmptySet()
+  1510 of 2753 processed succesfully!
+  1513 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/dependency/DependencyAnalyzer.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/dependency/DefaultCallGraph.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/dependency/Transition.java|
+EmptySet()
+  1531 of 2753 processed succesfully!
+  1532 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/dependency/DependencyNode.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/c/CTarget.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/c/util/HeapDumpConverter.java|
+EmptySet()
+  1561 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/c/analyze/AstDefinitionUsageAnalysis.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/c/generate/GeneratorContextImpl.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/c/generate/ClassGenerator.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/c/generate/CNameProvider.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/c/generate/CallSiteGenerator.java|
+EmptySet()
+  1623 of 2753 processed succesfully!
+  1624 of 2753 processed succesfully!
+  1633 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/javascript/rendering/Renderer.java|
+EmptySet()
+  1636 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/javascript/rendering/StatementRenderer.java|
+EmptySet()
+  1645 of 2753 processed succesfully!
+  1667 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/Example.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/WasmTarget.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/parser/ModuleParser.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/debug/DebugVariablesBuilder.java|
+EmptySet()
+  1773 of 2753 processed succesfully!
+  1775 of 2753 processed succesfully!
+  1782 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/debug/info/StepLocationsFinder.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/debug/info/ClassLayoutInfo.java|
+EmptySet()
+  1822 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/render/WasmRenderer.java|
+EmptySet()
+  1823 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/render/WasmBinaryRenderer.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/render/WasmCRenderer.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/blob/Blob.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/dwarf/DwarfInfoWriter.java|
+EmptySet()
+  1850 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/generate/WasmClassGenerator.java|
+EmptySet()
+  1871 of 2753 processed succesfully!
+  1882 of 2753 processed succesfully!
+  1891 of 2753 processed succesfully!
+  1900 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/debugging/Debugger.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/debugging/information/DebugInformationWriter.java|
+EmptySet()
+  1929 of 2753 processed succesfully!
+  1954 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/BasicBlock.java|
+EmptySet()
+  1977 of 2753 processed succesfully!
+  1985 of 2753 processed succesfully!
+  2041 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/util/ProgramUtils.java|
+EmptySet()
+  2057 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/util/BasicBlockSplitter.java|
+EmptySet()
+  2063 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/util/PhiUpdater.java|
+EmptySet()
+  2064 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/util/LocationGraphBuilder.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/util/AsyncMethodFinder.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/classes/VirtualTableBuilder.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/transformation/BoundCheckInsertion.java|
+EmptySet()
+  2099 of 2753 processed succesfully!
+  2100 of 2753 processed succesfully!
+  2103 of 2753 processed succesfully!
+  2104 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/analysis/ClassInitializerAnalysis.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/analysis/ClassInference.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/analysis/NullnessInformation.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/analysis/AliasAnalysis.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/analysis/SubclassListProvider.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/optimization/VariableUsageGraphBuilder.java|
+EmptySet()
+  2111 of 2753 processed succesfully!
+  2116 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/optimization/Devirtualization.java|
+EmptySet()
+  2117 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/optimization/RepeatedFieldReadElimination.java|
+EmptySet()
+  2122 of 2753 processed succesfully!
+  2125 of 2753 processed succesfully!
+  2128 of 2753 processed succesfully!
+  2132 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/lowlevel/ExportDependencyListener.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/lowlevel/CallSiteDescriptor.java|
+EmptySet()
+  2134 of 2753 processed succesfully!
+  2135 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/lowlevel/GCShadowStackContributor.java|
+EmptySet()
+  2140 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/model/lowlevel/WriteBarrierInsertion.java|
+EmptySet()
+  2146 of 2753 processed succesfully!
+  2155 of 2753 processed succesfully!
+  2157 of 2753 processed succesfully!
+  2158 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/vm/TeaVMPluginReader.java|
+EmptySet()
+  2242 of 2753 processed succesfully!
+  2260 of 2753 processed succesfully!
+  2265 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/ast/analysis/LocationGraphBuilder.java|
+EmptySet()
+  2289 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/common/GraphBuilder.java|
+EmptySet()
+  2294 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/common/IrreducibleGraphSplitter.java|
+EmptySet()
+  2297 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/common/MutableDirectedGraph.java|
+EmptySet()
+  2313 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/parsing/Parser.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/parsing/ProgramParser.java|
+EmptySet()
+  2320 of 2753 processed succesfully!
+  2325 of 2753 processed succesfully!
+  2327 of 2753 processed succesfully!
+  2337 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/cache/DiskMethodNodeCache.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/cache/DiskCachedClassReaderSource.java|
+EmptySet()
+  2339 of 2753 processed succesfully!
+  2340 of 2753 processed succesfully!
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/cache/DiskProgramCache.java|
+EmptySet()
+|file:///home/dataset/teavm/core/src/main/java/org/teavm/cache/AstIO.java|
+EmptySet()
+  2359 of 2753 processed succesfully!
+|file:///home/dataset/teavm/jso/apis/src/main/java/org/teavm/jso/core/JSDate.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  2582 of 2753 processed succesfully!
+  2597 of 2753 processed succesfully!
+|file:///home/dataset/teavm/jso/core/src/main/java/org/teavm/jso/JSBody.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  2632 of 2753 processed succesfully!
+|file:///home/dataset/teavm/metaprogramming/impl/src/main/java/org/teavm/metaprogramming/impl/optimization/ArrayElimination.java|
+EmptySet()
+96
+INFO:root:  Formating the source code
+INFO:root:   Done

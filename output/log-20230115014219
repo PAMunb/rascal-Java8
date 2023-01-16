@@ -1,0 +1,40 @@
+[Project Analyzer] processing project: android-imsi-catcher-detector
+- applying aic into /home/dataset/android-imsi-catcher-detector/AIMSICD/src/main/java/com/secupwn/aimsicd/ui/fragments/DeviceFragment.java
+- Number of files:  105
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 0
+- Final Time: 20230115014222
+- Elapsed Time: 3083.0ms
+[Project Analyzer] processing project: android-imsi-catcher-detector
+- Number of files:  105
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230115014224
+- Elapsed Time: 1759.0ms
+[Project Analyzer] processing project: android-imsi-catcher-detector
+- Number of files:  105
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230115014225
+- Elapsed Time: 1686.0ms
+[Project Analyzer] processing project: android-imsi-catcher-detector
+- applying ForLoopToFunctional into /home/dataset/android-imsi-catcher-detector/AIMSICD/src/main/java/com/secupwn/aimsicd/ui/fragments/AtCommandFragment.java
+- applying ForLoopToFunctional into /home/dataset/android-imsi-catcher-detector/AIMSICD/src/main/java/com/secupwn/aimsicd/map/CellTowerGridMarkerClusterer.java
+- applying ForLoopToFunctional into /home/dataset/android-imsi-catcher-detector/AIMSICD/src/main/java/com/secupwn/aimsicd/AndroidIMSICatcherDetector.java
+- Number of files:  105
+- Processed Files: 3
+- Exported Files:   3
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 5
+- Final Time: 20230115014247
+- Elapsed Time: 21974.0ms

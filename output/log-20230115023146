@@ -1,0 +1,48 @@
+[Project Analyzer] processing project: retrofit
+- Number of files:  290
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 3
+- Final Time: 20230115023152
+- Elapsed Time: 5567.0ms
+[Project Analyzer] processing project: retrofit
+- Number of files:  290
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 3
+- Final Time: 20230115023155
+- Elapsed Time: 3425.0ms
+[Project Analyzer] processing project: retrofit
+- applying exist pattern into /home/dataset/retrofit/retrofit/src/main/java/retrofit2/Utils.java
+- Number of files:  290
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 3
+- Final Time: 20230115023159
+- Elapsed Time: 3426.0ms
+[Project Analyzer] processing project: retrofit
+- applying ForLoopToFunctional into /home/dataset/retrofit/retrofit-adapters/rxjava3/src/test/java/retrofit2/adapter/rxjava3/RecordingObserver.java
+- applying ForLoopToFunctional into /home/dataset/retrofit/retrofit-adapters/rxjava3/src/test/java/retrofit2/adapter/rxjava3/RecordingMaybeObserver.java
+- applying ForLoopToFunctional into /home/dataset/retrofit/retrofit-adapters/rxjava2/src/test/java/retrofit2/adapter/rxjava2/RecordingSubscriber.java
+- applying ForLoopToFunctional into /home/dataset/retrofit/retrofit-adapters/rxjava2/src/test/java/retrofit2/adapter/rxjava2/RecordingSingleObserver.java
+- applying ForLoopToFunctional into /home/dataset/retrofit/retrofit-adapters/rxjava3/src/test/java/retrofit2/adapter/rxjava3/RecordingCompletableObserver.java
+- applying ForLoopToFunctional into /home/dataset/retrofit/retrofit-adapters/rxjava2/src/test/java/retrofit2/adapter/rxjava2/RecordingMaybeObserver.java
+- applying ForLoopToFunctional into /home/dataset/retrofit/retrofit-adapters/rxjava2/src/test/java/retrofit2/adapter/rxjava2/RecordingCompletableObserver.java
+- applying ForLoopToFunctional into /home/dataset/retrofit/retrofit-adapters/rxjava3/src/test/java/retrofit2/adapter/rxjava3/RecordingSubscriber.java
+- applying ForLoopToFunctional into /home/dataset/retrofit/retrofit-adapters/rxjava/src/test/java/retrofit2/adapter/rxjava/RecordingSubscriber.java
+- applying ForLoopToFunctional into /home/dataset/retrofit/retrofit-adapters/rxjava2/src/test/java/retrofit2/adapter/rxjava2/RecordingObserver.java
+- applying ForLoopToFunctional into /home/dataset/retrofit/retrofit-adapters/rxjava3/src/test/java/retrofit2/adapter/rxjava3/RecordingSingleObserver.java
+- Number of files:  290
+- Processed Files: 11
+- Exported Files:   11
+- Total of files changed: 11
+- Total of transformations: 11
+- Errors: 7
+- Final Time: 20230115023233
+- Elapsed Time: 34078.0ms

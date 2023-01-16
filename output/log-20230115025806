@@ -1,0 +1,230 @@
+[Project Analyzer] processing project: deeplearning4j
+- applying aic into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/writable/Text.java
+- applying aic into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/ir/TensorNamespace.java
+- applying aic into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/ir/MapperNamespace.java
+- applying aic into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/ir/OpNamespace.java
+- applying aic into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/rng/distribution/BaseDistribution.java
+- applying aic into /home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java/org/nd4j/common/io/ReflectionUtils.java
+- Number of files:  4652
+- Processed Files: 6
+- Exported Files:   6
+- Total of files changed: 13
+- Total of transformations: 13
+- Errors: 63
+- Final Time: 20230115030105
+- Elapsed Time: 178587.0ms
+[Project Analyzer] processing project: deeplearning4j
+- applying filter pattern into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/internal/AbstractSession.java
+- applying filter pattern into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/transform/SubGraph.java
+- applying filter pattern into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/SameDiff.java
+- Number of files:  4652
+- Processed Files: 3
+- Exported Files:   3
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 63
+- Final Time: 20230115030331
+- Elapsed Time: 145708.0ms
+[Project Analyzer] processing project: deeplearning4j
+- applying exist pattern into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/serde/BaseNetConfigDeserializer.java
+- applying exist pattern into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/ConcatenatingRecordReader.java
+- applying exist pattern into /home/dataset/deeplearning4j/codegen/libnd4j-gen/src/main/java/org/nd4j/descriptor/proposal/impl/ArgDescriptorParserUtils.java
+- applying exist pattern into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/conf/Configuration.java
+- applying exist pattern into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/text/sentenceiterator/AggregatingSentenceIterator.java
+- applying exist pattern into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/frameworkimport/tensorflow/TFGraphsSkipNodes.java
+- Number of files:  4652
+- Processed Files: 6
+- Exported Files:   6
+- Total of files changed: 12
+- Total of transformations: 12
+- Errors: 63
+- Final Time: 20230115030555
+- Elapsed Time: 144419.0ms
+[Project Analyzer] processing project: deeplearning4j
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/reduce/Reducer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-node/src/main/java/org/nd4j/parameterserver/distributed/v2/util/MeshOrganizer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/layers/LayerValidation.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-modelimport/src/main/java/org/deeplearning4j/nn/modelimport/keras/preprocessing/text/KerasTokenizer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/longrunning/frameworkimport/tensorflow/TFGraphTestZooModels.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/data/shuffle/SplitDataSetExamplesPairFlatMapFunction.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/floattransform/FloatMathOpTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/executioner/OpExecutionerUtil.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/local/transforms/transform/rank/TestCalculateSortedRank.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-jdbc/src/main/java/org/datavec/jdbc/records/reader/impl/jdbc/JDBCRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/nd4j/parameterserver/distributed/v2/chunks/impl/InmemoryChunksTrackerTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/dataset/KFoldIteratorTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/factory/Nd4jBackend.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-local/src/main/java/org/datavec/local/transforms/AnalyzeLocal.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/BaseColumnsMathOpTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/bagofwords/vectorizer/TfidfVectorizer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/dl4jcore/optimize/solver/accumulation/IndexedTailTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/memory/BasicMemoryManager.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-utility-iterators/src/main/java/org/deeplearning4j/datasets/iterator/JointMultiDataSetIterator.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/layers/misc/FrozenLayer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/profiler/OpProfiler.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/optimize/listeners/ComposableIterationListener.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-node/src/main/java/org/nd4j/parameterserver/distributed/v2/transport/impl/BaseTransport.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/condition/ConditionalReplaceValueTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/categorical/IntegerToCategoricalTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/array/ThreadSafeArrayHolder.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/collection/ListStringRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/embeddings/learning/impl/sequence/DM.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/nd4j/parameterserver/distributed/v2/ModelParameterServerTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-graph/src/main/java/org/deeplearning4j/graph/iterator/WeightedRandomWalkIterator.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-core/src/main/java/org/deeplearning4j/core/storage/impl/RemoteUIStatsStorageRouter.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cpu-backend-common/src/main/java/org/nd4j/linalg/cpu/nativecpu/buffer/Utf8Buffer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-spark/src/main/java/org/datavec/spark/transform/AnalyzeSpark.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/BaseTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/writable/batch/NDArrayRecordBatch.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/csv/CSVSequenceRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/config/SDValue.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/sequencevectors/graph/walkers/impl/WeightedWalker.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/nd4j/parameterserver/distributed/v2/util/MessageSplitterTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/text/sentenceiterator/interoperability/SentenceIteratorConverter.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-tensorflow/src/main/java/org/nd4j/tensorflow/conversion/graphrunner/GraphRunner.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/stats/impl/SbeStatsInitializationReport.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-common-tests/src/main/java/org/deeplearning4j/BaseDL4JTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/dataset/api/preprocessor/serializer/MultiHybridSerializerStrategy.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/api/transform/reduce/TestReductions.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/word2vec/wordstore/inmemory/AbstractCache.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/imports/graphmapper/tf/TFGraphMapper.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-backend-impls/nd4j-cuda/src/main/java/org/nd4j/linalg/jcublas/buffer/CudaUtf8Buffer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/list/NDArrayList.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java/org/nd4j/common/validation/ValidationResult.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/sequence/window/ReduceSequenceByWindowTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/deeplearning4j-scaleout-parallelwrapper/src/main/java/org/deeplearning4j/parallelism/InplaceParallelInference.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/collection/CollectionSequenceRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/column/AddConstantColumnTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java/org/nd4j/common/collection/IntArrayKeySet.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/stringreduce/StringReducer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/sequence/expansion/BaseSequenceExpansionTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/analysis/columns/NDArrayAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/collection/CollectionRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/api/transform/transform/TestTransforms.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/internal/AbstractDependencyTracker.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/column/DuplicateColumnsTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/word2vec/wordstore/VocabularyHolder.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark-parameterserver/src/main/java/org/deeplearning4j/spark/parameterserver/pw/SharedTrainingWrapper.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/embeddings/reader/impl/BasicModelUtils.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/data/BatchAndExportDataSetsFunction.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/impl/repartitioner/EqualRepartitioner.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/eclipse/deeplearning4j/nd4j/linalg/multithreading/MultithreadedTests.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-excel/src/main/java/org/datavec/poi/excel/ExcelRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-serde/nd4j-aeron/src/main/java/org/nd4j/aeron/ipc/chunk/InMemoryChunkAccumulator.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java/org/nd4j/common/collection/IntArrayKeyMap.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/feedforward/autoencoder/recursive/Tree.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/transform/TransformProcessSequenceRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/categorical/PivotTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/spark/transform/analysis/TestAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/python4j/python4j-core/src/main/java/org/nd4j/python4j/PythonExecutioner.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-modelimport/src/main/java/org/deeplearning4j/nn/modelimport/keras/utils/KerasLayerUtils.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/doubletransform/DoubleMathOpTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/sequence/SequenceOffsetTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/util/SameDiffUtils.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/csv/CSVRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/text/tokenization/tokenizer/BertWordPieceTokenizer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-data/datavec-data-image/src/main/java/org/datavec/image/recordreader/objdetect/ObjectDetectionRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/internal/DependencMapLinkedHash.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/nd4j/parameterserver/distributed/v2/util/MeshOrganizerTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-common-tests/src/main/java/org/nd4j/common/tests/BaseND4JTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/transferlearning/TransferLearningHelper.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-spark/src/main/java/org/datavec/spark/transform/utils/SparkUtils.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/spark/functions/TestSequenceRecordReaderFunction.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/impl/repartitioner/DefaultRepartitioner.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/integer/IntegerToOneHotTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/nd4j/parameterserver/distributed/v2/chunks/impl/FileChunksTrackerTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/optimize/listeners/FailureTestingListener.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-node/src/main/java/org/nd4j/parameterserver/distributed/v2/transport/impl/AeronUdpTransport.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/api/records/reader/impl/CSVRecordReaderTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/analysis/counter/CategoricalAnalysisCounter.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/performance/primitives/AveragingTransactionsHolder.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/layers/misc/FrozenLayerWithBackprop.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/profiler/data/primitives/TimeSet.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/optimize/solvers/accumulation/IndexedTail.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/memory/provider/BasicWorkspaceManager.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/optimize/solvers/BaseOptimizer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/datavec/RecordReaderFunction.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/nd4j/parameterserver/distributed/messages/aggregations/VoidAggregationTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/bagofwords/vectorizer/BagOfWordsVectorizer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/workspace/WorkspaceUtils.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-local/src/main/java/org/datavec/local/transforms/LocalTransformExecutor.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-node/src/main/java/org/nd4j/parameterserver/distributed/v2/transport/impl/DummyTransport.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/condition/ConditionalReplaceValueTransformWithDefault.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/sequencevectors/sequence/Sequence.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/BaseRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/parallelism/InplaceParallelInferenceTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/BaseColumnTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/condition/ConditionalCopyValueTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/dataset/api/preprocessor/AbstractMultiDataSetNormalizer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/recurrent/BidirectionalLayer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/data/BatchAndExportMultiDataSetsFunction.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/string/ConcatenateStringColumns.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java/org/nd4j/common/util/MathUtils.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/text/movingwindow/Window.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/params/BidirectionalParamInitializer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/csv/CSVNLinesSequenceRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/spark/transform/rank/TestCalculateSortedRank.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/layers/BasePretrainNetwork.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/linalg/api/ops/executioner/DefaultOpExecutioner.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/layers/BaseLayer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/time/DeriveColumnsFromTimeTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/spark/impl/stats/TestTrainingStatsCollection.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/listeners/records/History.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-arrow/src/main/java/org/datavec/arrow/ArrowConverter.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/sequence/SequenceMovingWindowReduceTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/util/TrainingUtils.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/resources/src/main/java/org/nd4j/common/resources/Resources.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/conf/Configuration.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark-parameterserver/src/main/java/org/deeplearning4j/spark/parameterserver/training/SharedTrainingMaster.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/text/documentiterator/LabelAwareIteratorWrapper.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/jackson/JacksonLineSequenceRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-utility-iterators/src/main/java/org/deeplearning4j/datasets/iterator/CombinedMultiDataSetPreProcessor.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/sequence/merge/SequenceMerge.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/analysis/columns/CategoricalAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/column/ReorderColumnsTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java/org/nd4j/common/primitives/Counter.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/paragraphvectors/ParagraphVectors.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/imports/descriptors/tensorflow/TensorflowDescriptorParser.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/analysis/counter/NDArrayAnalysisCounter.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/column/RemoveColumnsTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/api/transform/reduce/TestMultiOpReduce.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-data/deeplearning4j-utility-iterators/src/main/java/org/deeplearning4j/datasets/iterator/CombinedPreProcessor.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/LineRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/list/BaseNDArrayList.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/local/transforms/functions/TestLineRecordReaderFunction.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/internal/DependencyMapIdentity.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/word2vec/iterator/Word2VecDataSetIterator.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/ndarray/NDArrayDistanceTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/versioncheck/VersionCheck.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java/org/nd4j/common/collection/CompactHeapStringList.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/listeners/debugging/OpBenchmarkListener.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/datavec/spark/functions/TestLineRecordReaderFunction.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/string/StringListToCountsNDArrayTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/contrib/aurora/inference/src/main/java/org/nd4j/contrib/aurora/WrapSDValue.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-ui-parent/deeplearning4j-ui-model/src/main/java/org/deeplearning4j/ui/model/storage/BaseCollectionStatsStorage.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/word2vec/StaticWord2Vec.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/records/reader/impl/regex/RegexLineRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/evaluation/serde/ConfusionMatrixDeserializer.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/datavec/DataVecByteDataSetFunction.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-arrow/src/main/java/org/datavec/arrow/recordreader/ArrowRecordReader.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-spark/src/main/java/org/datavec/spark/transform/analysis/unique/UniqueAddFunction.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-backends/nd4j-api-parent/nd4j-api/src/main/java/org/nd4j/autodiff/samediff/array/SingleThreadArrayHolder.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-parameter-server-parent/nd4j-parameter-server-node/src/main/java/org/nd4j/parameterserver/distributed/training/TrainerProvider.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/text/sentenceiterator/AggregatingSentenceIterator.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/nd4j/nd4j-common/src/main/java/org/nd4j/common/function/FunctionalUtils.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-graph/src/main/java/org/deeplearning4j/graph/models/deepwalk/DeepWalk.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-scaleout/spark/dl4j-spark/src/main/java/org/deeplearning4j/spark/util/SparkUtils.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nlp-parent/deeplearning4j-nlp/src/main/java/org/deeplearning4j/models/sequencevectors/graph/walkers/impl/NearestVertexWalker.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/sequence/ReduceSequenceTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/deeplearning4j/deeplearning4j-nn/src/main/java/org/deeplearning4j/nn/conf/ComputationGraphConfiguration.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/parse/ParseDoubleTransform.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/platform-tests/src/test/java/org/deeplearning4j/spark/parameterserver/train/GradientSharingTrainingTest.java
+- applying ForLoopToFunctional into /home/dataset/deeplearning4j/datavec/datavec-api/src/main/java/org/datavec/api/transform/transform/categorical/CategoricalToOneHotTransform.java
+- Number of files:  4652
+- Processed Files: 179
+- Exported Files:   179
+- Total of files changed: 290
+- Total of transformations: 290
+- Errors: 351
+- Final Time: 20230115032805
+- Elapsed Time: 1330168.0ms

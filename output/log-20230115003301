@@ -1,0 +1,97 @@
+[Project Analyzer] processing project: mongo-java-driver
+- Number of files:  1922
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 82
+- Final Time: 20230115003331
+- Elapsed Time: 30546.0ms
+[Project Analyzer] processing project: mongo-java-driver
+- applying filter pattern into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/TaggableReadPreference.java
+- Number of files:  1922
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 82
+- Final Time: 20230115003354
+- Elapsed Time: 22670.0ms
+[Project Analyzer] processing project: mongo-java-driver
+- applying exist pattern into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/ClientMetadataHelper.java
+- applying exist pattern into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/AbstractMultiServerCluster.java
+- Number of files:  1922
+- Processed Files: 2
+- Exported Files:   2
+- Total of files changed: 2
+- Total of transformations: 2
+- Errors: 82
+- Final Time: 20230115003416
+- Elapsed Time: 22621.0ms
+[Project Analyzer] processing project: mongo-java-driver
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/client/model/Filters.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/bson/src/main/org/bson/codecs/pojo/TypeData.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-sync/src/test/functional/com/mongodb/client/JsonPoweredCrudTestHelper.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/SnappyCompressor.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/AbstractMultiServerCluster.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/bson/src/main/org/bson/codecs/pojo/ClassModelBuilder.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/BasicDBObject.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/dns/DefaultDnsResolver.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/operation/CreateIndexesOperation.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/BulkWriteBatchCombiner.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/event/ClusterListenerMulticaster.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/connection/netty/NettyStream.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/test/functional/com/mongodb/client/test/CollectionHelper.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/TaggableReadPreference.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/MongoException.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/event/CommandListenerMulticaster.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/test/unit/com/mongodb/connection/ServerSelectionSelectionTest.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-legacy/src/test/functional/com/mongodb/DBCursorTest.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/test/unit/com/mongodb/internal/connection/TestInternalConnection.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/event/ServerListenerMulticaster.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/client/model/Indexes.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-sync/src/test/functional/com/mongodb/client/unified/AssertionContext.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-legacy/src/main/com/mongodb/DBCollection.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/bson/src/main/org/bson/AbstractBsonWriter.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/operation/OperationHelper.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/client/model/Sorts.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-sync/src/test/functional/com/mongodb/client/AbstractRetryableWritesTest.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/connection/ClusterSettings.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/util/taglets/src/main/DocTaglet.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/DescriptionHelper.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-sync/src/test/functional/com/mongodb/client/AbstractUnifiedTest.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/test/unit/com/mongodb/client/model/TestWindowOutputFields.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/client/model/geojson/codecs/GeometryEncoderHelper.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/test/functional/com/mongodb/client/CommandMonitoringTestHelper.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/event/ServerMonitorListenerMulticaster.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/assertions/Assertions.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/SocketStream.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-benchmarks/src/main/com/mongodb/benchmark/framework/TextBasedBenchmarkResultWriter.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/DefaultDnsSrvRecordMonitor.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/BsonWriterHelper.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/InternalStreamConnection.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/bson/src/main/org/bson/codecs/pojo/PojoCodecProvider.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/bson/src/main/org/bson/codecs/pojo/ConventionAnnotationImpl.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/InternalStreamConnectionInitializer.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-sync/src/test/functional/com/mongodb/client/InitialDnsSeedlistDiscoveryTest.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/client/model/Projections.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/bson/src/main/org/bson/Document.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/client/model/Updates.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-sync/src/test/functional/com/mongodb/client/AbstractCrudTest.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/bson/src/main/org/bson/codecs/BsonArrayCodec.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/operation/BulkWriteBatch.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/bson/src/main/org/bson/codecs/pojo/PojoBuilderHelper.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/ByteBufBsonDocument.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-reactive-streams/src/test/tck/com/mongodb/reactivestreams/client/MongoFixture.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-benchmarks/src/main/com/mongodb/benchmark/benchmarks/BenchmarkSuite.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-sync/src/examples/documentation/DocumentationSamples.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/event/ConnectionPoolListenerMulticaster.java
+- applying ForLoopToFunctional into /home/dataset/mongo-java-driver/driver-core/src/main/com/mongodb/internal/connection/ZstdCompressor.java
+- Number of files:  1922
+- Processed Files: 58
+- Exported Files:   58
+- Total of files changed: 106
+- Total of transformations: 106
+- Errors: 106
+- Final Time: 20230115003819
+- Elapsed Time: 242303.0ms

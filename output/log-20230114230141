@@ -1,0 +1,89 @@
+[Project Analyzer] processing project: robolectric
+- Number of files:  1799
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 5
+- Final Time: 20230114230226
+- Elapsed Time: 44996.0ms
+[Project Analyzer] processing project: robolectric
+- Number of files:  1799
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 5
+- Final Time: 20230114230258
+- Elapsed Time: 32379.0ms
+[Project Analyzer] processing project: robolectric
+- applying exist pattern into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowSoundPool.java
+- applying exist pattern into /home/dataset/robolectric/sandbox/src/main/java/org/robolectric/internal/bytecode/InstrumentationConfiguration.java
+- applying exist pattern into /home/dataset/robolectric/resources/src/main/java/org/robolectric/res/StyleData.java
+- applying exist pattern into /home/dataset/robolectric/shadows/httpclient/src/main/java/org/robolectric/shadows/httpclient/FakeHttpLayer.java
+- Number of files:  1799
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 6
+- Total of transformations: 6
+- Errors: 5
+- Final Time: 20230114230330
+- Elapsed Time: 31809.0ms
+[Project Analyzer] processing project: robolectric
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowCameraManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/utils/src/main/java/org/robolectric/util/TempDirectory.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowAlarmManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowBluetoothManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowAudioManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/processor/src/main/java/org/robolectric/annotation/processing/RobolectricProcessor.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowWifiManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowBluetoothLeScanner.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/android/util/concurrent/RoboExecutorService.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowBackupManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowWindow.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowResourcesImpl.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowAccountManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowTextViewTest.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowBluetoothAdapter.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowAppWidgetManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowAudioTrack.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowPausedSystemClock.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/robolectric/src/test/java/org/robolectric/RobolectricTestRunnerMultiApiTest.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/android/webkit/RoboCookieManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowMediaPlayerTest.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowParcel.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowBugreportManagerTest.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowResources.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/robolectric/src/main/java/org/robolectric/junit/rules/ExpectedLogMessagesRule.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/resources/src/main/java/org/robolectric/res/ResourceMerger.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowDisplayManagerGlobal.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowNotificationManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowRcsUceAdapterSTest.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowContentResolver.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowConnectivityManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowSubscriptionManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowRttCallTest.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowCaptioningManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowPowerManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowCloseGuard.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowView.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/processor/src/main/java/org/robolectric/annotation/processing/validator/ImplementsValidator.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/junit/src/main/java/org/robolectric/internal/SandboxTestRunner.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowSoundPool.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/resources/src/main/java/org/robolectric/res/AttrData.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowTelecomManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/resources/src/main/java/org/robolectric/manifest/AndroidManifest.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowContextHubManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/errorprone/src/main/java/org/robolectric/errorprone/bugpatterns/RobolectricShadow.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowClipboardManager.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/httpclient/src/main/java/org/robolectric/shadows/httpclient/ParamsParser.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/SQLiteDatabaseTest.java
+- applying ForLoopToFunctional into /home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowMediaSessionManager.java
+- Number of files:  1799
+- Processed Files: 49
+- Exported Files:   49
+- Total of files changed: 73
+- Total of transformations: 73
+- Errors: 60
+- Final Time: 20230114230903
+- Elapsed Time: 333320.0ms

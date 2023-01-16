@@ -1,0 +1,181 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: rxjava
+Creating log file at: /output/log-20230115011312
+Processing rxjava...
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservablePublishTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final AtomicBoolean sourceUnsubscribed = new AtomicBoolean();\n        final Observable\<Integer\> source = Observable.range(1, 100)\n                .doOnNext(new Consumer\<Integer\>() {\n                    @Override\n                    public void accept(Integer t1) {\n                        sourceEmission.incrementAndGet();\n                    }\n                })\n                .doOnDispose(new Action() {\n                    @Override\n                    public void run() {\n                        sourceUnsubscribed.set(true);\n                    }\n                }).share();\n        ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableMergeTest.java|
+Ambiguity(|unknown:///|(38331,243,<998,4>,<1004,5>),"FieldDeclaration","Function\<Integer, Observable\<Integer\>\> toHiddenScalar = new Function\<Integer, Observable\<Integer\>\>() {\n        @Override\n        public Observable\<Integer\> apply(Integer t) {\n            return Observable.just(t).hide();\n        }\n    };\n    ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowablePublishTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final AtomicBoolean sourceUnsubscribed = new AtomicBoolean();\n        final Flowable\<Integer\> source = Flowable.range(1, 100)\n                .doOnNext(new Consumer\<Integer\>() {\n                    @Override\n                    public void accept(Integer t1) {\n                        sourceEmission.incrementAndGet();\n                    }\n                })\n                .doOnCancel(new Action() {\n                    @Override\n                    public void run() {\n                        sourceUnsubscribed.set(true);\n                    }\n                }).share();\n        ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableMergeTest.java|
+Ambiguity(|unknown:///|(50069,235,<1274,4>,<1280,5>),"FieldDeclaration","Function\<Integer, Flowable\<Integer\>\> toHiddenScalar = new Function\<Integer, Flowable\<Integer\>\>() {\n        @Override\n        public Flowable\<Integer\> apply(Integer t) {\n            return Flowable.just(t).hide();\n        }\n    };\n    ;")
+|file:///home/dataset/rxjava/src/main/module/module-info.java|
+ParseError(|unknown:///|(605,1,<14,0>,<14,1>))
+0
+[Project Analyzer] project: rxjava
+Processing rxjava...
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservablePublishTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final AtomicBoolean sourceUnsubscribed = new AtomicBoolean();\n        final Observable\<Integer\> source = Observable.range(1, 100)\n                .doOnNext(new Consumer\<Integer\>() {\n                    @Override\n                    public void accept(Integer t1) {\n                        sourceEmission.incrementAndGet();\n                    }\n                })\n                .doOnDispose(new Action() {\n                    @Override\n                    public void run() {\n                        sourceUnsubscribed.set(true);\n                    }\n                }).share();\n        ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableMergeTest.java|
+Ambiguity(|unknown:///|(38331,243,<998,4>,<1004,5>),"FieldDeclaration","Function\<Integer, Observable\<Integer\>\> toHiddenScalar = new Function\<Integer, Observable\<Integer\>\>() {\n        @Override\n        public Observable\<Integer\> apply(Integer t) {\n            return Observable.just(t).hide();\n        }\n    };\n    ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowablePublishTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final AtomicBoolean sourceUnsubscribed = new AtomicBoolean();\n        final Flowable\<Integer\> source = Flowable.range(1, 100)\n                .doOnNext(new Consumer\<Integer\>() {\n                    @Override\n                    public void accept(Integer t1) {\n                        sourceEmission.incrementAndGet();\n                    }\n                })\n                .doOnCancel(new Action() {\n                    @Override\n                    public void run() {\n                        sourceUnsubscribed.set(true);\n                    }\n                }).share();\n        ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableMergeTest.java|
+Ambiguity(|unknown:///|(50069,235,<1274,4>,<1280,5>),"FieldDeclaration","Function\<Integer, Flowable\<Integer\>\> toHiddenScalar = new Function\<Integer, Flowable\<Integer\>\>() {\n        @Override\n        public Flowable\<Integer\> apply(Integer t) {\n            return Flowable.just(t).hide();\n        }\n    };\n    ;")
+|file:///home/dataset/rxjava/src/main/module/module-info.java|
+ParseError(|unknown:///|(605,1,<14,0>,<14,1>))
+0
+[Project Analyzer] project: rxjava
+Processing rxjava...
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservablePublishTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final AtomicBoolean sourceUnsubscribed = new AtomicBoolean();\n        final Observable\<Integer\> source = Observable.range(1, 100)\n                .doOnNext(new Consumer\<Integer\>() {\n                    @Override\n                    public void accept(Integer t1) {\n                        sourceEmission.incrementAndGet();\n                    }\n                })\n                .doOnDispose(new Action() {\n                    @Override\n                    public void run() {\n                        sourceUnsubscribed.set(true);\n                    }\n                }).share();\n        ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableMergeTest.java|
+Ambiguity(|unknown:///|(38331,243,<998,4>,<1004,5>),"FieldDeclaration","Function\<Integer, Observable\<Integer\>\> toHiddenScalar = new Function\<Integer, Observable\<Integer\>\>() {\n        @Override\n        public Observable\<Integer\> apply(Integer t) {\n            return Observable.just(t).hide();\n        }\n    };\n    ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowablePublishTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final AtomicBoolean sourceUnsubscribed = new AtomicBoolean();\n        final Flowable\<Integer\> source = Flowable.range(1, 100)\n                .doOnNext(new Consumer\<Integer\>() {\n                    @Override\n                    public void accept(Integer t1) {\n                        sourceEmission.incrementAndGet();\n                    }\n                })\n                .doOnCancel(new Action() {\n                    @Override\n                    public void run() {\n                        sourceUnsubscribed.set(true);\n                    }\n                }).share();\n        ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableMergeTest.java|
+Ambiguity(|unknown:///|(50069,235,<1274,4>,<1280,5>),"FieldDeclaration","Function\<Integer, Flowable\<Integer\>\> toHiddenScalar = new Function\<Integer, Flowable\<Integer\>\>() {\n        @Override\n        public Flowable\<Integer\> apply(Integer t) {\n            return Flowable.just(t).hide();\n        }\n    };\n    ;")
+|file:///home/dataset/rxjava/src/main/module/module-info.java|
+ParseError(|unknown:///|(605,1,<14,0>,<14,1>))
+0
+[Project Analyzer] project: rxjava
+Processing rxjava...
+
+  0 of 1884 processed succesfully!
+  1 of 1884 processed succesfully!
+  2 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/observable/ObservableTest.java|
+EmptySet()
+  21 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/maybe/MaybeTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/testsupport/TestHelper.java|
+EmptySet()
+  65 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/validators/JavadocWording.java|
+EmptySet()
+  73 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/subscribers/SerializedSubscriberTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/observers/SerializedObserverTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/single/SingleTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/flowable/FlowableBackpressureTests.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/flowable/FlowableTests.java|
+EmptySet()
+  134 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/util/OperatorMatrixGenerator.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/schedulers/SchedulerMultiWorkerSupportTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/functions/FunctionsTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservablePublishTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final AtomicBoolean sourceUnsubscribed = new AtomicBoolean();\n        final Observable\<Integer\> source = Observable.range(1, 100)\n                .doOnNext(new Consumer\<Integer\>() {\n                    @Override\n                    public void accept(Integer t1) {\n                        sourceEmission.incrementAndGet();\n                    }\n                })\n                .doOnDispose(new Action() {\n                    @Override\n                    public void run() {\n                        sourceUnsubscribed.set(true);\n                    }\n                }).share();\n        ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableWindowWithSizeTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableAmbTest.java|
+EmptySet()
+  239 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableWindowWithStartEndObservableTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableReplayTest.java|
+EmptySet()
+  256 of 1884 processed succesfully!
+  264 of 1884 processed succesfully!
+  268 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableDelaySubscriptionOtherTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableWithLatestFromTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableMergeTest.java|
+Ambiguity(|unknown:///|(38331,243,<998,4>,<1004,5>),"FieldDeclaration","Function\<Integer, Observable\<Integer\>\> toHiddenScalar = new Function\<Integer, Observable\<Integer\>\>() {\n        @Override\n        public Observable\<Integer\> apply(Integer t) {\n            return Observable.just(t).hide();\n        }\n    };\n    ;")
+  297 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableWindowWithTimeTest.java|
+EmptySet()
+  315 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableReplayEagerTruncateTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableCacheTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableBufferTest.java|
+EmptySet()
+  343 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/completable/CompletableTimerTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableWindowWithSizeTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableCacheTest.java|
+EmptySet()
+  586 of 1884 processed succesfully!
+  588 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowablePublishTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final AtomicBoolean sourceUnsubscribed = new AtomicBoolean();\n        final Flowable\<Integer\> source = Flowable.range(1, 100)\n                .doOnNext(new Consumer\<Integer\>() {\n                    @Override\n                    public void accept(Integer t1) {\n                        sourceEmission.incrementAndGet();\n                    }\n                })\n                .doOnCancel(new Action() {\n                    @Override\n                    public void run() {\n                        sourceUnsubscribed.set(true);\n                    }\n                }).share();\n        ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableAmbTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableWithLatestFromTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableWindowWithTimeTest.java|
+EmptySet()
+  632 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableMergeTest.java|
+Ambiguity(|unknown:///|(50069,235,<1274,4>,<1280,5>),"FieldDeclaration","Function\<Integer, Flowable\<Integer\>\> toHiddenScalar = new Function\<Integer, Flowable\<Integer\>\>() {\n        @Override\n        public Flowable\<Integer\> apply(Integer t) {\n            return Flowable.just(t).hide();\n        }\n    };\n    ;")
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableBufferTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableReplayTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableWindowWithStartEndFlowableTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableDelaySubscriptionOtherTest.java|
+EmptySet()
+  679 of 1884 processed succesfully!
+  686 of 1884 processed succesfully!
+  687 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableReplayEagerTruncateTest.java|
+EmptySet()
+  749 of 1884 processed succesfully!
+  750 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/subjects/ReplaySubjectConcurrencyTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/subjects/ReplaySubjectBoundedConcurrencyTest.java|
+EmptySet()
+  904 of 1884 processed succesfully!
+  906 of 1884 processed succesfully!
+  908 of 1884 processed succesfully!
+  909 of 1884 processed succesfully!
+  910 of 1884 processed succesfully!
+  911 of 1884 processed succesfully!
+  914 of 1884 processed succesfully!
+  919 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/processors/ReplayProcessorBoundedConcurrencyTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/processors/ReplayProcessorConcurrencyTest.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/main/module/module-info.java|
+ParseError(|unknown:///|(605,1,<14,0>,<14,1>))
+|file:///home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/disposables/CompositeDisposable.java|
+EmptySet()
+|file:///home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/internal/disposables/ListCompositeDisposable.java|
+EmptySet()
+  1186 of 1884 processed succesfully!
+  1205 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/internal/operators/observable/ObservableBufferTimed.java|
+EmptySet()
+  1253 of 1884 processed succesfully!
+  1294 of 1884 processed succesfully!
+  1592 of 1884 processed succesfully!
+  1642 of 1884 processed succesfully!
+  1665 of 1884 processed succesfully!
+|file:///home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableBufferTimed.java|
+EmptySet()
+  1679 of 1884 processed succesfully!
+38
+INFO:root:  Formating the source code
+INFO:root:   Done

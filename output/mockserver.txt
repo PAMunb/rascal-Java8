@@ -1,0 +1,117 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: mockserver
+Creating log file at: /output/log-20230114232229
+Processing mockserver...
+  192 of 1024 processed succesfully!
+|file:///home/dataset/mockserver/mockserver-spring-test-listener/src/main/java/org/mockserver/springtest/MockServerTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mockserver/mockserver-junit-jupiter/src/main/java/org/mockserver/junit/jupiter/MockServerSettings.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+1
+[Project Analyzer] project: mockserver
+Processing mockserver...
+|file:///home/dataset/mockserver/mockserver-spring-test-listener/src/main/java/org/mockserver/springtest/MockServerTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mockserver/mockserver-junit-jupiter/src/main/java/org/mockserver/junit/jupiter/MockServerSettings.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: mockserver
+Processing mockserver...
+  423 of 1024 processed succesfully!
+  424 of 1024 processed succesfully!
+  425 of 1024 processed succesfully!
+  765 of 1024 processed succesfully!
+  784 of 1024 processed succesfully!
+  947 of 1024 processed succesfully!
+|file:///home/dataset/mockserver/mockserver-spring-test-listener/src/main/java/org/mockserver/springtest/MockServerTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mockserver/mockserver-junit-jupiter/src/main/java/org/mockserver/junit/jupiter/MockServerSettings.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+6
+[Project Analyzer] project: mockserver
+Processing mockserver...
+
+  18 of 1024 processed succesfully!
+|file:///home/dataset/mockserver/mockserver-core/src/test/java/org/mockserver/model/MediaTypeTest.java|
+EmptySet()
+  269 of 1024 processed succesfully!
+  270 of 1024 processed succesfully!
+  271 of 1024 processed succesfully!
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/mappers/FullHttpRequestToMockServerHttpRequest.java|
+EmptySet()
+  368 of 1024 processed succesfully!
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/socket/tls/KeyStoreFactory.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/socket/tls/PEMToFile.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/socket/tls/bouncycastle/BCKeyAndCertificateFactory.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/scheduler/Scheduler.java|
+EmptySet()
+  397 of 1024 processed succesfully!
+  399 of 1024 processed succesfully!
+  400 of 1024 processed succesfully!
+  402 of 1024 processed succesfully!
+  404 of 1024 processed succesfully!
+  407 of 1024 processed succesfully!
+  408 of 1024 processed succesfully!
+  409 of 1024 processed succesfully!
+  410 of 1024 processed succesfully!
+  463 of 1024 processed succesfully!
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/java/HttpRequestModifierToJavaSerializer.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/java/ExpectationToJavaSerializer.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/java/HttpResponseModifierToJavaSerializer.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/java/HttpRequestToJavaSerializer.java|
+EmptySet()
+  503 of 1024 processed succesfully!
+  515 of 1024 processed succesfully!
+  548 of 1024 processed succesfully!
+  588 of 1024 processed succesfully!
+  600 of 1024 processed succesfully!
+  617 of 1024 processed succesfully!
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/model/NottableString.java|
+EmptySet()
+  643 of 1024 processed succesfully!
+  644 of 1024 processed succesfully!
+  645 of 1024 processed succesfully!
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/validator/jsonschema/JsonSchemaValidator.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/mock/HttpState.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/configuration/Configuration.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/log/MockServerEventLog.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/matchers/HttpRequestPropertiesMatcher.java|
+EmptySet()
+  802 of 1024 processed succesfully!
+|file:///home/dataset/mockserver/mockserver-netty/src/test/java/org/mockserver/dashboard/DashboardWebSocketHandlerTest.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-netty/src/main/java/org/mockserver/lifecycle/LifeCycle.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-netty/src/main/java/org/mockserver/netty/unification/PortUnificationHandler.java|
+EmptySet()
+  928 of 1024 processed succesfully!
+  931 of 1024 processed succesfully!
+  942 of 1024 processed succesfully!
+|file:///home/dataset/mockserver/mockserver-spring-test-listener/src/main/java/org/mockserver/springtest/MockServerTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  946 of 1024 processed succesfully!
+|file:///home/dataset/mockserver/mockserver-junit-jupiter/src/test/java/org/mockserver/junit/jupiter/integration/AbstractMockingIntegrationTestBase.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-junit-jupiter/src/main/java/org/mockserver/junit/jupiter/MockServerSettings.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mockserver/mockserver-client-java/src/main/java/org/mockserver/client/MockServerEventBus.java|
+EmptySet()
+|file:///home/dataset/mockserver/mockserver-integration-testing/src/main/java/org/mockserver/testing/integration/mock/AbstractMockingIntegrationTestBase.java|
+EmptySet()
+29
+INFO:root:  Formating the source code
+INFO:root:   Done

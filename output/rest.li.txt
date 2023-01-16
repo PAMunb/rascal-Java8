@@ -1,0 +1,657 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: rest.li
+Creating log file at: /output/log-20230115021748
+Processing rest.li...
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/discovery/util/TestD2Config.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final Map\<String, Object\> partitionProperties = new HashMap\<\>();\n    Map\<String, Object\> customized = new HashMap\<\>();\n    List\<String\> classList = Arrays.asList(\"TestPartitionAccessor1\", \"TestPartitionAccessor2\");\n    customized.put(\"partitionType\", \"CUSTOM\");\n    customized.put(\"partitionCount\", \"10\");\n    customized.put(\"partitionAccessorList\", classList);\n    partitionProperties.put(\"partitionProperties\", customized);\n\n    final PartitionAccessorRegistry registry = new PartitionAccessorRegistry()\n    {\n      final private Map\<String, List\<BasePartitionAccessor\>\> _registry = new HashMap\<\>();\n\n      @Override\n      public void register(String clusterName, BasePartitionAccessor accessor)\n      {\n        List\<BasePartitionAccessor\> accessors = _registry.computeIfAbsent(clusterName, k -\> new ArrayList\<\>());\n        accessors.add(accessor);\n      }\n\n      @Override\n      public List\<BasePartitionAccessor\> getPartitionAccessors(String clusterName)\n      {\n        return _registry.get(clusterName);\n      }\n    };\n\n    class TestPartitionAccessor1 implements PartitionAccessor\n    {\n      @Override\n      public int getPartitionId(URI uri) throws PartitionAccessException\n      {\n        return testGetPartitionId(uri);\n      }\n\n      @Override\n      public int getMaxPartitionId()\n      {\n        return 10;\n      }\n    };")
+  121 of 2986 processed succesfully!
+  146 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/strategies/degrader/DegraderConfigFactoryTest.java|
+Ambiguity(|unknown:///|(1124,3394,<40,4>,<92,89>),"BlockStatements","Map\<String,String\> properties = new HashMap\<\>();;\n    Boolean logEnabled = false;\n    DegraderImpl.LatencyToUse latencyToUse = DegraderImpl.LatencyToUse.PCT95;\n    Double maxDropRate = 0.33;\n    Long maxDropDuration = 23190l;\n    Double upStep = 0.3;\n    Double downstep = 0.2;\n    Integer minCallCount = 22;\n    Long highLatency = 30000000l;\n    Long lowLatency = 244499l;\n    Double highErrorRate = 0.5;\n    Double lowErrorRate = 0.1;\n    Long highOutstanding = 10000l;\n    Long lowOutstanding = 3000l;\n    Integer minOutstandingCount = 10;\n    Integer overrideMinCallCount = 5;\n    Double logThreshold = 0.8;\n    Double preemptiveRequestTimeoutRate = 0.5;\n    properties.put(PropertyKeys.DEGRADER_LOG_ENABLED, logEnabled.toString());\n    properties.put(PropertyKeys.DEGRADER_LATENCY_TO_USE, latencyToUse.toString());\n    properties.put(PropertyKeys.DEGRADER_MAX_DROP_RATE, maxDropRate.toString());\n    properties.put(PropertyKeys.DEGRADER_MAX_DROP_DURATION, maxDropDuration.toString());\n    properties.put(PropertyKeys.DEGRADER_UP_STEP, upStep.toString());\n    properties.put(PropertyKeys.DEGRADER_DOWN_STEP, downstep.toString());\n    properties.put(PropertyKeys.DEGRADER_MIN_CALL_COUNT, minCallCount.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_LATENCY, highLatency.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_LATENCY, lowLatency.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_ERROR_RATE, highErrorRate.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_ERROR_RATE, lowErrorRate.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_OUTSTANDING, highOutstanding.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_OUTSTANDING, lowOutstanding.toString());\n    properties.put(PropertyKeys.DEGRADER_MIN_OUTSTANDING_COUNT, minOutstandingCount.toString());\n    properties.put(PropertyKeys.DEGRADER_OVERRIDE_MIN_CALL_COUNT, overrideMinCallCount.toString());\n    properties.put(PropertyKeys.DEGRADER_LOG_THRESHOLD, logThreshold.toString());\n    properties.put(PropertyKeys.DEGRADER_PREEMPTIVE_REQUEST_TIMEOUT_RATE, preemptiveRequestTimeoutRate.toString());\n    DegraderImpl.Config config = DegraderConfigFactory.toDegraderConfig(properties);\n    assertEquals(config.isLogEnabled(), logEnabled.booleanValue());\n    assertEquals(config.getLatencyToUse(), latencyToUse);\n    assertEquals(config.getMaxDropRate(), maxDropRate);\n    assertEquals(config.getMaxDropDuration(), maxDropDuration.longValue());\n    assertEquals(config.getUpStep(), upStep.doubleValue());\n    assertEquals(config.getDownStep(), downstep.doubleValue());\n    assertEquals(config.getMinCallCount(), minCallCount.intValue());\n    assertEquals(config.getHighLatency(), highLatency.longValue());\n    assertEquals(config.getLowLatency(), lowLatency.longValue());\n    assertEquals(config.getHighErrorRate(), highErrorRate.doubleValue());\n    assertEquals(config.getLowErrorRate(), lowErrorRate.doubleValue());\n    assertEquals(config.getHighOutstanding(), highOutstanding.longValue());\n    assertEquals(config.getLowOutstanding(), lowOutstanding.longValue());\n    assertEquals(config.getMinOutstandingCount(), minOutstandingCount.longValue());\n    assertEquals(config.getOverrideMinCallCount(), overrideMinCallCount.intValue());\n    assertEquals(config.getLogThreshold(), logThreshold);\n    assertEquals(config.getPreemptiveRequestTimeoutRate(), preemptiveRequestTimeoutRate);")
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/event/D2ServiceDiscoveryEventHelper.java|
+Ambiguity(|unknown:///|(832,1634,<23,47>,<62,0>),"InterfaceBody","{\n  //---- d2 server-side events ----//\n\n  /**\n   * To emit ServiceDiscoveryStatusActiveUpdateIntentEvent and ServiceDiscoveryStatusWriteEvent.\n   * @param cluster cluster name.\n   * @param isMarkUp true for markUp, o.w for markDown.\n   * @param succeeded true if the write succeeded, o.w failed.\n   * @param startAt when the update intent is initiated (start time of the markUp/markDown).\n   */\n  void emitSDStatusActiveUpdateIntentAndWriteEvents(String cluster, boolean isMarkUp, boolean succeeded, long startAt);\n\n\n  // NOTE: Deprecated, client side events should be directly emitted with {@link ServiceDiscoveryEventEmitter}\n  //---- d2 client-side events ----//\n\n  /**\n   * To emit ServiceDiscoveryStatusUpdateReceiptEvent.\n   * @param cluster cluster name.\n   * @param isMarkUp true for markUp, o.w for markDown.\n   * @param nodePath path of the uri ephemeral znode.\n   * @param nodeData data in the uri ephemeral znode.\n   * @param timestamp when the update is received.\n   */\n  @Deprecated\n  default void emitSDStatusUpdateReceiptEvent(String cluster, String host, int port, boolean isMarkUp, String zkConnectString, String nodePath, String nodeData, long timestamp) {\n  };\n\n  /**\n   * To emit ServiceDiscoveryStatusInitialRequestEvent, when a new service discovery request is sent for a cache miss,\n   * (the first time of getting uris for a cluster).\n   * @param cluster cluster name.\n   * @param duration duration the request took.\n   * @param succeeded true if the request succeeded, o.w failed.\n   */\n  @Deprecated\n  default void emitSDStatusInitialRequestEvent(String cluster, long duration, boolean succeeded) {\n  };\n}\n")
+  367 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/util/BurstyBarrier.java|
+ParseError(|unknown:///|(7591,1,<116,53>,<116,54>))
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/simple/SimpleLoadBalancer.java|
+Ambiguity(|unknown:///|(33846,1300,<839,6>,<870,7>),"BlockStatements","Map\<URI, Double\> weightedSubset = subsetItem.getWeightedUriSubset();;\n      Set\<URI\> doNotSlowStartUris = subsetItem.getDoNotSlowStartUris();\n      clientsToLoadBalance = new HashMap\<\>(possibleUris.size());\n      for (URI possibleUri : possibleUris)\n      {\n        // don\'t pay attention to this uri if it\'s banned or not in the subset\n        if (!serviceProperties.isBanned(possibleUri) && !clusterProperties.isBanned(possibleUri))\n        {\n          if (weightedSubset.containsKey(possibleUri))\n          {\n            TrackerClient possibleTrackerClient = _state.getClient(serviceName, possibleUri);\n\n            if (possibleTrackerClient != null)\n            {\n              if (doNotSlowStartUris.contains(possibleUri))\n              {\n                possibleTrackerClient.setDoNotSlowStart(true);\n              }\n              // Only update subset weight if the subset item is a weighted subset\n              if (subsetItem.isWeightedSubset())\n              {\n                possibleTrackerClient.setSubsetWeight(partitionId, weightedSubset.get(possibleUri));\n              }\n              clientsToLoadBalance.put(possibleUri, possibleTrackerClient);\n            }\n          }\n        }\n        else\n        {\n          warn(_log, \"skipping banned uri: \", possibleUri);\n        }\n      }")
+|file:///home/dataset/rest.li/data-avro/src/main/java/com/linkedin/data/avro/EmbedSchemaMode.java|
+Ambiguity(|unknown:///|(0,918,<1,0>,<33,0>),"CompilationUnit","/*\n   Copyright (c) 2013 LinkedIn Corp.\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n*/\n\npackage com.linkedin.data.avro;\n\n/**\n * Determines whether input schema is embedded in the translated schema.\n */\npublic enum EmbedSchemaMode\n{\n  /**\n   * Original input schema is not embedded in translated schema.\n   */\n  NONE,\n  /**\n   * Original input schema is embedded in the root output schema.\n   */\n  ROOT_ONLY\n};\n")
+|file:///home/dataset/rest.li/restli-int-test-server/src/test/java/com/linkedin/restli/restspec/NamedAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  845 of 2986 processed succesfully!
+  848 of 2986 processed succesfully!
+  851 of 2986 processed succesfully!
+  897 of 2986 processed succesfully!
+  923 of 2986 processed succesfully!
+  928 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/util/TestFastByteArrayOutputStream.java|
+ParseError(|unknown:///|(747,1,<24,55>,<24,56>))
+  1000 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/codec/entitystream/JacksonLICORDataDecoder.java|
+ParseError(|unknown:///|(2555,1,<64,19>,<64,20>))
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/codec/entitystream/AbstractJacksonDataDecoder.java|
+ParseError(|unknown:///|(1953,1,<53,18>,<53,19>))
+|file:///home/dataset/rest.li/r2-core/src/main/java/com/linkedin/r2/transport/http/client/AsyncRateLimiter.java|
+Ambiguity(|unknown:///|(1423,2430,<37,0>,<96,0>),"InterfaceBody","{\n  /**\n   * Submits a {@link Callback} to be executed at the earliest available time. The #onSuccess method\n   * will be invoked when the callback is executed. If the implementation decides the callback cannot\n   * be successfully invoked, callback\'s #onError will be invoked with {@link RejectedExecutionException}.\n   *\n   * @param callback Callback to be submitted\n   */\n  void submit(Callback\<None\> callback) throws RejectedExecutionException;\n\n  /**\n   * @return the current rate\n   */\n  Rate getRate();\n\n  /**\n   * Sets the execution rate as the number of permits over some period of time. The actual period length\n   * is calculated based on the rate and burst allowed. If burst allowed is lower than the given permits\n   * per period, the length of the period will be adjusted to account for the burst allowed. The minimum\n   * period is one millisecond. If the specified events per period cannot satisfy the burst, an\n   * {@link IllegalArgumentException} will be thrown.\n   * \<p\>\n   * For example, if the rate is specified as 100 events per second and the burst is set to 10, then\n   * the rate will be created as 10 events per 100 milliseconds. However, if the rate is specified as\n   * 2000 events per second and the burst is 1, since the minimum period is 1 millisecond, the burst\n   * requirement cannot be satisfied. An IllegalArgumentException is thrown as a result.\n   *\n   * @param permitsPerPeriod Number of permits issued per period.\n   * @param period           Period in milliseconds permits will be issued.\n   * @param burst            Maximum number of permits can be issued at a time.\n   */\n  void setRate(double permitsPerPeriod, long period, int burst);\n\n  /**\n   * Keeping it for backward compatibility to not cause NoSuchMethodExceptions in libraries depending on this method\n   *\n   * @deprecated see setRate(double, long, int)\n   */\n  @Deprecated\n  default void setRate(int permitsPerPeriod, long period, int burst)\n  {\n    setRate((double) permitsPerPeriod, period, burst);\n  }\n\n  /**\n   * Cancels all pending {@link Callback}s and invokes the #onError method with a supplied {@link Throwable}.\n   *\n   * @param throwable Reason for cancelling all pending callbacks.\n   */\n  void cancelAll(Throwable throwable);\n\n  /**\n   * Returns how many requests are in the queue in this instant.\n   * Returns -1 if the method is unimplemented\n   */\n  default int getPendingTasksCount(){\n    return -1;\n  };\n}\n")
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/TestResourceModelAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/SampleResources.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/TestRestLiAnnotationReader.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  2040 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/server/annotations/ServiceErrors.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestCookieResource.java|
+Ambiguity(|unknown:///|,"BlockStatement+","BatchGetRequest\<Greeting\> req = new CookieBuilders().batchGet().ids(1L, 2L).setCookies(requestCookies).build();\n    Response\<BatchResponse\<Greeting\>\> resp = REST_CLIENT.sendRequest(req).getResponse();\n\n    List\<HttpCookie\> getBackResponseCookie = Arrays.asList(new HttpCookie(\"1\", \"B\"), new HttpCookie(\"2\", \"A\"), new HttpCookie(\"3\", \"G\"),new HttpCookie(\"4\", \"E\"), new HttpCookie(\"5\", \"T\"));;")
+11
+[Project Analyzer] project: rest.li
+Processing rest.li...
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/discovery/util/TestD2Config.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final Map\<String, Object\> partitionProperties = new HashMap\<\>();\n    Map\<String, Object\> customized = new HashMap\<\>();\n    List\<String\> classList = Arrays.asList(\"TestPartitionAccessor1\", \"TestPartitionAccessor2\");\n    customized.put(\"partitionType\", \"CUSTOM\");\n    customized.put(\"partitionCount\", \"10\");\n    customized.put(\"partitionAccessorList\", classList);\n    partitionProperties.put(\"partitionProperties\", customized);\n\n    final PartitionAccessorRegistry registry = new PartitionAccessorRegistry()\n    {\n      final private Map\<String, List\<BasePartitionAccessor\>\> _registry = new HashMap\<\>();\n\n      @Override\n      public void register(String clusterName, BasePartitionAccessor accessor)\n      {\n        List\<BasePartitionAccessor\> accessors = _registry.computeIfAbsent(clusterName, k -\> new ArrayList\<\>());\n        accessors.add(accessor);\n      }\n\n      @Override\n      public List\<BasePartitionAccessor\> getPartitionAccessors(String clusterName)\n      {\n        return _registry.get(clusterName);\n      }\n    };\n\n    class TestPartitionAccessor1 implements PartitionAccessor\n    {\n      @Override\n      public int getPartitionId(URI uri) throws PartitionAccessException\n      {\n        return testGetPartitionId(uri);\n      }\n\n      @Override\n      public int getMaxPartitionId()\n      {\n        return 10;\n      }\n    };")
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/strategies/degrader/DegraderConfigFactoryTest.java|
+Ambiguity(|unknown:///|(1124,3394,<40,4>,<92,89>),"BlockStatements","Map\<String,String\> properties = new HashMap\<\>();;\n    Boolean logEnabled = false;\n    DegraderImpl.LatencyToUse latencyToUse = DegraderImpl.LatencyToUse.PCT95;\n    Double maxDropRate = 0.33;\n    Long maxDropDuration = 23190l;\n    Double upStep = 0.3;\n    Double downstep = 0.2;\n    Integer minCallCount = 22;\n    Long highLatency = 30000000l;\n    Long lowLatency = 244499l;\n    Double highErrorRate = 0.5;\n    Double lowErrorRate = 0.1;\n    Long highOutstanding = 10000l;\n    Long lowOutstanding = 3000l;\n    Integer minOutstandingCount = 10;\n    Integer overrideMinCallCount = 5;\n    Double logThreshold = 0.8;\n    Double preemptiveRequestTimeoutRate = 0.5;\n    properties.put(PropertyKeys.DEGRADER_LOG_ENABLED, logEnabled.toString());\n    properties.put(PropertyKeys.DEGRADER_LATENCY_TO_USE, latencyToUse.toString());\n    properties.put(PropertyKeys.DEGRADER_MAX_DROP_RATE, maxDropRate.toString());\n    properties.put(PropertyKeys.DEGRADER_MAX_DROP_DURATION, maxDropDuration.toString());\n    properties.put(PropertyKeys.DEGRADER_UP_STEP, upStep.toString());\n    properties.put(PropertyKeys.DEGRADER_DOWN_STEP, downstep.toString());\n    properties.put(PropertyKeys.DEGRADER_MIN_CALL_COUNT, minCallCount.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_LATENCY, highLatency.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_LATENCY, lowLatency.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_ERROR_RATE, highErrorRate.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_ERROR_RATE, lowErrorRate.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_OUTSTANDING, highOutstanding.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_OUTSTANDING, lowOutstanding.toString());\n    properties.put(PropertyKeys.DEGRADER_MIN_OUTSTANDING_COUNT, minOutstandingCount.toString());\n    properties.put(PropertyKeys.DEGRADER_OVERRIDE_MIN_CALL_COUNT, overrideMinCallCount.toString());\n    properties.put(PropertyKeys.DEGRADER_LOG_THRESHOLD, logThreshold.toString());\n    properties.put(PropertyKeys.DEGRADER_PREEMPTIVE_REQUEST_TIMEOUT_RATE, preemptiveRequestTimeoutRate.toString());\n    DegraderImpl.Config config = DegraderConfigFactory.toDegraderConfig(properties);\n    assertEquals(config.isLogEnabled(), logEnabled.booleanValue());\n    assertEquals(config.getLatencyToUse(), latencyToUse);\n    assertEquals(config.getMaxDropRate(), maxDropRate);\n    assertEquals(config.getMaxDropDuration(), maxDropDuration.longValue());\n    assertEquals(config.getUpStep(), upStep.doubleValue());\n    assertEquals(config.getDownStep(), downstep.doubleValue());\n    assertEquals(config.getMinCallCount(), minCallCount.intValue());\n    assertEquals(config.getHighLatency(), highLatency.longValue());\n    assertEquals(config.getLowLatency(), lowLatency.longValue());\n    assertEquals(config.getHighErrorRate(), highErrorRate.doubleValue());\n    assertEquals(config.getLowErrorRate(), lowErrorRate.doubleValue());\n    assertEquals(config.getHighOutstanding(), highOutstanding.longValue());\n    assertEquals(config.getLowOutstanding(), lowOutstanding.longValue());\n    assertEquals(config.getMinOutstandingCount(), minOutstandingCount.longValue());\n    assertEquals(config.getOverrideMinCallCount(), overrideMinCallCount.intValue());\n    assertEquals(config.getLogThreshold(), logThreshold);\n    assertEquals(config.getPreemptiveRequestTimeoutRate(), preemptiveRequestTimeoutRate);")
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/event/D2ServiceDiscoveryEventHelper.java|
+Ambiguity(|unknown:///|(832,1634,<23,47>,<62,0>),"InterfaceBody","{\n  //---- d2 server-side events ----//\n\n  /**\n   * To emit ServiceDiscoveryStatusActiveUpdateIntentEvent and ServiceDiscoveryStatusWriteEvent.\n   * @param cluster cluster name.\n   * @param isMarkUp true for markUp, o.w for markDown.\n   * @param succeeded true if the write succeeded, o.w failed.\n   * @param startAt when the update intent is initiated (start time of the markUp/markDown).\n   */\n  void emitSDStatusActiveUpdateIntentAndWriteEvents(String cluster, boolean isMarkUp, boolean succeeded, long startAt);\n\n\n  // NOTE: Deprecated, client side events should be directly emitted with {@link ServiceDiscoveryEventEmitter}\n  //---- d2 client-side events ----//\n\n  /**\n   * To emit ServiceDiscoveryStatusUpdateReceiptEvent.\n   * @param cluster cluster name.\n   * @param isMarkUp true for markUp, o.w for markDown.\n   * @param nodePath path of the uri ephemeral znode.\n   * @param nodeData data in the uri ephemeral znode.\n   * @param timestamp when the update is received.\n   */\n  @Deprecated\n  default void emitSDStatusUpdateReceiptEvent(String cluster, String host, int port, boolean isMarkUp, String zkConnectString, String nodePath, String nodeData, long timestamp) {\n  };\n\n  /**\n   * To emit ServiceDiscoveryStatusInitialRequestEvent, when a new service discovery request is sent for a cache miss,\n   * (the first time of getting uris for a cluster).\n   * @param cluster cluster name.\n   * @param duration duration the request took.\n   * @param succeeded true if the request succeeded, o.w failed.\n   */\n  @Deprecated\n  default void emitSDStatusInitialRequestEvent(String cluster, long duration, boolean succeeded) {\n  };\n}\n")
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/util/BurstyBarrier.java|
+ParseError(|unknown:///|(7591,1,<116,53>,<116,54>))
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/simple/SimpleLoadBalancer.java|
+Ambiguity(|unknown:///|(33846,1300,<839,6>,<870,7>),"BlockStatements","Map\<URI, Double\> weightedSubset = subsetItem.getWeightedUriSubset();;\n      Set\<URI\> doNotSlowStartUris = subsetItem.getDoNotSlowStartUris();\n      clientsToLoadBalance = new HashMap\<\>(possibleUris.size());\n      for (URI possibleUri : possibleUris)\n      {\n        // don\'t pay attention to this uri if it\'s banned or not in the subset\n        if (!serviceProperties.isBanned(possibleUri) && !clusterProperties.isBanned(possibleUri))\n        {\n          if (weightedSubset.containsKey(possibleUri))\n          {\n            TrackerClient possibleTrackerClient = _state.getClient(serviceName, possibleUri);\n\n            if (possibleTrackerClient != null)\n            {\n              if (doNotSlowStartUris.contains(possibleUri))\n              {\n                possibleTrackerClient.setDoNotSlowStart(true);\n              }\n              // Only update subset weight if the subset item is a weighted subset\n              if (subsetItem.isWeightedSubset())\n              {\n                possibleTrackerClient.setSubsetWeight(partitionId, weightedSubset.get(possibleUri));\n              }\n              clientsToLoadBalance.put(possibleUri, possibleTrackerClient);\n            }\n          }\n        }\n        else\n        {\n          warn(_log, \"skipping banned uri: \", possibleUri);\n        }\n      }")
+|file:///home/dataset/rest.li/data-avro/src/main/java/com/linkedin/data/avro/EmbedSchemaMode.java|
+Ambiguity(|unknown:///|(0,918,<1,0>,<33,0>),"CompilationUnit","/*\n   Copyright (c) 2013 LinkedIn Corp.\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n*/\n\npackage com.linkedin.data.avro;\n\n/**\n * Determines whether input schema is embedded in the translated schema.\n */\npublic enum EmbedSchemaMode\n{\n  /**\n   * Original input schema is not embedded in translated schema.\n   */\n  NONE,\n  /**\n   * Original input schema is embedded in the root output schema.\n   */\n  ROOT_ONLY\n};\n")
+|file:///home/dataset/rest.li/restli-int-test-server/src/test/java/com/linkedin/restli/restspec/NamedAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/util/TestFastByteArrayOutputStream.java|
+ParseError(|unknown:///|(747,1,<24,55>,<24,56>))
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/codec/entitystream/JacksonLICORDataDecoder.java|
+ParseError(|unknown:///|(2555,1,<64,19>,<64,20>))
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/codec/entitystream/AbstractJacksonDataDecoder.java|
+ParseError(|unknown:///|(1953,1,<53,18>,<53,19>))
+|file:///home/dataset/rest.li/r2-core/src/main/java/com/linkedin/r2/transport/http/client/AsyncRateLimiter.java|
+Ambiguity(|unknown:///|(1423,2430,<37,0>,<96,0>),"InterfaceBody","{\n  /**\n   * Submits a {@link Callback} to be executed at the earliest available time. The #onSuccess method\n   * will be invoked when the callback is executed. If the implementation decides the callback cannot\n   * be successfully invoked, callback\'s #onError will be invoked with {@link RejectedExecutionException}.\n   *\n   * @param callback Callback to be submitted\n   */\n  void submit(Callback\<None\> callback) throws RejectedExecutionException;\n\n  /**\n   * @return the current rate\n   */\n  Rate getRate();\n\n  /**\n   * Sets the execution rate as the number of permits over some period of time. The actual period length\n   * is calculated based on the rate and burst allowed. If burst allowed is lower than the given permits\n   * per period, the length of the period will be adjusted to account for the burst allowed. The minimum\n   * period is one millisecond. If the specified events per period cannot satisfy the burst, an\n   * {@link IllegalArgumentException} will be thrown.\n   * \<p\>\n   * For example, if the rate is specified as 100 events per second and the burst is set to 10, then\n   * the rate will be created as 10 events per 100 milliseconds. However, if the rate is specified as\n   * 2000 events per second and the burst is 1, since the minimum period is 1 millisecond, the burst\n   * requirement cannot be satisfied. An IllegalArgumentException is thrown as a result.\n   *\n   * @param permitsPerPeriod Number of permits issued per period.\n   * @param period           Period in milliseconds permits will be issued.\n   * @param burst            Maximum number of permits can be issued at a time.\n   */\n  void setRate(double permitsPerPeriod, long period, int burst);\n\n  /**\n   * Keeping it for backward compatibility to not cause NoSuchMethodExceptions in libraries depending on this method\n   *\n   * @deprecated see setRate(double, long, int)\n   */\n  @Deprecated\n  default void setRate(int permitsPerPeriod, long period, int burst)\n  {\n    setRate((double) permitsPerPeriod, period, burst);\n  }\n\n  /**\n   * Cancels all pending {@link Callback}s and invokes the #onError method with a supplied {@link Throwable}.\n   *\n   * @param throwable Reason for cancelling all pending callbacks.\n   */\n  void cancelAll(Throwable throwable);\n\n  /**\n   * Returns how many requests are in the queue in this instant.\n   * Returns -1 if the method is unimplemented\n   */\n  default int getPendingTasksCount(){\n    return -1;\n  };\n}\n")
+  1874 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/TestResourceModelAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/SampleResources.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/TestRestLiAnnotationReader.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/server/annotations/ServiceErrors.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestCookieResource.java|
+Ambiguity(|unknown:///|,"BlockStatement+","BatchGetRequest\<Greeting\> req = new CookieBuilders().batchGet().ids(1L, 2L).setCookies(requestCookies).build();\n    Response\<BatchResponse\<Greeting\>\> resp = REST_CLIENT.sendRequest(req).getResponse();\n\n    List\<HttpCookie\> getBackResponseCookie = Arrays.asList(new HttpCookie(\"1\", \"B\"), new HttpCookie(\"2\", \"A\"), new HttpCookie(\"3\", \"G\"),new HttpCookie(\"4\", \"E\"), new HttpCookie(\"5\", \"T\"));;")
+  2807 of 2986 processed succesfully!
+2
+[Project Analyzer] project: rest.li
+Processing rest.li...
+  10 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/discovery/util/TestD2Config.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final Map\<String, Object\> partitionProperties = new HashMap\<\>();\n    Map\<String, Object\> customized = new HashMap\<\>();\n    List\<String\> classList = Arrays.asList(\"TestPartitionAccessor1\", \"TestPartitionAccessor2\");\n    customized.put(\"partitionType\", \"CUSTOM\");\n    customized.put(\"partitionCount\", \"10\");\n    customized.put(\"partitionAccessorList\", classList);\n    partitionProperties.put(\"partitionProperties\", customized);\n\n    final PartitionAccessorRegistry registry = new PartitionAccessorRegistry()\n    {\n      final private Map\<String, List\<BasePartitionAccessor\>\> _registry = new HashMap\<\>();\n\n      @Override\n      public void register(String clusterName, BasePartitionAccessor accessor)\n      {\n        List\<BasePartitionAccessor\> accessors = _registry.computeIfAbsent(clusterName, k -\> new ArrayList\<\>());\n        accessors.add(accessor);\n      }\n\n      @Override\n      public List\<BasePartitionAccessor\> getPartitionAccessors(String clusterName)\n      {\n        return _registry.get(clusterName);\n      }\n    };\n\n    class TestPartitionAccessor1 implements PartitionAccessor\n    {\n      @Override\n      public int getPartitionId(URI uri) throws PartitionAccessException\n      {\n        return testGetPartitionId(uri);\n      }\n\n      @Override\n      public int getMaxPartitionId()\n      {\n        return 10;\n      }\n    };")
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/strategies/degrader/DegraderConfigFactoryTest.java|
+Ambiguity(|unknown:///|(1124,3394,<40,4>,<92,89>),"BlockStatements","Map\<String,String\> properties = new HashMap\<\>();;\n    Boolean logEnabled = false;\n    DegraderImpl.LatencyToUse latencyToUse = DegraderImpl.LatencyToUse.PCT95;\n    Double maxDropRate = 0.33;\n    Long maxDropDuration = 23190l;\n    Double upStep = 0.3;\n    Double downstep = 0.2;\n    Integer minCallCount = 22;\n    Long highLatency = 30000000l;\n    Long lowLatency = 244499l;\n    Double highErrorRate = 0.5;\n    Double lowErrorRate = 0.1;\n    Long highOutstanding = 10000l;\n    Long lowOutstanding = 3000l;\n    Integer minOutstandingCount = 10;\n    Integer overrideMinCallCount = 5;\n    Double logThreshold = 0.8;\n    Double preemptiveRequestTimeoutRate = 0.5;\n    properties.put(PropertyKeys.DEGRADER_LOG_ENABLED, logEnabled.toString());\n    properties.put(PropertyKeys.DEGRADER_LATENCY_TO_USE, latencyToUse.toString());\n    properties.put(PropertyKeys.DEGRADER_MAX_DROP_RATE, maxDropRate.toString());\n    properties.put(PropertyKeys.DEGRADER_MAX_DROP_DURATION, maxDropDuration.toString());\n    properties.put(PropertyKeys.DEGRADER_UP_STEP, upStep.toString());\n    properties.put(PropertyKeys.DEGRADER_DOWN_STEP, downstep.toString());\n    properties.put(PropertyKeys.DEGRADER_MIN_CALL_COUNT, minCallCount.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_LATENCY, highLatency.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_LATENCY, lowLatency.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_ERROR_RATE, highErrorRate.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_ERROR_RATE, lowErrorRate.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_OUTSTANDING, highOutstanding.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_OUTSTANDING, lowOutstanding.toString());\n    properties.put(PropertyKeys.DEGRADER_MIN_OUTSTANDING_COUNT, minOutstandingCount.toString());\n    properties.put(PropertyKeys.DEGRADER_OVERRIDE_MIN_CALL_COUNT, overrideMinCallCount.toString());\n    properties.put(PropertyKeys.DEGRADER_LOG_THRESHOLD, logThreshold.toString());\n    properties.put(PropertyKeys.DEGRADER_PREEMPTIVE_REQUEST_TIMEOUT_RATE, preemptiveRequestTimeoutRate.toString());\n    DegraderImpl.Config config = DegraderConfigFactory.toDegraderConfig(properties);\n    assertEquals(config.isLogEnabled(), logEnabled.booleanValue());\n    assertEquals(config.getLatencyToUse(), latencyToUse);\n    assertEquals(config.getMaxDropRate(), maxDropRate);\n    assertEquals(config.getMaxDropDuration(), maxDropDuration.longValue());\n    assertEquals(config.getUpStep(), upStep.doubleValue());\n    assertEquals(config.getDownStep(), downstep.doubleValue());\n    assertEquals(config.getMinCallCount(), minCallCount.intValue());\n    assertEquals(config.getHighLatency(), highLatency.longValue());\n    assertEquals(config.getLowLatency(), lowLatency.longValue());\n    assertEquals(config.getHighErrorRate(), highErrorRate.doubleValue());\n    assertEquals(config.getLowErrorRate(), lowErrorRate.doubleValue());\n    assertEquals(config.getHighOutstanding(), highOutstanding.longValue());\n    assertEquals(config.getLowOutstanding(), lowOutstanding.longValue());\n    assertEquals(config.getMinOutstandingCount(), minOutstandingCount.longValue());\n    assertEquals(config.getOverrideMinCallCount(), overrideMinCallCount.intValue());\n    assertEquals(config.getLogThreshold(), logThreshold);\n    assertEquals(config.getPreemptiveRequestTimeoutRate(), preemptiveRequestTimeoutRate);")
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/event/D2ServiceDiscoveryEventHelper.java|
+Ambiguity(|unknown:///|(832,1634,<23,47>,<62,0>),"InterfaceBody","{\n  //---- d2 server-side events ----//\n\n  /**\n   * To emit ServiceDiscoveryStatusActiveUpdateIntentEvent and ServiceDiscoveryStatusWriteEvent.\n   * @param cluster cluster name.\n   * @param isMarkUp true for markUp, o.w for markDown.\n   * @param succeeded true if the write succeeded, o.w failed.\n   * @param startAt when the update intent is initiated (start time of the markUp/markDown).\n   */\n  void emitSDStatusActiveUpdateIntentAndWriteEvents(String cluster, boolean isMarkUp, boolean succeeded, long startAt);\n\n\n  // NOTE: Deprecated, client side events should be directly emitted with {@link ServiceDiscoveryEventEmitter}\n  //---- d2 client-side events ----//\n\n  /**\n   * To emit ServiceDiscoveryStatusUpdateReceiptEvent.\n   * @param cluster cluster name.\n   * @param isMarkUp true for markUp, o.w for markDown.\n   * @param nodePath path of the uri ephemeral znode.\n   * @param nodeData data in the uri ephemeral znode.\n   * @param timestamp when the update is received.\n   */\n  @Deprecated\n  default void emitSDStatusUpdateReceiptEvent(String cluster, String host, int port, boolean isMarkUp, String zkConnectString, String nodePath, String nodeData, long timestamp) {\n  };\n\n  /**\n   * To emit ServiceDiscoveryStatusInitialRequestEvent, when a new service discovery request is sent for a cache miss,\n   * (the first time of getting uris for a cluster).\n   * @param cluster cluster name.\n   * @param duration duration the request took.\n   * @param succeeded true if the request succeeded, o.w failed.\n   */\n  @Deprecated\n  default void emitSDStatusInitialRequestEvent(String cluster, long duration, boolean succeeded) {\n  };\n}\n")
+  374 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/util/BurstyBarrier.java|
+ParseError(|unknown:///|(7591,1,<116,53>,<116,54>))
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/simple/SimpleLoadBalancer.java|
+Ambiguity(|unknown:///|(33846,1300,<839,6>,<870,7>),"BlockStatements","Map\<URI, Double\> weightedSubset = subsetItem.getWeightedUriSubset();;\n      Set\<URI\> doNotSlowStartUris = subsetItem.getDoNotSlowStartUris();\n      clientsToLoadBalance = new HashMap\<\>(possibleUris.size());\n      for (URI possibleUri : possibleUris)\n      {\n        // don\'t pay attention to this uri if it\'s banned or not in the subset\n        if (!serviceProperties.isBanned(possibleUri) && !clusterProperties.isBanned(possibleUri))\n        {\n          if (weightedSubset.containsKey(possibleUri))\n          {\n            TrackerClient possibleTrackerClient = _state.getClient(serviceName, possibleUri);\n\n            if (possibleTrackerClient != null)\n            {\n              if (doNotSlowStartUris.contains(possibleUri))\n              {\n                possibleTrackerClient.setDoNotSlowStart(true);\n              }\n              // Only update subset weight if the subset item is a weighted subset\n              if (subsetItem.isWeightedSubset())\n              {\n                possibleTrackerClient.setSubsetWeight(partitionId, weightedSubset.get(possibleUri));\n              }\n              clientsToLoadBalance.put(possibleUri, possibleTrackerClient);\n            }\n          }\n        }\n        else\n        {\n          warn(_log, \"skipping banned uri: \", possibleUri);\n        }\n      }")
+|file:///home/dataset/rest.li/data-avro/src/main/java/com/linkedin/data/avro/EmbedSchemaMode.java|
+Ambiguity(|unknown:///|(0,918,<1,0>,<33,0>),"CompilationUnit","/*\n   Copyright (c) 2013 LinkedIn Corp.\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n*/\n\npackage com.linkedin.data.avro;\n\n/**\n * Determines whether input schema is embedded in the translated schema.\n */\npublic enum EmbedSchemaMode\n{\n  /**\n   * Original input schema is not embedded in translated schema.\n   */\n  NONE,\n  /**\n   * Original input schema is embedded in the root output schema.\n   */\n  ROOT_ONLY\n};\n")
+|file:///home/dataset/rest.li/restli-int-test-server/src/test/java/com/linkedin/restli/restspec/NamedAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/util/TestFastByteArrayOutputStream.java|
+ParseError(|unknown:///|(747,1,<24,55>,<24,56>))
+  1042 of 2986 processed succesfully!
+  1082 of 2986 processed succesfully!
+  1157 of 2986 processed succesfully!
+  1222 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/codec/entitystream/JacksonLICORDataDecoder.java|
+ParseError(|unknown:///|(2555,1,<64,19>,<64,20>))
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/codec/entitystream/AbstractJacksonDataDecoder.java|
+ParseError(|unknown:///|(1953,1,<53,18>,<53,19>))
+|file:///home/dataset/rest.li/r2-core/src/main/java/com/linkedin/r2/transport/http/client/AsyncRateLimiter.java|
+Ambiguity(|unknown:///|(1423,2430,<37,0>,<96,0>),"InterfaceBody","{\n  /**\n   * Submits a {@link Callback} to be executed at the earliest available time. The #onSuccess method\n   * will be invoked when the callback is executed. If the implementation decides the callback cannot\n   * be successfully invoked, callback\'s #onError will be invoked with {@link RejectedExecutionException}.\n   *\n   * @param callback Callback to be submitted\n   */\n  void submit(Callback\<None\> callback) throws RejectedExecutionException;\n\n  /**\n   * @return the current rate\n   */\n  Rate getRate();\n\n  /**\n   * Sets the execution rate as the number of permits over some period of time. The actual period length\n   * is calculated based on the rate and burst allowed. If burst allowed is lower than the given permits\n   * per period, the length of the period will be adjusted to account for the burst allowed. The minimum\n   * period is one millisecond. If the specified events per period cannot satisfy the burst, an\n   * {@link IllegalArgumentException} will be thrown.\n   * \<p\>\n   * For example, if the rate is specified as 100 events per second and the burst is set to 10, then\n   * the rate will be created as 10 events per 100 milliseconds. However, if the rate is specified as\n   * 2000 events per second and the burst is 1, since the minimum period is 1 millisecond, the burst\n   * requirement cannot be satisfied. An IllegalArgumentException is thrown as a result.\n   *\n   * @param permitsPerPeriod Number of permits issued per period.\n   * @param period           Period in milliseconds permits will be issued.\n   * @param burst            Maximum number of permits can be issued at a time.\n   */\n  void setRate(double permitsPerPeriod, long period, int burst);\n\n  /**\n   * Keeping it for backward compatibility to not cause NoSuchMethodExceptions in libraries depending on this method\n   *\n   * @deprecated see setRate(double, long, int)\n   */\n  @Deprecated\n  default void setRate(int permitsPerPeriod, long period, int burst)\n  {\n    setRate((double) permitsPerPeriod, period, burst);\n  }\n\n  /**\n   * Cancels all pending {@link Callback}s and invokes the #onError method with a supplied {@link Throwable}.\n   *\n   * @param throwable Reason for cancelling all pending callbacks.\n   */\n  void cancelAll(Throwable throwable);\n\n  /**\n   * Returns how many requests are in the queue in this instant.\n   * Returns -1 if the method is unimplemented\n   */\n  default int getPendingTasksCount(){\n    return -1;\n  };\n}\n")
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/TestResourceModelAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/SampleResources.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/TestRestLiAnnotationReader.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  2081 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/server/annotations/ServiceErrors.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  2613 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestCookieResource.java|
+Ambiguity(|unknown:///|,"BlockStatement+","BatchGetRequest\<Greeting\> req = new CookieBuilders().batchGet().ids(1L, 2L).setCookies(requestCookies).build();\n    Response\<BatchResponse\<Greeting\>\> resp = REST_CLIENT.sendRequest(req).getResponse();\n\n    List\<HttpCookie\> getBackResponseCookie = Arrays.asList(new HttpCookie(\"1\", \"B\"), new HttpCookie(\"2\", \"A\"), new HttpCookie(\"3\", \"G\"),new HttpCookie(\"4\", \"E\"), new HttpCookie(\"5\", \"T\"));;")
+8
+[Project Analyzer] project: rest.li
+Processing rest.li...
+
+  8 of 2986 processed succesfully!
+  11 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/gradle-plugins/src/main/java/com/linkedin/pegasus/gradle/tasks/CheckIdlTask.java|
+EmptySet()
+|file:///home/dataset/rest.li/gradle-plugins/src/main/java/com/linkedin/pegasus/gradle/tasks/CheckSnapshotTask.java|
+EmptySet()
+|file:///home/dataset/rest.li/data-transform/src/test/java/com/linkedin/data/transform/TestProjectionUtil.java|
+EmptySet()
+|file:///home/dataset/rest.li/data-transform/src/main/java/com/linkedin/data/transform/ProjectionUtil.java|
+EmptySet()
+  67 of 2986 processed succesfully!
+  72 of 2986 processed succesfully!
+  91 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/discovery/util/TestD2Config.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final Map\<String, Object\> partitionProperties = new HashMap\<\>();\n    Map\<String, Object\> customized = new HashMap\<\>();\n    List\<String\> classList = Arrays.asList(\"TestPartitionAccessor1\", \"TestPartitionAccessor2\");\n    customized.put(\"partitionType\", \"CUSTOM\");\n    customized.put(\"partitionCount\", \"10\");\n    customized.put(\"partitionAccessorList\", classList);\n    partitionProperties.put(\"partitionProperties\", customized);\n\n    final PartitionAccessorRegistry registry = new PartitionAccessorRegistry()\n    {\n      final private Map\<String, List\<BasePartitionAccessor\>\> _registry = new HashMap\<\>();\n\n      @Override\n      public void register(String clusterName, BasePartitionAccessor accessor)\n      {\n        List\<BasePartitionAccessor\> accessors = _registry.computeIfAbsent(clusterName, k -\> new ArrayList\<\>());\n        accessors.add(accessor);\n      }\n\n      @Override\n      public List\<BasePartitionAccessor\> getPartitionAccessors(String clusterName)\n      {\n        return _registry.get(clusterName);\n      }\n    };\n\n    class TestPartitionAccessor1 implements PartitionAccessor\n    {\n      @Override\n      public int getPartitionId(URI uri) throws PartitionAccessException\n      {\n        return testGetPartitionId(uri);\n      }\n\n      @Override\n      public int getMaxPartitionId()\n      {\n        return 10;\n      }\n    };")
+  96 of 2986 processed succesfully!
+  109 of 2986 processed succesfully!
+  116 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/discovery/stores/zk/RetryZooKeeperTest.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/discovery/stores/zk/SharedZkConnectionProviderTest.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/discovery/event/PropertyEventBusRequestsThrottlerTest.java|
+EmptySet()
+  134 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/clients/RetryClientTest.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/simulator/SimpleLoadBalancerSimulation.java|
+EmptySet()
+  160 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/util/WarmUpLoadBalancerTest.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/util/LoadBalancerEchoServer.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/util/hashing/ConsistentHashKeyMapperTest.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/util/hashing/DistributionNonDiscreteRingTest.java|
+EmptySet()
+  168 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/util/hashing/URIMapperTestUtil.java|
+EmptySet()
+  188 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/simple/SimpleLoadBalancerTest.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/simple/SimpleLoadBalancerDelayTest.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/strategies/degrader/DegraderConfigFactoryTest.java|
+Ambiguity(|unknown:///|(1124,3394,<40,4>,<92,89>),"BlockStatements","Map\<String,String\> properties = new HashMap\<\>();;\n    Boolean logEnabled = false;\n    DegraderImpl.LatencyToUse latencyToUse = DegraderImpl.LatencyToUse.PCT95;\n    Double maxDropRate = 0.33;\n    Long maxDropDuration = 23190l;\n    Double upStep = 0.3;\n    Double downstep = 0.2;\n    Integer minCallCount = 22;\n    Long highLatency = 30000000l;\n    Long lowLatency = 244499l;\n    Double highErrorRate = 0.5;\n    Double lowErrorRate = 0.1;\n    Long highOutstanding = 10000l;\n    Long lowOutstanding = 3000l;\n    Integer minOutstandingCount = 10;\n    Integer overrideMinCallCount = 5;\n    Double logThreshold = 0.8;\n    Double preemptiveRequestTimeoutRate = 0.5;\n    properties.put(PropertyKeys.DEGRADER_LOG_ENABLED, logEnabled.toString());\n    properties.put(PropertyKeys.DEGRADER_LATENCY_TO_USE, latencyToUse.toString());\n    properties.put(PropertyKeys.DEGRADER_MAX_DROP_RATE, maxDropRate.toString());\n    properties.put(PropertyKeys.DEGRADER_MAX_DROP_DURATION, maxDropDuration.toString());\n    properties.put(PropertyKeys.DEGRADER_UP_STEP, upStep.toString());\n    properties.put(PropertyKeys.DEGRADER_DOWN_STEP, downstep.toString());\n    properties.put(PropertyKeys.DEGRADER_MIN_CALL_COUNT, minCallCount.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_LATENCY, highLatency.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_LATENCY, lowLatency.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_ERROR_RATE, highErrorRate.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_ERROR_RATE, lowErrorRate.toString());\n    properties.put(PropertyKeys.DEGRADER_HIGH_OUTSTANDING, highOutstanding.toString());\n    properties.put(PropertyKeys.DEGRADER_LOW_OUTSTANDING, lowOutstanding.toString());\n    properties.put(PropertyKeys.DEGRADER_MIN_OUTSTANDING_COUNT, minOutstandingCount.toString());\n    properties.put(PropertyKeys.DEGRADER_OVERRIDE_MIN_CALL_COUNT, overrideMinCallCount.toString());\n    properties.put(PropertyKeys.DEGRADER_LOG_THRESHOLD, logThreshold.toString());\n    properties.put(PropertyKeys.DEGRADER_PREEMPTIVE_REQUEST_TIMEOUT_RATE, preemptiveRequestTimeoutRate.toString());\n    DegraderImpl.Config config = DegraderConfigFactory.toDegraderConfig(properties);\n    assertEquals(config.isLogEnabled(), logEnabled.booleanValue());\n    assertEquals(config.getLatencyToUse(), latencyToUse);\n    assertEquals(config.getMaxDropRate(), maxDropRate);\n    assertEquals(config.getMaxDropDuration(), maxDropDuration.longValue());\n    assertEquals(config.getUpStep(), upStep.doubleValue());\n    assertEquals(config.getDownStep(), downstep.doubleValue());\n    assertEquals(config.getMinCallCount(), minCallCount.intValue());\n    assertEquals(config.getHighLatency(), highLatency.longValue());\n    assertEquals(config.getLowLatency(), lowLatency.longValue());\n    assertEquals(config.getHighErrorRate(), highErrorRate.doubleValue());\n    assertEquals(config.getLowErrorRate(), lowErrorRate.doubleValue());\n    assertEquals(config.getHighOutstanding(), highOutstanding.longValue());\n    assertEquals(config.getLowOutstanding(), lowOutstanding.longValue());\n    assertEquals(config.getMinOutstandingCount(), minOutstandingCount.longValue());\n    assertEquals(config.getOverrideMinCallCount(), overrideMinCallCount.intValue());\n    assertEquals(config.getLogThreshold(), logThreshold);\n    assertEquals(config.getPreemptiveRequestTimeoutRate(), preemptiveRequestTimeoutRate);")
+|file:///home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/strategies/degrader/DegraderLoadBalancerTest.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/jmx/JmxManager.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/util/D2Config.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/util/LogUtil.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/stores/zk/RetryZooKeeper.java|
+EmptySet()
+  287 of 2986 processed succesfully!
+  291 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/stores/zk/ZooKeeperEphemeralStore.java|
+EmptySet()
+  295 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/stores/zk/ZooKeeperChildrenDataPublisher.java|
+EmptySet()
+  306 of 2986 processed succesfully!
+  308 of 2986 processed succesfully!
+  309 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/event/D2ServiceDiscoveryEventHelper.java|
+Ambiguity(|unknown:///|(832,1634,<23,47>,<62,0>),"InterfaceBody","{\n  //---- d2 server-side events ----//\n\n  /**\n   * To emit ServiceDiscoveryStatusActiveUpdateIntentEvent and ServiceDiscoveryStatusWriteEvent.\n   * @param cluster cluster name.\n   * @param isMarkUp true for markUp, o.w for markDown.\n   * @param succeeded true if the write succeeded, o.w failed.\n   * @param startAt when the update intent is initiated (start time of the markUp/markDown).\n   */\n  void emitSDStatusActiveUpdateIntentAndWriteEvents(String cluster, boolean isMarkUp, boolean succeeded, long startAt);\n\n\n  // NOTE: Deprecated, client side events should be directly emitted with {@link ServiceDiscoveryEventEmitter}\n  //---- d2 client-side events ----//\n\n  /**\n   * To emit ServiceDiscoveryStatusUpdateReceiptEvent.\n   * @param cluster cluster name.\n   * @param isMarkUp true for markUp, o.w for markDown.\n   * @param nodePath path of the uri ephemeral znode.\n   * @param nodeData data in the uri ephemeral znode.\n   * @param timestamp when the update is received.\n   */\n  @Deprecated\n  default void emitSDStatusUpdateReceiptEvent(String cluster, String host, int port, boolean isMarkUp, String zkConnectString, String nodePath, String nodeData, long timestamp) {\n  };\n\n  /**\n   * To emit ServiceDiscoveryStatusInitialRequestEvent, when a new service discovery request is sent for a cache miss,\n   * (the first time of getting uris for a cluster).\n   * @param cluster cluster name.\n   * @param duration duration the request took.\n   * @param succeeded true if the request succeeded, o.w failed.\n   */\n  @Deprecated\n  default void emitSDStatusInitialRequestEvent(String cluster, long duration, boolean succeeded) {\n  };\n}\n")
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/event/PropertyEventBusRequestsThrottler.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/event/PropertyEventBusImpl.java|
+EmptySet()
+  330 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/util/FileSystemDirectory.java|
+EmptySet()
+  379 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/util/HostToKeyMapper.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/util/LoadBalancerClientCli.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/util/BurstyBarrier.java|
+ParseError(|unknown:///|(7591,1,<116,53>,<116,54>))
+  388 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/util/hashing/ConsistentHashRing.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/util/hashing/simulator/ConsistentHashRingSimulator.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/config/RelativeStrategyPropertiesConverter.java|
+EmptySet()
+  441 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/simple/SimpleLoadBalancerState.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/simple/SimpleLoadBalancer.java|
+Ambiguity(|unknown:///|(33846,1300,<839,6>,<870,7>),"BlockStatements","Map\<URI, Double\> weightedSubset = subsetItem.getWeightedUriSubset();;\n      Set\<URI\> doNotSlowStartUris = subsetItem.getDoNotSlowStartUris();\n      clientsToLoadBalance = new HashMap\<\>(possibleUris.size());\n      for (URI possibleUri : possibleUris)\n      {\n        // don\'t pay attention to this uri if it\'s banned or not in the subset\n        if (!serviceProperties.isBanned(possibleUri) && !clusterProperties.isBanned(possibleUri))\n        {\n          if (weightedSubset.containsKey(possibleUri))\n          {\n            TrackerClient possibleTrackerClient = _state.getClient(serviceName, possibleUri);\n\n            if (possibleTrackerClient != null)\n            {\n              if (doNotSlowStartUris.contains(possibleUri))\n              {\n                possibleTrackerClient.setDoNotSlowStart(true);\n              }\n              // Only update subset weight if the subset item is a weighted subset\n              if (subsetItem.isWeightedSubset())\n              {\n                possibleTrackerClient.setSubsetWeight(partitionId, weightedSubset.get(possibleUri));\n              }\n              clientsToLoadBalance.put(possibleUri, possibleTrackerClient);\n            }\n          }\n        }\n        else\n        {\n          warn(_log, \"skipping banned uri: \", possibleUri);\n        }\n      }")
+  457 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/simple/UriLoadBalancerSubscriber.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/strategies/relative/StateUpdater.java|
+EmptySet()
+|file:///home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/strategies/degrader/DegraderLoadBalancerStrategyV3.java|
+EmptySet()
+  517 of 2986 processed succesfully!
+  519 of 2986 processed succesfully!
+  524 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/r2-int-test/src/test/java/test/r2/integ/clientserver/TestHttpServer.java|
+EmptySet()
+  547 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/li-protobuf/src/main/java/com/linkedin/data/protobuf/InputStreamReader.java|
+EmptySet()
+|file:///home/dataset/rest.li/r2-netty/src/test/java/com/linkedin/r2/transport/http/client/TestHttpClientFactory.java|
+EmptySet()
+|file:///home/dataset/rest.li/r2-netty/src/test/java/com/linkedin/r2/transport/http/client/TestChannelPoolManagerFactorySharingConnection.java|
+EmptySet()
+|file:///home/dataset/rest.li/r2-netty/src/main/java/com/linkedin/r2/transport/http/client/HttpClientFactory.java|
+EmptySet()
+  596 of 2986 processed succesfully!
+  620 of 2986 processed succesfully!
+  623 of 2986 processed succesfully!
+  644 of 2986 processed succesfully!
+  654 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data-avro/src/test/java/com/linkedin/data/avro/TestFilteredSchemaDataTranslation.java|
+EmptySet()
+|file:///home/dataset/rest.li/data-avro/src/test/java/com/linkedin/data/avro/TestAvroOverrideFactory.java|
+EmptySet()
+|file:///home/dataset/rest.li/data-avro/src/test/java/com/linkedin/data/avro/TestSchemaTranslator.java|
+EmptySet()
+|file:///home/dataset/rest.li/data-avro/src/test/java/com/linkedin/data/avro/TestCustomAvroSchema.java|
+EmptySet()
+|file:///home/dataset/rest.li/data-avro/src/test/java/com/linkedin/data/avro/TestDataTranslator.java|
+EmptySet()
+|file:///home/dataset/rest.li/data-avro/src/main/java/com/linkedin/data/avro/DataTranslator.java|
+EmptySet()
+|file:///home/dataset/rest.li/data-avro/src/main/java/com/linkedin/data/avro/EmbedSchemaMode.java|
+Ambiguity(|unknown:///|(0,918,<1,0>,<33,0>),"CompilationUnit","/*\n   Copyright (c) 2013 LinkedIn Corp.\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n*/\n\npackage com.linkedin.data.avro;\n\n/**\n * Determines whether input schema is embedded in the translated schema.\n */\npublic enum EmbedSchemaMode\n{\n  /**\n   * Original input schema is not embedded in translated schema.\n   */\n  NONE,\n  /**\n   * Original input schema is embedded in the root output schema.\n   */\n  ROOT_ONLY\n};\n")
+  718 of 2986 processed succesfully!
+  719 of 2986 processed succesfully!
+  725 of 2986 processed succesfully!
+  729 of 2986 processed succesfully!
+  730 of 2986 processed succesfully!
+  732 of 2986 processed succesfully!
+  734 of 2986 processed succesfully!
+  753 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-int-test-server/src/test/java/com/linkedin/restli/restspec/NamedAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-int-test-server/src/test/java/com/linkedin/restli/docgen/TestResourceSchemaCollection.java|
+EmptySet()
+  779 of 2986 processed succesfully!
+  782 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/instrumentation/server/LatencyInstrumentationResource.java|
+EmptySet()
+  787 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/StringKeysResource.java|
+EmptySet()
+  791 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/CookieResource.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/ActionsResource.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/AutomaticValidationDemoResource.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/BatchGreetingResource.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/CustomTypesResource3.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/GreetingsResourceCodeGenerator.java|
+EmptySet()
+  827 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/ChainedTyperefResource.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/GreetingsResourceImpl.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/ComplexKeysDataProvider.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/AssociationsResource.java|
+EmptySet()
+  848 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/defaults/FieldFillInDefaultResources.java|
+EmptySet()
+  851 of 2986 processed succesfully!
+  854 of 2986 processed succesfully!
+  861 of 2986 processed succesfully!
+  862 of 2986 processed succesfully!
+  864 of 2986 processed succesfully!
+  873 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-docgen/src/main/java/com/linkedin/restli/docgen/RestLiJSONDocumentationRenderer.java|
+EmptySet()
+  890 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-docgen/src/main/java/com/linkedin/restli/docgen/examplegen/ExampleRequestResponseGenerator.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/util/TestFastByteArrayOutputStream.java|
+ParseError(|unknown:///|(747,1,<24,55>,<24,56>))
+  896 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/TestData.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/TestUtil.java|
+EmptySet()
+  898 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/schema/util/TestSchemaFilter.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/schema/annotation/TestSchemaAnnotationProcessor.java|
+EmptySet()
+  911 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/schema/compatibility/TestCompatibilityChecker.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/schema/validation/TestValidation.java|
+EmptySet()
+  917 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/schema/resolver/TestDataSchemaResolver.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/template/TestMapTemplate.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/template/TestRecordAndUnionTemplate.java|
+EmptySet()
+  925 of 2986 processed succesfully!
+  927 of 2986 processed succesfully!
+  928 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/it/TestRemover.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/performance/TestRecordTemplatePerformance.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/codec/TestCodec.java|
+EmptySet()
+  950 of 2986 processed succesfully!
+  953 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/test/java/com/linkedin/data/element/TestDataElement.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/util/FileUtil.java|
+EmptySet()
+  969 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/ByteString.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/DataList.java|
+EmptySet()
+  987 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/SchemaToPdlEncoder.java|
+EmptySet()
+  994 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/RecordDataSchema.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/PdlBuilder.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/UnionDataSchema.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/SchemaParser.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/AbstractSchemaParser.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/annotation/PathSpecBasedSchemaAnnotationVisitor.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/annotation/SchemaAnnotationProcessor.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/grammar/PdlSchemaParser.java|
+EmptySet()
+  1039 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/compatibility/CompatibilityChecker.java|
+EmptySet()
+  1048 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/generator/AbstractGenerator.java|
+EmptySet()
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/generator/DefaultSampleDataCallback.java|
+EmptySet()
+  1067 of 2986 processed succesfully!
+  1073 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/template/DynamicRecordTemplate.java|
+EmptySet()
+  1093 of 2986 processed succesfully!
+  1100 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/it/PathMatchesPatternPredicate.java|
+EmptySet()
+  1149 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/codec/entitystream/JacksonLICORDataDecoder.java|
+ParseError(|unknown:///|(2555,1,<64,19>,<64,20>))
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/codec/entitystream/AbstractJacksonDataDecoder.java|
+ParseError(|unknown:///|(1953,1,<53,18>,<53,19>))
+|file:///home/dataset/rest.li/data/src/main/java/com/linkedin/data/message/MessageUtil.java|
+EmptySet()
+  1195 of 2986 processed succesfully!
+  1204 of 2986 processed succesfully!
+  1216 of 2986 processed succesfully!
+  1222 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/r2-core/src/test/java/test/r2/transport/http/client/TestAsyncPool.java|
+EmptySet()
+  1303 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/r2-core/src/main/java/com/linkedin/r2/transport/http/client/AsyncRateLimiter.java|
+Ambiguity(|unknown:///|(1423,2430,<37,0>,<96,0>),"InterfaceBody","{\n  /**\n   * Submits a {@link Callback} to be executed at the earliest available time. The #onSuccess method\n   * will be invoked when the callback is executed. If the implementation decides the callback cannot\n   * be successfully invoked, callback\'s #onError will be invoked with {@link RejectedExecutionException}.\n   *\n   * @param callback Callback to be submitted\n   */\n  void submit(Callback\<None\> callback) throws RejectedExecutionException;\n\n  /**\n   * @return the current rate\n   */\n  Rate getRate();\n\n  /**\n   * Sets the execution rate as the number of permits over some period of time. The actual period length\n   * is calculated based on the rate and burst allowed. If burst allowed is lower than the given permits\n   * per period, the length of the period will be adjusted to account for the burst allowed. The minimum\n   * period is one millisecond. If the specified events per period cannot satisfy the burst, an\n   * {@link IllegalArgumentException} will be thrown.\n   * \<p\>\n   * For example, if the rate is specified as 100 events per second and the burst is set to 10, then\n   * the rate will be created as 10 events per 100 milliseconds. However, if the rate is specified as\n   * 2000 events per second and the burst is 1, since the minimum period is 1 millisecond, the burst\n   * requirement cannot be satisfied. An IllegalArgumentException is thrown as a result.\n   *\n   * @param permitsPerPeriod Number of permits issued per period.\n   * @param period           Period in milliseconds permits will be issued.\n   * @param burst            Maximum number of permits can be issued at a time.\n   */\n  void setRate(double permitsPerPeriod, long period, int burst);\n\n  /**\n   * Keeping it for backward compatibility to not cause NoSuchMethodExceptions in libraries depending on this method\n   *\n   * @deprecated see setRate(double, long, int)\n   */\n  @Deprecated\n  default void setRate(int permitsPerPeriod, long period, int burst)\n  {\n    setRate((double) permitsPerPeriod, period, burst);\n  }\n\n  /**\n   * Cancels all pending {@link Callback}s and invokes the #onError method with a supplied {@link Throwable}.\n   *\n   * @param throwable Reason for cancelling all pending callbacks.\n   */\n  void cancelAll(Throwable throwable);\n\n  /**\n   * Returns how many requests are in the queue in this instant.\n   * Returns -1 if the method is unimplemented\n   */\n  default int getPendingTasksCount(){\n    return -1;\n  };\n}\n")
+  1359 of 2986 processed succesfully!
+  1370 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/r2-core/src/main/java/com/linkedin/r2/filter/FilterChains.java|
+EmptySet()
+  1479 of 2986 processed succesfully!
+  1487 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/r2-filter-compression/src/main/java/com/linkedin/r2/filter/compression/ServerStreamCompressionFilter.java|
+EmptySet()
+|file:///home/dataset/rest.li/r2-filter-compression/src/main/java/com/linkedin/r2/filter/compression/ClientStreamCompressionFilter.java|
+EmptySet()
+  1513 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-example-server/src/test/java/com/linkedin/restli/example/impl/TestPhotoResource.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-example-server/src/test/java/com/linkedin/restli/example/impl/TestAlbumEntryResource.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-example-server/src/main/java/com/linkedin/restli/example/impl/PhotoResource.java|
+EmptySet()
+  1535 of 2986 processed succesfully!
+  1550 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/generator-test/src/test/java/com/linkedin/pegasus/generator/override/TestEnum.java|
+EmptySet()
+  1558 of 2986 processed succesfully!
+  1559 of 2986 processed succesfully!
+  1565 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/generator-test/src/test/java/com/linkedin/pegasus/generator/test/TestEnum.java|
+EmptySet()
+  1573 of 2986 processed succesfully!
+  1574 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/generator-test/src/test/java/com/linkedin/pegasus/generator/test/TestBadSchemas.java|
+EmptySet()
+  1579 of 2986 processed succesfully!
+  1601 of 2986 processed succesfully!
+  1633 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-tools/src/test/java/com/linkedin/restli/tools/snapshot/check/TestRestliSnapshotCompatibilityChecker.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-tools/src/test/java/com/linkedin/restli/tools/snapshot/check/TestSnapshot.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-tools/src/test/java/com/linkedin/restli/tools/snapshot/check/TestPegasusSchemaSnapshotCompatibilityChecker.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-tools/src/test/java/com/linkedin/restli/tools/sample/CustomKeyAssociationResource.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-tools/src/test/java/com/linkedin/restli/tools/clientgen/TestRequestBuilderSpecGenerator.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-tools/src/test/java/com/linkedin/restli/tools/compatibility/TestResourceCompatibilityChecker.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-tools/src/test/java/com/linkedin/restli/tools/idlcheck/TestRestLiResourceModelCompatibilityChecker.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/snapshot/check/PegasusSchemaSnapshotCompatibilityChecker.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/snapshot/check/AbstractSnapshot.java|
+EmptySet()
+  1706 of 2986 processed succesfully!
+  1709 of 2986 processed succesfully!
+  1710 of 2986 processed succesfully!
+  1712 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/annotation/SchemaAnnotationValidatorCmdLineApp.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/clientgen/JavaRequestBuilderGenerator.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/clientgen/RequestBuilderSpecGenerator.java|
+EmptySet()
+  1724 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/compatibility/ResourceCompatibilityChecker.java|
+EmptySet()
+  1757 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/idlgen/MultiLanguageDocsProvider.java|
+EmptySet()
+  1775 of 2986 processed succesfully!
+  1785 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/TestResourceContextImpl.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/TestResourceModelAnnotation.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/SampleResources.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/TestRestLiAnnotationReader.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/TestRestLiApiBuilder.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/model/TestResourceModel.java|
+EmptySet()
+  1849 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/server/RestLiTestHelper.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/server/test/TestRestLiMethodInvocation.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/server/test/TestRestLiResponseHandler.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/server/test/TestRestLiResourceModels.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/server/test/TestRestLiRouting.java|
+EmptySet()
+  1926 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/RestLiRouter.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/util/MIMEParse.java|
+EmptySet()
+  1942 of 2986 processed succesfully!
+  1947 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/model/ResourceModelEncoder.java|
+EmptySet()
+  1950 of 2986 processed succesfully!
+  1952 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/model/RestLiAnnotationReader.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/model/AnnotationSet.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/methods/arguments/ArgumentBuilder.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/response/BatchCreateResponseBuilder.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/response/ResponseUtils.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/response/CollectionResponseBuilder.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/server/annotations/ServiceErrors.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  2122 of 2986 processed succesfully!
+  2175 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/server/util/PatchHelper.java|
+EmptySet()
+  2223 of 2986 processed succesfully!
+  2228 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-int-test-api/src/test/java/com/linkedin/restli/test/FinderTest.java|
+EmptySet()
+  2246 of 2986 processed succesfully!
+  2253 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/li-jersey-uri/src/main/java/com/linkedin/jersey/api/uri/UriBuilder.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-server-extras/src/test/java/com/linkedin/restli/server/TestParseqTraceDebugRequestHandler.java|
+EmptySet()
+|file:///home/dataset/rest.li/test-util/src/main/java/com/linkedin/test/util/ExceptionTestUtil.java|
+EmptySet()
+  2284 of 2986 processed succesfully!
+  2292 of 2986 processed succesfully!
+  2328 of 2986 processed succesfully!
+  2335 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-common/src/test/java/com/linkedin/restli/internal/common/TestAttachmentUtils.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-common/src/test/java/com/linkedin/restli/common/util/TestProjectionMaskApplier.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-common/src/main/java/com/linkedin/restli/restspec/RestSpecCodec.java|
+EmptySet()
+  2369 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-common/src/main/java/com/linkedin/restli/internal/common/QueryParamsDataMap.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-common/src/main/java/com/linkedin/restli/internal/common/URIParamUtils.java|
+EmptySet()
+  2398 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-common/src/main/java/com/linkedin/restli/common/BatchCreateIdEntityResponse.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-common/src/main/java/com/linkedin/restli/common/CompoundKey.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-common/src/main/java/com/linkedin/restli/common/BatchCreateIdResponse.java|
+EmptySet()
+  2426 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-common/src/main/java/com/linkedin/restli/common/util/ResourceSchemaToResourceSpecTranslator.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-common/src/main/java/com/linkedin/restli/common/validation/RestLiDataValidator.java|
+EmptySet()
+  2461 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/generator/src/main/java/com/linkedin/pegasus/generator/JavaDataTemplateGenerator.java|
+EmptySet()
+  2462 of 2986 processed succesfully!
+  2463 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/generator/src/main/java/com/linkedin/pegasus/generator/DataSchemaParser.java|
+EmptySet()
+  2481 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestRestLiValidation.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestParSeqBasedFluentClientApiWithExecutionGroup.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestAssociationsResource.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestParseqBasedFluentClientApi.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestSimpleResourceHierarchy.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestCookieResource.java|
+Ambiguity(|unknown:///|,"BlockStatement+","BatchGetRequest\<Greeting\> req = new CookieBuilders().batchGet().ids(1L, 2L).setCookies(requestCookies).build();\n    Response\<BatchResponse\<Greeting\>\> resp = REST_CLIENT.sendRequest(req).getResponse();\n\n    List\<HttpCookie\> getBackResponseCookie = Arrays.asList(new HttpCookie(\"1\", \"B\"), new HttpCookie(\"2\", \"A\"), new HttpCookie(\"3\", \"G\"),new HttpCookie(\"4\", \"E\"), new HttpCookie(\"5\", \"T\"));;")
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestGreetingsClient.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestCompressionServer.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestRestLiValidationFromClient.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestGreetingClientContentTypes.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestAlwaysProjectedFieldsOnServer.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestGreetingsClientAcceptTypes.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestCustomTypesClient.java|
+EmptySet()
+  2508 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestParseqBasedFluentClientApiWithProjections.java|
+EmptySet()
+  2523 of 2986 processed succesfully!
+  2529 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/documentation/TestCustomDocumentationHandler.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/documentation/TestDocumentationHandler.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/test/TestResourceSchemaToResourceSpecTranslator.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/client/TestScatterGather.java|
+EmptySet()
+  2544 of 2986 processed succesfully!
+  2552 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-client/src/test/java/com/linkedin/restli/client/TestRequest.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-client/src/test/java/com/linkedin/restli/client/TestDefaultScatterGatherStrategy.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-client/src/test/java/com/linkedin/restli/client/TestExecutionGroup.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-client/src/test/java/com/linkedin/restli/client/TestClientBuilders.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-client/src/test/java/com/linkedin/restli/client/util/TestRestliRequestUriSignature.java|
+EmptySet()
+|file:///home/dataset/rest.li/restli-client/src/main/java/com/linkedin/restli/client/AbstractRequestBuilder.java|
+EmptySet()
+  2587 of 2986 processed succesfully!
+  2590 of 2986 processed succesfully!
+  2597 of 2986 processed succesfully!
+  2600 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-client/src/main/java/com/linkedin/restli/client/RestClient.java|
+EmptySet()
+  2652 of 2986 processed succesfully!
+  2716 of 2986 processed succesfully!
+|file:///home/dataset/rest.li/restli-client/src/main/java/com/linkedin/restli/internal/client/response/BatchEntityResponse.java|
+EmptySet()
+  2746 of 2986 processed succesfully!
+135
+INFO:root:  Formating the source code
+INFO:root:   Done

@@ -1,0 +1,53 @@
+[Project Analyzer] processing project: oshi
+- Number of files:  496
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 8
+- Final Time: 20230115014352
+- Elapsed Time: 8643.0ms
+[Project Analyzer] processing project: oshi
+- applying filter pattern into /home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/linux/LinuxSoundCard.java
+- Number of files:  496
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 8
+- Final Time: 20230115014358
+- Elapsed Time: 5878.0ms
+[Project Analyzer] processing project: oshi
+- applying exist pattern into /home/dataset/oshi/oshi-core/src/main/java/oshi/util/FileSystemUtil.java
+- Number of files:  496
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 8
+- Final Time: 20230115014404
+- Elapsed Time: 5879.0ms
+[Project Analyzer] processing project: oshi
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/windows/WindowsHWDiskStore.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/test/java/oshi/util/MemoizerTest.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/test/java/oshi/software/os/OperatingSystemTest.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/test/java/oshi/hardware/PowerSourceTest.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/solaris/SolarisSoundCard.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/freebsd/FreeBsdSoundCard.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/main/java/oshi/software/os/windows/WindowsFileSystem.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/test/java/oshi/hardware/DisplayTest.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/test/java/oshi/hardware/GlobalMemoryTest.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/openbsd/OpenBsdSoundCard.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/test/java/oshi/hardware/DisksTest.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/openbsd/OpenBsdPowerSource.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-demo/src/main/java/oshi/demo/gui/MemoryPanel.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/test/java/oshi/hardware/UsbDeviceTest.java
+- applying ForLoopToFunctional into /home/dataset/oshi/oshi-core/src/test/java/oshi/driver/mac/WindowInfoTest.java
+- Number of files:  496
+- Processed Files: 15
+- Exported Files:   15
+- Total of files changed: 20
+- Total of transformations: 20
+- Errors: 53
+- Final Time: 20230115014519
+- Elapsed Time: 74719.0ms

@@ -1,0 +1,192 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: oshi
+Creating log file at: /output/log-20230115014344
+Processing oshi...
+|file:///home/dataset/oshi/oshi-core-java11/src/main/java/module-info.java|
+ParseError(|unknown:///|(78,1,<4,0>,<4,1>))
+|file:///home/dataset/oshi/oshi-demo/src/main/java/oshi/demo/UserComInit.java|
+ParseError(|unknown:///|(1247,1,<40,66>,<40,67>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/software/os/unix/aix/AixOperatingSystem.java|
+ParseError(|unknown:///|(3300,1,<92,42>,<92,43>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/linux/LinuxCentralProcessor.java|
+ParseError(|unknown:///|(15022,1,<353,85>,<353,86>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/windows/WindowsNetworkIF.java|
+ParseError(|unknown:///|(989,1,<34,55>,<34,56>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/FormatUtil.java|
+ParseError(|unknown:///|(6283,1,<171,25>,<171,26>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/ParseUtil.java|
+ParseError(|unknown:///|(14290,1,<377,33>,<377,34>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/windows/registry/ProcessWtsData.java|
+ParseError(|unknown:///|(3389,1,<75,112>,<75,113>))
+0
+[Project Analyzer] project: oshi
+Processing oshi...
+|file:///home/dataset/oshi/oshi-core-java11/src/main/java/module-info.java|
+ParseError(|unknown:///|(78,1,<4,0>,<4,1>))
+|file:///home/dataset/oshi/oshi-demo/src/main/java/oshi/demo/UserComInit.java|
+ParseError(|unknown:///|(1247,1,<40,66>,<40,67>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/software/os/unix/aix/AixOperatingSystem.java|
+ParseError(|unknown:///|(3300,1,<92,42>,<92,43>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/linux/LinuxCentralProcessor.java|
+ParseError(|unknown:///|(15022,1,<353,85>,<353,86>))
+  204 of 496 processed succesfully!
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/windows/WindowsNetworkIF.java|
+ParseError(|unknown:///|(989,1,<34,55>,<34,56>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/FormatUtil.java|
+ParseError(|unknown:///|(6283,1,<171,25>,<171,26>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/ParseUtil.java|
+ParseError(|unknown:///|(14290,1,<377,33>,<377,34>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/windows/registry/ProcessWtsData.java|
+ParseError(|unknown:///|(3389,1,<75,112>,<75,113>))
+1
+[Project Analyzer] project: oshi
+Processing oshi...
+|file:///home/dataset/oshi/oshi-core-java11/src/main/java/module-info.java|
+ParseError(|unknown:///|(78,1,<4,0>,<4,1>))
+|file:///home/dataset/oshi/oshi-demo/src/main/java/oshi/demo/UserComInit.java|
+ParseError(|unknown:///|(1247,1,<40,66>,<40,67>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/software/os/unix/aix/AixOperatingSystem.java|
+ParseError(|unknown:///|(3300,1,<92,42>,<92,43>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/linux/LinuxCentralProcessor.java|
+ParseError(|unknown:///|(15022,1,<353,85>,<353,86>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/windows/WindowsNetworkIF.java|
+ParseError(|unknown:///|(989,1,<34,55>,<34,56>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/FormatUtil.java|
+ParseError(|unknown:///|(6283,1,<171,25>,<171,26>))
+  328 of 496 processed succesfully!
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/ParseUtil.java|
+ParseError(|unknown:///|(14290,1,<377,33>,<377,34>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/windows/registry/ProcessWtsData.java|
+ParseError(|unknown:///|(3389,1,<75,112>,<75,113>))
+1
+[Project Analyzer] project: oshi
+Processing oshi...
+
+|file:///home/dataset/oshi/oshi-core-java11/src/main/java/module-info.java|
+ParseError(|unknown:///|(78,1,<4,0>,<4,1>))
+|file:///home/dataset/oshi/oshi-demo/src/main/java/oshi/demo/UserComInit.java|
+ParseError(|unknown:///|(1247,1,<40,66>,<40,67>))
+|file:///home/dataset/oshi/oshi-demo/src/main/java/oshi/demo/gui/ProcessPanel.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-demo/src/main/java/oshi/demo/gui/OsHwTextPanel.java|
+EmptySet()
+  26 of 496 processed succesfully!
+|file:///home/dataset/oshi/oshi-demo/src/main/java/oshi/demo/gui/InterfacePanel.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-demo/src/main/java/oshi/demo/gui/FileStorePanel.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/test/java/oshi/SystemInfoTest.java|
+EmptySet()
+  30 of 496 processed succesfully!
+  34 of 496 processed succesfully!
+  36 of 496 processed succesfully!
+  41 of 496 processed succesfully!
+  42 of 496 processed succesfully!
+  44 of 496 processed succesfully!
+  49 of 496 processed succesfully!
+  72 of 496 processed succesfully!
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/software/os/linux/LinuxOperatingSystem.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/software/os/mac/MacOperatingSystem.java|
+EmptySet()
+  127 of 496 processed succesfully!
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/software/os/unix/openbsd/OpenBsdOperatingSystem.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/software/os/unix/solaris/SolarisOSProcess.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/software/os/unix/aix/AixOperatingSystem.java|
+ParseError(|unknown:///|(3300,1,<92,42>,<92,43>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/linux/LinuxCentralProcessor.java|
+ParseError(|unknown:///|(15022,1,<353,85>,<353,86>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/linux/LinuxUsbDevice.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/linux/LinuxGraphicsCard.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/linux/LinuxHWDiskStore.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/mac/MacUsbDevice.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/mac/MacGraphicsCard.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/windows/WindowsUsbDevice.java|
+EmptySet()
+  224 of 496 processed succesfully!
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/windows/WindowsNetworkIF.java|
+ParseError(|unknown:///|(989,1,<34,55>,<34,56>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/openbsd/OpenBsdUsbDevice.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/openbsd/OpenBsdGraphicsCard.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/openbsd/OpenBsdFirmware.java|
+EmptySet()
+  239 of 496 processed succesfully!
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/openbsd/OpenBsdCentralProcessor.java|
+EmptySet()
+  243 of 496 processed succesfully!
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/solaris/SolarisGraphicsCard.java|
+EmptySet()
+  248 of 496 processed succesfully!
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/solaris/SolarisCentralProcessor.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/solaris/SolarisUsbDevice.java|
+EmptySet()
+  258 of 496 processed succesfully!
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/freebsd/FreeBsdUsbDevice.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/freebsd/FreeBsdGraphicsCard.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/freebsd/FreeBsdHWDiskStore.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/platform/unix/freebsd/FreeBsdPowerSource.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/hardware/common/AbstractCentralProcessor.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/UserGroupInfo.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/FormatUtil.java|
+ParseError(|unknown:///|(6283,1,<171,25>,<171,26>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/ParseUtil.java|
+ParseError(|unknown:///|(14290,1,<377,33>,<377,34>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/FileUtil.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/platform/unix/openbsd/FstatUtil.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/util/platform/unix/freebsd/ProcstatUtil.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/linux/proc/DiskStats.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/mac/ThreadInfo.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/windows/LogicalProcessorInformation.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/windows/EnumWindows.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/windows/registry/ProcessWtsData.java|
+ParseError(|unknown:///|(3389,1,<75,112>,<75,113>))
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/windows/registry/ProcessPerformanceData.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/windows/registry/ThreadPerformanceData.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/unix/Who.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/unix/NetStat.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/unix/solaris/PsInfo.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/unix/solaris/disk/Lshal.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/unix/freebsd/disk/GeomPartList.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/unix/freebsd/disk/GeomDiskList.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/unix/aix/Lssrad.java|
+EmptySet()
+|file:///home/dataset/oshi/oshi-core/src/main/java/oshi/driver/unix/aix/PsInfo.java|
+EmptySet()
+15
+INFO:root:  Formating the source code
+INFO:root:   Done

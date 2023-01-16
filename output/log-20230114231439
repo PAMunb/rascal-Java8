@@ -1,0 +1,94 @@
+[Project Analyzer] processing project: fitnesse
+- Number of files:  1197
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230114231501
+- Elapsed Time: 20976.0ms
+[Project Analyzer] processing project: fitnesse
+- applying filter pattern into /home/dataset/fitnesse/src/fitnesse/testsystems/ClassPath.java
+- Number of files:  1197
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 0
+- Final Time: 20230114231514
+- Elapsed Time: 13379.0ms
+[Project Analyzer] processing project: fitnesse
+- applying exist pattern into /home/dataset/fitnesse/src/fitnesse/wiki/fs/FileSystemPageFactory.java
+- applying exist pattern into /home/dataset/fitnesse/src/fitnesse/testrunner/SuiteFilter.java
+- Number of files:  1197
+- Processed Files: 2
+- Exported Files:   2
+- Total of files changed: 3
+- Total of transformations: 3
+- Errors: 0
+- Final Time: 20230114231527
+- Elapsed Time: 13472.0ms
+[Project Analyzer] processing project: fitnesse
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testrunner/run/PageListPartitionerImpl.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/responders/editing/SavePropertiesResponder.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/responders/testHistory/SuiteOverviewTree.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/junit/JavaFormatter.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/slim/VariableStore.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testsystems/fit/FitClient.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/test/fitnesse/wiki/fs/InMemoryPageTest.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/wikitext/parser/WikiBuilder.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/slim/ListExecutor.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/wikitext/parser/HtmlBuilder.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/responders/editing/TemplateUtil.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/slim/instructions/InstructionFactory.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/wiki/SymbolicPage.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/test/fitnesse/plugins/slimcoverage/SlimCoverageTestSystem.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/test/fitnesse/wiki/fs/FileSystemPageTest.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/test/fitnesse/testsystems/slim/tables/ScenarioTableExtensionTest.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/test/fitnesse/testsystems/slim/SlimTestSystemTableProcessingTest.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/wikitext/parser/Headings.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/test/fitnesse/util/partitioner/FunctionBasedListPartitionerTest.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testsystems/CompositeExecutionLogListener.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/test/fitnesse/wiki/HitCollector.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/wiki/fs/WikiPageProperties.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testrunner/run/PagesByTestSystem.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testsystems/CompositeTestSystemListener.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testsystems/slim/SlimPage.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/wikitext/parser/Collapsible.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testrunner/run/PageListSetUpTearDownSurrounder.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/plugins/PluginsLoader.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/test/fitnesse/testsystems/fit/FitClientTest.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/authentication/PasswordFile.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/reporting/history/SuiteExecutionReport.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/responders/refactoring/PageMovementResponder.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/test/fitnesse/util/partitioner/MapBasedListPartitionerTest.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testrunner/run/PerTestSystemTestRun.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/test/fitnesse/wiki/PageTypeTest.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/wiki/RecentChangesWikiPage.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testrunner/ClassPathBuilder.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/util/partitioner/FunctionBasedListPartitioner.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/reporting/history/TestExecutionReport.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/slim/converters/GenericCollectionConverter.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/responders/ScopeVariablesResponder.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testsystems/slim/tables/MethodExtractor.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/slim/protocol/SlimSerializer.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fit/FixtureName.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testrunner/WikiTestPage.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testsystems/slim/SlimCommandRunningClient.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testrunner/run/PagePositionsBasedWikiPagePartitioner.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fit/SemaphoreFixture.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/testsystems/slim/HtmlTable.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/updates/WikiContentUpdater.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/responders/NameWikiPageResponder.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/util/HtmlParserTools.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/test/fitnesse/testrunner/run/PageListTestBase.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/wiki/fs/PageXmlizer.java
+- applying ForLoopToFunctional into /home/dataset/fitnesse/src/fitnesse/reporting/history/PageHistory.java
+- Number of files:  1197
+- Processed Files: 55
+- Exported Files:   55
+- Total of files changed: 85
+- Total of transformations: 85
+- Errors: 35
+- Final Time: 20230114231747
+- Elapsed Time: 139388.0ms

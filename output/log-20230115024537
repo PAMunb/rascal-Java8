@@ -1,0 +1,49 @@
+[Project Analyzer] processing project: async-http-client
+- Number of files:  343
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115024544
+- Elapsed Time: 6828.0ms
+[Project Analyzer] processing project: async-http-client
+- Number of files:  343
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115024548
+- Elapsed Time: 4412.0ms
+[Project Analyzer] processing project: async-http-client
+- Number of files:  343
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115024553
+- Elapsed Time: 4373.0ms
+[Project Analyzer] processing project: async-http-client
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/netty/handler/intercept/Redirect30xInterceptor.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/util/HttpUtils.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/test/java/org/asynchttpclient/AsyncStreamHandlerTest.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/test/java/org/asynchttpclient/filter/FilterTest.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/request/body/multipart/MultipartBody.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/test/java/org/asynchttpclient/netty/RetryNonBlockingIssueTest.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/DefaultRequest.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/handler/TransferCompletionHandler.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/ws/WebSocketUpgradeHandler.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/handler/resumable/ResumableAsyncHandler.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/test/java/org/apache/commons/fileupload2/FileUploadBase.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/DefaultAsyncHttpClient.java
+- applying ForLoopToFunctional into /home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/util/UriEncoder.java
+- Number of files:  343
+- Processed Files: 13
+- Exported Files:   13
+- Total of files changed: 25
+- Total of transformations: 25
+- Errors: 9
+- Final Time: 20230115024642
+- Elapsed Time: 49035.0ms

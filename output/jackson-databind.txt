@@ -1,0 +1,170 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: jackson-databind
+Creating log file at: /output/log-20230114234631
+Processing jackson-databind...
+|file:///home/dataset/jackson-databind/src/moditect/module-info.java|
+ParseError(|unknown:///|(53,1,<2,0>,<2,1>))
+|file:///home/dataset/jackson-databind/src/test-jdk14/java/com/fasterxml/jackson/databind/records/RecordCreatorsTest.java|
+ParseError(|unknown:///|(385,1,<12,15>,<12,16>))
+|file:///home/dataset/jackson-databind/src/test-jdk14/java/com/fasterxml/jackson/databind/failing/RecordWithJsonNaming3102Test.java|
+ParseError(|unknown:///|(697,1,<18,15>,<18,16>))
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/enums/EnumMapDeserializationTest.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/enums/EnumDeserializationTest.java|
+Ambiguity(|unknown:///|(2530,327,<80,37>,<96,4>),"EnumBody","{\n        @JsonProperty(\"a\")\n        A,\n\n        // For this value, force use of anonymous sub-class, to ensure things still work\n        @JsonProperty(\"b\")\n        B {\n            @Override\n            public String toString() {\n                return \"bb\";\n            }\n        }\n        ;\n    }\n\n    // [databind#1161]\n    ")
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/convert/TestArrayConversions.java|
+Ambiguity(|unknown:///|,"BlockStatement+","try {\n            MAPPER.convertValue(new int[] { -99999 }, short[].class);\n            fail(\"Expected an exception\");\n        } catch (IllegalArgumentException e) {\n            verifyException(e, OVERFLOW_MSG_SHORT);\n        }\n        // Int overflow\n        try {\n            MAPPER.convertValue(new long[] { Long.MAX_VALUE }, int[].class);\n            fail(\"Expected an exception\");\n        } catch (IllegalArgumentException e) {\n            verifyException(e, OVERFLOW_MSG_INT);\n        }\n        // Longs need help of BigInteger...\n        BigInteger biggie = BigInteger.valueOf(Long.MAX_VALUE).add(BigInteger.ONE);;")
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/introspect/TestScalaLikeImplicitProperties.java|
+ParseError(|unknown:///|(2733,1,<74,33>,<74,34>))
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/cfg/CoercionAction.java|
+ParseError(|unknown:///|(1159,1,<41,4>,<41,5>))
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/annotation/JsonAppend.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: jackson-databind
+Processing jackson-databind...
+|file:///home/dataset/jackson-databind/src/moditect/module-info.java|
+ParseError(|unknown:///|(53,1,<2,0>,<2,1>))
+|file:///home/dataset/jackson-databind/src/test-jdk14/java/com/fasterxml/jackson/databind/records/RecordCreatorsTest.java|
+ParseError(|unknown:///|(385,1,<12,15>,<12,16>))
+|file:///home/dataset/jackson-databind/src/test-jdk14/java/com/fasterxml/jackson/databind/failing/RecordWithJsonNaming3102Test.java|
+ParseError(|unknown:///|(697,1,<18,15>,<18,16>))
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/enums/EnumMapDeserializationTest.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/enums/EnumDeserializationTest.java|
+Ambiguity(|unknown:///|(2530,327,<80,37>,<96,4>),"EnumBody","{\n        @JsonProperty(\"a\")\n        A,\n\n        // For this value, force use of anonymous sub-class, to ensure things still work\n        @JsonProperty(\"b\")\n        B {\n            @Override\n            public String toString() {\n                return \"bb\";\n            }\n        }\n        ;\n    }\n\n    // [databind#1161]\n    ")
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/convert/TestArrayConversions.java|
+Ambiguity(|unknown:///|,"BlockStatement+","try {\n            MAPPER.convertValue(new int[] { -99999 }, short[].class);\n            fail(\"Expected an exception\");\n        } catch (IllegalArgumentException e) {\n            verifyException(e, OVERFLOW_MSG_SHORT);\n        }\n        // Int overflow\n        try {\n            MAPPER.convertValue(new long[] { Long.MAX_VALUE }, int[].class);\n            fail(\"Expected an exception\");\n        } catch (IllegalArgumentException e) {\n            verifyException(e, OVERFLOW_MSG_INT);\n        }\n        // Longs need help of BigInteger...\n        BigInteger biggie = BigInteger.valueOf(Long.MAX_VALUE).add(BigInteger.ONE);;")
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/introspect/TestScalaLikeImplicitProperties.java|
+ParseError(|unknown:///|(2733,1,<74,33>,<74,34>))
+  713 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/cfg/CoercionAction.java|
+ParseError(|unknown:///|(1159,1,<41,4>,<41,5>))
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/annotation/JsonAppend.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+1
+[Project Analyzer] project: jackson-databind
+Processing jackson-databind...
+|file:///home/dataset/jackson-databind/src/moditect/module-info.java|
+ParseError(|unknown:///|(53,1,<2,0>,<2,1>))
+|file:///home/dataset/jackson-databind/src/test-jdk14/java/com/fasterxml/jackson/databind/records/RecordCreatorsTest.java|
+ParseError(|unknown:///|(385,1,<12,15>,<12,16>))
+|file:///home/dataset/jackson-databind/src/test-jdk14/java/com/fasterxml/jackson/databind/failing/RecordWithJsonNaming3102Test.java|
+ParseError(|unknown:///|(697,1,<18,15>,<18,16>))
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/enums/EnumMapDeserializationTest.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/enums/EnumDeserializationTest.java|
+Ambiguity(|unknown:///|(2530,327,<80,37>,<96,4>),"EnumBody","{\n        @JsonProperty(\"a\")\n        A,\n\n        // For this value, force use of anonymous sub-class, to ensure things still work\n        @JsonProperty(\"b\")\n        B {\n            @Override\n            public String toString() {\n                return \"bb\";\n            }\n        }\n        ;\n    }\n\n    // [databind#1161]\n    ")
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/convert/TestArrayConversions.java|
+Ambiguity(|unknown:///|,"BlockStatement+","try {\n            MAPPER.convertValue(new int[] { -99999 }, short[].class);\n            fail(\"Expected an exception\");\n        } catch (IllegalArgumentException e) {\n            verifyException(e, OVERFLOW_MSG_SHORT);\n        }\n        // Int overflow\n        try {\n            MAPPER.convertValue(new long[] { Long.MAX_VALUE }, int[].class);\n            fail(\"Expected an exception\");\n        } catch (IllegalArgumentException e) {\n            verifyException(e, OVERFLOW_MSG_INT);\n        }\n        // Longs need help of BigInteger...\n        BigInteger biggie = BigInteger.valueOf(Long.MAX_VALUE).add(BigInteger.ONE);;")
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/introspect/TestScalaLikeImplicitProperties.java|
+ParseError(|unknown:///|(2733,1,<74,33>,<74,34>))
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/cfg/CoercionAction.java|
+ParseError(|unknown:///|(1159,1,<41,4>,<41,5>))
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/annotation/JsonAppend.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  1046 of 1101 processed succesfully!
+  1054 of 1101 processed succesfully!
+2
+[Project Analyzer] project: jackson-databind
+Processing jackson-databind...
+
+|file:///home/dataset/jackson-databind/src/moditect/module-info.java|
+ParseError(|unknown:///|(53,1,<2,0>,<2,1>))
+|file:///home/dataset/jackson-databind/src/test-jdk14/java/com/fasterxml/jackson/databind/records/RecordCreatorsTest.java|
+ParseError(|unknown:///|(385,1,<12,15>,<12,16>))
+|file:///home/dataset/jackson-databind/src/test-jdk14/java/com/fasterxml/jackson/databind/failing/RecordWithJsonNaming3102Test.java|
+ParseError(|unknown:///|(697,1,<18,15>,<18,16>))
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/enums/EnumMapDeserializationTest.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/enums/EnumDeserializationTest.java|
+Ambiguity(|unknown:///|(2530,327,<80,37>,<96,4>),"EnumBody","{\n        @JsonProperty(\"a\")\n        A,\n\n        // For this value, force use of anonymous sub-class, to ensure things still work\n        @JsonProperty(\"b\")\n        B {\n            @Override\n            public String toString() {\n                return \"bb\";\n            }\n        }\n        ;\n    }\n\n    // [databind#1161]\n    ")
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/jdk/DateDeserializationTZ1153Test.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/jdk/DateDeserializationTest.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/jdk/JDKStringLikeTypeDeserTest.java|
+EmptySet()
+  132 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/util/TokenBufferTest.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/util/internal/MapTestFactory.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/objectid/TestObjectIdDeserialization.java|
+EmptySet()
+  287 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/convert/TestArrayConversions.java|
+Ambiguity(|unknown:///|,"BlockStatement+","try {\n            MAPPER.convertValue(new int[] { -99999 }, short[].class);\n            fail(\"Expected an exception\");\n        } catch (IllegalArgumentException e) {\n            verifyException(e, OVERFLOW_MSG_SHORT);\n        }\n        // Int overflow\n        try {\n            MAPPER.convertValue(new long[] { Long.MAX_VALUE }, int[].class);\n            fail(\"Expected an exception\");\n        } catch (IllegalArgumentException e) {\n            verifyException(e, OVERFLOW_MSG_INT);\n        }\n        // Longs need help of BigInteger...\n        BigInteger biggie = BigInteger.valueOf(Long.MAX_VALUE).add(BigInteger.ONE);;")
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/convert/CoerceEmptyArrayTest.java|
+EmptySet()
+  426 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/misc/ThreadSafety1759Test.java|
+EmptySet()
+  449 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/ser/jdk/UUIDSerializationTest.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/introspect/POJOPropertiesCollectorTest.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/introspect/TestScalaLikeImplicitProperties.java|
+ParseError(|unknown:///|(2733,1,<74,33>,<74,34>))
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/introspect/TestNamingStrategyStd.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/struct/TestParentChildReferences.java|
+EmptySet()
+  545 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/node/NodeContext2049Test.java|
+EmptySet()
+  619 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/SerializationConfig.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/DeserializationConfig.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/ObjectMapper.java|
+EmptySet()
+  644 of 1101 processed succesfully!
+  647 of 1101 processed succesfully!
+  664 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/deser/std/StdKeyDeserializers.java|
+EmptySet()
+  726 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/deser/impl/ExternalTypeHandler.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/deser/impl/ManagedReferenceProperty.java|
+EmptySet()
+  750 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/module/SimpleModule.java|
+EmptySet()
+  780 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/json/JsonMapper.java|
+EmptySet()
+  792 of 1101 processed succesfully!
+  818 of 1101 processed succesfully!
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/cfg/DatatypeFeatures.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/cfg/MapperConfigBase.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/cfg/CoercionAction.java|
+ParseError(|unknown:///|(1159,1,<41,4>,<41,5>))
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/cfg/MapperBuilder.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/annotation/JsonAppend.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/jsontype/impl/AsDeductionTypeDeserializer.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/jsontype/impl/StdSubtypeResolver.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/ser/std/EnumSetSerializer.java|
+EmptySet()
+|file:///home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedClassResolver.java|
+EmptySet()
+  1018 of 1101 processed succesfully!
+  1023 of 1101 processed succesfully!
+  1024 of 1101 processed succesfully!
+  1049 of 1101 processed succesfully!
+18
+INFO:root:  Formating the source code
+INFO:root:   Done

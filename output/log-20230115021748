@@ -1,0 +1,192 @@
+[Project Analyzer] processing project: rest.li
+- applying aic into /home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/server/test/TestRestLiMethodInvocation.java
+- applying aic into /home/dataset/rest.li/degrader/src/test/java/com/linkedin/util/degrader/TestDegrader.java
+- applying aic into /home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/clients/TestBackupRequestsClient.java
+- applying aic into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/ActionsResource.java
+- applying aic into /home/dataset/rest.li/data/src/test/java/com/linkedin/data/it/TestDataIterator.java
+- applying aic into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/zkfs/ZKFSLoadBalancer.java
+- applying aic into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/AnnotatedComplexKeysResource.java
+- applying aic into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/MixedResource.java
+- applying aic into /home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/discovery/stores/zk/RetryZooKeeperTest.java
+- applying aic into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/NullGreetingsResourceImpl.java
+- applying aic into /home/dataset/rest.li/degrader/src/main/java/com/linkedin/util/degrader/DegraderImpl.java
+- Number of files:  2986
+- Processed Files: 11
+- Exported Files:   11
+- Total of files changed: 22
+- Total of transformations: 22
+- Errors: 16
+- Final Time: 20230115021855
+- Elapsed Time: 66749.0ms
+[Project Analyzer] processing project: rest.li
+- applying filter pattern into /home/dataset/rest.li/restli-client/src/main/java/com/linkedin/restli/client/RestliRequestOptionsBuilder.java
+- applying filter pattern into /home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/idlgen/MultiLanguageDocsProvider.java
+- Number of files:  2986
+- Processed Files: 2
+- Exported Files:   2
+- Total of files changed: 2
+- Total of transformations: 2
+- Errors: 16
+- Final Time: 20230115021945
+- Elapsed Time: 50121.0ms
+[Project Analyzer] processing project: rest.li
+- applying exist pattern into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/it/OrPredicate.java
+- applying exist pattern into /home/dataset/rest.li/generator/src/main/java/com/linkedin/pegasus/generator/FileFormatDataSchemaParser.java
+- applying exist pattern into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/clients/TrackerClientFactory.java
+- applying exist pattern into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/SchemaParser.java
+- applying exist pattern into /home/dataset/rest.li/data/src/main/java/com/linkedin/util/FileUtil.java
+- applying exist pattern into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/resolver/AbstractMultiFormatDataSchemaResolver.java
+- applying exist pattern into /home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/model/RestLiAnnotationReader.java
+- applying exist pattern into /home/dataset/rest.li/gradle-plugins/src/main/java/com/linkedin/pegasus/gradle/PegasusOptions.java
+- Number of files:  2986
+- Processed Files: 8
+- Exported Files:   8
+- Total of files changed: 10
+- Total of transformations: 10
+- Errors: 16
+- Final Time: 20230115022036
+- Elapsed Time: 50576.0ms
+[Project Analyzer] processing project: rest.li
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/snapshot/gen/RestLiSnapshotExporter.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/multipart-mime/src/test/java/com/linkedin/multipart/TestMIMEReaderDrain.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/util/hashing/RingBasedURIMapperTest.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-internal-testutils/src/test/java/com/linkedin/restli/internal/testutils/RestLiTestAttachmentDataSourceIterator.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/test/java/com/linkedin/data/codec/entitystream/TestStreamCodec.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/stores/zk/builder/ZooKeeperEphemeralStoreBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/generator/src/main/java/com/linkedin/pegasus/generator/FileFormatDataSchemaParser.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/discovery/stores/PropertySetStringMerger.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/LoadBalancerTestState.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/validation/ValidateDataAgainstSchema.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestFillInDefaultValue.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/data/SchemaFormatTranslator.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/discovery/stores/zk/ZooKeeperEphemeralStoreWithFiltersTest.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/Data.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/SchemaToJsonEncoder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/multipart-mime/src/test/java/com/linkedin/multipart/TestMIMEReader.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/server/config/ResourceMethodConfigElement.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-common-testutils/src/main/java/com/linkedin/restli/common/testutils/DataAssert.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-server-testutils/src/main/java/com/linkedin/restli/server/testutils/MockHttpServerFactory.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-core/src/main/java/com/linkedin/r2/transport/http/client/AsyncPoolImpl.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/gradle-plugins/src/main/java/com/linkedin/pegasus/gradle/PegasusPlugin.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/instrumentation/TestLatencyInstrumentation.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/multipart-mime/src/main/java/com/linkedin/multipart/MultiPartMIMEWriter.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-common/src/main/java/com/linkedin/restli/common/util/RichResourceSchema.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/clientgen/fluentspec/BaseResourceSpec.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-common/src/main/java/com/linkedin/restli/internal/common/CookieUtil.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-core/src/main/java/com/linkedin/r2/message/BaseMessageBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/degrader/src/main/java/com/linkedin/util/degrader/CallTrackerImpl.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data-transform/src/main/java/com/linkedin/data/transform/filter/request/MaskCreator.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-client/src/test/java/com/linkedin/restli/client/TestRestClientRequestBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/multipart-mime/src/test/java/com/linkedin/multipart/integ/TestMIMEIntegrationReader.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/test/java/com/linkedin/data/template/TestArrayTemplate.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/stores/zk/SharedZkConnectionProvider.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-client-testutils/src/main/java/com/linkedin/restli/client/testutils/MockCollectionResponseFactory.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/test/java/com/linkedin/data/schema/validator/VisitedTrackingValidator.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/groups/server/impl/HashMapGroupMgr.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/groups/server/rest/impl/GroupContactsResource2.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-netty/src/main/java/com/linkedin/r2/netty/common/SslHandlerUtil.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/generator-test/src/test/java/com/linkedin/pegasus/generator/override/TestUnion.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-core/src/test/java/com/linkedin/r2/transport/http/client/ratelimiter/TestConstantQpsRateLimiter.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2-int-test/src/test/java/com/linkedin/d2/D2BaseTest.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-netty/src/main/java/com/linkedin/r2/transport/http/client/stream/http2/Http2ClientPipelineInitializer.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/generator-test/src/test/java/com/linkedin/pegasus/generator/test/TestUnion.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/generator-test/src/test/java/com/linkedin/pegasus/generator/test/TestLongStringLiteral.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/generator-test/src/test/java/com/linkedin/pegasus/generator/test/TestUnionWithAliases.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-extras/src/main/java/com/linkedin/restli/client/ScatterGatherBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-client/src/main/java/com/linkedin/restli/internal/client/QueryParamsUtil.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/stores/zk/ZKPersistentConnection.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-docgen/src/main/java/com/linkedin/restli/docgen/ResourceSchemaCollection.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/test-util/src/main/java/com/linkedin/test/util/AssertionMethods.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/util/TestHelper.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/RestLiIntegrationTest.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/multipart-mime/src/test/java/com/linkedin/multipart/integ/TestMIMEIntegrationReaderDrain.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-netty/src/main/java/com/linkedin/r2/transport/http/client/common/ChannelPoolManagerImpl.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-filter-compression/src/main/java/com/linkedin/r2/filter/compression/streaming/BufferedReaderInputStream.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/entity-stream/src/main/java/com/linkedin/entitystream/EntityStreamImpl.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/util/WarmUpLoadBalancer.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/server/multiplexer/MultiplexedRequestHandlerImpl.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/model/ResourceModel.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/ComplexArrayResource.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/examples/d2-advanced-example/server/src/main/java/com/example/d2/server/ExampleD2Server.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-client/src/main/java/com/linkedin/restli/client/BatchCreateIdEntityRequestBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-common/src/main/java/com/linkedin/restli/common/BatchCreateResponse.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-docgen/src/main/java/com/linkedin/restli/docgen/RestLiResourceRelationship.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data-transform/src/main/java/com/linkedin/data/transform/filter/MaskComposition.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/template/JacksonDataTemplateCodec.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/generator/src/main/java/com/linkedin/pegasus/generator/TemplateSpecGenerator.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/stores/file/FileStore.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/darkcluster-test-api/src/main/java/com/linkedin/darkcluster/MockClusterInfoProvider.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/jmx/RelativeLoadBalancerStrategyJmxTest.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/multipart-mime/src/test/java/com/linkedin/multipart/TestMIMEReaderClientCallbackExceptions.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/balancer/simple/SimpleLoadBalancerStateTest.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/test/java/com/linkedin/data/codec/symbol/TestSymbolTableSerializer.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/snapshot/gen/SnapshotGenerator.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/validator/DataSchemaAnnotationValidator.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/test/java/com/linkedin/d2/discovery/stores/zk/SymlinkAwareZooKeeperTest.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/JsonBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/schema/resolver/AbstractMultiFormatDataSchemaResolver.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test/src/test/java/com/linkedin/restli/examples/TestCustomMetadataProjection.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/multipart-mime/src/test/java/com/linkedin/multipart/TestMIMEWriter.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/server/validation/RestLiValidationFilter.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/codec/BufferChain.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/config/DarkClustersConverter.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/snapshot/gen/PegasusSchemaSnapshotExporter.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/server/resources/Jsr330Adapter.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/test/java/com/linkedin/data/template/TestJacksonDataTemplateCodec.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/internal/server/response/TestBatchFinderResponseBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-int-test/src/test/java/test/r2/integ/clientserver/providers/client/AbstractClientProvider.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-client/src/main/java/com/linkedin/restli/client/ExecutionGroup.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/examples/d2-quickstart/server/src/main/java/com/example/d2/server/ExampleD2Server.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/util/LoadBalancerUtil.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/test/java/com/linkedin/data/template/TestCustom.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/model/RestLiApiBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-int-test/src/test/java/test/r2/integ/clientserver/TestCompressionEcho.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/altkey/AltKeySubResource.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/template/DynamicRecordMetadata.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/util/ArgumentUtils.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/TyperefKeysResource.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-int-test/src/test/java/test/r2/integ/clientserver/TestRestCompressionEcho.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-example-server/src/main/java/com/linkedin/restli/example/impl/AlbumEntryResource.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-client/src/main/java/com/linkedin/restli/client/BatchCreateRequestBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/collections/CowList.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/generator-test/src/test/java/com/linkedin/pegasus/generator/override/TestCustomPoint.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/darkcluster/src/test/java/com/linkedin/darkcluster/TestConstantQpsDarkClusterStrategy.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-common/src/test/java/com/linkedin/restli/internal/common/TestURIMaskUtil.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-netty/src/main/java/com/linkedin/r2/netty/client/http2/Http2ChannelLifecycle.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/test/java/com/linkedin/data/schema/TestDataSchema.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/darkcluster/src/main/java/com/linkedin/darkcluster/impl/DarkClusterStrategyFactoryImpl.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-perf-test/src/test/java/test/r2/perf/client/PerfClient.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/stores/zk/ZKConnection.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/collections/CheckedList.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/CustomTypesResource2.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/discovery/stores/zk/builder/ZooKeeperPermanentStoreBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/test/java/com/linkedin/data/TestByteString.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-client/src/main/java/com/linkedin/restli/client/util/FluentClientUtils.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/generator-test/src/test/java/com/linkedin/pegasus/generator/test/TestCustomPoint.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/ValidationDemoResource.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-netty/src/main/java/com/linkedin/r2/transport/http/client/stream/http/RAPStreamClientPipelineInitializer.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-client/src/main/java/com/linkedin/restli/client/BatchCreateIdRequestBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test-server/src/main/java/com/linkedin/restli/examples/greetings/server/altkey/AltKeyDataProvider.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/D2ClientBuilder.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-server/src/test/java/com/linkedin/restli/server/validation/MockValidationErrorHandler.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/gradle-plugins/src/main/java/com/linkedin/pegasus/gradle/SchemaAnnotationHandlerClassUtil.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-core/src/main/java/com/linkedin/r2/util/finalizer/RequestFinalizerManagerImpl.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/test/java/com/linkedin/data/schema/generator/TestAbstractGenerator.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/data/src/main/java/com/linkedin/data/template/WrappingMapTemplate.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/generator/src/main/java/com/linkedin/pegasus/generator/CaseSensitiveFileCodeWriter.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/degrader/src/test/java/com/linkedin/util/degrader/TestCallTracker.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/multipart-mime/src/test/java/com/linkedin/multipart/TestMIMEReaderExceptions.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-int-test/src/main/java/com/linkedin/restli/test/util/BatchCreateHelper.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/r2-int-test/src/test/java/test/r2/integ/clientserver/TestRequestCompression.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/generator-test/src/test/java/com/linkedin/pegasus/generator/override/TestLongStringLiteral.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-server/src/main/java/com/linkedin/restli/internal/server/model/ResourceMethodDescriptor.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/d2/src/main/java/com/linkedin/d2/balancer/simple/AbstractLoadBalancerSubscriber.java
+- applying ForLoopToFunctional into /home/dataset/rest.li/restli-tools/src/main/java/com/linkedin/restli/tools/idlgen/RestLiResourceModelExporter.java
+- Number of files:  2986
+- Processed Files: 135
+- Exported Files:   135
+- Total of files changed: 221
+- Total of transformations: 221
+- Errors: 192
+- Final Time: 20230115023054
+- Elapsed Time: 618764.0ms

@@ -1,0 +1,78 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: jedis
+Creating log file at: /output/log-20230114231022
+Processing jedis...
+  90 of 513 processed succesfully!
+  136 of 513 processed succesfully!
+  153 of 513 processed succesfully!
+3
+[Project Analyzer] project: jedis
+Processing jedis...
+0
+[Project Analyzer] project: jedis
+Processing jedis...
+  160 of 513 processed succesfully!
+1
+[Project Analyzer] project: jedis
+Processing jedis...
+
+|file:///home/dataset/jedis/src/test/java/redis/clients/jedis/ShardedConnectionTest.java|
+EmptySet()
+|file:///home/dataset/jedis/src/test/java/redis/clients/jedis/JedisSentinelTest.java|
+EmptySet()
+  25 of 513 processed succesfully!
+|file:///home/dataset/jedis/src/test/java/redis/clients/jedis/ShardedPipelineTest.java|
+EmptySet()
+|file:///home/dataset/jedis/src/test/java/redis/clients/jedis/modules/json/RedisJsonV2Test.java|
+EmptySet()
+  54 of 513 processed succesfully!
+  74 of 513 processed succesfully!
+  80 of 513 processed succesfully!
+  86 of 513 processed succesfully!
+  128 of 513 processed succesfully!
+  139 of 513 processed succesfully!
+|file:///home/dataset/jedis/src/test/java/redis/clients/jedis/collections/JedisByteHashMapTest.java|
+EmptySet()
+  156 of 513 processed succesfully!
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/Protocol.java|
+EmptySet()
+  159 of 513 processed succesfully!
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/Jedis.java|
+EmptySet()
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/CommandObjects.java|
+EmptySet()
+  175 of 513 processed succesfully!
+  178 of 513 processed succesfully!
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/BuilderFactory.java|
+EmptySet()
+  192 of 513 processed succesfully!
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/CommandArguments.java|
+EmptySet()
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/graph/ResultSetBuilder.java|
+EmptySet()
+  288 of 513 processed succesfully!
+  303 of 513 processed succesfully!
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/timeseries/TSInfo.java|
+EmptySet()
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/params/ZParams.java|
+EmptySet()
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/params/SortingParams.java|
+EmptySet()
+  366 of 513 processed succesfully!
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/resps/CommandDocument.java|
+EmptySet()
+  377 of 513 processed succesfully!
+  382 of 513 processed succesfully!
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/search/querybuilder/Values.java|
+EmptySet()
+  409 of 513 processed succesfully!
+  420 of 513 processed succesfully!
+|file:///home/dataset/jedis/src/main/java/redis/clients/jedis/search/aggr/AggregationBuilder.java|
+EmptySet()
+19
+INFO:root:  Formating the source code
+INFO:root:   Done

@@ -1,0 +1,72 @@
+[Project Analyzer] processing project: mockserver
+- applying aic into /home/dataset/mockserver/mockserver-core/src/test/java/org/mockserver/serialization/serializers/string/NottableStringSerializerTest.java
+- Number of files:  1024
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 6
+- Total of transformations: 6
+- Errors: 2
+- Final Time: 20230114232259
+- Elapsed Time: 30031.0ms
+[Project Analyzer] processing project: mockserver
+- Number of files:  1024
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 2
+- Final Time: 20230114232321
+- Elapsed Time: 21525.0ms
+[Project Analyzer] processing project: mockserver
+- applying exist pattern into /home/dataset/mockserver/mockserver-netty/src/main/java/org/mockserver/cli/Main.java
+- applying exist pattern into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/deserializers/body/BodyDTODeserializer.java
+- applying exist pattern into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/exception/ExceptionHandling.java
+- applying exist pattern into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/deserializers/body/BodyWithContentTypeDTODeserializer.java
+- applying exist pattern into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/collections/SubSetMatcher.java
+- applying exist pattern into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/deserializers/body/StrictBodyDTODeserializer.java
+- Number of files:  1024
+- Processed Files: 6
+- Exported Files:   6
+- Total of files changed: 7
+- Total of transformations: 7
+- Errors: 2
+- Final Time: 20230114232343
+- Elapsed Time: 21550.0ms
+[Project Analyzer] processing project: mockserver
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/ObjectMapperFactory.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/serializers/certificate/CertificateSerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/OpenAPIExpectationSerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/test/java/org/mockserver/templates/engine/javascript/JavaScriptTemplateEngineTest.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/test/java/org/mockserver/templates/engine/velocity/VelocityTemplateEngineTest.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/RequestDefinitionSerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-junit-jupiter/src/test/java/org/mockserver/junit/jupiter/MockServerExtensionParallelSafetyTest.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/model/VerificationSequenceDTO.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/model/KeysToMultiValues.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/test/java/org/mockserver/templates/engine/mustache/MustacheTemplateEngineTest.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/ExpectationIdSerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/HttpResponseSerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/openapi/examples/JsonExampleDeserializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/openapi/examples/ExampleBuilder.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/cache/LRUCache.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/LogEventRequestAndResponseSerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/serializers/schema/AbstractSchemaSerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-netty/src/main/java/org/mockserver/cli/Main.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/openapi/examples/JsonNodeExampleSerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/HttpRequestAndHttpResponseSerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/JsonArraySerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-spring-test-listener/src/main/java/org/mockserver/springtest/MockServerTestExecutionListener.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/HttpRequestSerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/serialization/serializers/collections/KeysToMultiValuesSerializer.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/mappers/FullHttpResponseToMockServerHttpResponse.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/model/KeyToMultiValue.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-testing/src/main/java/org/mockserver/test/Assert.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-core/src/main/java/org/mockserver/model/KeysAndValues.java
+- applying ForLoopToFunctional into /home/dataset/mockserver/mockserver-examples/src/test/java/org/mockserver/examples/proxy/web/controller/pageobjects/BooksPage.java
+- Number of files:  1024
+- Processed Files: 29
+- Exported Files:   29
+- Total of files changed: 32
+- Total of transformations: 32
+- Errors: 24
+- Final Time: 20230114232809
+- Elapsed Time: 266609.0ms

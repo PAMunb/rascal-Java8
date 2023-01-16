@@ -1,0 +1,451 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: druid
+Creating log file at: /output/log-20230115001326
+Processing druid...
+  22 of 5070 processed succesfully!
+  59 of 5070 processed succesfully!
+  105 of 5070 processed succesfully!
+  107 of 5070 processed succesfully!
+  108 of 5070 processed succesfully!
+  114 of 5070 processed succesfully!
+  123 of 5070 processed succesfully!
+  125 of 5070 processed succesfully!
+  127 of 5070 processed succesfully!
+  131 of 5070 processed succesfully!
+  138 of 5070 processed succesfully!
+  209 of 5070 processed succesfully!
+  210 of 5070 processed succesfully!
+  222 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/postgresql/PG_getCreateTableScriptTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","PGValidConnectionChecker checker = new PGValidConnectionChecker();\n        Connection raw = conn.unwrap(Connection.class);\n        checker.isValidConnection(raw, \"select 1\", 100);\n\n        // 从Oracle通过DBMS_METADATA.GET_DDL获取CreateTable语句列表\n        //String createTableScript = JdbcUtils.getCreateTableScript(conn, JdbcConstants.ORACLE);\n        //System.out.println(createTableScript);\n\n        Statement stmt = conn.createStatement();\n        ;")
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/select/MySqlSelectTest_199_hint.java|
+Ambiguity(|unknown:///|(21742,939,<472,8>,<494,9>),"BlockStatements","String sql = \"SELECT  count(*)\" +\n                \"FROM     orders o \" +\n                \"JOIN  lineitem l \" +\n                \"ON o.orderkey = l.orderkey /*+distributionType=partition*/\" +\n                \"LIMIT    100\";\n        ;\n\n        SQLStatement stmt = SQLUtils.parseSingleStatement(\n                sql,\n                DbType.mysql,\n                SQLParserFeature.PipesAsConcat,\n                SQLParserFeature.EnableSQLBinaryOpExprGroup,\n                SQLParserFeature.SelectItemGenerateAlias,\n                SQLParserFeature.EnableMultiUnion);\n\n        {\n            String output = SQLUtils.toMySqlString(stmt);\n            Assert.assertEquals(\"SELECT count(*) AS `count(*)`\\n\" +\n                            \"FROM orders o\\n\" +\n                            \"\\tJOIN lineitem l ON o.orderkey = l.orderkey/*+distributionType=partition*/\\n\" +\n                            \"LIMIT 100\", //\n                    output);\n        }")
+  2882 of 5070 processed succesfully!
+  2883 of 5070 processed succesfully!
+  2888 of 5070 processed succesfully!
+  2905 of 5070 processed succesfully!
+  2916 of 5070 processed succesfully!
+  2935 of 5070 processed succesfully!
+  2950 of 5070 processed succesfully!
+  2955 of 5070 processed succesfully!
+  2964 of 5070 processed succesfully!
+  3008 of 5070 processed succesfully!
+  3055 of 5070 processed succesfully!
+  3152 of 5070 processed succesfully!
+  3211 of 5070 processed succesfully!
+  3580 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/utils/JdbcUtilsTest1.java|
+Ambiguity(|unknown:///|(442,233,<17,8>,<22,113>),"BlockStatements","class MyClassLoader extends ClassLoader {\n        }\n        ;\n\n        MyClassLoader classLoader = new MyClassLoader();\n        Assert.assertTrue(JdbcUtils.createDriver(classLoader, MockDriver.class.getName()) instanceof MockDriver);")
+  3599 of 5070 processed succesfully!
+  3602 of 5070 processed succesfully!
+  3605 of 5070 processed succesfully!
+  3609 of 5070 processed succesfully!
+32
+[Project Analyzer] project: druid
+Processing druid...
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/postgresql/PG_getCreateTableScriptTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","PGValidConnectionChecker checker = new PGValidConnectionChecker();\n        Connection raw = conn.unwrap(Connection.class);\n        checker.isValidConnection(raw, \"select 1\", 100);\n\n        // 从Oracle通过DBMS_METADATA.GET_DDL获取CreateTable语句列表\n        //String createTableScript = JdbcUtils.getCreateTableScript(conn, JdbcConstants.ORACLE);\n        //System.out.println(createTableScript);\n\n        Statement stmt = conn.createStatement();\n        ;")
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/select/MySqlSelectTest_199_hint.java|
+Ambiguity(|unknown:///|(21742,939,<472,8>,<494,9>),"BlockStatements","String sql = \"SELECT  count(*)\" +\n                \"FROM     orders o \" +\n                \"JOIN  lineitem l \" +\n                \"ON o.orderkey = l.orderkey /*+distributionType=partition*/\" +\n                \"LIMIT    100\";\n        ;\n\n        SQLStatement stmt = SQLUtils.parseSingleStatement(\n                sql,\n                DbType.mysql,\n                SQLParserFeature.PipesAsConcat,\n                SQLParserFeature.EnableSQLBinaryOpExprGroup,\n                SQLParserFeature.SelectItemGenerateAlias,\n                SQLParserFeature.EnableMultiUnion);\n\n        {\n            String output = SQLUtils.toMySqlString(stmt);\n            Assert.assertEquals(\"SELECT count(*) AS `count(*)`\\n\" +\n                            \"FROM orders o\\n\" +\n                            \"\\tJOIN lineitem l ON o.orderkey = l.orderkey/*+distributionType=partition*/\\n\" +\n                            \"LIMIT 100\", //\n                    output);\n        }")
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/utils/JdbcUtilsTest1.java|
+Ambiguity(|unknown:///|(442,233,<17,8>,<22,113>),"BlockStatements","class MyClassLoader extends ClassLoader {\n        }\n        ;\n\n        MyClassLoader classLoader = new MyClassLoader();\n        Assert.assertTrue(JdbcUtils.createDriver(classLoader, MockDriver.class.getName()) instanceof MockDriver);")
+0
+[Project Analyzer] project: druid
+Processing druid...
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/postgresql/PG_getCreateTableScriptTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","PGValidConnectionChecker checker = new PGValidConnectionChecker();\n        Connection raw = conn.unwrap(Connection.class);\n        checker.isValidConnection(raw, \"select 1\", 100);\n\n        // 从Oracle通过DBMS_METADATA.GET_DDL获取CreateTable语句列表\n        //String createTableScript = JdbcUtils.getCreateTableScript(conn, JdbcConstants.ORACLE);\n        //System.out.println(createTableScript);\n\n        Statement stmt = conn.createStatement();\n        ;")
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/select/MySqlSelectTest_199_hint.java|
+Ambiguity(|unknown:///|(21742,939,<472,8>,<494,9>),"BlockStatements","String sql = \"SELECT  count(*)\" +\n                \"FROM     orders o \" +\n                \"JOIN  lineitem l \" +\n                \"ON o.orderkey = l.orderkey /*+distributionType=partition*/\" +\n                \"LIMIT    100\";\n        ;\n\n        SQLStatement stmt = SQLUtils.parseSingleStatement(\n                sql,\n                DbType.mysql,\n                SQLParserFeature.PipesAsConcat,\n                SQLParserFeature.EnableSQLBinaryOpExprGroup,\n                SQLParserFeature.SelectItemGenerateAlias,\n                SQLParserFeature.EnableMultiUnion);\n\n        {\n            String output = SQLUtils.toMySqlString(stmt);\n            Assert.assertEquals(\"SELECT count(*) AS `count(*)`\\n\" +\n                            \"FROM orders o\\n\" +\n                            \"\\tJOIN lineitem l ON o.orderkey = l.orderkey/*+distributionType=partition*/\\n\" +\n                            \"LIMIT 100\", //\n                    output);\n        }")
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/utils/JdbcUtilsTest1.java|
+Ambiguity(|unknown:///|(442,233,<17,8>,<22,113>),"BlockStatements","class MyClassLoader extends ClassLoader {\n        }\n        ;\n\n        MyClassLoader classLoader = new MyClassLoader();\n        Assert.assertTrue(JdbcUtils.createDriver(classLoader, MockDriver.class.getName()) instanceof MockDriver);")
+  4117 of 5070 processed succesfully!
+  4132 of 5070 processed succesfully!
+  4241 of 5070 processed succesfully!
+  4244 of 5070 processed succesfully!
+  4251 of 5070 processed succesfully!
+  4470 of 5070 processed succesfully!
+  4544 of 5070 processed succesfully!
+  4747 of 5070 processed succesfully!
+8
+[Project Analyzer] project: druid
+Processing druid...
+
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/oracle/Oracle_getCreateTableScriptTest_sonar.java|
+EmptySet()
+  47 of 5070 processed succesfully!
+  49 of 5070 processed succesfully!
+  53 of 5070 processed succesfully!
+  56 of 5070 processed succesfully!
+  57 of 5070 processed succesfully!
+  58 of 5070 processed succesfully!
+  60 of 5070 processed succesfully!
+  71 of 5070 processed succesfully!
+  72 of 5070 processed succesfully!
+  73 of 5070 processed succesfully!
+  79 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/sql/dialect/db2/visitor/DB2OutputVisitorTest.java|
+EmptySet()
+  84 of 5070 processed succesfully!
+  156 of 5070 processed succesfully!
+  157 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/demo/sql/SchemaStatTest_odps.java|
+EmptySet()
+  159 of 5070 processed succesfully!
+  161 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/demo/sql/ExportParameters.java|
+EmptySet()
+  162 of 5070 processed succesfully!
+  163 of 5070 processed succesfully!
+  195 of 5070 processed succesfully!
+  199 of 5070 processed succesfully!
+  200 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/benckmark/proxy/BenchmarkExecutor.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/postgresql/PG_getCreateTableScriptTest.java|
+Ambiguity(|unknown:///|,"BlockStatement+","PGValidConnectionChecker checker = new PGValidConnectionChecker();\n        Connection raw = conn.unwrap(Connection.class);\n        checker.isValidConnection(raw, \"select 1\", 100);\n\n        // 从Oracle通过DBMS_METADATA.GET_DDL获取CreateTable语句列表\n        //String createTableScript = JdbcUtils.getCreateTableScript(conn, JdbcConstants.ORACLE);\n        //System.out.println(createTableScript);\n\n        Statement stmt = conn.createStatement();\n        ;")
+  374 of 5070 processed succesfully!
+  401 of 5070 processed succesfully!
+  452 of 5070 processed succesfully!
+  453 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/oracle/block/OracleBlockTest11.java|
+EmptySet()
+  454 of 5070 processed succesfully!
+  455 of 5070 processed succesfully!
+  457 of 5070 processed succesfully!
+  458 of 5070 processed succesfully!
+  460 of 5070 processed succesfully!
+  462 of 5070 processed succesfully!
+  463 of 5070 processed succesfully!
+  464 of 5070 processed succesfully!
+  465 of 5070 processed succesfully!
+  466 of 5070 processed succesfully!
+  467 of 5070 processed succesfully!
+  469 of 5070 processed succesfully!
+  472 of 5070 processed succesfully!
+  525 of 5070 processed succesfully!
+  654 of 5070 processed succesfully!
+  660 of 5070 processed succesfully!
+  661 of 5070 processed succesfully!
+  662 of 5070 processed succesfully!
+  663 of 5070 processed succesfully!
+  664 of 5070 processed succesfully!
+  665 of 5070 processed succesfully!
+  666 of 5070 processed succesfully!
+  667 of 5070 processed succesfully!
+  668 of 5070 processed succesfully!
+  669 of 5070 processed succesfully!
+  670 of 5070 processed succesfully!
+  671 of 5070 processed succesfully!
+  672 of 5070 processed succesfully!
+  673 of 5070 processed succesfully!
+  674 of 5070 processed succesfully!
+  675 of 5070 processed succesfully!
+  676 of 5070 processed succesfully!
+  677 of 5070 processed succesfully!
+  678 of 5070 processed succesfully!
+  679 of 5070 processed succesfully!
+  680 of 5070 processed succesfully!
+  681 of 5070 processed succesfully!
+  682 of 5070 processed succesfully!
+  683 of 5070 processed succesfully!
+  684 of 5070 processed succesfully!
+  685 of 5070 processed succesfully!
+  686 of 5070 processed succesfully!
+  687 of 5070 processed succesfully!
+  688 of 5070 processed succesfully!
+  689 of 5070 processed succesfully!
+  690 of 5070 processed succesfully!
+  691 of 5070 processed succesfully!
+  692 of 5070 processed succesfully!
+  693 of 5070 processed succesfully!
+  694 of 5070 processed succesfully!
+  695 of 5070 processed succesfully!
+  798 of 5070 processed succesfully!
+  852 of 5070 processed succesfully!
+  857 of 5070 processed succesfully!
+  878 of 5070 processed succesfully!
+  1038 of 5070 processed succesfully!
+  1245 of 5070 processed succesfully!
+  1285 of 5070 processed succesfully!
+  1422 of 5070 processed succesfully!
+  1436 of 5070 processed succesfully!
+  1437 of 5070 processed succesfully!
+  1439 of 5070 processed succesfully!
+  1441 of 5070 processed succesfully!
+  1442 of 5070 processed succesfully!
+  1459 of 5070 processed succesfully!
+  1460 of 5070 processed succesfully!
+  1465 of 5070 processed succesfully!
+  1468 of 5070 processed succesfully!
+  1472 of 5070 processed succesfully!
+  1482 of 5070 processed succesfully!
+  1487 of 5070 processed succesfully!
+  1499 of 5070 processed succesfully!
+  1511 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/select/MySqlSelectTest_203_dla.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/select/MySqlSelectTest_177_hints.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/select/MySqlSelectTest_199_hint.java|
+Ambiguity(|unknown:///|(21742,939,<472,8>,<494,9>),"BlockStatements","String sql = \"SELECT  count(*)\" +\n                \"FROM     orders o \" +\n                \"JOIN  lineitem l \" +\n                \"ON o.orderkey = l.orderkey /*+distributionType=partition*/\" +\n                \"LIMIT    100\";\n        ;\n\n        SQLStatement stmt = SQLUtils.parseSingleStatement(\n                sql,\n                DbType.mysql,\n                SQLParserFeature.PipesAsConcat,\n                SQLParserFeature.EnableSQLBinaryOpExprGroup,\n                SQLParserFeature.SelectItemGenerateAlias,\n                SQLParserFeature.EnableMultiUnion);\n\n        {\n            String output = SQLUtils.toMySqlString(stmt);\n            Assert.assertEquals(\"SELECT count(*) AS `count(*)`\\n\" +\n                            \"FROM orders o\\n\" +\n                            \"\\tJOIN lineitem l ON o.orderkey = l.orderkey/*+distributionType=partition*/\\n\" +\n                            \"LIMIT 100\", //\n                    output);\n        }")
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/select/MySqlSelectTest_204_dla.java|
+EmptySet()
+  1851 of 5070 processed succesfully!
+  1890 of 5070 processed succesfully!
+  1900 of 5070 processed succesfully!
+  1944 of 5070 processed succesfully!
+  1947 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/createTable/MySqlCreateTableTest133_drds_gsi.java|
+EmptySet()
+  2279 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/mysql/show/MySqlShowTest_mappings.java|
+EmptySet()
+  2413 of 5070 processed succesfully!
+  2470 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/schemaStat/SchemaStatTest14.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/schemaStat/SchemaStatTest11.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/schemaStat/SchemaStatTest12.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/sql/schemaStat/SchemaStatTest10.java|
+EmptySet()
+  3118 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/bug/Issue1935.java|
+EmptySet()
+  3125 of 5070 processed succesfully!
+  3567 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/bvt/utils/JdbcUtilsTest1.java|
+Ambiguity(|unknown:///|(442,233,<17,8>,<22,113>),"BlockStatements","class MyClassLoader extends ClassLoader {\n        }\n        ;\n\n        MyClassLoader classLoader = new MyClassLoader();\n        Assert.assertTrue(JdbcUtils.createDriver(classLoader, MockDriver.class.getName()) instanceof MockDriver);")
+|file:///home/dataset/druid/core/src/test/java/com/alibaba/druid/pvt/support/monitor/MonitorDaoJdbcImplTest.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/DbType.java|
+EmptySet()
+  3602 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/SQLUtils.java|
+EmptySet()
+  3604 of 5070 processed succesfully!
+  3613 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/parser/SQLParserFeature.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/repository/SchemaResolveVisitor.java|
+EmptySet()
+  3628 of 5070 processed succesfully!
+  3629 of 5070 processed succesfully!
+  3638 of 5070 processed succesfully!
+  3643 of 5070 processed succesfully!
+  3648 of 5070 processed succesfully!
+  3668 of 5070 processed succesfully!
+  3669 of 5070 processed succesfully!
+  3670 of 5070 processed succesfully!
+  3672 of 5070 processed succesfully!
+  3673 of 5070 processed succesfully!
+  3674 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleSelectQueryBlock.java|
+EmptySet()
+  3682 of 5070 processed succesfully!
+  3690 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleSelectUnPivot.java|
+EmptySet()
+  3700 of 5070 processed succesfully!
+  3704 of 5070 processed succesfully!
+  3707 of 5070 processed succesfully!
+  3712 of 5070 processed succesfully!
+  3713 of 5070 processed succesfully!
+  3717 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleExitStatement.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleSelectSubqueryTableSource.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OraclePipeRowStatement.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/ast/stmt/OracleForStatement.java|
+EmptySet()
+  3731 of 5070 processed succesfully!
+  3735 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oracle/visitor/OracleOutputVisitor.java|
+EmptySet()
+  3763 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/oscar/ast/stmt/OscarFunctionTableSource.java|
+EmptySet()
+  3799 of 5070 processed succesfully!
+  3808 of 5070 processed succesfully!
+  3816 of 5070 processed succesfully!
+  3825 of 5070 processed succesfully!
+  3827 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/odps/ast/OdpsNewExpr.java|
+EmptySet()
+  3906 of 5070 processed succesfully!
+  3909 of 5070 processed succesfully!
+  3916 of 5070 processed succesfully!
+  3924 of 5070 processed succesfully!
+  3971 of 5070 processed succesfully!
+  3998 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlInsertStatement.java|
+EmptySet()
+  4014 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlUpdateTableSource.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlPartitionByKey.java|
+EmptySet()
+  4034 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/mysql/ast/statement/MySqlSelectQueryBlock.java|
+EmptySet()
+  4043 of 5070 processed succesfully!
+  4083 of 5070 processed succesfully!
+  4098 of 5070 processed succesfully!
+  4110 of 5070 processed succesfully!
+  4117 of 5070 processed succesfully!
+  4131 of 5070 processed succesfully!
+  4148 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/dialect/postgresql/ast/stmt/PGFunctionTableSource.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/builder/impl/SQLUpdateBuilderImpl.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/builder/impl/SQLSelectBuilderImpl.java|
+EmptySet()
+  4187 of 5070 processed succesfully!
+  4192 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLPartitionByValue.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLPartitionByList.java|
+EmptySet()
+  4200 of 5070 processed succesfully!
+  4202 of 5070 processed succesfully!
+  4203 of 5070 processed succesfully!
+  4204 of 5070 processed succesfully!
+  4205 of 5070 processed succesfully!
+  4206 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLPartitionByRange.java|
+EmptySet()
+  4210 of 5070 processed succesfully!
+  4211 of 5070 processed succesfully!
+  4214 of 5070 processed succesfully!
+  4219 of 5070 processed succesfully!
+  4221 of 5070 processed succesfully!
+  4224 of 5070 processed succesfully!
+  4230 of 5070 processed succesfully!
+  4231 of 5070 processed succesfully!
+  4233 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLLimit.java|
+EmptySet()
+  4235 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/SQLPartitionByHash.java|
+EmptySet()
+  4241 of 5070 processed succesfully!
+  4242 of 5070 processed succesfully!
+  4243 of 5070 processed succesfully!
+  4257 of 5070 processed succesfully!
+  4259 of 5070 processed succesfully!
+  4263 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/expr/SQLAggregateExpr.java|
+EmptySet()
+  4270 of 5070 processed succesfully!
+  4280 of 5070 processed succesfully!
+  4283 of 5070 processed succesfully!
+  4284 of 5070 processed succesfully!
+  4290 of 5070 processed succesfully!
+  4297 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLUnionQueryTableSource.java|
+EmptySet()
+  4304 of 5070 processed succesfully!
+  4311 of 5070 processed succesfully!
+  4312 of 5070 processed succesfully!
+  4315 of 5070 processed succesfully!
+  4331 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLReplaceStatement.java|
+EmptySet()
+  4338 of 5070 processed succesfully!
+  4351 of 5070 processed succesfully!
+  4353 of 5070 processed succesfully!
+  4357 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLDeleteStatement.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLLoopStatement.java|
+EmptySet()
+  4405 of 5070 processed succesfully!
+  4419 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLCreateTableStatement.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLValuesTableSource.java|
+EmptySet()
+  4445 of 5070 processed succesfully!
+  4460 of 5070 processed succesfully!
+  4463 of 5070 processed succesfully!
+  4465 of 5070 processed succesfully!
+  4471 of 5070 processed succesfully!
+  4476 of 5070 processed succesfully!
+  4479 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLLateralViewTableSource.java|
+EmptySet()
+  4494 of 5070 processed succesfully!
+  4506 of 5070 processed succesfully!
+  4508 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLSelectQueryBlock.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/ast/statement/SQLSelectStatement.java|
+EmptySet()
+  4542 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/visitor/ParameterizedOutputVisitorUtils.java|
+EmptySet()
+  4555 of 5070 processed succesfully!
+  4556 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/visitor/SQLASTOutputVisitor.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/sql/visitor/VisitorFeature.java|
+EmptySet()
+  4567 of 5070 processed succesfully!
+  4590 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/support/monitor/dao/MonitorDaoJdbcImpl.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/support/spring/stat/SpringStatManager.java|
+EmptySet()
+  4645 of 5070 processed succesfully!
+  4647 of 5070 processed succesfully!
+  4648 of 5070 processed succesfully!
+  4650 of 5070 processed succesfully!
+  4651 of 5070 processed succesfully!
+  4652 of 5070 processed succesfully!
+  4655 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/support/calcite/CalciteMySqlNodeVisitor.java|
+EmptySet()
+  4683 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/support/http/stat/WebAppStatManager.java|
+EmptySet()
+  4699 of 5070 processed succesfully!
+  4722 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/util/MySqlUtils.java|
+EmptySet()
+  4741 of 5070 processed succesfully!
+  4758 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/pool/DruidDataSource.java|
+EmptySet()
+  4762 of 5070 processed succesfully!
+  4766 of 5070 processed succesfully!
+  4768 of 5070 processed succesfully!
+  4776 of 5070 processed succesfully!
+  4779 of 5070 processed succesfully!
+  4780 of 5070 processed succesfully!
+  4827 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/wall/WallFilter.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/wall/spi/WallVisitorUtils.java|
+EmptySet()
+  4878 of 5070 processed succesfully!
+  4883 of 5070 processed succesfully!
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/filter/stat/StatFilter.java|
+EmptySet()
+|file:///home/dataset/druid/core/src/main/java/com/alibaba/druid/stat/DruidStatManagerFacade.java|
+EmptySet()
+  4931 of 5070 processed succesfully!
+  4936 of 5070 processed succesfully!
+  4942 of 5070 processed succesfully!
+|file:///home/dataset/druid/druid-admin/src/main/java/com/alibaba/druid/admin/service/MonitorStatService.java|
+EmptySet()
+234
+INFO:root:  Formating the source code
+INFO:root:   Done

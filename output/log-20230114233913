@@ -1,0 +1,70 @@
+[Project Analyzer] processing project: wiremock
+- applying aic into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/common/ClasspathFileSource.java
+- applying aic into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/extension/ExtensionLoader.java
+- applying aic into /home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/EditStubMappingAcceptanceTest.java
+- applying aic into /home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/testsupport/WireMatchers.java
+- applying aic into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/http/CaseInsensitiveKey.java
+- applying aic into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/http/MultiValue.java
+- applying aic into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/recording/LoggedResponseDefinitionTransformer.java
+- applying aic into /home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/matching/MockRequest.java
+- applying aic into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/matching/RequestPattern.java
+- applying aic into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/common/AbstractFileSource.java
+- applying aic into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/matching/MultipartValuePattern.java
+- applying aic into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/http/HttpHeadersJsonDeserializer.java
+- applying aic into /home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/RemoveStubMappingAcceptanceTest.java
+- applying aic into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/matching/MultiValuePattern.java
+- applying aic into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/stubbing/StubMappingJsonRecorder.java
+- Number of files:  751
+- Processed Files: 15
+- Exported Files:   15
+- Total of files changed: 22
+- Total of transformations: 22
+- Errors: 0
+- Final Time: 20230114233925
+- Elapsed Time: 12187.0ms
+[Project Analyzer] processing project: wiremock
+- Number of files:  751
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230114233933
+- Elapsed Time: 8098.0ms
+[Project Analyzer] processing project: wiremock
+- applying exist pattern into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/matching/StringValuePatternJsonDeserializer.java
+- applying exist pattern into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/extension/responsetemplating/SystemKeyAuthoriser.java
+- applying exist pattern into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/matching/ContentPatternDeserialiser.java
+- Number of files:  751
+- Processed Files: 3
+- Exported Files:   3
+- Total of files changed: 3
+- Total of transformations: 3
+- Errors: 0
+- Final Time: 20230114233941
+- Elapsed Time: 8061.0ms
+[Project Analyzer] processing project: wiremock
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/verification/AbstractRequestJournal.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/core/WireMockApp.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/ResponseDelayAsynchronousAcceptanceTest.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/matching/StringValuePatternTest.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/http/ssl/CompositeTrustManager.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/http/multipart/FileUpload.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/stubbing/AbstractStubMappings.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/ConcurrentProxyingTest.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/testsupport/MockRequestBuilder.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/recording/Recorder.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/admin/AdminUriTemplate.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/http/ProxyResponseRenderer.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/standalone/JsonFileMappingsSource.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/PortNumberTest.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/admin/AdminUriTemplateTest.java
+- applying ForLoopToFunctional into /home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/stubbing/StubMappingJsonRecorder.java
+- Number of files:  751
+- Processed Files: 16
+- Exported Files:   16
+- Total of files changed: 27
+- Total of transformations: 27
+- Errors: 9
+- Final Time: 20230114234059
+- Elapsed Time: 77882.0ms

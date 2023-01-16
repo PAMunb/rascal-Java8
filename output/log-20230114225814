@@ -1,0 +1,56 @@
+[Project Analyzer] processing project: swagger-core
+- Number of files:  834
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 39
+- Final Time: 20230114225827
+- Elapsed Time: 12659.0ms
+[Project Analyzer] processing project: swagger-core
+- applying filter pattern into /home/dataset/swagger-core/modules/swagger-gradle-plugin/src/test/java/io/swagger/v3/plugins/gradle/resources/data/PetData.java
+- applying filter pattern into /home/dataset/swagger-core/modules/swagger-jaxrs2/src/test/java/io/swagger/v3/jaxrs2/resources/data/PetData.java
+- applying filter pattern into /home/dataset/swagger-core/modules/swagger-jaxrs2/src/main/java/io/swagger/v3/jaxrs2/integration/JaxrsApplicationAndAnnotationScanner.java
+- applying filter pattern into /home/dataset/swagger-core/modules/swagger-maven-plugin/src/test/java/io/swagger/v3/plugin/maven/resources/data/PetData.java
+- applying filter pattern into /home/dataset/swagger-core/modules/swagger-jaxrs2/src/main/java/io/swagger/v3/jaxrs2/Reader.java
+- applying filter pattern into /home/dataset/swagger-core/modules/swagger-jaxrs2/src/main/java/io/swagger/v3/jaxrs2/integration/JaxrsApplicationAndResourcePackagesAnnotationScanner.java
+- applying filter pattern into /home/dataset/swagger-core/modules/swagger-jaxrs2/src/main/java/io/swagger/v3/jaxrs2/integration/JaxrsApplicationScanner.java
+- applying filter pattern into /home/dataset/swagger-core/modules/swagger-integration/src/main/java/io/swagger/v3/oas/integration/GenericOpenApiScanner.java
+- applying filter pattern into /home/dataset/swagger-core/modules/swagger-jaxrs2/src/main/java/io/swagger/v3/jaxrs2/integration/JaxrsAnnotationScanner.java
+- applying filter pattern into /home/dataset/swagger-core/modules/swagger-models/src/main/java/io/swagger/v3/oas/models/media/Schema.java
+- Number of files:  834
+- Processed Files: 10
+- Exported Files:   10
+- Total of files changed: 13
+- Total of transformations: 13
+- Errors: 39
+- Final Time: 20230114225836
+- Elapsed Time: 9256.0ms
+[Project Analyzer] processing project: swagger-core
+- applying exist pattern into /home/dataset/swagger-core/modules/swagger-jaxrs2/src/test/java/io/swagger/v3/jaxrs2/ReaderTest.java
+- applying exist pattern into /home/dataset/swagger-core/modules/swagger-jaxrs2/src/main/java/io/swagger/v3/jaxrs2/util/ReaderUtils.java
+- applying exist pattern into /home/dataset/swagger-core/modules/swagger-core/src/main/java/io/swagger/v3/core/util/ReflectionUtils.java
+- Number of files:  834
+- Processed Files: 3
+- Exported Files:   3
+- Total of files changed: 3
+- Total of transformations: 3
+- Errors: 39
+- Final Time: 20230114225845
+- Elapsed Time: 8396.0ms
+[Project Analyzer] processing project: swagger-core
+- applying ForLoopToFunctional into /home/dataset/swagger-core/modules/swagger-jaxrs2/src/test/java/io/swagger/v3/jaxrs2/resources/UserResource.java
+- applying ForLoopToFunctional into /home/dataset/swagger-core/modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/ModelResolver.java
+- applying ForLoopToFunctional into /home/dataset/swagger-core/modules/swagger-core/src/main/java/io/swagger/v3/core/filter/SpecFilter.java
+- applying ForLoopToFunctional into /home/dataset/swagger-core/modules/swagger-core/src/main/java/io/swagger/v3/core/jackson/mixin/Schema31Mixin.java
+- applying ForLoopToFunctional into /home/dataset/swagger-core/modules/swagger-jaxrs2/src/test/java/io/swagger/v3/jaxrs2/PetResourceTest.java
+- applying ForLoopToFunctional into /home/dataset/swagger-core/modules/swagger-maven-plugin/src/main/java/io/swagger/v3/plugin/maven/IncludeProjectDependenciesComponentConfigurator.java
+- applying ForLoopToFunctional into /home/dataset/swagger-core/modules/swagger-core/src/main/java/io/swagger/v3/core/util/OpenAPI30To31.java
+- Number of files:  834
+- Processed Files: 7
+- Exported Files:   7
+- Total of files changed: 10
+- Total of transformations: 10
+- Errors: 52
+- Final Time: 20230114230019
+- Elapsed Time: 94101.0ms

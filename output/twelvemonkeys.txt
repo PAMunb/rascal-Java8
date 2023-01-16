@@ -1,0 +1,123 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: twelvemonkeys
+Creating log file at: /output/log-20230115010608
+Processing twelvemonkeys...
+  12 of 785 processed succesfully!
+  218 of 785 processed succesfully!
+|file:///home/dataset/twelvemonkeys/imageio/imageio-tiff/src/test/java/com/twelvemonkeys/imageio/plugins/tiff/CCITTFaxDecoderStreamTest.java|
+ParseError(|unknown:///|(13645,1,<284,42>,<284,43>))
+|file:///home/dataset/twelvemonkeys/imageio/imageio-tiff/src/main/java/com/twelvemonkeys/imageio/plugins/tiff/CCITTFaxDecoderStream.java|
+ParseError(|unknown:///|(12208,1,<314,49>,<314,50>))
+|file:///home/dataset/twelvemonkeys/imageio/imageio-webp/src/test/java/com/twelvemonkeys/imageio/plugins/webp/LSBBitReaderTest.java|
+ParseError(|unknown:///|(680,1,<24,17>,<24,18>))
+  369 of 785 processed succesfully!
+throws in annonymous
+throws in annonymous
+[0,0,0,0,0,2]
+|file:///home/dataset/twelvemonkeys/imageio/imageio-pnm/src/main/java/com/twelvemonkeys/imageio/plugins/pnm/PNM.java|
+ParseError(|unknown:///|(3244,1,<71,70>,<71,71>))
+  630 of 785 processed succesfully!
+  669 of 785 processed succesfully!
+  673 of 785 processed succesfully!
+  712 of 785 processed succesfully!
+7
+[Project Analyzer] project: twelvemonkeys
+Processing twelvemonkeys...
+|file:///home/dataset/twelvemonkeys/imageio/imageio-tiff/src/test/java/com/twelvemonkeys/imageio/plugins/tiff/CCITTFaxDecoderStreamTest.java|
+ParseError(|unknown:///|(13645,1,<284,42>,<284,43>))
+|file:///home/dataset/twelvemonkeys/imageio/imageio-tiff/src/main/java/com/twelvemonkeys/imageio/plugins/tiff/CCITTFaxDecoderStream.java|
+ParseError(|unknown:///|(12208,1,<314,49>,<314,50>))
+|file:///home/dataset/twelvemonkeys/imageio/imageio-webp/src/test/java/com/twelvemonkeys/imageio/plugins/webp/LSBBitReaderTest.java|
+ParseError(|unknown:///|(680,1,<24,17>,<24,18>))
+|file:///home/dataset/twelvemonkeys/imageio/imageio-pnm/src/main/java/com/twelvemonkeys/imageio/plugins/pnm/PNM.java|
+ParseError(|unknown:///|(3244,1,<71,70>,<71,71>))
+0
+[Project Analyzer] project: twelvemonkeys
+Processing twelvemonkeys...
+  51 of 785 processed succesfully!
+  218 of 785 processed succesfully!
+|file:///home/dataset/twelvemonkeys/imageio/imageio-tiff/src/test/java/com/twelvemonkeys/imageio/plugins/tiff/CCITTFaxDecoderStreamTest.java|
+ParseError(|unknown:///|(13645,1,<284,42>,<284,43>))
+  264 of 785 processed succesfully!
+|file:///home/dataset/twelvemonkeys/imageio/imageio-tiff/src/main/java/com/twelvemonkeys/imageio/plugins/tiff/CCITTFaxDecoderStream.java|
+ParseError(|unknown:///|(12208,1,<314,49>,<314,50>))
+|file:///home/dataset/twelvemonkeys/imageio/imageio-webp/src/test/java/com/twelvemonkeys/imageio/plugins/webp/LSBBitReaderTest.java|
+ParseError(|unknown:///|(680,1,<24,17>,<24,18>))
+|file:///home/dataset/twelvemonkeys/imageio/imageio-pnm/src/main/java/com/twelvemonkeys/imageio/plugins/pnm/PNM.java|
+ParseError(|unknown:///|(3244,1,<71,70>,<71,71>))
+  646 of 785 processed succesfully!
+4
+[Project Analyzer] project: twelvemonkeys
+Processing twelvemonkeys...
+
+|file:///home/dataset/twelvemonkeys/contrib/src/main/java/com/twelvemonkeys/contrib/tiff/TIFFUtilities.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/servlet/src/main/java/com/twelvemonkeys/servlet/image/IIOProviderContextListener.java|
+EmptySet()
+  6 of 785 processed succesfully!
+|file:///home/dataset/twelvemonkeys/imageio/imageio-thumbsdb/src/main/java/com/twelvemonkeys/imageio/plugins/thumbsdb/ThumbsDBImageReader.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-core/src/test/java/com/twelvemonkeys/imageio/util/ImageReaderAbstractTest.java|
+EmptySet()
+  30 of 785 processed succesfully!
+|file:///home/dataset/twelvemonkeys/imageio/imageio-core/src/main/java/com/twelvemonkeys/imageio/ImageReaderBase.java|
+EmptySet()
+  48 of 785 processed succesfully!
+|file:///home/dataset/twelvemonkeys/imageio/imageio-pict/src/test/java/com/twelvemonkeys/imageio/plugins/pntg/PNTGImageReaderTest.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-psd/src/main/java/com/twelvemonkeys/imageio/plugins/psd/PSDImageReader.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-psd/src/main/java/com/twelvemonkeys/imageio/plugins/psd/PSDMetadata.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-tiff/src/test/java/com/twelvemonkeys/imageio/plugins/tiff/TIFFImageWriterTest.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-tiff/src/test/java/com/twelvemonkeys/imageio/plugins/tiff/CCITTFaxDecoderStreamTest.java|
+ParseError(|unknown:///|(13645,1,<284,42>,<284,43>))
+|file:///home/dataset/twelvemonkeys/imageio/imageio-tiff/src/test/java/com/twelvemonkeys/imageio/plugins/tiff/CCITTFaxEncoderStreamTest.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-tiff/src/main/java/com/twelvemonkeys/imageio/plugins/tiff/TIFFImageMetadata.java|
+EmptySet()
+  246 of 785 processed succesfully!
+|file:///home/dataset/twelvemonkeys/imageio/imageio-tiff/src/main/java/com/twelvemonkeys/imageio/plugins/tiff/CCITTFaxDecoderStream.java|
+ParseError(|unknown:///|(12208,1,<314,49>,<314,50>))
+|file:///home/dataset/twelvemonkeys/imageio/imageio-webp/src/test/java/com/twelvemonkeys/imageio/plugins/webp/LSBBitReaderTest.java|
+ParseError(|unknown:///|(680,1,<24,17>,<24,18>))
+|file:///home/dataset/twelvemonkeys/imageio/imageio-iff/src/main/java/com/twelvemonkeys/imageio/plugins/iff/IFFImageMetadata.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-jpeg/src/test/java/com/twelvemonkeys/imageio/plugins/jpeg/JPEGImageReaderTest.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-jpeg/src/test/java/com/twelvemonkeys/imageio/plugins/jpeg/JPEGImage10MetadataTest.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-jpeg/src/main/java/com/twelvemonkeys/imageio/plugins/jpeg/JPEGImageReader.java|
+EmptySet()
+  420 of 785 processed succesfully!
+|file:///home/dataset/twelvemonkeys/imageio/imageio-jpeg/src/main/java/com/twelvemonkeys/imageio/plugins/jpeg/JPEGImage10Metadata.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-metadata/src/test/java/com/twelvemonkeys/imageio/metadata/jpeg/JPEGSegmentUtilTest.java|
+EmptySet()
+  491 of 785 processed succesfully!
+|file:///home/dataset/twelvemonkeys/imageio/imageio-metadata/src/main/java/com/twelvemonkeys/imageio/metadata/tiff/TIFFWriter.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-metadata/src/main/java/com/twelvemonkeys/imageio/metadata/tiff/TIFFReader.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-metadata/src/main/java/com/twelvemonkeys/imageio/metadata/jpeg/JPEGSegmentUtil.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-metadata/src/main/java/com/twelvemonkeys/imageio/metadata/iptc/IPTCWriter.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/imageio/imageio-pnm/src/main/java/com/twelvemonkeys/imageio/plugins/pnm/PNM.java|
+ParseError(|unknown:///|(3244,1,<71,70>,<71,71>))
+  589 of 785 processed succesfully!
+|file:///home/dataset/twelvemonkeys/common/common-lang/src/main/java/com/twelvemonkeys/util/service/ServiceRegistry.java|
+EmptySet()
+|file:///home/dataset/twelvemonkeys/common/common-lang/src/main/java/com/twelvemonkeys/lang/Validate.java|
+EmptySet()
+  657 of 785 processed succesfully!
+  673 of 785 processed succesfully!
+  726 of 785 processed succesfully!
+10
+INFO:root:  Formating the source code
+INFO:root:   Done

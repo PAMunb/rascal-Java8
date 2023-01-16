@@ -1,0 +1,115 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: jackson-core
+Creating log file at: /output/log-20230115020145
+Processing jackson-core...
+|file:///home/dataset/jackson-core/src/moditect/module-info.java|
+ParseError(|unknown:///|(53,1,<2,0>,<2,1>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/FloatToDecimalTest.java|
+ParseError(|unknown:///|(1153,1,<37,35>,<37,36>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/DoubleToDecimalChecker.java|
+ParseError(|unknown:///|(8484,1,<293,40>,<293,41>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/DoubleToDecimalTest.java|
+ParseError(|unknown:///|(1101,1,<34,37>,<34,38>))
+|file:///home/dataset/jackson-core/src/main/java/com/fasterxml/jackson/core/io/JsonStringEncoder.java|
+Ambiguity(|unknown:///|,"BlockStatement+","if (qbuf == null) {\n                qbuf = _qbuf();\n            }\n            char d = input.charAt(inPtr++);\n            int escCode = escCodes[d];\n            int length = (escCode \< 0)\n                    ? _appendNumeric(d, qbuf)\n                    : _appendNamed(escCode, qbuf);\n                    ;")
+|file:///home/dataset/jackson-core/src/main/java/com/fasterxml/jackson/core/io/schubfach/MathUtils.java|
+ParseError(|unknown:///|(7417,1,<206,18>,<206,19>))
+0
+[Project Analyzer] project: jackson-core
+Processing jackson-core...
+|file:///home/dataset/jackson-core/src/moditect/module-info.java|
+ParseError(|unknown:///|(53,1,<2,0>,<2,1>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/FloatToDecimalTest.java|
+ParseError(|unknown:///|(1153,1,<37,35>,<37,36>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/DoubleToDecimalChecker.java|
+ParseError(|unknown:///|(8484,1,<293,40>,<293,41>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/DoubleToDecimalTest.java|
+ParseError(|unknown:///|(1101,1,<34,37>,<34,38>))
+|file:///home/dataset/jackson-core/src/main/java/com/fasterxml/jackson/core/io/JsonStringEncoder.java|
+Ambiguity(|unknown:///|,"BlockStatement+","if (qbuf == null) {\n                qbuf = _qbuf();\n            }\n            char d = input.charAt(inPtr++);\n            int escCode = escCodes[d];\n            int length = (escCode \< 0)\n                    ? _appendNumeric(d, qbuf)\n                    : _appendNamed(escCode, qbuf);\n                    ;")
+|file:///home/dataset/jackson-core/src/main/java/com/fasterxml/jackson/core/io/schubfach/MathUtils.java|
+ParseError(|unknown:///|(7417,1,<206,18>,<206,19>))
+0
+[Project Analyzer] project: jackson-core
+Processing jackson-core...
+|file:///home/dataset/jackson-core/src/moditect/module-info.java|
+ParseError(|unknown:///|(53,1,<2,0>,<2,1>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/FloatToDecimalTest.java|
+ParseError(|unknown:///|(1153,1,<37,35>,<37,36>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/DoubleToDecimalChecker.java|
+ParseError(|unknown:///|(8484,1,<293,40>,<293,41>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/DoubleToDecimalTest.java|
+ParseError(|unknown:///|(1101,1,<34,37>,<34,38>))
+|file:///home/dataset/jackson-core/src/main/java/com/fasterxml/jackson/core/io/JsonStringEncoder.java|
+Ambiguity(|unknown:///|,"BlockStatement+","if (qbuf == null) {\n                qbuf = _qbuf();\n            }\n            char d = input.charAt(inPtr++);\n            int escCode = escCodes[d];\n            int length = (escCode \< 0)\n                    ? _appendNumeric(d, qbuf)\n                    : _appendNamed(escCode, qbuf);\n                    ;")
+|file:///home/dataset/jackson-core/src/main/java/com/fasterxml/jackson/core/io/schubfach/MathUtils.java|
+ParseError(|unknown:///|(7417,1,<206,18>,<206,19>))
+0
+[Project Analyzer] project: jackson-core
+Processing jackson-core...
+
+|file:///home/dataset/jackson-core/src/moditect/module-info.java|
+ParseError(|unknown:///|(53,1,<2,0>,<2,1>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/read/SimpleParserTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/read/NumberOverflowTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/read/ParserScopeMatchingTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/read/NonStandardNumberParsingTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/read/NumberCoercionTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/read/CommentParsingTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/read/NumberParsingTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/read/TrailingCommasTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/read/ValueConversionsTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/base64/Base64BinaryParsingTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/base64/Base64GenerationTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/base64/Base64CodecTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/json/TestCharEscaping.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/json/StringGenerationTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/json/GeneratorFeaturesTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/json/StringGenerationFromReaderTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/json/JsonParserClosedCaseTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/json/async/AsyncFieldNamesTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/json/async/AsyncCommentParsingTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/write/RawStringWriteTest.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/FloatToDecimalTest.java|
+ParseError(|unknown:///|(1153,1,<37,35>,<37,36>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/DoubleToDecimalChecker.java|
+ParseError(|unknown:///|(8484,1,<293,40>,<293,41>))
+|file:///home/dataset/jackson-core/src/test/java/com/fasterxml/jackson/core/io/schubfach/DoubleToDecimalTest.java|
+ParseError(|unknown:///|(1101,1,<34,37>,<34,38>))
+|file:///home/dataset/jackson-core/src/main/java/com/fasterxml/jackson/core/JsonFactoryBuilder.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/main/java/com/fasterxml/jackson/core/TSFBuilder.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/main/java/com/fasterxml/jackson/core/util/ByteArrayBuilder.java|
+EmptySet()
+|file:///home/dataset/jackson-core/src/main/java/com/fasterxml/jackson/core/io/JsonStringEncoder.java|
+Ambiguity(|unknown:///|,"BlockStatement+","if (qbuf == null) {\n                qbuf = _qbuf();\n            }\n            char d = input.charAt(inPtr++);\n            int escCode = escCodes[d];\n            int length = (escCode \< 0)\n                    ? _appendNumeric(d, qbuf)\n                    : _appendNamed(escCode, qbuf);\n                    ;")
+|file:///home/dataset/jackson-core/src/main/java/com/fasterxml/jackson/core/io/schubfach/MathUtils.java|
+ParseError(|unknown:///|(7417,1,<206,18>,<206,19>))
+0
+INFO:root:  Formating the source code
+INFO:root:   Done

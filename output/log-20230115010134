@@ -1,0 +1,65 @@
+[Project Analyzer] processing project: heritrix3
+- applying aic into /home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/frontier/BdbFrontier.java
+- applying aic into /home/dataset/heritrix3/contrib/src/main/java/org/archive/modules/extractor/ExtractorYoutubeDL.java
+- applying aic into /home/dataset/heritrix3/modules/src/test/java/org/archive/modules/extractor/JerichoExtractorHTMLTest.java
+- applying aic into /home/dataset/heritrix3/modules/src/main/java/org/archive/modules/forms/FormLoginProcessor.java
+- applying aic into /home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/reporting/StatisticsTracker.java
+- applying aic into /home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/frontier/FrontierJournal.java
+- applying aic into /home/dataset/heritrix3/modules/src/test/java/org/archive/modules/writer/WARCWriterProcessorTest.java
+- applying aic into /home/dataset/heritrix3/contrib/src/main/java/org/archive/modules/postprocessor/AMQPCrawlLogFeed.java
+- applying aic into /home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/frontier/precedence/SuccessCountsQueuePrecedencePolicy.java
+- applying aic into /home/dataset/heritrix3/contrib/src/main/java/org/archive/modules/postprocessor/KafkaCrawlLogFeed.java
+- applying aic into /home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/reporting/CrawlerLoggerModule.java
+- applying aic into /home/dataset/heritrix3/modules/src/test/java/org/archive/modules/extractor/ExtractorHTMLTest.java
+- applying aic into /home/dataset/heritrix3/contrib/src/main/java/org/archive/modules/postprocessor/TroughCrawlLogFeed.java
+- applying aic into /home/dataset/heritrix3/commons/src/main/java/org/archive/spring/KeyedProperties.java
+- Number of files:  582
+- Processed Files: 14
+- Exported Files:   14
+- Total of files changed: 25
+- Total of transformations: 25
+- Errors: 1
+- Final Time: 20230115010146
+- Elapsed Time: 12384.0ms
+[Project Analyzer] processing project: heritrix3
+- Number of files:  582
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115010155
+- Elapsed Time: 8695.0ms
+[Project Analyzer] processing project: heritrix3
+- Number of files:  582
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230115010204
+- Elapsed Time: 8627.0ms
+[Project Analyzer] processing project: heritrix3
+- applying ForLoopToFunctional into /home/dataset/heritrix3/commons/src/main/java/org/archive/spring/BeanFieldsPatternValidator.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/contrib/src/main/java/org/archive/modules/AMQPPublishProcessor.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/modules/src/main/java/org/archive/modules/CrawlURI.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/modules/src/main/java/org/archive/modules/deciderules/ViaSurtPrefixedDecideRule.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/restlet/ScriptResource.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/restlet/models/ViewModel.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/contrib/src/main/java/org/archive/net/chrome/ChromeProcess.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/modules/src/main/java/org/archive/modules/fetcher/FetchSFTP.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/modules/src/main/java/org/archive/modules/warc/MetadataRecordBuilder.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/commons/src/main/java/org/archive/spring/KeyedProperties.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/modules/src/main/java/org/archive/modules/seeds/SeedModule.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/engine/src/main/java/org/archive/crawler/reporting/AlertThreadGroup.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/modules/src/test/java/org/archive/modules/fetcher/FetchHTTPTest.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/modules/src/main/java/org/archive/modules/writer/WARCWriterProcessor.java
+- applying ForLoopToFunctional into /home/dataset/heritrix3/contrib/src/main/java/org/archive/net/chrome/InterceptedRequest.java
+- Number of files:  582
+- Processed Files: 15
+- Exported Files:   15
+- Total of files changed: 19
+- Total of transformations: 19
+- Errors: 32
+- Final Time: 20230115010334
+- Elapsed Time: 89918.0ms

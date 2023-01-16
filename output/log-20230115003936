@@ -1,0 +1,201 @@
+[Project Analyzer] processing project: soot
+- applying aic into /home/dataset/soot/src/it/java_tests/MethodIntroductions2.java
+- applying aic into /home/dataset/soot/src/main/java/soot/util/SmallPriorityQueue.java
+- applying aic into /home/dataset/soot/src/it/java_tests/DeeplyNestedAnon.java
+- applying aic into /home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/interaction/InteractionController.java
+- applying aic into /home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/ui/SootOutputView.java
+- applying aic into /home/dataset/soot/src/it/java_tests/Test50.java
+- applying aic into /home/dataset/soot/src/main/generated/protobuf/soot/dotnet/proto/ProtoDotnetNativeHost.java
+- applying aic into /home/dataset/soot/src/it/java_tests/AnonInField.java
+- applying aic into /home/dataset/soot/src/main/java/soot/jimple/toolkits/thread/synchronization/StrayRWFinder.java
+- applying aic into /home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/examples/NewSootExampleWizard.java
+- applying aic into /home/dataset/soot/src/it/java_tests/InnerInConstCall.java
+- applying aic into /home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/ui/SootConfigManagerDialog.java
+- applying aic into /home/dataset/soot/src/main/java/soot/jimple/toolkits/thread/synchronization/SynchronizedRegionFinder.java
+- applying aic into /home/dataset/soot/src/main/java/soot/jimple/toolkits/thread/mhp/StartJoinAnalysis.java
+- applying aic into /home/dataset/soot/src/main/java/soot/jimple/spark/ondemand/genericutil/Util.java
+- applying aic into /home/dataset/soot/src/main/generated/protobuf/soot/dotnet/proto/ProtoAssemblyAllTypes.java
+- applying aic into /home/dataset/soot/src/it/java_tests/InnerAccessLJH.java
+- applying aic into /home/dataset/soot/src/it/java_tests/Test51.java
+- applying aic into /home/dataset/soot/src/main/generated/protobuf/soot/dotnet/proto/ProtoIlInstructions.java
+- applying aic into /home/dataset/soot/src/main/java/soot/jimple/spark/ondemand/genericutil/Predicate.java
+- applying aic into /home/dataset/soot/src/main/java/soot/jimple/toolkits/thread/mhp/PegChain.java
+- applying aic into /home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/ui/AnalysisVisManipDialog.java
+- applying aic into /home/dataset/soot/src/it/java_tests/ParentUsingChildLJH.java
+- applying aic into /home/dataset/soot/src/main/java/soot/jimple/spark/pag/PagToDotDumper.java
+- applying aic into /home/dataset/soot/src/it/java_tests/ParentInterfaceUsingChildInnerInterfaceLJH.java
+- applying aic into /home/dataset/soot/src/main/java/soot/util/MediumPriorityQueue.java
+- applying aic into /home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/ui/AbstractOptionsDialog.java
+- applying aic into /home/dataset/soot/src/main/java/soot/jimple/toolkits/ide/exampleproblems/IFDSPossibleTypes.java
+- applying aic into /home/dataset/soot/src/main/java/soot/jimple/spark/sets/PointsToSetInternal.java
+- applying aic into /home/dataset/soot/src/main/java/soot/util/LargePriorityQueue.java
+- applying aic into /home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/launching/SootThread.java
+- Number of files:  3804
+- Processed Files: 31
+- Exported Files:   31
+- Total of files changed: 50
+- Total of transformations: 50
+- Errors: 39
+- Final Time: 20230115004055
+- Elapsed Time: 79154.0ms
+[Project Analyzer] processing project: soot
+- applying filter pattern into /home/dataset/soot/src/main/java/soot/jimple/toolkits/annotation/logic/Loop.java
+- applying filter pattern into /home/dataset/soot/src/main/java/soot/jimple/spark/ondemand/genericutil/Util.java
+- applying filter pattern into /home/dataset/soot/src/main/java/soot/util/IterableSet.java
+- applying filter pattern into /home/dataset/soot/src/main/java/soot/toolkits/graph/CytronDominanceFrontier.java
+- applying filter pattern into /home/dataset/soot/src/main/java/soot/toDex/DexPrinter.java
+- applying filter pattern into /home/dataset/soot/src/main/java/soot/toolkits/scalar/SmartLocalDefs.java
+- applying filter pattern into /home/dataset/soot/src/main/java/soot/jimple/toolkits/thread/synchronization/DeadlockDetector.java
+- applying filter pattern into /home/dataset/soot/src/main/java/soot/EntryPoints.java
+- Number of files:  3804
+- Processed Files: 8
+- Exported Files:   8
+- Total of files changed: 10
+- Total of transformations: 10
+- Errors: 39
+- Final Time: 20230115004156
+- Elapsed Time: 60765.0ms
+[Project Analyzer] processing project: soot
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/jimple/toolkits/ide/icfg/AbstractJimpleBasedICFG.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/toolkits/graph/ExceptionalUnitGraph.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/AttributesUnitPrinter.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/util/HashMultiMap.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/jimple/toolkits/ide/icfg/BackwardsInterproceduralCFG.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/dava/internal/SET/SETNode.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/util/ConcurrentHashMultiMap.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/jimple/toolkits/pointer/LocalMayAliasAnalysis.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/toolkits/exceptions/TrapTightener.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/jimple/spark/ondemand/genericutil/Util.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/Scene.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/jbco/jimpleTransformations/MethodRenamer.java
+- applying exist pattern into /home/dataset/soot/src/main/java/soot/jimple/toolkits/callgraph/OnFlyCallGraphBuilder.java
+- Number of files:  3804
+- Processed Files: 13
+- Exported Files:   13
+- Total of files changed: 13
+- Total of transformations: 13
+- Errors: 39
+- Final Time: 20230115004256
+- Elapsed Time: 60397.0ms
+[Project Analyzer] processing project: soot
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/shimple/internal/SPhiExpr.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jbco/bafTransformations/RemoveRedundantPushStores.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/LambdaMetaFactory.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/Node.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/annotation/nullcheck/NullnessAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/dava/toolkits/base/AST/structuredAnalysis/UnreachableCodeFinder.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/test/java/soot/toolkits/exceptions/ThrowableSetTest.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/AbstractASMBackend.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/scalar/EqualUsesAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/jastadd/soot/JastAddJ/DiamondAccess.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/test/java/soot/toolkits/scalar/ArrayPackedSetTest.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/annotation/arraycheck/ExtendedHashMutableDirectedGraph.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/ide/exampleproblems/IFDSUninitializedVariables.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/xml/Attribute.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/AQuotedNonvoidType.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/analysis/ReversedDepthFirstAdapter.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toolkits/scalar/ConstantInitializerToTagTransformer.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/pointer/MemoryEfficientRasUnion.java
+- applying ForLoopToFunctional into /home/dataset/soot/tutorial/guide/examples/intermediate_representation/src/dk/brics/soot/intermediate/translation/JavaTranslator.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toDex/MultiDexBuilder.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/jastadd/soot/JastAddJ/ThrowStmt.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/typing/TypeResolverBV.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/baf/toolkits/base/LoadStoreOptimizer.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/systemTest/targets/soot/jimple/toolkit/callgraph/ContainerMultiTypeSample.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toDex/SootToDexUtils.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/invoke/SiteInliner.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/dava/toolkits/base/finders/SynchronizedBlockFinder.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/callgraph/CallGraph.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toDex/StmtVisitor.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toolkits/exceptions/UnitThrowAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/util/dot/DotGraphNode.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/spark/ondemand/genericutil/Stack.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/pointer/CastCheckEliminator.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/util/backend/ASMBackendUtils.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/spark/pag/PAGDumper.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/spark/solver/SCCCollapser.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/internal/AbstractNewMultiArrayExpr.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/pointer/LocalTypeSet.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/dava/toolkits/base/finders/SwitchFinder.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/dexpler/Util.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/AFullIdentNonvoidType.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/PhaseOptions.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toDex/RegisterAssigner.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/util/cfgcmd/CFGToDotGraph.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/typing/fast/BytecodeHierarchy.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/analysis/DepthFirstAdapter.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/tagkit/InnerClassAttribute.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/ABaseNonvoidType.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/AFullMethodBody.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toolkits/graph/BlockGraphConverter.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/typing/TypeResolver.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/dexpler/DexNumTransformer.java
+- applying ForLoopToFunctional into /home/dataset/soot/tutorial/guide/examples/intermediate_representation/src/dk/brics/soot/intermediate/translation/ExprTranslator.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/scalar/CommonSubexpressionEliminator.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/dotnet/types/DotnetTypeFactory.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/AFileBody.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/test/java/soot/FastHierarchyTest.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/xml/JavaAttribute.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/Body.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/annotation/arraycheck/RectangularArrayFinder.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/shimple/toolkits/scalar/SConstantPropagatorAndFolder.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/ide/icfg/AbstractJimpleBasedICFG.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/test/java/soot/toolkits/exceptions/ExceptionTestUtility.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/ide/JimpleIDESolver.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/scalar/CommonPrecedingEqualValueAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/xml/TagCollector.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/ALookupswitchStatement.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/scalar/pre/BusyCodeMotion.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/tagkit/VisibilityParameterAnnotationTag.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/asm/SootClassBuilder.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/AIdentNonvoidType.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/infoflow/ClassLocalObjectsAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/AMethodMember.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/util/IterableMap.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/typing/fast/DefaultTypingStrategy.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/tagkit/VisibilityAnnotationTag.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/annotation/logic/LoopFinder.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/ATableswitchStatement.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/javaToJimple/ClassResolver.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toolkits/graph/pdg/EnhancedUnitGraph.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/scalar/EqualLocalsAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/AFieldMember.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toolkits/graph/BlockGraph.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/util/SmallPriorityQueue.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/thread/ThreadLocalObjectsAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/pointer/SiteRWSet.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/thread/mhp/findobject/MultiRunStatementsFinder.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/internal/JTableSwitchStmt.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/util/dot/DotGraphEdge.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/dexpler/DexTransformer.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/shimple/toolkits/scalar/ShimpleLocalUses.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/SootModuleInfo.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/pointer/DependenceGraph.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toolkits/graph/Block.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/dava/toolkits/base/AST/transformations/UnreachableCodeEliminator.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/dexpler/DexFileProvider.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/spark/internal/TypeManager.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toolkits/graph/DominatorAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/util/dot/DotGraph.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toolkits/scalar/LocalPacker.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/tagkit/AnnotationTag.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/AMultiNewExpr.java
+- applying ForLoopToFunctional into /home/dataset/soot/tutorial/guide/examples/intermediate_representation/src/dk/brics/soot/intermediate/representation/Method.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/pointer/LocalMustNotAliasAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/graph/LoopConditionUnroller.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/scalar/UnreachableCodeEliminator.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/toolkits/scalar/CombinedDUAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/options/OptionsBase.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/util/ConcurrentHashMultiMap.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/jimple/toolkits/thread/synchronization/LockableReferenceAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/sablecc/soot/jimple/parser/node/AFile.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/java/soot/javaToJimple/JimpleBodyBuilder.java
+- applying ForLoopToFunctional into /home/dataset/soot/src/main/generated/jastadd/soot/JastAddJ/GenericClassDecl.java
+- Number of files:  3804
+- Processed Files: 113
+- Exported Files:   113
+- Total of files changed: 239
+- Total of transformations: 239
+- Errors: 193
+- Final Time: 20230115005556
+- Elapsed Time: 779738.0ms

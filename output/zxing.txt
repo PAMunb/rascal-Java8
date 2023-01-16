@@ -1,0 +1,72 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: zxing
+Creating log file at: /output/log-20230115020437
+Processing zxing...
+|file:///home/dataset/zxing/core/src/main/java/com/google/zxing/qrcode/decoder/DataMask.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+0
+[Project Analyzer] project: zxing
+Processing zxing...
+|file:///home/dataset/zxing/core/src/main/java/com/google/zxing/qrcode/decoder/DataMask.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+0
+[Project Analyzer] project: zxing
+Processing zxing...
+  40 of 516 processed succesfully!
+|file:///home/dataset/zxing/core/src/main/java/com/google/zxing/qrcode/decoder/DataMask.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+1
+[Project Analyzer] project: zxing
+Processing zxing...
+
+|file:///home/dataset/zxing/zxingorg/src/test/java/com/google/zxing/web/ChartServletTestCase.java|
+EmptySet()
+|file:///home/dataset/zxing/zxingorg/src/main/java/com/google/zxing/web/DecodeServlet.java|
+EmptySet()
+|file:///home/dataset/zxing/javase/src/main/java/com/google/zxing/client/j2se/HtmlAssetTranslator.java|
+EmptySet()
+|file:///home/dataset/zxing/javase/src/main/java/com/google/zxing/client/j2se/StringsResourceTranslator.java|
+EmptySet()
+|file:///home/dataset/zxing/javase/src/main/java/com/google/zxing/client/j2se/CommandLineRunner.java|
+EmptySet()
+|file:///home/dataset/zxing/javase/src/main/java/com/google/zxing/client/j2se/DecodeWorker.java|
+EmptySet()
+|file:///home/dataset/zxing/android-core/src/main/java/com/google/zxing/client/android/camera/CameraConfigurationUtils.java|
+EmptySet()
+  36 of 516 processed succesfully!
+|file:///home/dataset/zxing/zxing.appspot.com/src/main/java/com/google/zxing/web/generator/client/CalendarEventGenerator.java|
+EmptySet()
+  53 of 516 processed succesfully!
+  109 of 516 processed succesfully!
+  131 of 516 processed succesfully!
+|file:///home/dataset/zxing/core/src/test/java/com/google/zxing/aztec/encoder/EncoderTest.java|
+EmptySet()
+|file:///home/dataset/zxing/core/src/test/java/com/google/zxing/aztec/detector/DetectorTest.java|
+EmptySet()
+  211 of 516 processed succesfully!
+|file:///home/dataset/zxing/core/src/test/java/com/google/zxing/common/AbstractNegativeBlackBoxTestCase.java|
+EmptySet()
+|file:///home/dataset/zxing/core/src/test/java/com/google/zxing/common/AbstractBlackBoxTestCase.java|
+EmptySet()
+|file:///home/dataset/zxing/core/src/main/java/com/google/zxing/multi/qrcode/QRCodeMultiReader.java|
+EmptySet()
+  336 of 516 processed succesfully!
+  362 of 516 processed succesfully!
+|file:///home/dataset/zxing/core/src/main/java/com/google/zxing/pdf417/detector/Detector.java|
+EmptySet()
+  431 of 516 processed succesfully!
+|file:///home/dataset/zxing/core/src/main/java/com/google/zxing/qrcode/encoder/Encoder.java|
+EmptySet()
+  455 of 516 processed succesfully!
+|file:///home/dataset/zxing/core/src/main/java/com/google/zxing/qrcode/detector/FinderPatternFinder.java|
+EmptySet()
+|file:///home/dataset/zxing/core/src/main/java/com/google/zxing/qrcode/decoder/DataMask.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+  498 of 516 processed succesfully!
+10
+INFO:root:  Formating the source code
+INFO:root:   Done

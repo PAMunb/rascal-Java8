@@ -1,0 +1,224 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: robolectric
+Creating log file at: /output/log-20230114230141
+Processing robolectric...
+|file:///home/dataset/robolectric/annotations/src/main/java/org/robolectric/annotation/Config.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/robolectric/shadows/httpclient/src/main/java/org/robolectric/shadows/httpclient/package-info.java|
+ParseError(|unknown:///|(311,1,<9,0>,<9,1>))
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowArscAssetManager.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final Ref\<Long\> length = new Ref\<Long\>(-1L);;")
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowWindowTest.java|
+ParseError(|unknown:///|(2199,1,<52,27>,<52,28>))
+|file:///home/dataset/robolectric/sandbox/src/main/java/org/robolectric/internal/bytecode/SandboxConfig.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: robolectric
+Processing robolectric...
+|file:///home/dataset/robolectric/annotations/src/main/java/org/robolectric/annotation/Config.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/robolectric/shadows/httpclient/src/main/java/org/robolectric/shadows/httpclient/package-info.java|
+ParseError(|unknown:///|(311,1,<9,0>,<9,1>))
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowArscAssetManager.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final Ref\<Long\> length = new Ref\<Long\>(-1L);;")
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowWindowTest.java|
+ParseError(|unknown:///|(2199,1,<52,27>,<52,28>))
+|file:///home/dataset/robolectric/sandbox/src/main/java/org/robolectric/internal/bytecode/SandboxConfig.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: robolectric
+Processing robolectric...
+|file:///home/dataset/robolectric/annotations/src/main/java/org/robolectric/annotation/Config.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/robolectric/shadows/httpclient/src/main/java/org/robolectric/shadows/httpclient/package-info.java|
+ParseError(|unknown:///|(311,1,<9,0>,<9,1>))
+  89 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowArscAssetManager.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final Ref\<Long\> length = new Ref\<Long\>(-1L);;")
+  554 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowWindowTest.java|
+ParseError(|unknown:///|(2199,1,<52,27>,<52,28>))
+  1365 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/sandbox/src/main/java/org/robolectric/internal/bytecode/SandboxConfig.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  1546 of 1799 processed succesfully!
+4
+[Project Analyzer] project: robolectric
+Processing robolectric...
+
+|file:///home/dataset/robolectric/annotations/src/main/java/org/robolectric/annotation/Config.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/robolectric/integration_tests/ctesque/src/sharedTest/java/android/content/pm/PackageManagerTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/httpclient/src/test/java/org/robolectric/shadows/httpclient/TestHttpResponseTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/httpclient/src/main/java/org/robolectric/shadows/httpclient/package-info.java|
+ParseError(|unknown:///|(311,1,<9,0>,<9,1>))
+  86 of 1799 processed succesfully!
+  95 of 1799 processed succesfully!
+  98 of 1799 processed succesfully!
+  104 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowPackageInstaller.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowFileObserver.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowInstrumentation.java|
+EmptySet()
+  160 of 1799 processed succesfully!
+  186 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowApplicationPackageManager.java|
+EmptySet()
+  231 of 1799 processed succesfully!
+  236 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowArscAssetManager.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final Ref\<Long\> length = new Ref\<Long\>(-1L);;")
+  266 of 1799 processed succesfully!
+  271 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowDownloadManager.java|
+EmptySet()
+  314 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowArscAssetManager10.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowLocationManager.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowNativeBitmap.java|
+EmptySet()
+  354 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowUsageStatsManager.java|
+EmptySet()
+  374 of 1799 processed succesfully!
+  376 of 1799 processed succesfully!
+  413 of 1799 processed succesfully!
+  423 of 1799 processed succesfully!
+  424 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowPausedLooper.java|
+EmptySet()
+  428 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowShortcutManager.java|
+EmptySet()
+  449 of 1799 processed succesfully!
+  459 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowNfcAdapter.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowArscAssetManager9.java|
+EmptySet()
+  472 of 1799 processed succesfully!
+  474 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowActivityManager.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/LegacyManifestParser.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowBluetoothDevice.java|
+EmptySet()
+  481 of 1799 processed succesfully!
+  505 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowSystemVibrator.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowUIModeManager.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/NativeInput.java|
+EmptySet()
+  533 of 1799 processed succesfully!
+  547 of 1799 processed succesfully!
+  548 of 1799 processed succesfully!
+  552 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowPackageManager.java|
+EmptySet()
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowMediaPlayer.java|
+EmptySet()
+  564 of 1799 processed succesfully!
+  601 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/shadows/framework/src/main/java/org/robolectric/shadows/ShadowLauncherApps.java|
+EmptySet()
+  609 of 1799 processed succesfully!
+  620 of 1799 processed succesfully!
+  672 of 1799 processed succesfully!
+  711 of 1799 processed succesfully!
+  739 of 1799 processed succesfully!
+  748 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowHardwareBufferTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowWindowTest.java|
+ParseError(|unknown:///|(2199,1,<52,27>,<52,28>))
+  799 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowStatsLogTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowPackageManagerTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowContextWrapperTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowLocationManagerTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowAudioManagerTest.java|
+EmptySet()
+  1027 of 1799 processed succesfully!
+  1045 of 1799 processed succesfully!
+  1095 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowViewGroupTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/shadows/ShadowLogTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/interceptors/AndroidInterceptorsIntegrationTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/res/ResBundleTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/res/StringResourcesTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/res/ResourceTestUtil.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/test/java/org/robolectric/android/XmlResourceParserImplTest.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/main/java/org/robolectric/RobolectricTestRunner.java|
+EmptySet()
+  1262 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/robolectric/src/main/java/org/robolectric/android/internal/LocalUiController.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/main/java/org/robolectric/android/internal/RoboMonitoringInstrumentation.java|
+EmptySet()
+|file:///home/dataset/robolectric/robolectric/src/main/java/org/robolectric/internal/BuckManifestFactory.java|
+EmptySet()
+|file:///home/dataset/robolectric/resources/src/main/java/org/robolectric/res/ResourceTableFactory.java|
+EmptySet()
+  1336 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/resources/src/main/java/org/robolectric/res/Fs.java|
+EmptySet()
+  1343 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/resources/src/main/java/org/robolectric/res/android/CppAssetManager2.java|
+EmptySet()
+|file:///home/dataset/robolectric/resources/src/main/java/org/robolectric/res/android/CppApkAssets.java|
+EmptySet()
+|file:///home/dataset/robolectric/resources/src/main/java/org/robolectric/res/android/LoadedArsc.java|
+EmptySet()
+|file:///home/dataset/robolectric/resources/src/main/java/org/robolectric/res/android/NativeObjRegistry.java|
+EmptySet()
+  1402 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/sandbox/src/main/java/org/robolectric/internal/bytecode/ShadowMap.java|
+EmptySet()
+|file:///home/dataset/robolectric/sandbox/src/main/java/org/robolectric/internal/bytecode/ShadowWrangler.java|
+EmptySet()
+|file:///home/dataset/robolectric/sandbox/src/main/java/org/robolectric/internal/bytecode/ShadowProviders.java|
+EmptySet()
+|file:///home/dataset/robolectric/sandbox/src/main/java/org/robolectric/internal/bytecode/SandboxConfig.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/robolectric/sandbox/src/main/java/org/robolectric/internal/bytecode/InstrumentationConfiguration.java|
+EmptySet()
+  1501 of 1799 processed succesfully!
+  1654 of 1799 processed succesfully!
+  1661 of 1799 processed succesfully!
+  1701 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/utils/src/main/java/org/robolectric/util/Util.java|
+EmptySet()
+|file:///home/dataset/robolectric/utils/src/main/java/org/robolectric/util/Join.java|
+EmptySet()
+  1722 of 1799 processed succesfully!
+|file:///home/dataset/robolectric/utils/src/main/java/org/robolectric/util/SimplePerfStatsReporter.java|
+EmptySet()
+|file:///home/dataset/robolectric/plugins/maven-dependency-resolver/src/main/java/org/robolectric/internal/dependency/MavenDependencyResolver.java|
+EmptySet()
+49
+INFO:root:  Formating the source code
+INFO:root:   Done

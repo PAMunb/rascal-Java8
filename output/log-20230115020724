@@ -1,0 +1,118 @@
+[Project Analyzer] processing project: terasology
+- Number of files:  2288
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 132
+- Final Time: 20230115020753
+- Elapsed Time: 29193.0ms
+[Project Analyzer] processing project: terasology
+- applying filter pattern into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/entitySystem/entity/internal/OwnershipHelper.java
+- applying filter pattern into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/recording/EventSystemReplayImpl.java
+- applying filter pattern into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/entitySystem/event/internal/EventSystemImpl.java
+- applying filter pattern into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/generation/WorldBuilder.java
+- applying filter pattern into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/core/module/ModuleManager.java
+- Number of files:  2288
+- Processed Files: 5
+- Exported Files:   5
+- Total of files changed: 6
+- Total of transformations: 6
+- Errors: 132
+- Final Time: 20230115020815
+- Elapsed Time: 21671.0ms
+[Project Analyzer] processing project: terasology
+- applying exist pattern into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/entitySystem/entity/internal/PojoSectorManager.java
+- applying exist pattern into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/chunks/localChunkProvider/RelevanceSystem.java
+- applying exist pattern into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/input/internal/BindableButtonImpl.java
+- applying exist pattern into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/logic/permission/PermissionSystem.java
+- Number of files:  2288
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 6
+- Total of transformations: 6
+- Errors: 132
+- Final Time: 20230115020837
+- Elapsed Time: 21530.0ms
+[Project Analyzer] processing project: terasology
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/persistence/internal/EntitySetDeltaRecorder.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/persistence/internal/ReadWriteStorageManager.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/i18n/TranslationSystemImpl.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/world/viewDistance/ClientViewDistanceSystem.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/persistence/serializers/EntityDataJSONFormat.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/logic/behavior/nui/BehaviorEditor.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/gltf/GLTFSkeletalMeshFormat.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/logic/console/suggesters/CommandNameSuggester.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/assets/shader/ShaderProgramFeature.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/generator/plugin/DefaultWorldGeneratorPluginLibrary.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/nui/editor/layers/WidgetSelectionScreen.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine-tests/src/main/java/org/terasology/engine/integrationenvironment/Engines.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/animation/Animation.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/config/SecurityConfig.java
+- applying ForLoopToFunctional into /home/dataset/terasology/subsystems/TypeHandlerLibrary/src/main/java/org/terasology/persistence/typeHandling/coreTypes/CollectionTypeHandler.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/generation/WorldImpl.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/chunks/blockdata/ExtraBlockDataManager.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/logic/delay/PeriodicActionComponent.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine-tests/src/test/java/org/terasology/engine/rendering/nui/widgets/treeView/GenericTreeTest.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/network/internal/NetworkSystemImpl.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine-tests/src/test/java/org/terasology/engine/persistence/typeHandling/extensionTypes/factories/AssetTypeHandlerFactoryTest.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/logic/console/commandSystem/MethodCommand.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/viewer/layers/FacetLayers.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/openvrprovider/OpenVRState.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/block/tiles/WorldAtlasImpl.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/core/subsystem/headless/renderer/HeadlessWorldRenderer.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/core/modes/StateLoading.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/logic/behavior/nui/RenderableNode.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/logic/NearestSortingList.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/entitySystem/entity/internal/BaseEntityRef.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/animation/AnimatorGroup.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/logic/console/commandSystem/AbstractCommand.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/identity/storageServiceClient/IdentityBundle.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/persistence/typeHandling/gson/GsonPersistedDataArray.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine-tests/src/test/java/org/terasology/engine/logic/characters/VisualCharacterSystemTest.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/config/flexible/internal/SettingImpl.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/nui/layers/mainMenu/UniverseSetupScreen.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine-tests/src/test/java/org/terasology/engine/world/block/BlockRegionTest.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/logic/console/ConsoleImpl.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/assets/skeletalmesh/SkeletalMeshDataBuilder.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/propagation/StandardBatchPropagator.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/chunks/remoteChunkProvider/RemoteChunkProvider.java
+- applying ForLoopToFunctional into /home/dataset/terasology/subsystems/TypeHandlerLibrary/src/main/java/org/terasology/persistence/typeHandling/coreTypes/RuntimeDelegatingTypeHandler.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/chunks/localChunkProvider/LocalChunkProvider.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/config/flexible/AutoConfigManager.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/logic/behavior/core/CompositeNode.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/utilities/StringUtility.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/gltf/GLTFAnimationFormat.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/viewer/layers/AbstractFacetLayer.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/nui/widgets/browser/ui/BrowserWidget.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/telemetry/metrics/Metric.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/internal/WorldProviderCoreImpl.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/monitoring/impl/SingleThreadMonitorImpl.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/persistence/serializers/PrefabSerializer.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/physics/bullet/BulletPhysics.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/core/bootstrap/EnvironmentSwitchHandler.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/telemetry/TelemetryScreen.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/block/tiles/BlockTile.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/assets/skeletalmesh/SkeletalMeshData.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/utilities/gson/SetMultimapTypeAdapter.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/core/module/ModuleInstaller.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/nui/asset/UIFormat.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/input/internal/AbstractBindableAxis.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/core/module/rendering/RenderingModuleRegistry.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/logic/behavior/nui/TreeAccessor.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/persistence/serializers/NetworkEntitySerializer.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/rendering/nui/layers/mainMenu/inputSettings/InputSettingsScreen.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine-tests/src/test/java/org/terasology/engine/rendering/nui/layers/ingame/metrics/DebugMetricsSystemTest.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/world/block/internal/BlockManagerImpl.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/physics/engine/PhysicsSystem.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/persistence/internal/GlobalStoreBuilder.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/logic/console/suggesters/AssetSuggester.java
+- applying ForLoopToFunctional into /home/dataset/terasology/engine/src/main/java/org/terasology/engine/telemetry/TelemetrySystem.java
+- Number of files:  2288
+- Processed Files: 73
+- Exported Files:   73
+- Total of files changed: 116
+- Total of transformations: 116
+- Errors: 206
+- Final Time: 20230115021222
+- Elapsed Time: 225322.0ms

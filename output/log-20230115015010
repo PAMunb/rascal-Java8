@@ -1,0 +1,140 @@
+[Project Analyzer] processing project: teavm
+- applying aic into /home/dataset/teavm/tools/eclipse/plugin/src/main/java/org/teavm/eclipse/debugger/TeaVMJSVariablesHolder.java
+- applying aic into /home/dataset/teavm/tools/eclipse/plugin/src/main/java/org/teavm/eclipse/debugger/TeaVMJavaVariablesHolder.java
+- applying aic into /home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/lang/ThreadTest.java
+- Number of files:  2753
+- Processed Files: 3
+- Exported Files:   3
+- Total of files changed: 3
+- Total of transformations: 3
+- Errors: 12
+- Final Time: 20230115015108
+- Elapsed Time: 57565.0ms
+[Project Analyzer] processing project: teavm
+- applying filter pattern into /home/dataset/teavm/tools/junit/src/main/java/org/teavm/junit/TeaVMTestRunner.java
+- Number of files:  2753
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 2
+- Total of transformations: 2
+- Errors: 12
+- Final Time: 20230115015151
+- Elapsed Time: 43250.0ms
+[Project Analyzer] processing project: teavm
+- applying exist pattern into /home/dataset/teavm/core/src/main/java/org/teavm/backend/lowlevel/transform/CoroutineTransformation.java
+- applying exist pattern into /home/dataset/teavm/core/src/main/java/org/teavm/ast/decompilation/Decompiler.java
+- applying exist pattern into /home/dataset/teavm/core/src/main/java/org/teavm/model/util/MissingItemsProcessor.java
+- applying exist pattern into /home/dataset/teavm/classlib/src/main/java/org/threeten/bp/chrono/ChronoPeriod.java
+- Number of files:  2753
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 12
+- Final Time: 20230115015234
+- Elapsed Time: 42854.0ms
+[Project Analyzer] processing project: teavm
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/debug/parser/DebugSectionParser.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/junit/src/main/java/org/teavm/junit/TestEntryPoint.java
+- applying ForLoopToFunctional into /home/dataset/teavm/jso/impl/src/main/java/org/teavm/jso/impl/JSClassProcessor.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/dependency/FastVirtualCallConsumer.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tests/src/test/java/org/teavm/vm/RttiTest.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/util/InstructionVariableMapper.java
+- applying ForLoopToFunctional into /home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/impl/ReflectionDependencyListener.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/lang/reflect/MethodTest.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/time/chrono/TestChronoZonedDateTime.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/optimization/ConstantConditionElimination.java
+- applying ForLoopToFunctional into /home/dataset/teavm/metaprogramming/impl/src/main/java/org/teavm/metaprogramming/impl/CompositeMethodGenerator.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/time/chrono/TestChronoLocalDateTime.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/transformation/NullCheckInsertion.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/analysis/EscapeAnalysis.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/dependency/DependencyClassSource.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/generate/DwarfClassGenerator.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/vm/IncrementalDirectoryBuildTarget.java
+- applying ForLoopToFunctional into /home/dataset/teavm/platform/src/main/java/org/teavm/platform/plugin/ResourceProgramTransformer.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/javascript/JavaScriptTarget.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/vm/TeaVMBootstrapPluginLoader.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/intrinsics/ExceptionHandlingIntrinsic.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/util/ArrayListTest.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/c/generate/BufferedCodeWriter.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/util/InstructionCopyReader.java
+- applying ForLoopToFunctional into /home/dataset/teavm/classlib/src/main/java/org/threeten/bp/format/DateTimeFormatterBuilder.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/Phi.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/javascript/rendering/AstWriter.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/javascript/rendering/AstVisitor.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/devserver/src/main/java/org/teavm/devserver/DevServer.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/common/Promise.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/lowlevel/ClassInitializerEliminator.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/core/src/main/java/org/teavm/tooling/builder/InProcessBuildStrategy.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/parsing/substitution/OrderedProperties.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/parsing/ClassRefsRenamer.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/cache/ProgramDependencyExtractor.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/lowlevel/ExceptionHandlingShadowStackContributor.java
+- applying ForLoopToFunctional into /home/dataset/teavm/classlib/src/main/java/org/threeten/bp/format/DateTimeParseContext.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/lowlevel/transform/CoroutineTransformation.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/time/chrono/TestChronoLocalDate.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/c/generate/CodeGenerationVisitor.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/core/src/main/java/org/teavm/tooling/sources/SourceFilesCopier.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/ast/NewMultiArrayExpr.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/c-incremental/src/main/java/org/teavm/tooling/c/incremental/IncrementalCBuilder.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/ast/ArrayFromDataExpr.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/intrinsics/MutatorIntrinsic.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/util/HashtableTest.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/optimization/Inlining.java
+- applying ForLoopToFunctional into /home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/impl/KotlinHacks.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/lang/ThreadTest.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/dependency/DependencyGraphBuilder.java
+- applying ForLoopToFunctional into /home/dataset/teavm/classlib/src/main/java/org/threeten/bp/chrono/Chronology.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/transformation/ClassInitInsertion.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/cache/ProgramIO.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/optimization/VariableEscapeAnalyzer.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tests/src/test/java/org/teavm/classlib/java/lang/reflect/ConstructorTest.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/analysis/NullnessInformationBuilder.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/optimization/GlobalValueNumbering.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/dependency/ClassClosureAnalyzer.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/optimization/ScalarReplacement.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/chrome-rdp/src/main/java/org/teavm/chromerdp/ChromeRDPDebuggerEndpoint.java
+- applying ForLoopToFunctional into /home/dataset/teavm/jso/impl/src/main/java/org/teavm/jso/impl/JSDependencyListener.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/instructions/SwitchInstruction.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/core/src/main/java/org/teavm/tooling/TeaVMTool.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/ast/InvocationExpr.java
+- applying ForLoopToFunctional into /home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/java/text/TMessageFormat.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/util/RegisterAllocator.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/eclipse/plugin/src/main/java/org/teavm/eclipse/TeaVMProjectBuilder.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/optimization/UnusedFunctionElimination.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/optimization/LoopInversionImpl.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/debug/parser/DebugClassLayoutParser.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/eclipse/plugin/src/main/java/org/teavm/eclipse/PreferencesBasedTeaVMProjectSettings.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/common/GraphIndexer.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/lowlevel/ShadowStackTransformer.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/common/CachedFunction.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/cache/ClassIO.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/devserver/src/main/java/org/teavm/devserver/CodeServlet.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/Sigma.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/cache/AnnotationIO.java
+- applying ForLoopToFunctional into /home/dataset/teavm/classlib/src/main/java/org/threeten/bp/zone/ZoneRulesProvider.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/lowlevel/CallSiteLocation.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/javascript/codegen/NamingOrderer.java
+- applying ForLoopToFunctional into /home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/impl/ServiceLoaderJSSupport.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/debugging/information/DebugInformation.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/parsing/substitution/ClassMappings.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/debug/parser/ControlFlowParser.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/devserver/src/main/java/org/teavm/devserver/ProxyWsClient.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/render/CBlock.java
+- applying ForLoopToFunctional into /home/dataset/teavm/classlib/src/main/java/org/teavm/classlib/impl/tz/ZoneInfoCompiler.java
+- applying ForLoopToFunctional into /home/dataset/teavm/platform/src/main/java/org/teavm/platform/plugin/PlatformPlugin.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/vm/TeaVM.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/Program.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/model/optimization/UnusedVariableElimination.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/wasm/intrinsics/GCIntrinsic.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/backend/c/util/GCVisualizer.java
+- applying ForLoopToFunctional into /home/dataset/teavm/tools/eclipse/plugin/src/main/java/org/teavm/eclipse/ui/TeaVMProfileDialog.java
+- applying ForLoopToFunctional into /home/dataset/teavm/core/src/main/java/org/teavm/common/MutableGraphNode.java
+- Number of files:  2753
+- Processed Files: 96
+- Exported Files:   96
+- Total of files changed: 137
+- Total of transformations: 137
+- Errors: 97
+- Final Time: 20230115020054
+- Elapsed Time: 499963.0ms

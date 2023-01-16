@@ -1,0 +1,57 @@
+[Project Analyzer] processing project: jackson-databind
+- Number of files:  1101
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 9
+- Final Time: 20230114234659
+- Elapsed Time: 27729.0ms
+[Project Analyzer] processing project: jackson-databind
+- applying filter pattern into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/deser/std/MapDeserializer.java
+- Number of files:  1101
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 9
+- Final Time: 20230114234720
+- Elapsed Time: 20664.0ms
+[Project Analyzer] processing project: jackson-databind
+- applying exist pattern into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotationCollector.java
+- applying exist pattern into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java
+- Number of files:  1101
+- Processed Files: 2
+- Exported Files:   2
+- Total of files changed: 3
+- Total of transformations: 3
+- Errors: 9
+- Final Time: 20230114234740
+- Elapsed Time: 20556.0ms
+[Project Analyzer] processing project: jackson-databind
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/type/ClassStack.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/introspect/BasicBeanDescription.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerBuilder.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/jsontype/TestTypeNames.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/ser/BeanSerializerModifierTest.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/util/internal/LinkedDeque.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/introspect/POJOPropertiesCollector.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/deser/impl/UnwrappedPropertyHandler.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/misc/RaceCondition738Test.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/module/SimpleSerializers.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/util/IgnorePropertiesUtil.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/introspect/AnnotatedMethodCollector.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/deser/filter/ProblemHandlerLocation1440Test.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/SequenceWriter.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/deser/BeanDeserializerFactory.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/main/java/com/fasterxml/jackson/databind/node/ArrayNode.java
+- applying ForLoopToFunctional into /home/dataset/jackson-databind/src/test/java/com/fasterxml/jackson/databind/node/ArrayNodeTest.java
+- Number of files:  1101
+- Processed Files: 18
+- Exported Files:   18
+- Total of files changed: 30
+- Total of transformations: 30
+- Errors: 37
+- Final Time: 20230114235131
+- Elapsed Time: 230333.0ms

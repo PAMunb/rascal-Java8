@@ -1,0 +1,806 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: soot
+Creating log file at: /output/log-20230115003936
+Processing soot...
+|file:///home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/callgraph/CallGraphGenerator.java|
+Ambiguity(|unknown:///|,"BlockStatement+","IWorkbenchWindow window = workbench.getActiveWorkbenchWindow();\n\t\tIWorkbenchPage page = window.getActivePage();;")
+  147 of 3804 processed succesfully!
+  178 of 3804 processed succesfully!
+  223 of 3804 processed succesfully!
+  224 of 3804 processed succesfully!
+|file:///home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/ui/PhaseOptionsDialog.java|
+ParseError(|unknown:///|(352827,1,<9836,530>,<9836,531>))
+  227 of 3804 processed succesfully!
+  228 of 3804 processed succesfully!
+  231 of 3804 processed succesfully!
+  293 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/it/java_tests/Simple.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int i = 2;;")
+|file:///home/dataset/soot/src/it/java_tests/Hello3.java|
+Ambiguity(|unknown:///|,"BlockStatement+",";\n        class LocalClass \n        {\n            int run () \n            {\n                return new LocalClass2().run();\n            }                       \n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test20.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 {\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test23.java|
+Ambiguity(|unknown:///|(1241,294,<46,8>,<56,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon\");\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test70.java|
+Ambiguity(|unknown:///|(977,326,<29,8>,<43,9>),"BlockStatements","class MyClass {\n            public void run(){\n                System.out.println(\"local inner\");\n            }\n        };\n            \n        MyClass mc = new MyClass();\n        mc.run();\n\n        Object obj = mc;\n\n        if (obj instanceof MyClass){\n            MyClass mc2 = (MyClass)obj;\n            mc2.run();\n        }")
+|file:///home/dataset/soot/src/it/java_tests/Test4.java|
+Ambiguity(|unknown:///|(1129,179,<36,8>,<41,33>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/EmptyAfterMethod.java|
+Ambiguity(|unknown:///|(904,78,<25,8>,<27,19>),"BlockStatements","EmptyAfterMethod eam = new EmptyAfterMethod();\n        ;; \n        eam.init();")
+|file:///home/dataset/soot/src/it/java_tests/Test76.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*x*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test49.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyClass2 {\n                    public void run(){\n                        System.out.println(s);\n                    }\n                };")
+|file:///home/dataset/soot/src/it/java_tests/Test73.java|
+Ambiguity(|unknown:///|,"BlockStatement+","new MyListener () {\n            public void action(){\n                System.out.println(\"Smile: \"+o2);\n            }\n        }.action();\n        class MyClass {\n            public void action(){\n                System.out.println(\"Smile: \"+o3);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test71.java|
+Ambiguity(|unknown:///|(980,249,<30,8>,<39,52>),"BlockStatements","class MyClass {\n            public void run(){\n                System.out.println(MyClass.class.getName());\n            }\n        };\n\n        MyClass mc = new MyClass();\n        mc.run();\n        \n        System.out.println(MyClass.class.getName());")
+  390 of 3804 processed succesfully!
+  403 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/it/java_tests/Hello2.java|
+Ambiguity(|unknown:///|(948,977,<32,2>,<69,32>),"BlockStatements","class LocalClass \n\t\t{\n\t\t\tclass InnerClass \n\t\t\t{\n\t\t\t\tint run () \n\t\t\t\t{\n                    //System.out.println(\"in InnerClass run()\");\n\t\t\t\t\tclass LocalClassNeverUsed\n\t\t\t\t\t{\n\t\t\t\t\t\tint run () // this is never called\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\treturn i;\n\t\t\t\t\t\t}\n                        \n\t\t\t\t\t}\n\t\t\t\t\tnew LocalClassNeverUsed().run();\n\t\t\t\t\treturn new LocalClass().run();\n\t\t\t\t}\n\t\t\t}\n\t\t\tint run () \n\t\t\t{\n                //System.out.println(\"c: \"+c);\n                //c--;\n                //System.out.println(\"c: \"+c);\n                \n\t\t\t\tif (c--\<0) /* prevent stack overflow*///{\n\t\t\t\t    //System.out.println(\"returning 0\");\n                    return 0;\n                //}\n\t\t\t\t//System.out.println(\"will created InnerClass\");\n                InnerClass ic = new InnerClass();\n\t\t\t\t//System.out.println(\"created InnerClass\");\n                return ic.run();\n\t\t\t\t//return new InnerClass().run();\n\t\t\t}\t\t\t\n\t\t};\n        //System.out.println(\"returning from foo\");\n\t\treturn new LocalClass().run();")
+|file:///home/dataset/soot/src/it/java_tests/Test72.java|
+Ambiguity(|unknown:///|(980,502,<30,8>,<46,18>),"BlockStatements","class MyClass {\n            public void run(int x){\n                if (x % 3 == 0){\n                    System.out.println(x+\" is a multiple of 3\");\n                }\n                else if (x % 3 == 1) {\n                    System.out.println(x+\" mod 3 is 1\");\n                }\n                else {\n                    assert x % 3 == 2: x;\n                    System.out.println(x+\" mod 3 is 2\");\n                }\n            }\n        };\n\n        MyClass mc = new MyClass();\n        mc.run(7);")
+|file:///home/dataset/soot/src/it/java_tests/Test24.java|
+Ambiguity(|unknown:///|(1237,298,<45,8>,<55,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon: \"+j);\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test82.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 {\n            public int x = 9;\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+  455 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/it/java_tests/Test17.java|
+Ambiguity(|unknown:///|(978,159,<30,8>,<35,35>),"BlockStatements","class MyListener1 {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test32.java|
+Ambiguity(|unknown:///|(1089,171,<37,12>,<42,35>),"BlockStatements","class Helper2 {\n                public void action(){\n                    System.out.println(\"Smile\");\n                }\n            };\n            new Helper2().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test75.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper4{\n                                    public void action(){\n                                        System.out.println(x*x*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test28.java|
+Ambiguity(|unknown:///|(1241,294,<46,8>,<56,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon\");\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test43.java|
+Ambiguity(|unknown:///|(1032,180,<33,8>,<38,35>),"BlockStatements","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Simple2.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int i = 2;\n        ;")
+|file:///home/dataset/soot/src/it/java_tests/Test61.java|
+Ambiguity(|unknown:///|(1015,194,<31,32>,<38,13>),"Block","{\n                \n                class Helper1 {\n                    public void action(){\n                        System.out.println(x);\n                    }\n                };\n            }")
+|file:///home/dataset/soot/src/it/java_tests/Test58.java|
+Ambiguity(|unknown:///|(1039,272,<32,16>,<39,46>),"BlockStatements","class MyClass2{\n                    public void run(){\n                        System.out.println(\"MyClass2\");\n                    }\n                };\n                MyClass2 mc2 = new MyClass2();\n                mc2.run();\n                System.out.println(\"MyClass\");")
+|file:///home/dataset/soot/src/it/java_tests/Test8.java|
+Ambiguity(|unknown:///|(1028,181,<33,8>,<38,35>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test77.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*y*x*x*x);\n                                    }\n                                };")
+  585 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/it/java_tests/Test101.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*y*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test9.java|
+Ambiguity(|unknown:///|(1050,235,<35,8>,<42,20>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile: \"+x);\n                go();\n            }\n        };\n        MyListener ml = new MyListener1();\n        ml.action();")
+  596 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/it/java_tests/Test56.java|
+Ambiguity(|unknown:///|(950,136,<28,39>,<35,5>),"Block","{\n        class Helper{\n        \n            public void action(){\n                System.out.println(x);\n            }\n        };\n    }")
+  598 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/it/java_tests/Test7.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test13.java|
+Ambiguity(|unknown:///|(1136,179,<37,8>,<42,33>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/Test47.java|
+Ambiguity(|unknown:///|(980,319,<30,8>,<42,16>),"BlockStatements","class MyClass{\n            public int x = 9;\n            public void run(){\n                System.out.println(x);\n            }\n        };\n        MyClass mc = new MyClass();\n        mc.run();\n        new MyClass(){\n            public void run(){\n                System.out.println(x*x);\n            }\n        }.run();")
+  609 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/it/java_tests/InitTest4.java|
+Ambiguity(|unknown:///|,"BlockStatement+","it.run();\n        //Inner1 in = new Inner1();\n        class MyClass extends Inner2{\n            public void m() {\n                System.out.println(\"hello from anon subtype of inner 1\");\n            }\n        };")
+  620 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/it/java_tests/Test3.java|
+Ambiguity(|unknown:///|(1098,198,<35,12>,<40,37>),"BlockStatements","class MyListener1 implements MyListener{\n                public void action(){\n                    System.out.println(\"Smile\");\n                }\n            };\n            return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/InitTest5.java|
+Ambiguity(|unknown:///|,"BlockStatement+","it.run();\n        //Inner1 in = new Inner1();\n        class MyClass extends Inner2{\n            public void m() {\n                System.out.println(\"hello from anon subtype of inner 1\");\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test16.java|
+Ambiguity(|unknown:///|(1030,180,<34,8>,<39,35>),"BlockStatements","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/systemTest/targets/soot/lambdaMetaFactory/Adapt.java|
+Ambiguity(|unknown:///|(2734,3540,<73,0>,<213,2>),"TypeDeclaration","public class Adapt {\n\n  public void parameterBoxingTarget() {\n    parameterBoxing(p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p));\n  }\n\n  public void parameterBoxing(IntInterfaceParam I0param, IntegerInterfaceParam I1param, LongInterfaceParam L0param) {\n    // unbox; parameter\n    // CASE 8\n    // JLS 5.1.8\n    // Integer -\> int\n    IntegerInterfaceParam I1var = I0param::adapt;\n    I1var.adapt(Integer.valueOf(1));\n\n    // unbox, widen; parameter\n    // CASE 9\n    // JLS 5.1.8, 5.1.2\n    // Short -\> short -\> int\n    ShortInterfaceParam S1var = I0param::adapt;\n    S1var.adapt(Short.valueOf((short) 1));\n\n    // auto box; parameter\n    // CASE 6\n    // JLS 5.1.7\n    // int -\> Integer\n    IntInterfaceParam I0var = I1param::adapt;\n    I0var.adapt(1);\n\n  }\n\n  public void parameterWidening() {\n    parameterWidening(p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p),\n        p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p));\n  }\n\n  public void parameterWidening(IntInterfaceParam I0param, IntegerInterfaceParam I1param, LongInterfaceParam L0param,\n      FloatInterfaceParam F0param, NumberInterfaceParam Nparam, ObjectInterfaceParam Oparam) {\n    // primitive widening; parameter\n    // CASE 2\n    // JLS 5.1.2\n    // int -\> long\n    IntInterfaceParam I0var = L0param::adapt;\n    I0var.adapt(1);\n\n    // primitive widening; parameter\n    // CASE 2\n    // JLS 5.1.2\n    // int -\> float\n    /* IntInterfaceParam */\n    I0var = F0param::adapt;\n    I0var.adapt(1);\n\n    // autobox followed by reference widening\n    // CASE 7 (which includes CASE 3)\n    // JLS 5.1.2, 5.1.5\n    // int -\> Integer -\> Number\n    /* IntInterfaceParam */\n    I0var = Nparam::adapt;\n\n    // autobox followed by reference widening\n    // CASE 7 (which includes CASE 3)\n    // JLS 5.1.2, 5.1.5\n    // int -\> Integer -\> Object\n    /* IntInterfaceParam */\n    I0var = Oparam::adapt;\n\n  }\n\n  public void returnBoxing() {\n    returnBoxing(() -\> 1, () -\> new Integer(2), () -\> 3L);\n  }\n\n  public void returnBoxing(IntInterfaceReturn I0param, IntegerInterfaceReturn I1param, LongInterfaceReturn L0param) {\n    // unbox; parameter\n    // Integer -\> int\n    IntegerInterfaceReturn I1var = I0param::adapt;\n    I1var.adapt();\n\n    // auto box; parameter\n    // int -\> Integer\n    IntInterfaceReturn I0var = I1param::adapt;\n    I0var.adapt();\n  }\n\n  public void returnWidening() {\n    returnWidening(() -\> 1, () -\> new Integer(2), () -\> 3L);\n  }\n\n  public void returnWidening(IntInterfaceReturn I0param, IntegerInterfaceReturn I1param, LongInterfaceReturn L0param) {\n    // primitive widening; return\n    // JLS 5.1.2\n    // int -\> long\n    LongInterfaceReturn L0var = I0param::adapt;\n    L0var.adapt();\n  }\n\n  interface ShortInterfaceParam {\n    public void adapt(Short p);\n  }\n\n  interface IntInterfaceParam {\n    public void adapt(int p);\n  }\n\n  interface IntegerInterfaceParam {\n    public void adapt(Integer p);\n  }\n\n  interface LongInterfaceParam {\n    public void adapt(long p);\n  }\n\n  interface FloatInterfaceParam {\n    public void adapt(float p);\n  }\n\n  interface NumberInterfaceParam {\n    public void adapt(Number p);\n  }\n\n  interface ObjectInterfaceParam {\n    public void adapt(Object p);\n  }\n\n  interface IntInterfaceReturn {\n    public int adapt();\n  }\n\n  interface ShortInterfaceReturn {\n    public short adapt();\n  }\n\n  interface IntegerInterfaceReturn {\n    public Integer adapt();\n  }\n\n  interface LongInterfaceReturn {\n    public long adapt();\n  }\n\n};")
+  1641 of 3804 processed succesfully!
+  1662 of 3804 processed succesfully!
+  1675 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/baf/toolkits/base/StackTypesValidator.java|
+ParseError(|unknown:///|(8035,1,<250,48>,<250,49>))
+  2565 of 3804 processed succesfully!
+  2754 of 3804 processed succesfully!
+  2760 of 3804 processed succesfully!
+  2778 of 3804 processed succesfully!
+  2789 of 3804 processed succesfully!
+  2865 of 3804 processed succesfully!
+  2871 of 3804 processed succesfully!
+  2901 of 3804 processed succesfully!
+  2958 of 3804 processed succesfully!
+  3439 of 3804 processed succesfully!
+  3440 of 3804 processed succesfully!
+  3441 of 3804 processed succesfully!
+31
+[Project Analyzer] project: soot
+Processing soot...
+|file:///home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/callgraph/CallGraphGenerator.java|
+Ambiguity(|unknown:///|,"BlockStatement+","IWorkbenchWindow window = workbench.getActiveWorkbenchWindow();\n\t\tIWorkbenchPage page = window.getActivePage();;")
+|file:///home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/ui/PhaseOptionsDialog.java|
+ParseError(|unknown:///|(352827,1,<9836,530>,<9836,531>))
+|file:///home/dataset/soot/src/it/java_tests/Simple.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int i = 2;;")
+|file:///home/dataset/soot/src/it/java_tests/Hello3.java|
+Ambiguity(|unknown:///|,"BlockStatement+",";\n        class LocalClass \n        {\n            int run () \n            {\n                return new LocalClass2().run();\n            }                       \n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test20.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 {\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test23.java|
+Ambiguity(|unknown:///|(1241,294,<46,8>,<56,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon\");\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test70.java|
+Ambiguity(|unknown:///|(977,326,<29,8>,<43,9>),"BlockStatements","class MyClass {\n            public void run(){\n                System.out.println(\"local inner\");\n            }\n        };\n            \n        MyClass mc = new MyClass();\n        mc.run();\n\n        Object obj = mc;\n\n        if (obj instanceof MyClass){\n            MyClass mc2 = (MyClass)obj;\n            mc2.run();\n        }")
+|file:///home/dataset/soot/src/it/java_tests/Test4.java|
+Ambiguity(|unknown:///|(1129,179,<36,8>,<41,33>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/EmptyAfterMethod.java|
+Ambiguity(|unknown:///|(904,78,<25,8>,<27,19>),"BlockStatements","EmptyAfterMethod eam = new EmptyAfterMethod();\n        ;; \n        eam.init();")
+|file:///home/dataset/soot/src/it/java_tests/Test76.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*x*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test49.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyClass2 {\n                    public void run(){\n                        System.out.println(s);\n                    }\n                };")
+|file:///home/dataset/soot/src/it/java_tests/Test73.java|
+Ambiguity(|unknown:///|,"BlockStatement+","new MyListener () {\n            public void action(){\n                System.out.println(\"Smile: \"+o2);\n            }\n        }.action();\n        class MyClass {\n            public void action(){\n                System.out.println(\"Smile: \"+o3);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test71.java|
+Ambiguity(|unknown:///|(980,249,<30,8>,<39,52>),"BlockStatements","class MyClass {\n            public void run(){\n                System.out.println(MyClass.class.getName());\n            }\n        };\n\n        MyClass mc = new MyClass();\n        mc.run();\n        \n        System.out.println(MyClass.class.getName());")
+|file:///home/dataset/soot/src/it/java_tests/Hello2.java|
+Ambiguity(|unknown:///|(948,977,<32,2>,<69,32>),"BlockStatements","class LocalClass \n\t\t{\n\t\t\tclass InnerClass \n\t\t\t{\n\t\t\t\tint run () \n\t\t\t\t{\n                    //System.out.println(\"in InnerClass run()\");\n\t\t\t\t\tclass LocalClassNeverUsed\n\t\t\t\t\t{\n\t\t\t\t\t\tint run () // this is never called\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\treturn i;\n\t\t\t\t\t\t}\n                        \n\t\t\t\t\t}\n\t\t\t\t\tnew LocalClassNeverUsed().run();\n\t\t\t\t\treturn new LocalClass().run();\n\t\t\t\t}\n\t\t\t}\n\t\t\tint run () \n\t\t\t{\n                //System.out.println(\"c: \"+c);\n                //c--;\n                //System.out.println(\"c: \"+c);\n                \n\t\t\t\tif (c--\<0) /* prevent stack overflow*///{\n\t\t\t\t    //System.out.println(\"returning 0\");\n                    return 0;\n                //}\n\t\t\t\t//System.out.println(\"will created InnerClass\");\n                InnerClass ic = new InnerClass();\n\t\t\t\t//System.out.println(\"created InnerClass\");\n                return ic.run();\n\t\t\t\t//return new InnerClass().run();\n\t\t\t}\t\t\t\n\t\t};\n        //System.out.println(\"returning from foo\");\n\t\treturn new LocalClass().run();")
+|file:///home/dataset/soot/src/it/java_tests/Test72.java|
+Ambiguity(|unknown:///|(980,502,<30,8>,<46,18>),"BlockStatements","class MyClass {\n            public void run(int x){\n                if (x % 3 == 0){\n                    System.out.println(x+\" is a multiple of 3\");\n                }\n                else if (x % 3 == 1) {\n                    System.out.println(x+\" mod 3 is 1\");\n                }\n                else {\n                    assert x % 3 == 2: x;\n                    System.out.println(x+\" mod 3 is 2\");\n                }\n            }\n        };\n\n        MyClass mc = new MyClass();\n        mc.run(7);")
+|file:///home/dataset/soot/src/it/java_tests/Test24.java|
+Ambiguity(|unknown:///|(1237,298,<45,8>,<55,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon: \"+j);\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test82.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 {\n            public int x = 9;\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test17.java|
+Ambiguity(|unknown:///|(978,159,<30,8>,<35,35>),"BlockStatements","class MyListener1 {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test32.java|
+Ambiguity(|unknown:///|(1089,171,<37,12>,<42,35>),"BlockStatements","class Helper2 {\n                public void action(){\n                    System.out.println(\"Smile\");\n                }\n            };\n            new Helper2().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test75.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper4{\n                                    public void action(){\n                                        System.out.println(x*x*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test28.java|
+Ambiguity(|unknown:///|(1241,294,<46,8>,<56,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon\");\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test43.java|
+Ambiguity(|unknown:///|(1032,180,<33,8>,<38,35>),"BlockStatements","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Simple2.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int i = 2;\n        ;")
+|file:///home/dataset/soot/src/it/java_tests/Test61.java|
+Ambiguity(|unknown:///|(1015,194,<31,32>,<38,13>),"Block","{\n                \n                class Helper1 {\n                    public void action(){\n                        System.out.println(x);\n                    }\n                };\n            }")
+|file:///home/dataset/soot/src/it/java_tests/Test58.java|
+Ambiguity(|unknown:///|(1039,272,<32,16>,<39,46>),"BlockStatements","class MyClass2{\n                    public void run(){\n                        System.out.println(\"MyClass2\");\n                    }\n                };\n                MyClass2 mc2 = new MyClass2();\n                mc2.run();\n                System.out.println(\"MyClass\");")
+|file:///home/dataset/soot/src/it/java_tests/Test8.java|
+Ambiguity(|unknown:///|(1028,181,<33,8>,<38,35>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test77.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*y*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test101.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*y*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test9.java|
+Ambiguity(|unknown:///|(1050,235,<35,8>,<42,20>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile: \"+x);\n                go();\n            }\n        };\n        MyListener ml = new MyListener1();\n        ml.action();")
+|file:///home/dataset/soot/src/it/java_tests/Test56.java|
+Ambiguity(|unknown:///|(950,136,<28,39>,<35,5>),"Block","{\n        class Helper{\n        \n            public void action(){\n                System.out.println(x);\n            }\n        };\n    }")
+|file:///home/dataset/soot/src/it/java_tests/Test7.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test13.java|
+Ambiguity(|unknown:///|(1136,179,<37,8>,<42,33>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/Test47.java|
+Ambiguity(|unknown:///|(980,319,<30,8>,<42,16>),"BlockStatements","class MyClass{\n            public int x = 9;\n            public void run(){\n                System.out.println(x);\n            }\n        };\n        MyClass mc = new MyClass();\n        mc.run();\n        new MyClass(){\n            public void run(){\n                System.out.println(x*x);\n            }\n        }.run();")
+|file:///home/dataset/soot/src/it/java_tests/InitTest4.java|
+Ambiguity(|unknown:///|,"BlockStatement+","it.run();\n        //Inner1 in = new Inner1();\n        class MyClass extends Inner2{\n            public void m() {\n                System.out.println(\"hello from anon subtype of inner 1\");\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test3.java|
+Ambiguity(|unknown:///|(1098,198,<35,12>,<40,37>),"BlockStatements","class MyListener1 implements MyListener{\n                public void action(){\n                    System.out.println(\"Smile\");\n                }\n            };\n            return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/InitTest5.java|
+Ambiguity(|unknown:///|,"BlockStatement+","it.run();\n        //Inner1 in = new Inner1();\n        class MyClass extends Inner2{\n            public void m() {\n                System.out.println(\"hello from anon subtype of inner 1\");\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test16.java|
+Ambiguity(|unknown:///|(1030,180,<34,8>,<39,35>),"BlockStatements","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/systemTest/targets/soot/lambdaMetaFactory/Adapt.java|
+Ambiguity(|unknown:///|(2734,3540,<73,0>,<213,2>),"TypeDeclaration","public class Adapt {\n\n  public void parameterBoxingTarget() {\n    parameterBoxing(p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p));\n  }\n\n  public void parameterBoxing(IntInterfaceParam I0param, IntegerInterfaceParam I1param, LongInterfaceParam L0param) {\n    // unbox; parameter\n    // CASE 8\n    // JLS 5.1.8\n    // Integer -\> int\n    IntegerInterfaceParam I1var = I0param::adapt;\n    I1var.adapt(Integer.valueOf(1));\n\n    // unbox, widen; parameter\n    // CASE 9\n    // JLS 5.1.8, 5.1.2\n    // Short -\> short -\> int\n    ShortInterfaceParam S1var = I0param::adapt;\n    S1var.adapt(Short.valueOf((short) 1));\n\n    // auto box; parameter\n    // CASE 6\n    // JLS 5.1.7\n    // int -\> Integer\n    IntInterfaceParam I0var = I1param::adapt;\n    I0var.adapt(1);\n\n  }\n\n  public void parameterWidening() {\n    parameterWidening(p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p),\n        p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p));\n  }\n\n  public void parameterWidening(IntInterfaceParam I0param, IntegerInterfaceParam I1param, LongInterfaceParam L0param,\n      FloatInterfaceParam F0param, NumberInterfaceParam Nparam, ObjectInterfaceParam Oparam) {\n    // primitive widening; parameter\n    // CASE 2\n    // JLS 5.1.2\n    // int -\> long\n    IntInterfaceParam I0var = L0param::adapt;\n    I0var.adapt(1);\n\n    // primitive widening; parameter\n    // CASE 2\n    // JLS 5.1.2\n    // int -\> float\n    /* IntInterfaceParam */\n    I0var = F0param::adapt;\n    I0var.adapt(1);\n\n    // autobox followed by reference widening\n    // CASE 7 (which includes CASE 3)\n    // JLS 5.1.2, 5.1.5\n    // int -\> Integer -\> Number\n    /* IntInterfaceParam */\n    I0var = Nparam::adapt;\n\n    // autobox followed by reference widening\n    // CASE 7 (which includes CASE 3)\n    // JLS 5.1.2, 5.1.5\n    // int -\> Integer -\> Object\n    /* IntInterfaceParam */\n    I0var = Oparam::adapt;\n\n  }\n\n  public void returnBoxing() {\n    returnBoxing(() -\> 1, () -\> new Integer(2), () -\> 3L);\n  }\n\n  public void returnBoxing(IntInterfaceReturn I0param, IntegerInterfaceReturn I1param, LongInterfaceReturn L0param) {\n    // unbox; parameter\n    // Integer -\> int\n    IntegerInterfaceReturn I1var = I0param::adapt;\n    I1var.adapt();\n\n    // auto box; parameter\n    // int -\> Integer\n    IntInterfaceReturn I0var = I1param::adapt;\n    I0var.adapt();\n  }\n\n  public void returnWidening() {\n    returnWidening(() -\> 1, () -\> new Integer(2), () -\> 3L);\n  }\n\n  public void returnWidening(IntInterfaceReturn I0param, IntegerInterfaceReturn I1param, LongInterfaceReturn L0param) {\n    // primitive widening; return\n    // JLS 5.1.2\n    // int -\> long\n    LongInterfaceReturn L0var = I0param::adapt;\n    L0var.adapt();\n  }\n\n  interface ShortInterfaceParam {\n    public void adapt(Short p);\n  }\n\n  interface IntInterfaceParam {\n    public void adapt(int p);\n  }\n\n  interface IntegerInterfaceParam {\n    public void adapt(Integer p);\n  }\n\n  interface LongInterfaceParam {\n    public void adapt(long p);\n  }\n\n  interface FloatInterfaceParam {\n    public void adapt(float p);\n  }\n\n  interface NumberInterfaceParam {\n    public void adapt(Number p);\n  }\n\n  interface ObjectInterfaceParam {\n    public void adapt(Object p);\n  }\n\n  interface IntInterfaceReturn {\n    public int adapt();\n  }\n\n  interface ShortInterfaceReturn {\n    public short adapt();\n  }\n\n  interface IntegerInterfaceReturn {\n    public Integer adapt();\n  }\n\n  interface LongInterfaceReturn {\n    public long adapt();\n  }\n\n};")
+  910 of 3804 processed succesfully!
+  1687 of 3804 processed succesfully!
+  1843 of 3804 processed succesfully!
+  1907 of 3804 processed succesfully!
+  1994 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/baf/toolkits/base/StackTypesValidator.java|
+ParseError(|unknown:///|(8035,1,<250,48>,<250,49>))
+  2521 of 3804 processed succesfully!
+  2753 of 3804 processed succesfully!
+  2865 of 3804 processed succesfully!
+8
+[Project Analyzer] project: soot
+Processing soot...
+|file:///home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/callgraph/CallGraphGenerator.java|
+Ambiguity(|unknown:///|,"BlockStatement+","IWorkbenchWindow window = workbench.getActiveWorkbenchWindow();\n\t\tIWorkbenchPage page = window.getActivePage();;")
+|file:///home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/ui/PhaseOptionsDialog.java|
+ParseError(|unknown:///|(352827,1,<9836,530>,<9836,531>))
+|file:///home/dataset/soot/src/it/java_tests/Simple.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int i = 2;;")
+|file:///home/dataset/soot/src/it/java_tests/Hello3.java|
+Ambiguity(|unknown:///|,"BlockStatement+",";\n        class LocalClass \n        {\n            int run () \n            {\n                return new LocalClass2().run();\n            }                       \n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test20.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 {\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test23.java|
+Ambiguity(|unknown:///|(1241,294,<46,8>,<56,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon\");\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test70.java|
+Ambiguity(|unknown:///|(977,326,<29,8>,<43,9>),"BlockStatements","class MyClass {\n            public void run(){\n                System.out.println(\"local inner\");\n            }\n        };\n            \n        MyClass mc = new MyClass();\n        mc.run();\n\n        Object obj = mc;\n\n        if (obj instanceof MyClass){\n            MyClass mc2 = (MyClass)obj;\n            mc2.run();\n        }")
+|file:///home/dataset/soot/src/it/java_tests/Test4.java|
+Ambiguity(|unknown:///|(1129,179,<36,8>,<41,33>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/EmptyAfterMethod.java|
+Ambiguity(|unknown:///|(904,78,<25,8>,<27,19>),"BlockStatements","EmptyAfterMethod eam = new EmptyAfterMethod();\n        ;; \n        eam.init();")
+|file:///home/dataset/soot/src/it/java_tests/Test76.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*x*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test49.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyClass2 {\n                    public void run(){\n                        System.out.println(s);\n                    }\n                };")
+|file:///home/dataset/soot/src/it/java_tests/Test73.java|
+Ambiguity(|unknown:///|,"BlockStatement+","new MyListener () {\n            public void action(){\n                System.out.println(\"Smile: \"+o2);\n            }\n        }.action();\n        class MyClass {\n            public void action(){\n                System.out.println(\"Smile: \"+o3);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test71.java|
+Ambiguity(|unknown:///|(980,249,<30,8>,<39,52>),"BlockStatements","class MyClass {\n            public void run(){\n                System.out.println(MyClass.class.getName());\n            }\n        };\n\n        MyClass mc = new MyClass();\n        mc.run();\n        \n        System.out.println(MyClass.class.getName());")
+|file:///home/dataset/soot/src/it/java_tests/Hello2.java|
+Ambiguity(|unknown:///|(948,977,<32,2>,<69,32>),"BlockStatements","class LocalClass \n\t\t{\n\t\t\tclass InnerClass \n\t\t\t{\n\t\t\t\tint run () \n\t\t\t\t{\n                    //System.out.println(\"in InnerClass run()\");\n\t\t\t\t\tclass LocalClassNeverUsed\n\t\t\t\t\t{\n\t\t\t\t\t\tint run () // this is never called\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\treturn i;\n\t\t\t\t\t\t}\n                        \n\t\t\t\t\t}\n\t\t\t\t\tnew LocalClassNeverUsed().run();\n\t\t\t\t\treturn new LocalClass().run();\n\t\t\t\t}\n\t\t\t}\n\t\t\tint run () \n\t\t\t{\n                //System.out.println(\"c: \"+c);\n                //c--;\n                //System.out.println(\"c: \"+c);\n                \n\t\t\t\tif (c--\<0) /* prevent stack overflow*///{\n\t\t\t\t    //System.out.println(\"returning 0\");\n                    return 0;\n                //}\n\t\t\t\t//System.out.println(\"will created InnerClass\");\n                InnerClass ic = new InnerClass();\n\t\t\t\t//System.out.println(\"created InnerClass\");\n                return ic.run();\n\t\t\t\t//return new InnerClass().run();\n\t\t\t}\t\t\t\n\t\t};\n        //System.out.println(\"returning from foo\");\n\t\treturn new LocalClass().run();")
+|file:///home/dataset/soot/src/it/java_tests/Test72.java|
+Ambiguity(|unknown:///|(980,502,<30,8>,<46,18>),"BlockStatements","class MyClass {\n            public void run(int x){\n                if (x % 3 == 0){\n                    System.out.println(x+\" is a multiple of 3\");\n                }\n                else if (x % 3 == 1) {\n                    System.out.println(x+\" mod 3 is 1\");\n                }\n                else {\n                    assert x % 3 == 2: x;\n                    System.out.println(x+\" mod 3 is 2\");\n                }\n            }\n        };\n\n        MyClass mc = new MyClass();\n        mc.run(7);")
+|file:///home/dataset/soot/src/it/java_tests/Test24.java|
+Ambiguity(|unknown:///|(1237,298,<45,8>,<55,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon: \"+j);\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test82.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 {\n            public int x = 9;\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test17.java|
+Ambiguity(|unknown:///|(978,159,<30,8>,<35,35>),"BlockStatements","class MyListener1 {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test32.java|
+Ambiguity(|unknown:///|(1089,171,<37,12>,<42,35>),"BlockStatements","class Helper2 {\n                public void action(){\n                    System.out.println(\"Smile\");\n                }\n            };\n            new Helper2().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test75.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper4{\n                                    public void action(){\n                                        System.out.println(x*x*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test28.java|
+Ambiguity(|unknown:///|(1241,294,<46,8>,<56,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon\");\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test43.java|
+Ambiguity(|unknown:///|(1032,180,<33,8>,<38,35>),"BlockStatements","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Simple2.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int i = 2;\n        ;")
+|file:///home/dataset/soot/src/it/java_tests/Test61.java|
+Ambiguity(|unknown:///|(1015,194,<31,32>,<38,13>),"Block","{\n                \n                class Helper1 {\n                    public void action(){\n                        System.out.println(x);\n                    }\n                };\n            }")
+|file:///home/dataset/soot/src/it/java_tests/Test58.java|
+Ambiguity(|unknown:///|(1039,272,<32,16>,<39,46>),"BlockStatements","class MyClass2{\n                    public void run(){\n                        System.out.println(\"MyClass2\");\n                    }\n                };\n                MyClass2 mc2 = new MyClass2();\n                mc2.run();\n                System.out.println(\"MyClass\");")
+|file:///home/dataset/soot/src/it/java_tests/Test8.java|
+Ambiguity(|unknown:///|(1028,181,<33,8>,<38,35>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test77.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*y*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test101.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*y*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test9.java|
+Ambiguity(|unknown:///|(1050,235,<35,8>,<42,20>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile: \"+x);\n                go();\n            }\n        };\n        MyListener ml = new MyListener1();\n        ml.action();")
+|file:///home/dataset/soot/src/it/java_tests/Test56.java|
+Ambiguity(|unknown:///|(950,136,<28,39>,<35,5>),"Block","{\n        class Helper{\n        \n            public void action(){\n                System.out.println(x);\n            }\n        };\n    }")
+|file:///home/dataset/soot/src/it/java_tests/Test7.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test13.java|
+Ambiguity(|unknown:///|(1136,179,<37,8>,<42,33>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/Test47.java|
+Ambiguity(|unknown:///|(980,319,<30,8>,<42,16>),"BlockStatements","class MyClass{\n            public int x = 9;\n            public void run(){\n                System.out.println(x);\n            }\n        };\n        MyClass mc = new MyClass();\n        mc.run();\n        new MyClass(){\n            public void run(){\n                System.out.println(x*x);\n            }\n        }.run();")
+|file:///home/dataset/soot/src/it/java_tests/InitTest4.java|
+Ambiguity(|unknown:///|,"BlockStatement+","it.run();\n        //Inner1 in = new Inner1();\n        class MyClass extends Inner2{\n            public void m() {\n                System.out.println(\"hello from anon subtype of inner 1\");\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test3.java|
+Ambiguity(|unknown:///|(1098,198,<35,12>,<40,37>),"BlockStatements","class MyListener1 implements MyListener{\n                public void action(){\n                    System.out.println(\"Smile\");\n                }\n            };\n            return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/InitTest5.java|
+Ambiguity(|unknown:///|,"BlockStatement+","it.run();\n        //Inner1 in = new Inner1();\n        class MyClass extends Inner2{\n            public void m() {\n                System.out.println(\"hello from anon subtype of inner 1\");\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test16.java|
+Ambiguity(|unknown:///|(1030,180,<34,8>,<39,35>),"BlockStatements","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/systemTest/targets/soot/lambdaMetaFactory/Adapt.java|
+Ambiguity(|unknown:///|(2734,3540,<73,0>,<213,2>),"TypeDeclaration","public class Adapt {\n\n  public void parameterBoxingTarget() {\n    parameterBoxing(p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p));\n  }\n\n  public void parameterBoxing(IntInterfaceParam I0param, IntegerInterfaceParam I1param, LongInterfaceParam L0param) {\n    // unbox; parameter\n    // CASE 8\n    // JLS 5.1.8\n    // Integer -\> int\n    IntegerInterfaceParam I1var = I0param::adapt;\n    I1var.adapt(Integer.valueOf(1));\n\n    // unbox, widen; parameter\n    // CASE 9\n    // JLS 5.1.8, 5.1.2\n    // Short -\> short -\> int\n    ShortInterfaceParam S1var = I0param::adapt;\n    S1var.adapt(Short.valueOf((short) 1));\n\n    // auto box; parameter\n    // CASE 6\n    // JLS 5.1.7\n    // int -\> Integer\n    IntInterfaceParam I0var = I1param::adapt;\n    I0var.adapt(1);\n\n  }\n\n  public void parameterWidening() {\n    parameterWidening(p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p),\n        p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p));\n  }\n\n  public void parameterWidening(IntInterfaceParam I0param, IntegerInterfaceParam I1param, LongInterfaceParam L0param,\n      FloatInterfaceParam F0param, NumberInterfaceParam Nparam, ObjectInterfaceParam Oparam) {\n    // primitive widening; parameter\n    // CASE 2\n    // JLS 5.1.2\n    // int -\> long\n    IntInterfaceParam I0var = L0param::adapt;\n    I0var.adapt(1);\n\n    // primitive widening; parameter\n    // CASE 2\n    // JLS 5.1.2\n    // int -\> float\n    /* IntInterfaceParam */\n    I0var = F0param::adapt;\n    I0var.adapt(1);\n\n    // autobox followed by reference widening\n    // CASE 7 (which includes CASE 3)\n    // JLS 5.1.2, 5.1.5\n    // int -\> Integer -\> Number\n    /* IntInterfaceParam */\n    I0var = Nparam::adapt;\n\n    // autobox followed by reference widening\n    // CASE 7 (which includes CASE 3)\n    // JLS 5.1.2, 5.1.5\n    // int -\> Integer -\> Object\n    /* IntInterfaceParam */\n    I0var = Oparam::adapt;\n\n  }\n\n  public void returnBoxing() {\n    returnBoxing(() -\> 1, () -\> new Integer(2), () -\> 3L);\n  }\n\n  public void returnBoxing(IntInterfaceReturn I0param, IntegerInterfaceReturn I1param, LongInterfaceReturn L0param) {\n    // unbox; parameter\n    // Integer -\> int\n    IntegerInterfaceReturn I1var = I0param::adapt;\n    I1var.adapt();\n\n    // auto box; parameter\n    // int -\> Integer\n    IntInterfaceReturn I0var = I1param::adapt;\n    I0var.adapt();\n  }\n\n  public void returnWidening() {\n    returnWidening(() -\> 1, () -\> new Integer(2), () -\> 3L);\n  }\n\n  public void returnWidening(IntInterfaceReturn I0param, IntegerInterfaceReturn I1param, LongInterfaceReturn L0param) {\n    // primitive widening; return\n    // JLS 5.1.2\n    // int -\> long\n    LongInterfaceReturn L0var = I0param::adapt;\n    L0var.adapt();\n  }\n\n  interface ShortInterfaceParam {\n    public void adapt(Short p);\n  }\n\n  interface IntInterfaceParam {\n    public void adapt(int p);\n  }\n\n  interface IntegerInterfaceParam {\n    public void adapt(Integer p);\n  }\n\n  interface LongInterfaceParam {\n    public void adapt(long p);\n  }\n\n  interface FloatInterfaceParam {\n    public void adapt(float p);\n  }\n\n  interface NumberInterfaceParam {\n    public void adapt(Number p);\n  }\n\n  interface ObjectInterfaceParam {\n    public void adapt(Object p);\n  }\n\n  interface IntInterfaceReturn {\n    public int adapt();\n  }\n\n  interface ShortInterfaceReturn {\n    public short adapt();\n  }\n\n  interface IntegerInterfaceReturn {\n    public Integer adapt();\n  }\n\n  interface LongInterfaceReturn {\n    public long adapt();\n  }\n\n};")
+  871 of 3804 processed succesfully!
+  905 of 3804 processed succesfully!
+  1143 of 3804 processed succesfully!
+  1664 of 3804 processed succesfully!
+  1671 of 3804 processed succesfully!
+  1798 of 3804 processed succesfully!
+  1888 of 3804 processed succesfully!
+  1914 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/baf/toolkits/base/StackTypesValidator.java|
+ParseError(|unknown:///|(8035,1,<250,48>,<250,49>))
+  2430 of 3804 processed succesfully!
+  2569 of 3804 processed succesfully!
+  2571 of 3804 processed succesfully!
+  2631 of 3804 processed succesfully!
+  2865 of 3804 processed succesfully!
+13
+[Project Analyzer] project: soot
+Processing soot...
+
+|file:///home/dataset/soot/tutorial/guide/examples/analysis_framework/src/dk/brics/soot/RunLiveAnalysis.java|
+EmptySet()
+|file:///home/dataset/soot/tutorial/guide/examples/analysis_framework/src/dk/brics/soot/RunVeryBusyAnalysis.java|
+EmptySet()
+|file:///home/dataset/soot/tutorial/guide/examples/intermediate_representation/src/dk/brics/soot/intermediate/foonalasys/Foonalasys.java|
+EmptySet()
+  24 of 3804 processed succesfully!
+  29 of 3804 processed succesfully!
+  30 of 3804 processed succesfully!
+|file:///home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/callgraph/CallGraphGenerator.java|
+Ambiguity(|unknown:///|,"BlockStatement+","IWorkbenchWindow window = workbench.getActiveWorkbenchWindow();\n\t\tIWorkbenchPage page = window.getActivePage();;")
+|file:///home/dataset/soot/eclipse/ca.mcgill.sable.soot/src/ca/mcgill/sable/soot/ui/PhaseOptionsDialog.java|
+ParseError(|unknown:///|(352827,1,<9836,530>,<9836,531>))
+|file:///home/dataset/soot/src/it/java_tests/Simple.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int i = 2;;")
+|file:///home/dataset/soot/src/it/java_tests/Hello3.java|
+Ambiguity(|unknown:///|,"BlockStatement+",";\n        class LocalClass \n        {\n            int run () \n            {\n                return new LocalClass2().run();\n            }                       \n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test20.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 {\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test23.java|
+Ambiguity(|unknown:///|(1241,294,<46,8>,<56,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon\");\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test70.java|
+Ambiguity(|unknown:///|(977,326,<29,8>,<43,9>),"BlockStatements","class MyClass {\n            public void run(){\n                System.out.println(\"local inner\");\n            }\n        };\n            \n        MyClass mc = new MyClass();\n        mc.run();\n\n        Object obj = mc;\n\n        if (obj instanceof MyClass){\n            MyClass mc2 = (MyClass)obj;\n            mc2.run();\n        }")
+|file:///home/dataset/soot/src/it/java_tests/Test4.java|
+Ambiguity(|unknown:///|(1129,179,<36,8>,<41,33>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/EmptyAfterMethod.java|
+Ambiguity(|unknown:///|(904,78,<25,8>,<27,19>),"BlockStatements","EmptyAfterMethod eam = new EmptyAfterMethod();\n        ;; \n        eam.init();")
+|file:///home/dataset/soot/src/it/java_tests/Test76.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*x*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test49.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyClass2 {\n                    public void run(){\n                        System.out.println(s);\n                    }\n                };")
+|file:///home/dataset/soot/src/it/java_tests/Test73.java|
+Ambiguity(|unknown:///|,"BlockStatement+","new MyListener () {\n            public void action(){\n                System.out.println(\"Smile: \"+o2);\n            }\n        }.action();\n        class MyClass {\n            public void action(){\n                System.out.println(\"Smile: \"+o3);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test71.java|
+Ambiguity(|unknown:///|(980,249,<30,8>,<39,52>),"BlockStatements","class MyClass {\n            public void run(){\n                System.out.println(MyClass.class.getName());\n            }\n        };\n\n        MyClass mc = new MyClass();\n        mc.run();\n        \n        System.out.println(MyClass.class.getName());")
+|file:///home/dataset/soot/src/it/java_tests/Hello2.java|
+Ambiguity(|unknown:///|(948,977,<32,2>,<69,32>),"BlockStatements","class LocalClass \n\t\t{\n\t\t\tclass InnerClass \n\t\t\t{\n\t\t\t\tint run () \n\t\t\t\t{\n                    //System.out.println(\"in InnerClass run()\");\n\t\t\t\t\tclass LocalClassNeverUsed\n\t\t\t\t\t{\n\t\t\t\t\t\tint run () // this is never called\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\treturn i;\n\t\t\t\t\t\t}\n                        \n\t\t\t\t\t}\n\t\t\t\t\tnew LocalClassNeverUsed().run();\n\t\t\t\t\treturn new LocalClass().run();\n\t\t\t\t}\n\t\t\t}\n\t\t\tint run () \n\t\t\t{\n                //System.out.println(\"c: \"+c);\n                //c--;\n                //System.out.println(\"c: \"+c);\n                \n\t\t\t\tif (c--\<0) /* prevent stack overflow*///{\n\t\t\t\t    //System.out.println(\"returning 0\");\n                    return 0;\n                //}\n\t\t\t\t//System.out.println(\"will created InnerClass\");\n                InnerClass ic = new InnerClass();\n\t\t\t\t//System.out.println(\"created InnerClass\");\n                return ic.run();\n\t\t\t\t//return new InnerClass().run();\n\t\t\t}\t\t\t\n\t\t};\n        //System.out.println(\"returning from foo\");\n\t\treturn new LocalClass().run();")
+|file:///home/dataset/soot/src/it/java_tests/Test72.java|
+Ambiguity(|unknown:///|(980,502,<30,8>,<46,18>),"BlockStatements","class MyClass {\n            public void run(int x){\n                if (x % 3 == 0){\n                    System.out.println(x+\" is a multiple of 3\");\n                }\n                else if (x % 3 == 1) {\n                    System.out.println(x+\" mod 3 is 1\");\n                }\n                else {\n                    assert x % 3 == 2: x;\n                    System.out.println(x+\" mod 3 is 2\");\n                }\n            }\n        };\n\n        MyClass mc = new MyClass();\n        mc.run(7);")
+|file:///home/dataset/soot/src/it/java_tests/Test24.java|
+Ambiguity(|unknown:///|(1237,298,<45,8>,<55,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon: \"+j);\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test82.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 {\n            public int x = 9;\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test17.java|
+Ambiguity(|unknown:///|(978,159,<30,8>,<35,35>),"BlockStatements","class MyListener1 {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test32.java|
+Ambiguity(|unknown:///|(1089,171,<37,12>,<42,35>),"BlockStatements","class Helper2 {\n                public void action(){\n                    System.out.println(\"Smile\");\n                }\n            };\n            new Helper2().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test75.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper4{\n                                    public void action(){\n                                        System.out.println(x*x*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test28.java|
+Ambiguity(|unknown:///|(1241,294,<46,8>,<56,37>),"BlockStatements","class MyHelper1 extends HelperWithParams {\n\n            public MyHelper1(){\n            }\n            public MyHelper1(int x, int y){\n            }\n            public void action(){\n                System.out.println(\"Smile Anon\");\n            }\n        };\n        new MyHelper1(2, 3).action();")
+|file:///home/dataset/soot/src/it/java_tests/Test43.java|
+Ambiguity(|unknown:///|(1032,180,<33,8>,<38,35>),"BlockStatements","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Simple2.java|
+Ambiguity(|unknown:///|,"BlockStatement+","int i = 2;\n        ;")
+|file:///home/dataset/soot/src/it/java_tests/Test61.java|
+Ambiguity(|unknown:///|(1015,194,<31,32>,<38,13>),"Block","{\n                \n                class Helper1 {\n                    public void action(){\n                        System.out.println(x);\n                    }\n                };\n            }")
+|file:///home/dataset/soot/src/it/java_tests/Test58.java|
+Ambiguity(|unknown:///|(1039,272,<32,16>,<39,46>),"BlockStatements","class MyClass2{\n                    public void run(){\n                        System.out.println(\"MyClass2\");\n                    }\n                };\n                MyClass2 mc2 = new MyClass2();\n                mc2.run();\n                System.out.println(\"MyClass\");")
+|file:///home/dataset/soot/src/it/java_tests/Test8.java|
+Ambiguity(|unknown:///|(1028,181,<33,8>,<38,35>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/it/java_tests/Test77.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*y*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test101.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyHelper2{\n                                    public void action(){\n                                        System.out.println(x*y*x*x*x);\n                                    }\n                                };")
+|file:///home/dataset/soot/src/it/java_tests/Test9.java|
+Ambiguity(|unknown:///|(1050,235,<35,8>,<42,20>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile: \"+x);\n                go();\n            }\n        };\n        MyListener ml = new MyListener1();\n        ml.action();")
+|file:///home/dataset/soot/src/it/java_tests/Test56.java|
+Ambiguity(|unknown:///|(950,136,<28,39>,<35,5>),"Block","{\n        class Helper{\n        \n            public void action(){\n                System.out.println(x);\n            }\n        };\n    }")
+|file:///home/dataset/soot/src/it/java_tests/Test7.java|
+Ambiguity(|unknown:///|,"BlockStatement+","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile: \"+atMe);\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test13.java|
+Ambiguity(|unknown:///|(1136,179,<37,8>,<42,33>),"BlockStatements","class MyListener1 implements MyListener {\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/Test47.java|
+Ambiguity(|unknown:///|(980,319,<30,8>,<42,16>),"BlockStatements","class MyClass{\n            public int x = 9;\n            public void run(){\n                System.out.println(x);\n            }\n        };\n        MyClass mc = new MyClass();\n        mc.run();\n        new MyClass(){\n            public void run(){\n                System.out.println(x*x);\n            }\n        }.run();")
+|file:///home/dataset/soot/src/it/java_tests/InitTest4.java|
+Ambiguity(|unknown:///|,"BlockStatement+","it.run();\n        //Inner1 in = new Inner1();\n        class MyClass extends Inner2{\n            public void m() {\n                System.out.println(\"hello from anon subtype of inner 1\");\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test3.java|
+Ambiguity(|unknown:///|(1098,198,<35,12>,<40,37>),"BlockStatements","class MyListener1 implements MyListener{\n                public void action(){\n                    System.out.println(\"Smile\");\n                }\n            };\n            return new MyListener1();")
+|file:///home/dataset/soot/src/it/java_tests/InitTest5.java|
+Ambiguity(|unknown:///|,"BlockStatement+","it.run();\n        //Inner1 in = new Inner1();\n        class MyClass extends Inner2{\n            public void m() {\n                System.out.println(\"hello from anon subtype of inner 1\");\n            }\n        };")
+|file:///home/dataset/soot/src/it/java_tests/Test16.java|
+Ambiguity(|unknown:///|(1030,180,<34,8>,<39,35>),"BlockStatements","class MyListener1 implements MyListener{\n            public void action(){\n                System.out.println(\"Smile\");\n            }\n        };\n        new MyListener1().action();")
+|file:///home/dataset/soot/src/systemTest/java/soot/defaultInterfaceMethods/DefaultInterfaceTest.java|
+EmptySet()
+|file:///home/dataset/soot/src/systemTest/java/soot/testing/framework/AbstractTestingFramework.java|
+EmptySet()
+|file:///home/dataset/soot/src/systemTest/java/soot/asm/AsmMethodSourceTest.java|
+EmptySet()
+|file:///home/dataset/soot/src/systemTest/targets/soot/lambdaMetaFactory/Adapt.java|
+Ambiguity(|unknown:///|(2734,3540,<73,0>,<213,2>),"TypeDeclaration","public class Adapt {\n\n  public void parameterBoxingTarget() {\n    parameterBoxing(p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p));\n  }\n\n  public void parameterBoxing(IntInterfaceParam I0param, IntegerInterfaceParam I1param, LongInterfaceParam L0param) {\n    // unbox; parameter\n    // CASE 8\n    // JLS 5.1.8\n    // Integer -\> int\n    IntegerInterfaceParam I1var = I0param::adapt;\n    I1var.adapt(Integer.valueOf(1));\n\n    // unbox, widen; parameter\n    // CASE 9\n    // JLS 5.1.8, 5.1.2\n    // Short -\> short -\> int\n    ShortInterfaceParam S1var = I0param::adapt;\n    S1var.adapt(Short.valueOf((short) 1));\n\n    // auto box; parameter\n    // CASE 6\n    // JLS 5.1.7\n    // int -\> Integer\n    IntInterfaceParam I0var = I1param::adapt;\n    I0var.adapt(1);\n\n  }\n\n  public void parameterWidening() {\n    parameterWidening(p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p),\n        p -\> System.out.println(p), p -\> System.out.println(p), p -\> System.out.println(p));\n  }\n\n  public void parameterWidening(IntInterfaceParam I0param, IntegerInterfaceParam I1param, LongInterfaceParam L0param,\n      FloatInterfaceParam F0param, NumberInterfaceParam Nparam, ObjectInterfaceParam Oparam) {\n    // primitive widening; parameter\n    // CASE 2\n    // JLS 5.1.2\n    // int -\> long\n    IntInterfaceParam I0var = L0param::adapt;\n    I0var.adapt(1);\n\n    // primitive widening; parameter\n    // CASE 2\n    // JLS 5.1.2\n    // int -\> float\n    /* IntInterfaceParam */\n    I0var = F0param::adapt;\n    I0var.adapt(1);\n\n    // autobox followed by reference widening\n    // CASE 7 (which includes CASE 3)\n    // JLS 5.1.2, 5.1.5\n    // int -\> Integer -\> Number\n    /* IntInterfaceParam */\n    I0var = Nparam::adapt;\n\n    // autobox followed by reference widening\n    // CASE 7 (which includes CASE 3)\n    // JLS 5.1.2, 5.1.5\n    // int -\> Integer -\> Object\n    /* IntInterfaceParam */\n    I0var = Oparam::adapt;\n\n  }\n\n  public void returnBoxing() {\n    returnBoxing(() -\> 1, () -\> new Integer(2), () -\> 3L);\n  }\n\n  public void returnBoxing(IntInterfaceReturn I0param, IntegerInterfaceReturn I1param, LongInterfaceReturn L0param) {\n    // unbox; parameter\n    // Integer -\> int\n    IntegerInterfaceReturn I1var = I0param::adapt;\n    I1var.adapt();\n\n    // auto box; parameter\n    // int -\> Integer\n    IntInterfaceReturn I0var = I1param::adapt;\n    I0var.adapt();\n  }\n\n  public void returnWidening() {\n    returnWidening(() -\> 1, () -\> new Integer(2), () -\> 3L);\n  }\n\n  public void returnWidening(IntInterfaceReturn I0param, IntegerInterfaceReturn I1param, LongInterfaceReturn L0param) {\n    // primitive widening; return\n    // JLS 5.1.2\n    // int -\> long\n    LongInterfaceReturn L0var = I0param::adapt;\n    L0var.adapt();\n  }\n\n  interface ShortInterfaceParam {\n    public void adapt(Short p);\n  }\n\n  interface IntInterfaceParam {\n    public void adapt(int p);\n  }\n\n  interface IntegerInterfaceParam {\n    public void adapt(Integer p);\n  }\n\n  interface LongInterfaceParam {\n    public void adapt(long p);\n  }\n\n  interface FloatInterfaceParam {\n    public void adapt(float p);\n  }\n\n  interface NumberInterfaceParam {\n    public void adapt(Number p);\n  }\n\n  interface ObjectInterfaceParam {\n    public void adapt(Object p);\n  }\n\n  interface IntInterfaceReturn {\n    public int adapt();\n  }\n\n  interface ShortInterfaceReturn {\n    public short adapt();\n  }\n\n  interface IntegerInterfaceReturn {\n    public Integer adapt();\n  }\n\n  interface LongInterfaceReturn {\n    public long adapt();\n  }\n\n};")
+  722 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/systemTest/targets/soot/asm/LineNumberExtraction.java|
+EmptySet()
+  741 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/test/java/soot/util/SmallPriorityQueueTest.java|
+EmptySet()
+|file:///home/dataset/soot/src/test/java/soot/util/LargePriorityQueueTest.java|
+EmptySet()
+|file:///home/dataset/soot/src/test/java/soot/util/MediumPriorityQueueTest.java|
+EmptySet()
+  747 of 3804 processed succesfully!
+  749 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/test/java/soot/toolkits/graph/PseudoTopologicalOrdererTestBase.java|
+EmptySet()
+|file:///home/dataset/soot/src/test/java/soot/toolkits/graph/TestDominance.java|
+EmptySet()
+|file:///home/dataset/soot/src/test/java/soot/toolkits/graph/EnhancedUnitGraphTest.java|
+EmptySet()
+  761 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/test/java/soot/toolkits/scalar/ArraySparseSetTest.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/RadioScenePack.java|
+EmptySet()
+  845 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/Main.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/PackManager.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/Scene.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/ScenePack.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/FastHierarchy.java|
+EmptySet()
+  870 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/Timer.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/BodyPack.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/SootClass.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/DexClassProvider.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/FoundFile.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/SootResolver.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/LabeledUnitPrinter.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/SourceLocator.java|
+EmptySet()
+  909 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/AbstractUnit.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/Printer.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/ModuleScene.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/JastAddInitialResolver.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/ModulePathSourceLocator.java|
+EmptySet()
+  922 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/Hierarchy.java|
+EmptySet()
+  937 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/AbstractJasminClass.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dava/DavaPrinter.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dava/toolkits/base/finders/CycleFinder.java|
+EmptySet()
+  966 of 3804 processed succesfully!
+  970 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/dava/toolkits/base/AST/transformations/DeInliningFinalFields.java|
+EmptySet()
+  1010 of 3804 processed succesfully!
+  1032 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/dava/toolkits/base/AST/structuredAnalysis/StructuredAnalysis.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dava/toolkits/base/AST/structuredAnalysis/ReachingDefs.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dava/internal/javaRep/DNewMultiArrayExpr.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dava/internal/AST/ASTStatementSequenceNode.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dava/internal/asg/AugmentedStmtGraph.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/coffi/CFG.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/coffi/ClassFile.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/coffi/BBQ.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dotnet/DotnetClassProvider.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dotnet/instructions/CilTryFaultInstruction.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dotnet/instructions/CilCallVirtInstruction.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dotnet/instructions/CilTryFinallyInstruction.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dotnet/instructions/CilTryCatchInstruction.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dotnet/instructions/CilStLocInstruction.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dotnet/instructions/CatchFilterHandlerBody.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dotnet/members/method/DotnetMethodParameter.java|
+EmptySet()
+  1449 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/tagkit/CodeAttribute.java|
+EmptySet()
+  1470 of 3804 processed succesfully!
+  1471 of 3804 processed succesfully!
+  1494 of 3804 processed succesfully!
+  1500 of 3804 processed succesfully!
+  1539 of 3804 processed succesfully!
+  1546 of 3804 processed succesfully!
+  1586 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/util/ArraySet.java|
+EmptySet()
+  1615 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/util/HashChain.java|
+EmptySet()
+  1626 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/util/IterableSet.java|
+EmptySet()
+  1637 of 3804 processed succesfully!
+  1641 of 3804 processed succesfully!
+  1647 of 3804 processed succesfully!
+  1649 of 3804 processed succesfully!
+  1652 of 3804 processed succesfully!
+  1654 of 3804 processed succesfully!
+  1656 of 3804 processed succesfully!
+  1660 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/xml/XMLPrinter.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/grimp/internal/GLookupSwitchStmt.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jbco/jimpleTransformations/ArithmeticTransformer.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jbco/jimpleTransformations/MethodRenamer.java|
+EmptySet()
+  1765 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jbco/bafTransformations/StackTypeHeightCalculator.java|
+EmptySet()
+  1769 of 3804 processed succesfully!
+  1771 of 3804 processed succesfully!
+  1772 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/toDex/ExprVisitor.java|
+EmptySet()
+  1777 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/toDex/DexPrinter.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toDex/Debug.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toDex/TrapSplitter.java|
+EmptySet()
+  1782 of 3804 processed succesfully!
+  1820 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/toolkits/exceptions/ThrowableSet.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toolkits/graph/HashMutableEdgeLabelledDirectedGraph.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toolkits/graph/UnitGraph.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toolkits/graph/ClassicCompleteUnitGraph.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toolkits/graph/ExceptionalBlockGraph.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toolkits/graph/ExceptionalUnitGraph.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toolkits/graph/DominatorTree.java|
+EmptySet()
+  1844 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/toolkits/graph/SlowPseudoTopologicalOrderer.java|
+EmptySet()
+  1849 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/toolkits/graph/HashMutableDirectedGraph.java|
+EmptySet()
+  1857 of 3804 processed succesfully!
+  1864 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/toolkits/graph/pdg/HashMutablePDG.java|
+EmptySet()
+  1873 of 3804 processed succesfully!
+  1898 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/toolkits/scalar/SimpleLocalUses.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toolkits/scalar/SharedInitializationLocalSplitter.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toolkits/scalar/FlowAnalysis.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toolkits/scalar/AbstractFlowSet.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/toolkits/scalar/ForwardBranchedFlowAnalysis.java|
+EmptySet()
+  1930 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/toolkits/scalar/SimpleLocalDefs.java|
+EmptySet()
+  1934 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/baf/BafASMBackend.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/baf/JasminClass.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/baf/toolkits/base/OpStackCalculator.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/baf/toolkits/base/PeepholeOptimizer.java|
+EmptySet()
+  2022 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/baf/toolkits/base/StackTypesValidator.java|
+ParseError(|unknown:///|(8035,1,<250,48>,<250,49>))
+|file:///home/dataset/soot/src/main/java/soot/dexpler/DexBody.java|
+EmptySet()
+  2115 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/dexpler/DexMethod.java|
+EmptySet()
+  2121 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/dexpler/DexAnnotation.java|
+EmptySet()
+  2132 of 3804 processed succesfully!
+  2133 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/dexpler/DexlibWrapper.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dexpler/instructions/InvokeCustomInstruction.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dexpler/instructions/PackedSwitchInstruction.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dexpler/instructions/MethodInvocationInstruction.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dexpler/instructions/SparseSwitchInstruction.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dexpler/instructions/InvokePolymorphicInstruction.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dexpler/typing/Validate.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/dexpler/typing/DalvikTyper.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/sootify/ValueTemplatePrinter.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/sootify/StmtTemplatePrinter.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/JimpleBody.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/callgraph/OnFlyCallGraphBuilder.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/callgraph/CallGraphBuilder.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/callgraph/VirtualEdgesSummaries.java|
+EmptySet()
+  2346 of 3804 processed succesfully!
+  2360 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/infoflow/ClassInfoFlowAnalysis.java|
+EmptySet()
+  2372 of 3804 processed succesfully!
+  2374 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/reflection/ReflectiveCallsInliner.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/annotation/purity/PurityIntraproceduralAnalysis.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/annotation/purity/PurityGraph.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/annotation/purity/PurityInterproceduralAnalysis.java|
+EmptySet()
+  2411 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/annotation/logic/Loop.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/annotation/nullcheck/LocalRefVarsAnalysisWrapper.java|
+EmptySet()
+  2417 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/annotation/nullcheck/BranchedRefVarsAnalysis.java|
+EmptySet()
+  2429 of 3804 processed succesfully!
+  2431 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/ide/JimpleIFDSSolver.java|
+EmptySet()
+  2448 of 3804 processed succesfully!
+  2453 of 3804 processed succesfully!
+  2458 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/ide/icfg/OnTheFlyJimpleBasedICFG.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/ide/icfg/dotexport/ICFGDotVisualizer.java|
+EmptySet()
+  2470 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/scalar/DeadAssignmentEliminator.java|
+EmptySet()
+  2475 of 3804 processed succesfully!
+  2481 of 3804 processed succesfully!
+  2487 of 3804 processed succesfully!
+  2490 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/scalar/FastAvailableExpressionsAnalysis.java|
+EmptySet()
+  2501 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/scalar/pre/LazyCodeMotion.java|
+EmptySet()
+  2505 of 3804 processed succesfully!
+  2507 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/pointer/LocalMustAliasAnalysis.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/pointer/ParameterAliasTagger.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/pointer/CodeBlockRWSet.java|
+EmptySet()
+  2513 of 3804 processed succesfully!
+  2518 of 3804 processed succesfully!
+  2519 of 3804 processed succesfully!
+  2525 of 3804 processed succesfully!
+  2580 of 3804 processed succesfully!
+  2581 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/typing/TypeAssigner.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/typing/TypeVariable.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/typing/integer/TypeResolver.java|
+EmptySet()
+  2603 of 3804 processed succesfully!
+  2614 of 3804 processed succesfully!
+  2624 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/thread/synchronization/DeadlockDetector.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/thread/synchronization/LockAllocator.java|
+EmptySet()
+  2635 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/toolkits/thread/synchronization/LockAllocationBodyTransformer.java|
+EmptySet()
+  2684 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/spark/ondemand/DotPointerGraph.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/spark/ondemand/AllocAndContextSet.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/spark/ondemand/DemandCSPointsTo.java|
+EmptySet()
+  2725 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/spark/solver/PropWorklist.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/spark/solver/PropIter.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/spark/solver/Checker.java|
+EmptySet()
+  2752 of 3804 processed succesfully!
+  2774 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/spark/geom/dataMgr/PtSensVisitor.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/spark/geom/geomPA/GeomQueries.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/spark/geom/geomPA/OfflineProcessor.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/spark/geom/geomPA/GeomPointsTo.java|
+EmptySet()
+  2814 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/internal/JLookupSwitchStmt.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/internal/AbstractSpecialInvokeExpr.java|
+EmptySet()
+  2879 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/internal/AbstractInterfaceInvokeExpr.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/internal/AbstractVirtualInvokeExpr.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/internal/AbstractStaticInvokeExpr.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/jimple/internal/JDynamicInvokeExpr.java|
+EmptySet()
+  2901 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/jimple/internal/AbstractInstanceInvokeExpr.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/shimple/Shimple.java|
+EmptySet()
+  2932 of 3804 processed succesfully!
+  2933 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/shimple/internal/PiNodeManager.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/shimple/internal/PhiNodeManager.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/shimple/internal/SPatchingChain.java|
+EmptySet()
+  2938 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/shimple/internal/ShimpleBodyBuilder.java|
+EmptySet()
+  2940 of 3804 processed succesfully!
+|file:///home/dataset/soot/src/main/java/soot/asm/AnnotationElemBuilder.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/asm/AsmMethodSource.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/asm/MethodBuilder.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/asm/Operand.java|
+EmptySet()
+|file:///home/dataset/soot/src/main/java/soot/rtlib/tamiflex/SootSig.java|
+EmptySet()
+  2997 of 3804 processed succesfully!
+  3027 of 3804 processed succesfully!
+  3121 of 3804 processed succesfully!
+  3292 of 3804 processed succesfully!
+  3295 of 3804 processed succesfully!
+  3303 of 3804 processed succesfully!
+  3313 of 3804 processed succesfully!
+  3325 of 3804 processed succesfully!
+  3343 of 3804 processed succesfully!
+  3355 of 3804 processed succesfully!
+  3368 of 3804 processed succesfully!
+  3407 of 3804 processed succesfully!
+  3463 of 3804 processed succesfully!
+  3492 of 3804 processed succesfully!
+  3500 of 3804 processed succesfully!
+  3512 of 3804 processed succesfully!
+  3550 of 3804 processed succesfully!
+  3581 of 3804 processed succesfully!
+113
+INFO:root:  Formating the source code
+INFO:root:   Done

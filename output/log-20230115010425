@@ -1,0 +1,37 @@
+[Project Analyzer] processing project: pdfsam
+- Number of files:  607
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 69
+- Final Time: 20230115010432
+- Elapsed Time: 6916.0ms
+[Project Analyzer] processing project: pdfsam
+- Number of files:  607
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 69
+- Final Time: 20230115010437
+- Elapsed Time: 4458.0ms
+[Project Analyzer] processing project: pdfsam
+- applying exist pattern into /home/dataset/pdfsam/pdfsam-ui-components/src/test/java/org/pdfsam/ui/components/io/PdfVersionComboTest.java
+- Number of files:  607
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 69
+- Final Time: 20230115010441
+- Elapsed Time: 4450.0ms
+[Project Analyzer] processing project: pdfsam
+- Number of files:  607
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 72
+- Final Time: 20230115010515
+- Elapsed Time: 33336.0ms

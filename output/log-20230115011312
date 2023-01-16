@@ -1,0 +1,74 @@
+[Project Analyzer] processing project: rxjava
+- Number of files:  1884
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 5
+- Final Time: 20230115011409
+- Elapsed Time: 56487.0ms
+[Project Analyzer] processing project: rxjava
+- Number of files:  1884
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 5
+- Final Time: 20230115011452
+- Elapsed Time: 42922.0ms
+[Project Analyzer] processing project: rxjava
+- Number of files:  1884
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 5
+- Final Time: 20230115011534
+- Elapsed Time: 42640.0ms
+[Project Analyzer] processing project: rxjava
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableFlatMapTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/disposables/SequentialDisposableTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableFlatMapTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/internal/operators/observable/ObservableWindowBoundarySelector.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/parallel/ParallelReduceTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableRetryTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/jdk8/ParallelMapOptionalTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/disposables/CompositeDisposableTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/flowable/FlowableCovarianceTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/internal/operators/observable/ObservableGroupBy.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/jdk8/ParallelCollectorTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/parallel/ParallelPeekTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/parallel/ParallelCollectTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/internal/operators/observable/ObservableWindowTimed.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableSwitchTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableCombineLatestTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/parallel/ParallelReduceFullTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/parallel/ParallelRunOnTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableBuffer.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableRetryTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/validators/FixLicenseHeaders.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/Burst.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableRepeatTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/internal/operators/observable/ObservableWindow.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/observable/ObservableCovarianceTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableWindowTimed.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/parallel/ParallelFilterTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableCombineLatestTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableRepeatTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/validators/ParamValidationCheckerTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableWindow.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/observable/ObservableMergeMaxConcurrentTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableMergeMaxConcurrentTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/parallel/ParallelMapTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableSwitchTest.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/disposables/SerialDisposableTests.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/main/java/io/reactivex/rxjava3/internal/operators/flowable/FlowableWindowBoundarySelector.java
+- applying ForLoopToFunctional into /home/dataset/rxjava/src/test/java/io/reactivex/rxjava3/parallel/ParallelFlowableTest.java
+- Number of files:  1884
+- Processed Files: 38
+- Exported Files:   38
+- Total of files changed: 66
+- Total of transformations: 66
+- Errors: 46
+- Final Time: 20230115012504
+- Elapsed Time: 569350.0ms

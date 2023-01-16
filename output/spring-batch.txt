@@ -1,0 +1,974 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: spring-batch
+Creating log file at: /output/log-20230115024048
+Processing spring-batch...
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/package-info.java|
+ParseError(|unknown:///|(69,1,<5,0>,<5,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/async/package-info.java|
+ParseError(|unknown:///|(196,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/launch/package-info.java|
+ParseError(|unknown:///|(124,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/config/xml/package-info.java|
+ParseError(|unknown:///|(749,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/config/annotation/package-info.java|
+ParseError(|unknown:///|(757,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/partition/package-info.java|
+ParseError(|unknown:///|(116,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/step/package-info.java|
+ParseError(|unknown:///|(744,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/chunk/package-info.java|
+ParseError(|unknown:///|(116,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/package-info.java|
+ParseError(|unknown:///|(720,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/context/BatchTestContextBeanPostProcessor.java|
+ParseError(|unknown:///|(2237,1,<61,43>,<61,44>))
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/context/package-info.java|
+ParseError(|unknown:///|(733,1,<23,0>,<23,1>))
+  428 of 1800 processed succesfully!
+  446 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/file/builder/FlatFileItemReaderBuilderTests.java|
+ParseError(|unknown:///|(16874,1,<447,15>,<447,16>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/file/builder/FlatFileItemWriterBuilderTests.java|
+ParseError(|unknown:///|(9488,1,<252,15>,<252,16>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/package-info.java|
+ParseError(|unknown:///|(84,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/support/package-info.java|
+ParseError(|unknown:///|(90,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/support/transaction/package-info.java|
+ParseError(|unknown:///|(102,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/package-info.java|
+ParseError(|unknown:///|(89,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/support/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/policy/package-info.java|
+ParseError(|unknown:///|(96,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/callback/package-info.java|
+ParseError(|unknown:///|(98,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/context/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/interceptor/package-info.java|
+ParseError(|unknown:///|(93,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/exception/package-info.java|
+ParseError(|unknown:///|(107,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/listener/package-info.java|
+ParseError(|unknown:///|(101,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/function/package-info.java|
+ParseError(|unknown:///|(733,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/support/package-info.java|
+ParseError(|unknown:///|(63,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/support/builder/package-info.java|
+ParseError(|unknown:///|(706,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/amqp/package-info.java|
+ParseError(|unknown:///|(115,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/amqp/builder/package-info.java|
+ParseError(|unknown:///|(719,1,<24,0>,<24,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/json/package-info.java|
+ParseError(|unknown:///|(129,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/json/builder/package-info.java|
+ParseError(|unknown:///|(718,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/util/package-info.java|
+ParseError(|unknown:///|(708,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/package-info.java|
+ParseError(|unknown:///|(94,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/stax/package-info.java|
+ParseError(|unknown:///|(714,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/builder/package-info.java|
+ParseError(|unknown:///|(724,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/kafka/package-info.java|
+ParseError(|unknown:///|(713,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/kafka/builder/package-info.java|
+ParseError(|unknown:///|(722,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/data/package-info.java|
+ParseError(|unknown:///|(125,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/data/builder/package-info.java|
+ParseError(|unknown:///|(727,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/ldif/package-info.java|
+ParseError(|unknown:///|(183,1,<10,0>,<10,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/ldif/builder/package-info.java|
+ParseError(|unknown:///|(714,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/package-info.java|
+ParseError(|unknown:///|(113,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/support/package-info.java|
+ParseError(|unknown:///|(133,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/orm/package-info.java|
+ParseError(|unknown:///|(155,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/builder/package-info.java|
+ParseError(|unknown:///|(724,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/validator/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/package-info.java|
+ParseError(|unknown:///|(90,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/separator/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/builder/package-info.java|
+ParseError(|unknown:///|(720,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/mapping/package-info.java|
+ParseError(|unknown:///|(106,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/transform/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/adapter/package-info.java|
+ParseError(|unknown:///|(75,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/package-info.java|
+ParseError(|unknown:///|(112,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/javamail/package-info.java|
+ParseError(|unknown:///|(705,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/builder/package-info.java|
+ParseError(|unknown:///|(718,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/jms/package-info.java|
+ParseError(|unknown:///|(132,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/jms/builder/package-info.java|
+ParseError(|unknown:///|(717,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/poller/package-info.java|
+ParseError(|unknown:///|(702,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/annotation/TransactionManagerConfigurationTests.java|
+ParseError(|unknown:///|(2183,1,<55,61>,<55,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/annotation/BatchRegistrarTests.java|
+ParseError(|unknown:///|(11759,1,<282,61>,<282,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/repository/support/JobRepositoryFactoryBeanTests.java|
+ParseError(|unknown:///|(14684,1,<356,61>,<356,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/repository/dao/AbstractExecutionContextSerializerTests.java|
+ParseError(|unknown:///|(7499,1,<279,50>,<279,51>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/launch/support/JobOperatorFactoryBeanTests.java|
+ParseError(|unknown:///|(4469,1,<104,61>,<104,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/explore/support/JobExplorerFactoryBeanTests.java|
+ParseError(|unknown:///|(4208,1,<126,61>,<126,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/package-info.java|
+ParseError(|unknown:///|(405,1,<11,0>,<11,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/package-info.java|
+ParseError(|unknown:///|(126,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/package-info.java|
+ParseError(|unknown:///|(168,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/support/package-info.java|
+ParseError(|unknown:///|(125,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/support/state/package-info.java|
+ParseError(|unknown:///|(150,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/builder/package-info.java|
+ParseError(|unknown:///|(155,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/scope/package-info.java|
+ParseError(|unknown:///|(152,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/scope/context/package-info.java|
+ParseError(|unknown:///|(185,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/package-info.java|
+ParseError(|unknown:///|(148,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/package-info.java|
+ParseError(|unknown:///|(136,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/xml/package-info.java|
+ParseError(|unknown:///|(120,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/annotation/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/support/package-info.java|
+ParseError(|unknown:///|(133,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/dao/package-info.java|
+ParseError(|unknown:///|(126,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/launch/package-info.java|
+ParseError(|unknown:///|(142,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/launch/support/package-info.java|
+ParseError(|unknown:///|(167,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/partition/package-info.java|
+ParseError(|unknown:///|(124,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/partition/support/package-info.java|
+ParseError(|unknown:///|(131,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/package-info.java|
+ParseError(|unknown:///|(127,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/job/package-info.java|
+ParseError(|unknown:///|(164,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/skip/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/factory/package-info.java|
+ParseError(|unknown:///|(121,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/builder/package-info.java|
+ParseError(|unknown:///|(138,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/item/package-info.java|
+ParseError(|unknown:///|(154,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/tasklet/package-info.java|
+ParseError(|unknown:///|(144,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/explore/package-info.java|
+ParseError(|unknown:///|(146,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/explore/support/package-info.java|
+ParseError(|unknown:///|(131,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/converter/package-info.java|
+ParseError(|unknown:///|(212,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/listener/package-info.java|
+ParseError(|unknown:///|(143,1,<8,0>,<8,1>))
+2
+[Project Analyzer] project: spring-batch
+Processing spring-batch...
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/package-info.java|
+ParseError(|unknown:///|(69,1,<5,0>,<5,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/async/package-info.java|
+ParseError(|unknown:///|(196,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/launch/package-info.java|
+ParseError(|unknown:///|(124,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/config/xml/package-info.java|
+ParseError(|unknown:///|(749,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/config/annotation/package-info.java|
+ParseError(|unknown:///|(757,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/partition/package-info.java|
+ParseError(|unknown:///|(116,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/step/package-info.java|
+ParseError(|unknown:///|(744,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/chunk/package-info.java|
+ParseError(|unknown:///|(116,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/package-info.java|
+ParseError(|unknown:///|(720,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/context/BatchTestContextBeanPostProcessor.java|
+ParseError(|unknown:///|(2237,1,<61,43>,<61,44>))
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/context/package-info.java|
+ParseError(|unknown:///|(733,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/file/builder/FlatFileItemReaderBuilderTests.java|
+ParseError(|unknown:///|(16874,1,<447,15>,<447,16>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/file/builder/FlatFileItemWriterBuilderTests.java|
+ParseError(|unknown:///|(9488,1,<252,15>,<252,16>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/package-info.java|
+ParseError(|unknown:///|(84,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/support/package-info.java|
+ParseError(|unknown:///|(90,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/support/transaction/package-info.java|
+ParseError(|unknown:///|(102,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/package-info.java|
+ParseError(|unknown:///|(89,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/support/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/policy/package-info.java|
+ParseError(|unknown:///|(96,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/callback/package-info.java|
+ParseError(|unknown:///|(98,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/context/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/interceptor/package-info.java|
+ParseError(|unknown:///|(93,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/exception/package-info.java|
+ParseError(|unknown:///|(107,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/listener/package-info.java|
+ParseError(|unknown:///|(101,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/function/package-info.java|
+ParseError(|unknown:///|(733,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/support/package-info.java|
+ParseError(|unknown:///|(63,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/support/builder/package-info.java|
+ParseError(|unknown:///|(706,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/amqp/package-info.java|
+ParseError(|unknown:///|(115,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/amqp/builder/package-info.java|
+ParseError(|unknown:///|(719,1,<24,0>,<24,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/json/package-info.java|
+ParseError(|unknown:///|(129,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/json/builder/package-info.java|
+ParseError(|unknown:///|(718,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/util/package-info.java|
+ParseError(|unknown:///|(708,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/package-info.java|
+ParseError(|unknown:///|(94,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/stax/package-info.java|
+ParseError(|unknown:///|(714,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/builder/package-info.java|
+ParseError(|unknown:///|(724,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/kafka/package-info.java|
+ParseError(|unknown:///|(713,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/kafka/builder/package-info.java|
+ParseError(|unknown:///|(722,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/data/package-info.java|
+ParseError(|unknown:///|(125,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/data/builder/package-info.java|
+ParseError(|unknown:///|(727,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/ldif/package-info.java|
+ParseError(|unknown:///|(183,1,<10,0>,<10,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/ldif/builder/package-info.java|
+ParseError(|unknown:///|(714,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/package-info.java|
+ParseError(|unknown:///|(113,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/support/package-info.java|
+ParseError(|unknown:///|(133,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/orm/package-info.java|
+ParseError(|unknown:///|(155,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/builder/package-info.java|
+ParseError(|unknown:///|(724,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/validator/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/package-info.java|
+ParseError(|unknown:///|(90,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/separator/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/builder/package-info.java|
+ParseError(|unknown:///|(720,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/mapping/package-info.java|
+ParseError(|unknown:///|(106,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/transform/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/adapter/package-info.java|
+ParseError(|unknown:///|(75,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/package-info.java|
+ParseError(|unknown:///|(112,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/javamail/package-info.java|
+ParseError(|unknown:///|(705,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/builder/package-info.java|
+ParseError(|unknown:///|(718,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/jms/package-info.java|
+ParseError(|unknown:///|(132,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/jms/builder/package-info.java|
+ParseError(|unknown:///|(717,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/poller/package-info.java|
+ParseError(|unknown:///|(702,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/annotation/TransactionManagerConfigurationTests.java|
+ParseError(|unknown:///|(2183,1,<55,61>,<55,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/annotation/BatchRegistrarTests.java|
+ParseError(|unknown:///|(11759,1,<282,61>,<282,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/repository/support/JobRepositoryFactoryBeanTests.java|
+ParseError(|unknown:///|(14684,1,<356,61>,<356,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/repository/dao/AbstractExecutionContextSerializerTests.java|
+ParseError(|unknown:///|(7499,1,<279,50>,<279,51>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/launch/support/JobOperatorFactoryBeanTests.java|
+ParseError(|unknown:///|(4469,1,<104,61>,<104,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/explore/support/JobExplorerFactoryBeanTests.java|
+ParseError(|unknown:///|(4208,1,<126,61>,<126,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/package-info.java|
+ParseError(|unknown:///|(405,1,<11,0>,<11,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/package-info.java|
+ParseError(|unknown:///|(126,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/package-info.java|
+ParseError(|unknown:///|(168,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/support/package-info.java|
+ParseError(|unknown:///|(125,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/support/state/package-info.java|
+ParseError(|unknown:///|(150,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/builder/package-info.java|
+ParseError(|unknown:///|(155,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/scope/package-info.java|
+ParseError(|unknown:///|(152,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/scope/context/package-info.java|
+ParseError(|unknown:///|(185,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/package-info.java|
+ParseError(|unknown:///|(148,1,<8,0>,<8,1>))
+  1492 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/package-info.java|
+ParseError(|unknown:///|(136,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/xml/package-info.java|
+ParseError(|unknown:///|(120,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/annotation/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/support/package-info.java|
+ParseError(|unknown:///|(133,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/dao/package-info.java|
+ParseError(|unknown:///|(126,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/launch/package-info.java|
+ParseError(|unknown:///|(142,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/launch/support/package-info.java|
+ParseError(|unknown:///|(167,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/partition/package-info.java|
+ParseError(|unknown:///|(124,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/partition/support/package-info.java|
+ParseError(|unknown:///|(131,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/package-info.java|
+ParseError(|unknown:///|(127,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/job/package-info.java|
+ParseError(|unknown:///|(164,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/skip/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/factory/package-info.java|
+ParseError(|unknown:///|(121,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/builder/package-info.java|
+ParseError(|unknown:///|(138,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/item/package-info.java|
+ParseError(|unknown:///|(154,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/tasklet/package-info.java|
+ParseError(|unknown:///|(144,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/explore/package-info.java|
+ParseError(|unknown:///|(146,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/explore/support/package-info.java|
+ParseError(|unknown:///|(131,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/converter/package-info.java|
+ParseError(|unknown:///|(212,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/listener/package-info.java|
+ParseError(|unknown:///|(143,1,<8,0>,<8,1>))
+1
+[Project Analyzer] project: spring-batch
+Processing spring-batch...
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/package-info.java|
+ParseError(|unknown:///|(69,1,<5,0>,<5,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/async/package-info.java|
+ParseError(|unknown:///|(196,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/launch/package-info.java|
+ParseError(|unknown:///|(124,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/config/xml/package-info.java|
+ParseError(|unknown:///|(749,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/config/annotation/package-info.java|
+ParseError(|unknown:///|(757,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/partition/package-info.java|
+ParseError(|unknown:///|(116,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/step/package-info.java|
+ParseError(|unknown:///|(744,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/chunk/package-info.java|
+ParseError(|unknown:///|(116,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/package-info.java|
+ParseError(|unknown:///|(720,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/context/BatchTestContextBeanPostProcessor.java|
+ParseError(|unknown:///|(2237,1,<61,43>,<61,44>))
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/context/package-info.java|
+ParseError(|unknown:///|(733,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/file/builder/FlatFileItemReaderBuilderTests.java|
+ParseError(|unknown:///|(16874,1,<447,15>,<447,16>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/file/builder/FlatFileItemWriterBuilderTests.java|
+ParseError(|unknown:///|(9488,1,<252,15>,<252,16>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/package-info.java|
+ParseError(|unknown:///|(84,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/support/package-info.java|
+ParseError(|unknown:///|(90,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/support/transaction/package-info.java|
+ParseError(|unknown:///|(102,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/package-info.java|
+ParseError(|unknown:///|(89,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/support/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/policy/package-info.java|
+ParseError(|unknown:///|(96,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/callback/package-info.java|
+ParseError(|unknown:///|(98,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/context/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/interceptor/package-info.java|
+ParseError(|unknown:///|(93,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/exception/package-info.java|
+ParseError(|unknown:///|(107,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/listener/package-info.java|
+ParseError(|unknown:///|(101,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/function/package-info.java|
+ParseError(|unknown:///|(733,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/support/package-info.java|
+ParseError(|unknown:///|(63,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/support/builder/package-info.java|
+ParseError(|unknown:///|(706,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/amqp/package-info.java|
+ParseError(|unknown:///|(115,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/amqp/builder/package-info.java|
+ParseError(|unknown:///|(719,1,<24,0>,<24,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/json/package-info.java|
+ParseError(|unknown:///|(129,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/json/builder/package-info.java|
+ParseError(|unknown:///|(718,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/util/package-info.java|
+ParseError(|unknown:///|(708,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/package-info.java|
+ParseError(|unknown:///|(94,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/stax/package-info.java|
+ParseError(|unknown:///|(714,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/builder/package-info.java|
+ParseError(|unknown:///|(724,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/kafka/package-info.java|
+ParseError(|unknown:///|(713,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/kafka/builder/package-info.java|
+ParseError(|unknown:///|(722,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/data/package-info.java|
+ParseError(|unknown:///|(125,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/data/builder/package-info.java|
+ParseError(|unknown:///|(727,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/ldif/package-info.java|
+ParseError(|unknown:///|(183,1,<10,0>,<10,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/ldif/builder/package-info.java|
+ParseError(|unknown:///|(714,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/package-info.java|
+ParseError(|unknown:///|(113,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/support/package-info.java|
+ParseError(|unknown:///|(133,1,<8,0>,<8,1>))
+  878 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/orm/package-info.java|
+ParseError(|unknown:///|(155,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/builder/package-info.java|
+ParseError(|unknown:///|(724,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/validator/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/package-info.java|
+ParseError(|unknown:///|(90,1,<7,0>,<7,1>))
+  930 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/separator/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/builder/package-info.java|
+ParseError(|unknown:///|(720,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/mapping/package-info.java|
+ParseError(|unknown:///|(106,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/transform/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/adapter/package-info.java|
+ParseError(|unknown:///|(75,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/package-info.java|
+ParseError(|unknown:///|(112,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/javamail/package-info.java|
+ParseError(|unknown:///|(705,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/builder/package-info.java|
+ParseError(|unknown:///|(718,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/jms/package-info.java|
+ParseError(|unknown:///|(132,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/jms/builder/package-info.java|
+ParseError(|unknown:///|(717,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/poller/package-info.java|
+ParseError(|unknown:///|(702,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/annotation/TransactionManagerConfigurationTests.java|
+ParseError(|unknown:///|(2183,1,<55,61>,<55,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/annotation/BatchRegistrarTests.java|
+ParseError(|unknown:///|(11759,1,<282,61>,<282,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/repository/support/JobRepositoryFactoryBeanTests.java|
+ParseError(|unknown:///|(14684,1,<356,61>,<356,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/repository/dao/AbstractExecutionContextSerializerTests.java|
+ParseError(|unknown:///|(7499,1,<279,50>,<279,51>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/launch/support/JobOperatorFactoryBeanTests.java|
+ParseError(|unknown:///|(4469,1,<104,61>,<104,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/explore/support/JobExplorerFactoryBeanTests.java|
+ParseError(|unknown:///|(4208,1,<126,61>,<126,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/package-info.java|
+ParseError(|unknown:///|(405,1,<11,0>,<11,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/package-info.java|
+ParseError(|unknown:///|(126,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/package-info.java|
+ParseError(|unknown:///|(168,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/support/package-info.java|
+ParseError(|unknown:///|(125,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/support/state/package-info.java|
+ParseError(|unknown:///|(150,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/builder/package-info.java|
+ParseError(|unknown:///|(155,1,<8,0>,<8,1>))
+  1448 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/scope/package-info.java|
+ParseError(|unknown:///|(152,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/scope/context/package-info.java|
+ParseError(|unknown:///|(185,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/package-info.java|
+ParseError(|unknown:///|(148,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/package-info.java|
+ParseError(|unknown:///|(136,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/xml/package-info.java|
+ParseError(|unknown:///|(120,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/annotation/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/support/package-info.java|
+ParseError(|unknown:///|(133,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/dao/package-info.java|
+ParseError(|unknown:///|(126,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/launch/package-info.java|
+ParseError(|unknown:///|(142,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/launch/support/package-info.java|
+ParseError(|unknown:///|(167,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/partition/package-info.java|
+ParseError(|unknown:///|(124,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/partition/support/package-info.java|
+ParseError(|unknown:///|(131,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/package-info.java|
+ParseError(|unknown:///|(127,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/job/package-info.java|
+ParseError(|unknown:///|(164,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/skip/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+  1620 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/factory/package-info.java|
+ParseError(|unknown:///|(121,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/builder/package-info.java|
+ParseError(|unknown:///|(138,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/item/package-info.java|
+ParseError(|unknown:///|(154,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/tasklet/package-info.java|
+ParseError(|unknown:///|(144,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/explore/package-info.java|
+ParseError(|unknown:///|(146,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/explore/support/package-info.java|
+ParseError(|unknown:///|(131,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/converter/package-info.java|
+ParseError(|unknown:///|(212,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/listener/package-info.java|
+ParseError(|unknown:///|(143,1,<8,0>,<8,1>))
+4
+[Project Analyzer] project: spring-batch
+Processing spring-batch...
+
+  3 of 1800 processed succesfully!
+  4 of 1800 processed succesfully!
+  5 of 1800 processed succesfully!
+  6 of 1800 processed succesfully!
+  7 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-integration/src/test/java/org/springframework/batch/integration/chunk/TestItemWriter.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/package-info.java|
+ParseError(|unknown:///|(69,1,<5,0>,<5,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/async/package-info.java|
+ParseError(|unknown:///|(196,1,<9,0>,<9,1>))
+  53 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/launch/package-info.java|
+ParseError(|unknown:///|(124,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/config/xml/package-info.java|
+ParseError(|unknown:///|(749,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/config/annotation/package-info.java|
+ParseError(|unknown:///|(757,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/partition/package-info.java|
+ParseError(|unknown:///|(116,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/step/package-info.java|
+ParseError(|unknown:///|(744,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-integration/src/main/java/org/springframework/batch/integration/chunk/package-info.java|
+ParseError(|unknown:///|(116,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/package-info.java|
+ParseError(|unknown:///|(720,1,<23,0>,<23,1>))
+  120 of 1800 processed succesfully!
+  122 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/context/BatchTestContextBeanPostProcessor.java|
+ParseError(|unknown:///|(2237,1,<61,43>,<61,44>))
+|file:///home/dataset/spring-batch/spring-batch-test/src/main/java/org/springframework/batch/test/context/package-info.java|
+ParseError(|unknown:///|(733,1,<23,0>,<23,1>))
+  138 of 1800 processed succesfully!
+  141 of 1800 processed succesfully!
+  144 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-samples/src/test/java/org/springframework/batch/sample/MailJobFunctionalTests.java|
+EmptySet()
+  155 of 1800 processed succesfully!
+  175 of 1800 processed succesfully!
+  178 of 1800 processed succesfully!
+  180 of 1800 processed succesfully!
+  202 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/order/internal/validator/OrderValidator.java|
+EmptySet()
+  263 of 1800 processed succesfully!
+  266 of 1800 processed succesfully!
+  268 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/trade/CustomerUpdateWriter.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/trade/internal/TradeWriter.java|
+EmptySet()
+  286 of 1800 processed succesfully!
+  288 of 1800 processed succesfully!
+  289 of 1800 processed succesfully!
+  292 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/domain/mail/internal/TestMailSender.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/mongodb/MongoDBSampleApp.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/skip/SkippableExceptionDuringProcessSample.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/skip/SkippableExceptionDuringReadSample.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/skip/SkippableExceptionDuringWriteSample.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-samples/src/main/java/org/springframework/batch/sample/remotechunking/WorkerConfiguration.java|
+EmptySet()
+  357 of 1800 processed succesfully!
+  400 of 1800 processed succesfully!
+  420 of 1800 processed succesfully!
+  431 of 1800 processed succesfully!
+  434 of 1800 processed succesfully!
+  485 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/file/builder/FlatFileItemReaderBuilderTests.java|
+ParseError(|unknown:///|(16874,1,<447,15>,<447,16>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/test/java/org/springframework/batch/item/file/builder/FlatFileItemWriterBuilderTests.java|
+ParseError(|unknown:///|(9488,1,<252,15>,<252,16>))
+  636 of 1800 processed succesfully!
+  680 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/package-info.java|
+ParseError(|unknown:///|(84,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/support/package-info.java|
+ParseError(|unknown:///|(90,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/support/transaction/package-info.java|
+ParseError(|unknown:///|(102,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/package-info.java|
+ParseError(|unknown:///|(89,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/support/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+  716 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/policy/package-info.java|
+ParseError(|unknown:///|(96,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/callback/package-info.java|
+ParseError(|unknown:///|(98,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/context/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/interceptor/package-info.java|
+ParseError(|unknown:///|(93,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/exception/package-info.java|
+ParseError(|unknown:///|(107,1,<7,0>,<7,1>))
+  730 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/repeat/listener/package-info.java|
+ParseError(|unknown:///|(101,1,<7,0>,<7,1>))
+  735 of 1800 processed succesfully!
+  739 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/function/package-info.java|
+ParseError(|unknown:///|(733,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/support/package-info.java|
+ParseError(|unknown:///|(63,1,<7,0>,<7,1>))
+  771 of 1800 processed succesfully!
+  775 of 1800 processed succesfully!
+  776 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/support/builder/package-info.java|
+ParseError(|unknown:///|(706,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/amqp/package-info.java|
+ParseError(|unknown:///|(115,1,<8,0>,<8,1>))
+  787 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/amqp/builder/package-info.java|
+ParseError(|unknown:///|(719,1,<24,0>,<24,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/json/package-info.java|
+ParseError(|unknown:///|(129,1,<9,0>,<9,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/json/builder/package-info.java|
+ParseError(|unknown:///|(718,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/util/package-info.java|
+ParseError(|unknown:///|(708,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/StaxEventItemReader.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/package-info.java|
+ParseError(|unknown:///|(94,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/StaxEventItemWriter.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/stax/package-info.java|
+ParseError(|unknown:///|(714,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/xml/builder/package-info.java|
+ParseError(|unknown:///|(724,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/kafka/KafkaItemWriter.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/kafka/package-info.java|
+ParseError(|unknown:///|(713,1,<23,0>,<23,1>))
+  812 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/kafka/builder/package-info.java|
+ParseError(|unknown:///|(722,1,<23,0>,<23,1>))
+  815 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/data/MongoItemWriter.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/data/package-info.java|
+ParseError(|unknown:///|(125,1,<8,0>,<8,1>))
+  819 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/data/builder/package-info.java|
+ParseError(|unknown:///|(727,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/ldif/package-info.java|
+ParseError(|unknown:///|(183,1,<10,0>,<10,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/ldif/builder/package-info.java|
+ParseError(|unknown:///|(714,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/package-info.java|
+ParseError(|unknown:///|(113,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/JpaPagingItemReader.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/JdbcBatchItemWriter.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/support/package-info.java|
+ParseError(|unknown:///|(133,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/orm/package-info.java|
+ParseError(|unknown:///|(155,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/database/builder/package-info.java|
+ParseError(|unknown:///|(724,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/validator/package-info.java|
+ParseError(|unknown:///|(97,1,<7,0>,<7,1>))
+  892 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/package-info.java|
+ParseError(|unknown:///|(90,1,<7,0>,<7,1>))
+  904 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/separator/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/builder/package-info.java|
+ParseError(|unknown:///|(720,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/mapping/package-info.java|
+ParseError(|unknown:///|(106,1,<7,0>,<7,1>))
+  939 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/file/transform/package-info.java|
+ParseError(|unknown:///|(108,1,<7,0>,<7,1>))
+  944 of 1800 processed succesfully!
+  952 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/adapter/PropertyExtractingDelegatingItemWriter.java|
+EmptySet()
+  961 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/adapter/package-info.java|
+ParseError(|unknown:///|(75,1,<7,0>,<7,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/package-info.java|
+ParseError(|unknown:///|(112,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/javamail/package-info.java|
+ParseError(|unknown:///|(705,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/mail/builder/package-info.java|
+ParseError(|unknown:///|(718,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/jms/package-info.java|
+ParseError(|unknown:///|(132,1,<8,0>,<8,1>))
+  973 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/item/jms/builder/package-info.java|
+ParseError(|unknown:///|(717,1,<23,0>,<23,1>))
+|file:///home/dataset/spring-batch/spring-batch-infrastructure/src/main/java/org/springframework/batch/poller/package-info.java|
+ParseError(|unknown:///|(702,1,<23,0>,<23,1>))
+  980 of 1800 processed succesfully!
+  1001 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/job/flow/support/SimpleFlowTests.java|
+EmptySet()
+  1024 of 1800 processed succesfully!
+  1035 of 1800 processed succesfully!
+  1071 of 1800 processed succesfully!
+  1074 of 1800 processed succesfully!
+  1076 of 1800 processed succesfully!
+  1101 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/test/step/FaultTolerantStepFactoryBeanRollbackIntegrationTests.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/support/DefaultJobLoaderTests.java|
+EmptySet()
+  1112 of 1800 processed succesfully!
+  1176 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/xml/StepParserStepFactoryBeanTests.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/annotation/TransactionManagerConfigurationTests.java|
+ParseError(|unknown:///|(2183,1,<55,61>,<55,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/configuration/annotation/BatchRegistrarTests.java|
+ParseError(|unknown:///|(11759,1,<282,61>,<282,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/repository/support/JobRepositoryFactoryBeanTests.java|
+ParseError(|unknown:///|(14684,1,<356,61>,<356,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/repository/dao/OptimisticLockingFailureTests.java|
+EmptySet()
+  1237 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/repository/dao/AbstractExecutionContextSerializerTests.java|
+ParseError(|unknown:///|(7499,1,<279,50>,<279,51>))
+  1243 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/launch/support/JobOperatorFactoryBeanTests.java|
+ParseError(|unknown:///|(4469,1,<104,61>,<104,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/partition/support/PartitionStepTests.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/partition/support/SimpleStepExecutionSplitterTests.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/step/job/DefaultJobParametersExtractorJobParametersTests.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/step/skip/ReprocessExceptionTests.java|
+EmptySet()
+  1292 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/step/item/FaultTolerantStepFactoryBeanRollbackTests.java|
+EmptySet()
+  1295 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/step/item/FaultTolerantStepFactoryBeanTests.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/step/item/SimpleStepFactoryBeanTests.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/step/item/FaultTolerantStepFactoryBeanRetryTests.java|
+EmptySet()
+  1313 of 1800 processed succesfully!
+  1314 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/explore/support/JobExplorerFactoryBeanTests.java|
+ParseError(|unknown:///|(4208,1,<126,61>,<126,62>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/test/java/org/springframework/batch/core/listener/ItemListenerErrorTests.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/package-info.java|
+ParseError(|unknown:///|(405,1,<11,0>,<11,1>))
+  1360 of 1800 processed succesfully!
+  1380 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/package-info.java|
+ParseError(|unknown:///|(126,1,<8,0>,<8,1>))
+  1383 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/DefaultJobParametersValidator.java|
+EmptySet()
+  1385 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/package-info.java|
+ParseError(|unknown:///|(168,1,<8,0>,<8,1>))
+  1398 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/support/package-info.java|
+ParseError(|unknown:///|(125,1,<8,0>,<8,1>))
+  1401 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/flow/support/state/package-info.java|
+ParseError(|unknown:///|(150,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/job/builder/package-info.java|
+ParseError(|unknown:///|(155,1,<8,0>,<8,1>))
+  1415 of 1800 processed succesfully!
+  1416 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/scope/package-info.java|
+ParseError(|unknown:///|(152,1,<8,0>,<8,1>))
+  1420 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/scope/context/package-info.java|
+ParseError(|unknown:///|(185,1,<9,0>,<9,1>))
+  1426 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/package-info.java|
+ParseError(|unknown:///|(148,1,<8,0>,<8,1>))
+  1459 of 1800 processed succesfully!
+  1460 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/package-info.java|
+ParseError(|unknown:///|(136,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/GenericApplicationContextFactory.java|
+EmptySet()
+  1465 of 1800 processed succesfully!
+  1466 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/support/AbstractApplicationContextFactory.java|
+EmptySet()
+  1470 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/xml/SimpleFlowFactoryBean.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/xml/ChunkElementParser.java|
+EmptySet()
+  1472 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/xml/AbstractFlowParser.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/xml/package-info.java|
+ParseError(|unknown:///|(120,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/xml/SplitParser.java|
+EmptySet()
+  1482 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/configuration/annotation/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/support/package-info.java|
+ParseError(|unknown:///|(133,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/support/SimpleJobRepository.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/dao/package-info.java|
+ParseError(|unknown:///|(126,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/repository/dao/JdbcExecutionContextDao.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/launch/package-info.java|
+ParseError(|unknown:///|(142,1,<8,0>,<8,1>))
+  1530 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/launch/support/CommandLineJobRunner.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/launch/support/package-info.java|
+ParseError(|unknown:///|(167,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/partition/package-info.java|
+ParseError(|unknown:///|(124,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/partition/support/package-info.java|
+ParseError(|unknown:///|(131,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/partition/support/DefaultStepExecutionAggregator.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/partition/support/RemoteStepExecutionAggregator.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/partition/support/TaskExecutorPartitionHandler.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/package-info.java|
+ParseError(|unknown:///|(127,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/job/package-info.java|
+ParseError(|unknown:///|(164,1,<8,0>,<8,1>))
+  1562 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/skip/package-info.java|
+ParseError(|unknown:///|(147,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/factory/package-info.java|
+ParseError(|unknown:///|(121,1,<8,0>,<8,1>))
+  1579 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/builder/FaultTolerantStepBuilder.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/builder/package-info.java|
+ParseError(|unknown:///|(138,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/builder/SimpleStepBuilder.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/item/BatchRetryTemplate.java|
+EmptySet()
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/item/package-info.java|
+ParseError(|unknown:///|(154,1,<8,0>,<8,1>))
+  1594 of 1800 processed succesfully!
+  1597 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/step/tasklet/package-info.java|
+ParseError(|unknown:///|(144,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/explore/package-info.java|
+ParseError(|unknown:///|(146,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/explore/support/package-info.java|
+ParseError(|unknown:///|(131,1,<8,0>,<8,1>))
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/converter/package-info.java|
+ParseError(|unknown:///|(212,1,<9,0>,<9,1>))
+  1633 of 1800 processed succesfully!
+|file:///home/dataset/spring-batch/spring-batch-core/src/main/java/org/springframework/batch/core/listener/package-info.java|
+ParseError(|unknown:///|(143,1,<8,0>,<8,1>))
+  1641 of 1800 processed succesfully!
+  1656 of 1800 processed succesfully!
+90
+INFO:root:  Formating the source code
+INFO:root:   Done

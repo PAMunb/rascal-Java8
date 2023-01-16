@@ -1,0 +1,579 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: byte-buddy
+Creating log file at: /output/log-20230114233132
+Processing byte-buddy...
+|file:///home/dataset/byte-buddy/byte-buddy-agent/src/main/java/net/bytebuddy/agent/package-info.java|
+ParseError(|unknown:///|(713,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-android/src/main/java/net/bytebuddy/android/package-info.java|
+ParseError(|unknown:///|(716,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-gradle-plugin/android-plugin/src/main/java/net/bytebuddy/build/gradle/android/package-info.java|
+ParseError(|unknown:///|(720,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-gradle-plugin/src/main/java/net/bytebuddy/build/gradle/package-info.java|
+ParseError(|unknown:///|(734,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-maven-plugin/src/main/java/net/bytebuddy/build/maven/package-info.java|
+ParseError(|unknown:///|(733,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-8/net/bytebuddy/test/precompiled/v8/ReceiverTypeSample.java|
+ParseError(|unknown:///|(764,1,<20,63>,<20,64>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/type/AbstractTypeDescriptionTest.java|
+Ambiguity(|unknown:///|(59150,139,<1046,8>,<1049,46>),"BlockStatements","class ExtendedGenericSample\<T\> extends GenericSample\<T\> {\n            /* empty */\n        };\n        return new ExtendedGenericSample\<T\>();")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/annotation/AbstractAnnotationDescriptionTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  692 of 1241 processed succesfully!
+  706 of 1241 processed succesfully!
+  707 of 1241 processed succesfully!
+  732 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/dynamic/scaffold/InstrumentedTypeDefaultTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/dynamic/loading/MultipleParentClassLoaderTest.java|
+Ambiguity(|unknown:///|(9140,284,<208,8>,<212,55>),"BlockStatements","ClassLoader classLoader = new MultipleParentClassLoader.Builder().append(first, second).build(first);\n        ;\n        assertThat(classLoader, CoreMatchers.not(first));\n        assertThat(classLoader, CoreMatchers.not(second));\n        assertThat(classLoader.getParent(), is(first));")
+  820 of 1241 processed succesfully!
+  854 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-17/net/bytebuddy/test/precompiled/v17/Sealed.java|
+ParseError(|unknown:///|(665,1,<18,7>,<18,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-16/net/bytebuddy/test/precompiled/v16/GenericRecordSample.java|
+ParseError(|unknown:///|(665,1,<18,7>,<18,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-16/net/bytebuddy/test/precompiled/v16/RecordSample.java|
+ParseError(|unknown:///|(814,1,<23,7>,<23,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/package-info.java|
+ParseError(|unknown:///|(1433,1,<32,0>,<32,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/package-info.java|
+ParseError(|unknown:///|(727,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/dispatcher/package-info.java|
+ParseError(|unknown:///|(937,1,<23,0>,<23,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/visitor/package-info.java|
+ParseError(|unknown:///|(691,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/privilege/package-info.java|
+ParseError(|unknown:///|(752,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/pool/package-info.java|
+ParseError(|unknown:///|(780,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/build/package-info.java|
+ParseError(|unknown:///|(739,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/matcher/package-info.java|
+ParseError(|unknown:///|(699,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/package-info.java|
+ParseError(|unknown:///|(917,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/method/package-info.java|
+ParseError(|unknown:///|(729,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/field/package-info.java|
+ParseError(|unknown:///|(683,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/type/package-info.java|
+ParseError(|unknown:///|(695,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/modifier/package-info.java|
+ParseError(|unknown:///|(732,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/enumeration/package-info.java|
+ParseError(|unknown:///|(712,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/annotation/package-info.java|
+ParseError(|unknown:///|(705,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/package-info.java|
+ParseError(|unknown:///|(722,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/package-info.java|
+ParseError(|unknown:///|(841,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/collection/package-info.java|
+ParseError(|unknown:///|(816,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/member/package-info.java|
+ParseError(|unknown:///|(941,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/constant/package-info.java|
+ParseError(|unknown:///|(822,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/package-info.java|
+ParseError(|unknown:///|(913,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/reference/package-info.java|
+ParseError(|unknown:///|(802,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/primitive/package-info.java|
+ParseError(|unknown:///|(937,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/attribute/package-info.java|
+ParseError(|unknown:///|(931,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/auxiliary/package-info.java|
+ParseError(|unknown:///|(889,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/package-info.java|
+ParseError(|unknown:///|(752,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/annotation/Super.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/annotation/package-info.java|
+ParseError(|unknown:///|(859,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/agent/builder/package-info.java|
+ParseError(|unknown:///|(1017,1,<23,0>,<23,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/package-info.java|
+ParseError(|unknown:///|(849,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/package-info.java|
+ParseError(|unknown:///|(972,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/subclass/package-info.java|
+ParseError(|unknown:///|(794,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/inline/package-info.java|
+ParseError(|unknown:///|(781,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/loading/package-info.java|
+ParseError(|unknown:///|(773,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/package-info.java|
+ParseError(|unknown:///|(734,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/Advice.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  1181 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/package-info.java|
+ParseError(|unknown:///|(729,1,<20,0>,<20,1>))
+  1183 of 1241 processed succesfully!
+  1185 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/runner/package-info.java|
+ParseError(|unknown:///|(688,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/specimen/package-info.java|
+ParseError(|unknown:///|(702,1,<20,0>,<20,1>))
+9
+[Project Analyzer] project: byte-buddy
+Processing byte-buddy...
+|file:///home/dataset/byte-buddy/byte-buddy-agent/src/main/java/net/bytebuddy/agent/package-info.java|
+ParseError(|unknown:///|(713,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-android/src/main/java/net/bytebuddy/android/package-info.java|
+ParseError(|unknown:///|(716,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-gradle-plugin/android-plugin/src/main/java/net/bytebuddy/build/gradle/android/package-info.java|
+ParseError(|unknown:///|(720,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-gradle-plugin/src/main/java/net/bytebuddy/build/gradle/package-info.java|
+ParseError(|unknown:///|(734,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-maven-plugin/src/main/java/net/bytebuddy/build/maven/package-info.java|
+ParseError(|unknown:///|(733,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-8/net/bytebuddy/test/precompiled/v8/ReceiverTypeSample.java|
+ParseError(|unknown:///|(764,1,<20,63>,<20,64>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/type/AbstractTypeDescriptionTest.java|
+Ambiguity(|unknown:///|(59150,139,<1046,8>,<1049,46>),"BlockStatements","class ExtendedGenericSample\<T\> extends GenericSample\<T\> {\n            /* empty */\n        };\n        return new ExtendedGenericSample\<T\>();")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/annotation/AbstractAnnotationDescriptionTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/dynamic/scaffold/InstrumentedTypeDefaultTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/dynamic/loading/MultipleParentClassLoaderTest.java|
+Ambiguity(|unknown:///|(9140,284,<208,8>,<212,55>),"BlockStatements","ClassLoader classLoader = new MultipleParentClassLoader.Builder().append(first, second).build(first);\n        ;\n        assertThat(classLoader, CoreMatchers.not(first));\n        assertThat(classLoader, CoreMatchers.not(second));\n        assertThat(classLoader.getParent(), is(first));")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-17/net/bytebuddy/test/precompiled/v17/Sealed.java|
+ParseError(|unknown:///|(665,1,<18,7>,<18,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-16/net/bytebuddy/test/precompiled/v16/GenericRecordSample.java|
+ParseError(|unknown:///|(665,1,<18,7>,<18,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-16/net/bytebuddy/test/precompiled/v16/RecordSample.java|
+ParseError(|unknown:///|(814,1,<23,7>,<23,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/package-info.java|
+ParseError(|unknown:///|(1433,1,<32,0>,<32,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/package-info.java|
+ParseError(|unknown:///|(727,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/dispatcher/package-info.java|
+ParseError(|unknown:///|(937,1,<23,0>,<23,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/visitor/package-info.java|
+ParseError(|unknown:///|(691,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/privilege/package-info.java|
+ParseError(|unknown:///|(752,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/pool/package-info.java|
+ParseError(|unknown:///|(780,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/build/package-info.java|
+ParseError(|unknown:///|(739,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/matcher/package-info.java|
+ParseError(|unknown:///|(699,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/package-info.java|
+ParseError(|unknown:///|(917,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/method/package-info.java|
+ParseError(|unknown:///|(729,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/field/package-info.java|
+ParseError(|unknown:///|(683,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/type/package-info.java|
+ParseError(|unknown:///|(695,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/modifier/package-info.java|
+ParseError(|unknown:///|(732,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/enumeration/package-info.java|
+ParseError(|unknown:///|(712,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/annotation/package-info.java|
+ParseError(|unknown:///|(705,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/package-info.java|
+ParseError(|unknown:///|(722,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/package-info.java|
+ParseError(|unknown:///|(841,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/collection/package-info.java|
+ParseError(|unknown:///|(816,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/member/package-info.java|
+ParseError(|unknown:///|(941,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/constant/package-info.java|
+ParseError(|unknown:///|(822,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/package-info.java|
+ParseError(|unknown:///|(913,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/reference/package-info.java|
+ParseError(|unknown:///|(802,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/primitive/package-info.java|
+ParseError(|unknown:///|(937,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/attribute/package-info.java|
+ParseError(|unknown:///|(931,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/auxiliary/package-info.java|
+ParseError(|unknown:///|(889,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/package-info.java|
+ParseError(|unknown:///|(752,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/annotation/Super.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/annotation/package-info.java|
+ParseError(|unknown:///|(859,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/agent/builder/package-info.java|
+ParseError(|unknown:///|(1017,1,<23,0>,<23,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/package-info.java|
+ParseError(|unknown:///|(849,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/package-info.java|
+ParseError(|unknown:///|(972,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/subclass/package-info.java|
+ParseError(|unknown:///|(794,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/inline/package-info.java|
+ParseError(|unknown:///|(781,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/loading/package-info.java|
+ParseError(|unknown:///|(773,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/package-info.java|
+ParseError(|unknown:///|(734,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/Advice.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/package-info.java|
+ParseError(|unknown:///|(729,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/runner/package-info.java|
+ParseError(|unknown:///|(688,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/specimen/package-info.java|
+ParseError(|unknown:///|(702,1,<20,0>,<20,1>))
+0
+[Project Analyzer] project: byte-buddy
+Processing byte-buddy...
+|file:///home/dataset/byte-buddy/byte-buddy-agent/src/main/java/net/bytebuddy/agent/package-info.java|
+ParseError(|unknown:///|(713,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-android/src/main/java/net/bytebuddy/android/package-info.java|
+ParseError(|unknown:///|(716,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-gradle-plugin/android-plugin/src/main/java/net/bytebuddy/build/gradle/android/package-info.java|
+ParseError(|unknown:///|(720,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-gradle-plugin/src/main/java/net/bytebuddy/build/gradle/package-info.java|
+ParseError(|unknown:///|(734,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-maven-plugin/src/main/java/net/bytebuddy/build/maven/package-info.java|
+ParseError(|unknown:///|(733,1,<20,0>,<20,1>))
+  100 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-8/net/bytebuddy/test/precompiled/v8/ReceiverTypeSample.java|
+ParseError(|unknown:///|(764,1,<20,63>,<20,64>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/type/AbstractTypeDescriptionTest.java|
+Ambiguity(|unknown:///|(59150,139,<1046,8>,<1049,46>),"BlockStatements","class ExtendedGenericSample\<T\> extends GenericSample\<T\> {\n            /* empty */\n        };\n        return new ExtendedGenericSample\<T\>();")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/annotation/AbstractAnnotationDescriptionTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  626 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/dynamic/scaffold/InstrumentedTypeDefaultTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/dynamic/loading/MultipleParentClassLoaderTest.java|
+Ambiguity(|unknown:///|(9140,284,<208,8>,<212,55>),"BlockStatements","ClassLoader classLoader = new MultipleParentClassLoader.Builder().append(first, second).build(first);\n        ;\n        assertThat(classLoader, CoreMatchers.not(first));\n        assertThat(classLoader, CoreMatchers.not(second));\n        assertThat(classLoader.getParent(), is(first));")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-17/net/bytebuddy/test/precompiled/v17/Sealed.java|
+ParseError(|unknown:///|(665,1,<18,7>,<18,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-16/net/bytebuddy/test/precompiled/v16/GenericRecordSample.java|
+ParseError(|unknown:///|(665,1,<18,7>,<18,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-16/net/bytebuddy/test/precompiled/v16/RecordSample.java|
+ParseError(|unknown:///|(814,1,<23,7>,<23,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/package-info.java|
+ParseError(|unknown:///|(1433,1,<32,0>,<32,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/package-info.java|
+ParseError(|unknown:///|(727,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/dispatcher/package-info.java|
+ParseError(|unknown:///|(937,1,<23,0>,<23,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/visitor/package-info.java|
+ParseError(|unknown:///|(691,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/privilege/package-info.java|
+ParseError(|unknown:///|(752,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/pool/package-info.java|
+ParseError(|unknown:///|(780,1,<21,0>,<21,1>))
+  928 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/build/package-info.java|
+ParseError(|unknown:///|(739,1,<20,0>,<20,1>))
+  940 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/matcher/package-info.java|
+ParseError(|unknown:///|(699,1,<20,0>,<20,1>))
+  958 of 1241 processed succesfully!
+  969 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/package-info.java|
+ParseError(|unknown:///|(917,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/method/package-info.java|
+ParseError(|unknown:///|(729,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/field/package-info.java|
+ParseError(|unknown:///|(683,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/type/package-info.java|
+ParseError(|unknown:///|(695,1,<20,0>,<20,1>))
+  1004 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/modifier/package-info.java|
+ParseError(|unknown:///|(732,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/enumeration/package-info.java|
+ParseError(|unknown:///|(712,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/annotation/package-info.java|
+ParseError(|unknown:///|(705,1,<20,0>,<20,1>))
+  1025 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/package-info.java|
+ParseError(|unknown:///|(722,1,<20,0>,<20,1>))
+  1034 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/package-info.java|
+ParseError(|unknown:///|(841,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/collection/package-info.java|
+ParseError(|unknown:///|(816,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/member/package-info.java|
+ParseError(|unknown:///|(941,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/constant/package-info.java|
+ParseError(|unknown:///|(822,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/package-info.java|
+ParseError(|unknown:///|(913,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/reference/package-info.java|
+ParseError(|unknown:///|(802,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/primitive/package-info.java|
+ParseError(|unknown:///|(937,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/attribute/package-info.java|
+ParseError(|unknown:///|(931,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/auxiliary/package-info.java|
+ParseError(|unknown:///|(889,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/package-info.java|
+ParseError(|unknown:///|(752,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/annotation/Super.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/annotation/package-info.java|
+ParseError(|unknown:///|(859,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/agent/builder/package-info.java|
+ParseError(|unknown:///|(1017,1,<23,0>,<23,1>))
+  1125 of 1241 processed succesfully!
+  1128 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/package-info.java|
+ParseError(|unknown:///|(849,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/package-info.java|
+ParseError(|unknown:///|(972,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/subclass/package-info.java|
+ParseError(|unknown:///|(794,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/inline/package-info.java|
+ParseError(|unknown:///|(781,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/loading/package-info.java|
+ParseError(|unknown:///|(773,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/package-info.java|
+ParseError(|unknown:///|(734,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/Advice.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/package-info.java|
+ParseError(|unknown:///|(729,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/runner/package-info.java|
+ParseError(|unknown:///|(688,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/specimen/package-info.java|
+ParseError(|unknown:///|(702,1,<20,0>,<20,1>))
+11
+[Project Analyzer] project: byte-buddy
+Processing byte-buddy...
+
+|file:///home/dataset/byte-buddy/byte-buddy-agent/src/main/java/net/bytebuddy/agent/package-info.java|
+ParseError(|unknown:///|(713,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-agent/src/main/java/net/bytebuddy/agent/VirtualMachine.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-android/src/main/java/net/bytebuddy/android/package-info.java|
+ParseError(|unknown:///|(716,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-android/src/main/java/net/bytebuddy/android/AndroidClassLoadingStrategy.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-gradle-plugin/android-plugin/src/main/java/net/bytebuddy/build/gradle/android/package-info.java|
+ParseError(|unknown:///|(720,1,<20,0>,<20,1>))
+  43 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-gradle-plugin/src/test/java/net/bytebuddy/build/gradle/ByteBuddyPluginTest.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-gradle-plugin/src/main/java/net/bytebuddy/build/gradle/AbstractByteBuddyTask.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-gradle-plugin/src/main/java/net/bytebuddy/build/gradle/package-info.java|
+ParseError(|unknown:///|(734,1,<20,0>,<20,1>))
+  81 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-maven-plugin/src/main/java/net/bytebuddy/build/maven/package-info.java|
+ParseError(|unknown:///|(733,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-maven-plugin/src/main/java/net/bytebuddy/build/maven/ByteBuddyMojo.java|
+EmptySet()
+  97 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-8/net/bytebuddy/test/precompiled/v8/ReceiverTypeSample.java|
+ParseError(|unknown:///|(764,1,<20,63>,<20,64>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/ClassFileVersionKnownVersionsTest.java|
+EmptySet()
+  177 of 1241 processed succesfully!
+  300 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/type/AbstractTypeDescriptionTest.java|
+Ambiguity(|unknown:///|(59150,139,<1046,8>,<1049,46>),"BlockStatements","class ExtendedGenericSample\<T\> extends GenericSample\<T\> {\n            /* empty */\n        };\n        return new ExtendedGenericSample\<T\>();")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/annotation/AbstractAnnotationDescriptionTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/implementation/auxiliary/TypeProxyCreationTest.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/dynamic/scaffold/InstrumentedTypeDefaultTest.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/dynamic/loading/MultipleParentClassLoaderTest.java|
+Ambiguity(|unknown:///|(9140,284,<208,8>,<212,55>),"BlockStatements","ClassLoader classLoader = new MultipleParentClassLoader.Builder().append(first, second).build(first);\n        ;\n        assertThat(classLoader, CoreMatchers.not(first));\n        assertThat(classLoader, CoreMatchers.not(second));\n        assertThat(classLoader.getParent(), is(first));")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-17/net/bytebuddy/test/precompiled/v17/Sealed.java|
+ParseError(|unknown:///|(665,1,<18,7>,<18,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-16/net/bytebuddy/test/precompiled/v16/GenericRecordSample.java|
+ParseError(|unknown:///|(665,1,<18,7>,<18,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/test/java-16/net/bytebuddy/test/precompiled/v16/RecordSample.java|
+ParseError(|unknown:///|(814,1,<23,7>,<23,8>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/ByteBuddy.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/package-info.java|
+ParseError(|unknown:///|(1433,1,<32,0>,<32,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/package-info.java|
+ParseError(|unknown:///|(727,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/StreamDrainer.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/JavaConstant.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/dispatcher/package-info.java|
+ParseError(|unknown:///|(937,1,<23,0>,<23,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/visitor/package-info.java|
+ParseError(|unknown:///|(691,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/visitor/StackAwareMethodVisitor.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/utility/privilege/package-info.java|
+ParseError(|unknown:///|(752,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/pool/package-info.java|
+ParseError(|unknown:///|(780,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/pool/TypePool.java|
+EmptySet()
+  916 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/build/package-info.java|
+ParseError(|unknown:///|(739,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/build/Plugin.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/matcher/package-info.java|
+ParseError(|unknown:///|(699,1,<20,0>,<20,1>))
+  952 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/matcher/FilterableList.java|
+EmptySet()
+  965 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/package-info.java|
+ParseError(|unknown:///|(917,1,<22,0>,<22,1>))
+  979 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/method/MethodList.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/method/package-info.java|
+ParseError(|unknown:///|(729,1,<20,0>,<20,1>))
+  980 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/method/ParameterList.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/field/package-info.java|
+ParseError(|unknown:///|(683,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/field/FieldList.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/type/TypeList.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/type/package-info.java|
+ParseError(|unknown:///|(695,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/type/RecordComponentList.java|
+EmptySet()
+  985 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/modifier/package-info.java|
+ParseError(|unknown:///|(732,1,<20,0>,<20,1>))
+  993 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/enumeration/package-info.java|
+ParseError(|unknown:///|(712,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/annotation/package-info.java|
+ParseError(|unknown:///|(705,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/annotation/AnnotationDescription.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/annotation/AnnotationList.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/description/annotation/AnnotationValue.java|
+EmptySet()
+  1005 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/InvocationHandlerAdapter.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/EqualsMethod.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/InvokeDynamic.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/package-info.java|
+ParseError(|unknown:///|(722,1,<20,0>,<20,1>))
+  1007 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/MethodCall.java|
+EmptySet()
+  1008 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/ToStringMethod.java|
+EmptySet()
+  1012 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/HashCodeMethod.java|
+EmptySet()
+  1016 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/package-info.java|
+ParseError(|unknown:///|(841,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/collection/ArrayFactory.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/collection/ArrayAccess.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/collection/package-info.java|
+ParseError(|unknown:///|(816,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/member/package-info.java|
+ParseError(|unknown:///|(941,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/member/MethodInvocation.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/constant/package-info.java|
+ParseError(|unknown:///|(822,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/constant/MethodConstant.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/package-info.java|
+ParseError(|unknown:///|(913,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/reference/package-info.java|
+ParseError(|unknown:///|(802,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bytecode/assign/primitive/package-info.java|
+ParseError(|unknown:///|(937,1,<22,0>,<22,1>))
+  1056 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/attribute/package-info.java|
+ParseError(|unknown:///|(931,1,<22,0>,<22,1>))
+  1059 of 1241 processed succesfully!
+  1060 of 1241 processed succesfully!
+  1062 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/auxiliary/package-info.java|
+ParseError(|unknown:///|(889,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/auxiliary/TypeProxy.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/auxiliary/MethodCallProxy.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/package-info.java|
+ParseError(|unknown:///|(752,1,<20,0>,<20,1>))
+  1069 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/annotation/Super.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/annotation/package-info.java|
+ParseError(|unknown:///|(859,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/annotation/TargetMethodAnnotationDrivenBinder.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/implementation/bind/annotation/Pipe.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/agent/builder/package-info.java|
+ParseError(|unknown:///|(1017,1,<23,0>,<23,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/agent/builder/AgentBuilder.java|
+EmptySet()
+  1091 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/package-info.java|
+ParseError(|unknown:///|(849,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/ClassFileLocator.java|
+EmptySet()
+  1093 of 1241 processed succesfully!
+  1098 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/MethodGraph.java|
+EmptySet()
+  1101 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/package-info.java|
+ParseError(|unknown:///|(972,1,<22,0>,<22,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/TypeWriter.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/InstrumentedType.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/subclass/package-info.java|
+ParseError(|unknown:///|(794,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/inline/package-info.java|
+ParseError(|unknown:///|(781,1,<21,0>,<21,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/scaffold/inline/RebaseImplementationTarget.java|
+EmptySet()
+  1113 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/loading/ClassReloadingStrategy.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/dynamic/loading/package-info.java|
+ParseError(|unknown:///|(773,1,<21,0>,<21,1>))
+  1116 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/package-info.java|
+ParseError(|unknown:///|(734,1,<20,0>,<20,1>))
+  1122 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/TypeReferenceAdjustment.java|
+EmptySet()
+|file:///home/dataset/byte-buddy/byte-buddy-dep/src/main/java/net/bytebuddy/asm/Advice.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  1123 of 1241 processed succesfully!
+  1125 of 1241 processed succesfully!
+  1126 of 1241 processed succesfully!
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/package-info.java|
+ParseError(|unknown:///|(729,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/runner/package-info.java|
+ParseError(|unknown:///|(688,1,<20,0>,<20,1>))
+|file:///home/dataset/byte-buddy/byte-buddy-benchmark/src/main/java/net/bytebuddy/benchmark/specimen/package-info.java|
+ParseError(|unknown:///|(702,1,<20,0>,<20,1>))
+32
+INFO:root:  Formating the source code
+INFO:root:   Done

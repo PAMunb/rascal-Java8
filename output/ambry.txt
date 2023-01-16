@@ -1,0 +1,431 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: ambry
+Creating log file at: /output/log-20230115013233
+Processing ambry...
+  325 of 1253 processed succesfully!
+  327 of 1253 processed succesfully!
+  362 of 1253 processed succesfully!
+  368 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-commons/src/main/java/com/github/ambry/commons/AmbryCache.java|
+Ambiguity(|unknown:///|(5567,51,<176,88>,<177,28>),"ConditionalExpression","(Gauge\<Integer\>) () -\>\n        cacheEnabled ? 1 : 0")
+4
+[Project Analyzer] project: ambry
+Processing ambry...
+  86 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-commons/src/main/java/com/github/ambry/commons/AmbryCache.java|
+Ambiguity(|unknown:///|(5567,51,<176,88>,<177,28>),"ConditionalExpression","(Gauge\<Integer\>) () -\>\n        cacheEnabled ? 1 : 0")
+  1223 of 1253 processed succesfully!
+2
+[Project Analyzer] project: ambry
+Processing ambry...
+|file:///home/dataset/ambry/ambry-commons/src/main/java/com/github/ambry/commons/AmbryCache.java|
+Ambiguity(|unknown:///|(5567,51,<176,88>,<177,28>),"ConditionalExpression","(Gauge\<Integer\>) () -\>\n        cacheEnabled ? 1 : 0")
+0
+[Project Analyzer] project: ambry
+Processing ambry...
+
+  3 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-api/src/test/java/com/github/ambry/rest/RestUtilsTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-api/src/test/java/com/github/ambry/router/ByteRangeTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-api/src/test/java/com/github/ambry/router/GetBlobOptionsTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-api/src/test/java/com/github/ambry/server/StorageStatsTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-api/src/main/java/com/github/ambry/quota/QuotaMetrics.java|
+EmptySet()
+  74 of 1253 processed succesfully!
+  84 of 1253 processed succesfully!
+  130 of 1253 processed succesfully!
+  276 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-messageformat/src/test/java/com/github/ambry/messageformat/MessageSievingInputStreamTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-messageformat/src/test/java/com/github/ambry/messageformat/MessageFormatInputStreamTest.java|
+EmptySet()
+  298 of 1253 processed succesfully!
+  299 of 1253 processed succesfully!
+  303 of 1253 processed succesfully!
+  308 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-tools/src/integration-test/java/com/github/ambry/clustermap/HelixBootstrapUpgradeToolTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/tools/util/ToolUtils.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/tools/perf/rest/NettyPerfClient.java|
+EmptySet()
+  327 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/tools/admin/ConcurrencyTestTool.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/tools/admin/ServerAdminTool.java|
+EmptySet()
+  330 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/clustermap/HelixTaskWorkflowManagerTool.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/account/ServiceIdAccountGenTool.java|
+EmptySet()
+  337 of 1253 processed succesfully!
+  339 of 1253 processed succesfully!
+  341 of 1253 processed succesfully!
+  344 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/store/DumpIndexTool.java|
+EmptySet()
+  346 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/store/ConsistencyCheckerTool.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/store/CompactionVerifier.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-tools/src/main/java/com/github/ambry/store/DumpDataTool.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-frontend/src/integration-test/java/com/github/ambry/frontend/FrontendIntegrationTestBase.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-frontend/src/integration-test/java/com/github/ambry/frontend/FrontendIntegrationTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-frontend/src/test/java/com/github/ambry/frontend/PostBlobHandlerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-frontend/src/test/java/com/github/ambry/frontend/AmbryIdConverterFactoryTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-frontend/src/test/java/com/github/ambry/frontend/AmbryIdSigningServiceTest.java|
+EmptySet()
+  357 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-frontend/src/test/java/com/github/ambry/frontend/AmbrySecurityServiceTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-frontend/src/test/java/com/github/ambry/frontend/PostAccountsHandlerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-frontend/src/test/java/com/github/ambry/frontend/GetPeersHandlerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-frontend/src/test/java/com/github/ambry/frontend/GetReplicasHandlerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-frontend/src/test/java/com/github/ambry/frontend/FrontendRestRequestServiceTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-frontend/src/test/java/com/github/ambry/frontend/NamedBlobPutHandlerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-frontend/src/test/java/com/github/ambry/frontend/FrontendUtilsTest.java|
+EmptySet()
+  378 of 1253 processed succesfully!
+  380 of 1253 processed succesfully!
+  395 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-replication/src/test/java/com/github/ambry/replication/MockHost.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-replication/src/test/java/com/github/ambry/replication/BlobIdTransformerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-replication/src/test/java/com/github/ambry/replication/ReplicationTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-replication/src/test/java/com/github/ambry/replication/InMemoryStore.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-replication/src/test/java/com/github/ambry/replication/LeaderBasedReplicationTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-replication/src/test/java/com/github/ambry/replication/DiskTokenPersistorTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-replication/src/test/java/com/github/ambry/replication/ReplicationTestHelper.java|
+EmptySet()
+  407 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-replication/src/main/java/com/github/ambry/replication/ReplicaThread.java|
+EmptySet()
+  409 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-replication/src/main/java/com/github/ambry/replication/ReplicationEngine.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-replication/src/main/java/com/github/ambry/replication/CloudToStoreReplicationManager.java|
+EmptySet()
+  411 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-replication/src/main/java/com/github/ambry/replication/ReplicationManager.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-replication/src/main/java/com/github/ambry/replication/ReplicationMetrics.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-network/src/test/java/com/github/ambry/network/SocketNetworkClientTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-network/src/test/java/com/github/ambry/network/SSLSelectorTest.java|
+EmptySet()
+  426 of 1253 processed succesfully!
+  427 of 1253 processed succesfully!
+  431 of 1253 processed succesfully!
+  434 of 1253 processed succesfully!
+  437 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-network/src/main/java/com/github/ambry/network/LocalNetworkClient.java|
+EmptySet()
+  439 of 1253 processed succesfully!
+  446 of 1253 processed succesfully!
+  448 of 1253 processed succesfully!
+  454 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-network/src/main/java/com/github/ambry/network/SocketNetworkClient.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-network/src/main/java/com/github/ambry/network/http2/Http2NetworkClient.java|
+EmptySet()
+  470 of 1253 processed succesfully!
+  473 of 1253 processed succesfully!
+  480 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-server/src/integration-test/java/com/github/ambry/server/CloudAndStoreReplicationTest.java|
+EmptySet()
+  484 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-server/src/integration-test/java/com/github/ambry/server/ServerHardDeleteTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-server/src/integration-test/java/com/github/ambry/server/RouterServerTestFramework.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-server/src/integration-test/java/com/github/ambry/server/ServerTestUtil.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-server/src/integration-test/java/com/github/ambry/server/VcrRecoveryTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-server/src/test/java/com/github/ambry/server/MockStorageManager.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-server/src/test/java/com/github/ambry/server/AmbryServerRequestsTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-server/src/main/java/com/github/ambry/server/AmbryServerRequests.java|
+EmptySet()
+  500 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-named-mysql/src/integration-test/java/com/github/ambry/named/MySqlNamedBlobDbIntegrationTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-named-mysql/src/test/java/com/github/ambry/named/MySqlNamedBlobDbTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-rest/src/test/java/com/github/ambry/rest/PublicAccessLogHandlerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-rest/src/test/java/com/github/ambry/rest/NettyResponseChannelTest.java|
+EmptySet()
+  516 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-rest/src/test/java/com/github/ambry/rest/NettyRequestTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-rest/src/test/java/com/github/ambry/rest/AsyncRequestResponseHandlerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-rest/src/test/java/com/github/ambry/rest/NettyMessageProcessorTest.java|
+EmptySet()
+  523 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-rest/src/main/java/com/github/ambry/rest/NettyResponseChannel.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-rest/src/main/java/com/github/ambry/rest/AsyncRequestResponseHandler.java|
+EmptySet()
+  534 of 1253 processed succesfully!
+  544 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/NonBlockingRouterTest.java|
+EmptySet()
+  547 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/RouterFactoryTest.java|
+EmptySet()
+  557 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/NonBlockingQuotaTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/PutManagerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/RouterTestHelpers.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/TtlUpdateManagerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/MockSelector.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/UndeleteManagerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/NonBlockingRouterTestBase.java|
+EmptySet()
+  573 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/DeleteManagerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/test/java/com/github/ambry/router/GetBlobOperationTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/main/java/com/github/ambry/router/QuotaAwareOperationController.java|
+EmptySet()
+  578 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-router/src/main/java/com/github/ambry/router/UndeleteManager.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/main/java/com/github/ambry/router/ReplicateBlobManager.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/main/java/com/github/ambry/router/TtlUpdateManager.java|
+EmptySet()
+  597 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-router/src/main/java/com/github/ambry/router/NonBlockingRouter.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/main/java/com/github/ambry/router/DeleteManager.java|
+EmptySet()
+  603 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-router/src/main/java/com/github/ambry/router/PutManager.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-router/src/main/java/com/github/ambry/router/GetManager.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-test-utils/src/main/java/com/github/ambry/clustermap/MockPartitionId.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-test-utils/src/main/java/com/github/ambry/clustermap/MockDataNodeId.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-test-utils/src/main/java/com/github/ambry/clustermap/MockReplicaId.java|
+EmptySet()
+  619 of 1253 processed succesfully!
+  620 of 1253 processed succesfully!
+  622 of 1253 processed succesfully!
+  623 of 1253 processed succesfully!
+  628 of 1253 processed succesfully!
+  639 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-commons/src/test/java/com/github/ambry/commons/RetainingAsyncWritableChannelTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-commons/src/test/java/com/github/ambry/commons/BlobIdTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-commons/src/test/java/com/github/ambry/commons/JdkSslFactoryTest.java|
+EmptySet()
+  662 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-commons/src/main/java/com/github/ambry/compression/CompressionMap.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-commons/src/main/java/com/github/ambry/commons/AmbryCache.java|
+Ambiguity(|unknown:///|(5567,51,<176,88>,<177,28>),"ConditionalExpression","(Gauge\<Integer\>) () -\>\n        cacheEnabled ? 1 : 0")
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/BlobStoreCompactorTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/CuratedLogIndexState.java|
+EmptySet()
+  705 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/IndexSegmentTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/IndexValueTest.java|
+EmptySet()
+  709 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/IndexTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/HardDeleterTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/LogTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/CompactionPolicyFactoryTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/StorageManagerTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/BlobStoreTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/CompactionLogTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/FileSpanTest.java|
+EmptySet()
+  715 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/MockMessageWriteSet.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/test/java/com/github/ambry/store/StoreFindTokenTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/BlobStoreCompactor.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/CompactionDetails.java|
+EmptySet()
+  726 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/CompactionManager.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/StorageManager.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/HardDeleter.java|
+EmptySet()
+  741 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/DiskSpaceAllocator.java|
+EmptySet()
+  748 of 1253 processed succesfully!
+  749 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/BlobStore.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-store/src/main/java/com/github/ambry/store/BlobStoreStats.java|
+EmptySet()
+  753 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-mysql/src/integration-test/java/com/github/ambry/accountstats/AccountStatsMySqlStoreIntegrationTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-mysql/src/integration-test/java/com/github/ambry/accountstats/PartitionClassReportsDaoTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-mysql/src/main/java/com/github/ambry/accountstats/AccountStatsMySqlStore.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-cloud/src/test/java/com/github/ambry/cloud/CloudBlobStoreTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-cloud/src/test/java/com/github/ambry/cloud/CloudTokenPersistorTest.java|
+EmptySet()
+  786 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-cloud/src/test/java/com/github/ambry/cloud/azure/AzureContainerCompactorIntegrationTest.java|
+EmptySet()
+  801 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-cloud/src/test/java/com/github/ambry/cloud/azure/AzureIntegrationTest.java|
+EmptySet()
+  816 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-cloud/src/main/java/com/github/ambry/cloud/CloudMessageFormatWriteSet.java|
+EmptySet()
+  826 of 1253 processed succesfully!
+  834 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-cloud/src/main/java/com/github/ambry/cloud/CloudBlobStore.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-cloud/src/main/java/com/github/ambry/cloud/azure/CosmosDataAccessor.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-cloud/src/main/java/com/github/ambry/cloud/azure/CosmosUpdateTimeFindToken.java|
+EmptySet()
+  845 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-cloud/src/main/java/com/github/ambry/cloud/azure/AzureBlobDataAccessor.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-cloud/src/main/java/com/github/ambry/cloud/azure/AzureContainerCompactor.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-cloud/src/main/java/com/github/ambry/cloud/azure/StorageClient.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-account/src/test/java/com/github/ambry/account/RouterStoreTest.java|
+EmptySet()
+  863 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-account/src/test/java/com/github/ambry/account/HelixAccountServiceTest.java|
+EmptySet()
+  866 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-account/src/main/java/com/github/ambry/account/RouterStore.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-account/src/main/java/com/github/ambry/account/LegacyMetadataStore.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-account/src/main/java/com/github/ambry/account/AccountUtils.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-account/src/main/java/com/github/ambry/account/AbstractAccountService.java|
+EmptySet()
+  881 of 1253 processed succesfully!
+  884 of 1253 processed succesfully!
+  887 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-utils/src/test/java/com/github/ambry/utils/UtilsTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-utils/src/main/java/com/github/ambry/utils/Utils.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-utils/src/main/java/com/github/ambry/utils/InvocationOptions.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-protocol/src/test/java/com/github/ambry/protocol/RequestResponseTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-protocol/src/main/java/com/github/ambry/protocol/AmbryRequests.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-protocol/src/main/java/com/github/ambry/protocol/ReplicationControlAdminRequest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-protocol/src/main/java/com/github/ambry/protocol/ReplicaMetadataResponse.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-protocol/src/main/java/com/github/ambry/protocol/ReplicaMetadataRequest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-protocol/src/main/java/com/github/ambry/protocol/GetRequest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-protocol/src/main/java/com/github/ambry/protocol/GetResponse.java|
+EmptySet()
+  982 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-quota/src/test/java/com/github/ambry/quota/PreProcessQuotaChargeCallbackTest.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-quota/src/main/java/com/github/ambry/quota/SimpleQuotaRecommendationMergePolicy.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-quota/src/main/java/com/github/ambry/quota/AmbryQuotaManager.java|
+EmptySet()
+  1018 of 1253 processed succesfully!
+  1019 of 1253 processed succesfully!
+  1024 of 1253 processed succesfully!
+  1025 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-clustermap/src/test/java/com/github/ambry/clustermap/TestUtils.java|
+EmptySet()
+  1027 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-clustermap/src/test/java/com/github/ambry/clustermap/MockHelixDataAccessor.java|
+EmptySet()
+|file:///home/dataset/ambry/ambry-clustermap/src/test/java/com/github/ambry/clustermap/StaticClusterManagerTest.java|
+EmptySet()
+  1039 of 1253 processed succesfully!
+  1042 of 1253 processed succesfully!
+  1043 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/Partition.java|
+EmptySet()
+  1053 of 1253 processed succesfully!
+  1054 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/HelixClusterManager.java|
+EmptySet()
+  1063 of 1253 processed succesfully!
+  1066 of 1253 processed succesfully!
+  1068 of 1253 processed succesfully!
+  1073 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/HelixParticipant.java|
+EmptySet()
+  1075 of 1253 processed succesfully!
+|file:///home/dataset/ambry/ambry-clustermap/src/main/java/com/github/ambry/clustermap/HelixBootstrapUpgradeUtil.java|
+EmptySet()
+  1084 of 1253 processed succesfully!
+  1088 of 1253 processed succesfully!
+  1092 of 1253 processed succesfully!
+92
+INFO:root:  Formating the source code
+INFO:root:   Done

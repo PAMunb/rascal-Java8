@@ -1,0 +1,58 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: async-http-client
+Creating log file at: /output/log-20230115024537
+Processing async-http-client...
+|file:///home/dataset/async-http-client/client/src/test/java/org/asynchttpclient/handler/BodyDeferringAsyncHandlerTest.java|
+ParseError(|unknown:///|(8084,1,<172,19>,<172,20>))
+0
+[Project Analyzer] project: async-http-client
+Processing async-http-client...
+|file:///home/dataset/async-http-client/client/src/test/java/org/asynchttpclient/handler/BodyDeferringAsyncHandlerTest.java|
+ParseError(|unknown:///|(8084,1,<172,19>,<172,20>))
+0
+[Project Analyzer] project: async-http-client
+Processing async-http-client...
+|file:///home/dataset/async-http-client/client/src/test/java/org/asynchttpclient/handler/BodyDeferringAsyncHandlerTest.java|
+ParseError(|unknown:///|(8084,1,<172,19>,<172,20>))
+0
+[Project Analyzer] project: async-http-client
+Processing async-http-client...
+
+  7 of 343 processed succesfully!
+  81 of 343 processed succesfully!
+|file:///home/dataset/async-http-client/client/src/test/java/org/asynchttpclient/request/body/multipart/MultipartUploadTest.java|
+EmptySet()
+|file:///home/dataset/async-http-client/client/src/test/java/org/asynchttpclient/netty/NettyRequestThrottleTimeoutTest.java|
+EmptySet()
+  127 of 343 processed succesfully!
+  141 of 343 processed succesfully!
+|file:///home/dataset/async-http-client/client/src/test/java/org/asynchttpclient/handler/BodyDeferringAsyncHandlerTest.java|
+ParseError(|unknown:///|(8084,1,<172,19>,<172,20>))
+  151 of 343 processed succesfully!
+  162 of 343 processed succesfully!
+  177 of 343 processed succesfully!
+  182 of 343 processed succesfully!
+  185 of 343 processed succesfully!
+|file:///home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/oauth/Parameters.java|
+EmptySet()
+|file:///home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/oauth/OAuthSignatureCalculatorInstance.java|
+EmptySet()
+  215 of 343 processed succesfully!
+|file:///home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/netty/NettyResponse.java|
+EmptySet()
+|file:///home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/netty/ws/NettyWebSocket.java|
+EmptySet()
+|file:///home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/netty/channel/DefaultChannelPool.java|
+EmptySet()
+  289 of 343 processed succesfully!
+  328 of 343 processed succesfully!
+  330 of 343 processed succesfully!
+|file:///home/dataset/async-http-client/client/src/main/java/org/asynchttpclient/resolver/RequestHostnameResolver.java|
+EmptySet()
+13
+INFO:root:  Formating the source code
+INFO:root:   Done

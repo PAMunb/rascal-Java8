@@ -1,0 +1,47 @@
+[Project Analyzer] processing project: auto
+- Number of files:  306
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 8
+- Final Time: 20230115002742
+- Elapsed Time: 7312.0ms
+[Project Analyzer] processing project: auto
+- applying filter pattern into /home/dataset/auto/value/src/main/java/com/google/auto/value/processor/BuilderMethodClassifier.java
+- Number of files:  306
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 8
+- Final Time: 20230115002747
+- Elapsed Time: 5024.0ms
+[Project Analyzer] processing project: auto
+- Number of files:  306
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 8
+- Final Time: 20230115002752
+- Elapsed Time: 4915.0ms
+[Project Analyzer] processing project: auto
+- applying ForLoopToFunctional into /home/dataset/auto/value/src/main/java/com/google/auto/value/processor/TemplateVars.java
+- applying ForLoopToFunctional into /home/dataset/auto/factory/src/main/java/com/google/auto/factory/processor/FactoryDescriptor.java
+- applying ForLoopToFunctional into /home/dataset/auto/value/src/test/java/com/google/auto/value/processor/ExtensionTest.java
+- applying ForLoopToFunctional into /home/dataset/auto/common/src/test/java/com/google/auto/common/OverridesTest.java
+- applying ForLoopToFunctional into /home/dataset/auto/value/src/it/functional/src/test/java/com/google/auto/value/AutoBuilderTest.java
+- applying ForLoopToFunctional into /home/dataset/auto/value/src/main/java/com/google/auto/value/processor/SimpleServiceLoader.java
+- applying ForLoopToFunctional into /home/dataset/auto/value/src/main/java/com/google/auto/value/processor/MissingTypes.java
+- applying ForLoopToFunctional into /home/dataset/auto/factory/src/main/java/com/google/auto/factory/processor/Parameter.java
+- applying ForLoopToFunctional into /home/dataset/auto/value/src/main/java/com/google/auto/value/processor/ForwardingClassGenerator.java
+- applying ForLoopToFunctional into /home/dataset/auto/service/processor/src/main/java/com/google/auto/service/processor/ServicesFiles.java
+- Number of files:  306
+- Processed Files: 10
+- Exported Files:   10
+- Total of files changed: 12
+- Total of transformations: 12
+- Errors: 35
+- Final Time: 20230115002846
+- Elapsed Time: 53897.0ms

@@ -1,0 +1,153 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: initializr
+Creating log file at: /output/log-20230114235953
+Processing initializr...
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/io/IndentingWriterTests.java|
+ParseError(|unknown:///|(1333,1,<44,35>,<44,36>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GroovyDslGradleSettingsWriterTests.java|
+ParseError(|unknown:///|(1488,1,<42,49>,<42,50>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GroovyDslGradleBuildWriterTests.java|
+ParseError(|unknown:///|(2422,1,<64,38>,<64,39>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/KotlinDslGradleBuildWriterTests.java|
+ParseError(|unknown:///|(2068,1,<52,38>,<52,39>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/KotlinDslGradleSettingsWriterTests.java|
+ParseError(|unknown:///|(1462,1,<41,49>,<41,50>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GradleBuildWriterTests.java|
+ParseError(|unknown:///|(1268,1,<43,38>,<43,39>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/project/ProjectGenerator.java|
+ParseError(|unknown:///|(6193,1,<143,56>,<143,57>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/gradle/GradleBuildWriter.java|
+ParseError(|unknown:///|(7012,1,<168,15>,<168,16>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/maven/MavenBuildWriter.java|
+ParseError(|unknown:///|(11095,1,<266,15>,<266,16>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/maven/MavenPlugin.java|
+ParseError(|unknown:///|(9264,1,<318,47>,<318,48>))
+|file:///home/dataset/initializr/initializr-metadata/src/main/java/io/spring/initializr/metadata/support/MetadataBuildItemMapper.java|
+ParseError(|unknown:///|(2083,1,<54,15>,<54,16>))
+|file:///home/dataset/initializr/initializr-actuator/src/main/java/io/spring/initializr/actuate/stat/ProjectRequestDocumentFactory.java|
+ParseError(|unknown:///|(3899,1,<90,42>,<90,43>))
+|file:///home/dataset/initializr/initializr-generator-test/src/main/java/io/spring/initializr/generator/test/buildsystem/maven/MavenBuildAssert.java|
+ParseError(|unknown:///|(12292,1,<357,30>,<357,31>))
+0
+[Project Analyzer] project: initializr
+Processing initializr...
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/io/IndentingWriterTests.java|
+ParseError(|unknown:///|(1333,1,<44,35>,<44,36>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GroovyDslGradleSettingsWriterTests.java|
+ParseError(|unknown:///|(1488,1,<42,49>,<42,50>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GroovyDslGradleBuildWriterTests.java|
+ParseError(|unknown:///|(2422,1,<64,38>,<64,39>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/KotlinDslGradleBuildWriterTests.java|
+ParseError(|unknown:///|(2068,1,<52,38>,<52,39>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/KotlinDslGradleSettingsWriterTests.java|
+ParseError(|unknown:///|(1462,1,<41,49>,<41,50>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GradleBuildWriterTests.java|
+ParseError(|unknown:///|(1268,1,<43,38>,<43,39>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/project/ProjectGenerator.java|
+ParseError(|unknown:///|(6193,1,<143,56>,<143,57>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/gradle/GradleBuildWriter.java|
+ParseError(|unknown:///|(7012,1,<168,15>,<168,16>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/maven/MavenBuildWriter.java|
+ParseError(|unknown:///|(11095,1,<266,15>,<266,16>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/maven/MavenPlugin.java|
+ParseError(|unknown:///|(9264,1,<318,47>,<318,48>))
+|file:///home/dataset/initializr/initializr-metadata/src/main/java/io/spring/initializr/metadata/support/MetadataBuildItemMapper.java|
+ParseError(|unknown:///|(2083,1,<54,15>,<54,16>))
+|file:///home/dataset/initializr/initializr-actuator/src/main/java/io/spring/initializr/actuate/stat/ProjectRequestDocumentFactory.java|
+ParseError(|unknown:///|(3899,1,<90,42>,<90,43>))
+|file:///home/dataset/initializr/initializr-generator-test/src/main/java/io/spring/initializr/generator/test/buildsystem/maven/MavenBuildAssert.java|
+ParseError(|unknown:///|(12292,1,<357,30>,<357,31>))
+0
+[Project Analyzer] project: initializr
+Processing initializr...
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/io/IndentingWriterTests.java|
+ParseError(|unknown:///|(1333,1,<44,35>,<44,36>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GroovyDslGradleSettingsWriterTests.java|
+ParseError(|unknown:///|(1488,1,<42,49>,<42,50>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GroovyDslGradleBuildWriterTests.java|
+ParseError(|unknown:///|(2422,1,<64,38>,<64,39>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/KotlinDslGradleBuildWriterTests.java|
+ParseError(|unknown:///|(2068,1,<52,38>,<52,39>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/KotlinDslGradleSettingsWriterTests.java|
+ParseError(|unknown:///|(1462,1,<41,49>,<41,50>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GradleBuildWriterTests.java|
+ParseError(|unknown:///|(1268,1,<43,38>,<43,39>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/project/ProjectGenerator.java|
+ParseError(|unknown:///|(6193,1,<143,56>,<143,57>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/gradle/GradleBuildWriter.java|
+ParseError(|unknown:///|(7012,1,<168,15>,<168,16>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/maven/MavenBuildWriter.java|
+ParseError(|unknown:///|(11095,1,<266,15>,<266,16>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/maven/MavenPlugin.java|
+ParseError(|unknown:///|(9264,1,<318,47>,<318,48>))
+|file:///home/dataset/initializr/initializr-metadata/src/main/java/io/spring/initializr/metadata/support/MetadataBuildItemMapper.java|
+ParseError(|unknown:///|(2083,1,<54,15>,<54,16>))
+|file:///home/dataset/initializr/initializr-actuator/src/main/java/io/spring/initializr/actuate/stat/ProjectRequestDocumentFactory.java|
+ParseError(|unknown:///|(3899,1,<90,42>,<90,43>))
+|file:///home/dataset/initializr/initializr-generator-test/src/main/java/io/spring/initializr/generator/test/buildsystem/maven/MavenBuildAssert.java|
+ParseError(|unknown:///|(12292,1,<357,30>,<357,31>))
+0
+[Project Analyzer] project: initializr
+Processing initializr...
+
+|file:///home/dataset/initializr/initializr-generator-spring/src/test/java/io/spring/initializr/generator/spring/documentation/RequestedDependenciesHelpDocumentCustomizerTests.java|
+EmptySet()
+  123 of 560 processed succesfully!
+|file:///home/dataset/initializr/initializr-web/src/test/java/io/spring/initializr/web/AbstractInitializrIntegrationTests.java|
+EmptySet()
+  169 of 560 processed succesfully!
+|file:///home/dataset/initializr/initializr-web/src/main/java/io/spring/initializr/web/support/CommandLineHelpGenerator.java|
+EmptySet()
+  190 of 560 processed succesfully!
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/io/IndentingWriterTests.java|
+ParseError(|unknown:///|(1333,1,<44,35>,<44,36>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GroovyDslGradleSettingsWriterTests.java|
+ParseError(|unknown:///|(1488,1,<42,49>,<42,50>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GroovyDslGradleBuildWriterTests.java|
+ParseError(|unknown:///|(2422,1,<64,38>,<64,39>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/KotlinDslGradleBuildWriterTests.java|
+ParseError(|unknown:///|(2068,1,<52,38>,<52,39>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/KotlinDslGradleSettingsWriterTests.java|
+ParseError(|unknown:///|(1462,1,<41,49>,<41,50>))
+|file:///home/dataset/initializr/initializr-generator/src/test/java/io/spring/initializr/generator/buildsystem/gradle/GradleBuildWriterTests.java|
+ParseError(|unknown:///|(1268,1,<43,38>,<43,39>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/project/ProjectGenerator.java|
+ParseError(|unknown:///|(6193,1,<143,56>,<143,57>))
+  284 of 560 processed succesfully!
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/gradle/GradleBuildWriter.java|
+ParseError(|unknown:///|(7012,1,<168,15>,<168,16>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/maven/MavenBuildWriter.java|
+ParseError(|unknown:///|(11095,1,<266,15>,<266,16>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/buildsystem/maven/MavenPlugin.java|
+ParseError(|unknown:///|(9264,1,<318,47>,<318,48>))
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/language/java/JavaSourceCodeWriter.java|
+EmptySet()
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/language/kotlin/KotlinSourceCodeWriter.java|
+EmptySet()
+|file:///home/dataset/initializr/initializr-generator/src/main/java/io/spring/initializr/generator/language/groovy/GroovySourceCodeWriter.java|
+EmptySet()
+|file:///home/dataset/initializr/initializr-metadata/src/test/java/io/spring/initializr/metadata/InitializrMetadataTests.java|
+EmptySet()
+|file:///home/dataset/initializr/initializr-metadata/src/test/java/io/spring/initializr/metadata/DependenciesCapabilityTests.java|
+EmptySet()
+  461 of 560 processed succesfully!
+|file:///home/dataset/initializr/initializr-metadata/src/main/java/io/spring/initializr/metadata/support/MetadataBuildItemMapper.java|
+ParseError(|unknown:///|(2083,1,<54,15>,<54,16>))
+|file:///home/dataset/initializr/initializr-actuator/src/main/java/io/spring/initializr/actuate/stat/ProjectRequestDocumentFactory.java|
+ParseError(|unknown:///|(3899,1,<90,42>,<90,43>))
+|file:///home/dataset/initializr/initializr-generator-test/src/test/java/io/spring/initializr/generator/test/project/ModuleAssertTests.java|
+EmptySet()
+|file:///home/dataset/initializr/initializr-generator-test/src/main/java/io/spring/initializr/generator/test/InitializrMetadataTestBuilder.java|
+EmptySet()
+  515 of 560 processed succesfully!
+|file:///home/dataset/initializr/initializr-generator-test/src/main/java/io/spring/initializr/generator/test/project/AbstractProjectAssert.java|
+EmptySet()
+|file:///home/dataset/initializr/initializr-generator-test/src/main/java/io/spring/initializr/generator/test/buildsystem/maven/MavenBuildAssert.java|
+ParseError(|unknown:///|(12292,1,<357,30>,<357,31>))
+6
+INFO:root:  Formating the source code
+INFO:root:   Done

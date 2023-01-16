@@ -1,0 +1,165 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: gephi
+Creating log file at: /output/log-20230115000653
+Processing gephi...
+  25 of 1321 processed succesfully!
+  270 of 1321 processed succesfully!
+  293 of 1321 processed succesfully!
+  346 of 1321 processed succesfully!
+  350 of 1321 processed succesfully!
+  356 of 1321 processed succesfully!
+  913 of 1321 processed succesfully!
+  1184 of 1321 processed succesfully!
+8
+[Project Analyzer] project: gephi
+Processing gephi...
+  184 of 1321 processed succesfully!
+  740 of 1321 processed succesfully!
+2
+[Project Analyzer] project: gephi
+Processing gephi...
+  163 of 1321 processed succesfully!
+  203 of 1321 processed succesfully!
+  517 of 1321 processed succesfully!
+  537 of 1321 processed succesfully!
+  539 of 1321 processed succesfully!
+  601 of 1321 processed succesfully!
+  740 of 1321 processed succesfully!
+  884 of 1321 processed succesfully!
+8
+[Project Analyzer] project: gephi
+Processing gephi...
+
+|file:///home/dataset/gephi/modules/DataLaboratoryPlugin/src/main/java/org/gephi/datalab/plugin/manipulators/columns/ColumnValuesFrequency.java|
+EmptySet()
+  21 of 1321 processed succesfully!
+  22 of 1321 processed succesfully!
+  98 of 1321 processed succesfully!
+  115 of 1321 processed succesfully!
+  116 of 1321 processed succesfully!
+  121 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/DesktopTools/src/main/java/org/gephi/desktop/tools/DesktopToolController.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/PreviewAPI/src/main/java/org/gephi/preview/api/PreviewProperties.java|
+EmptySet()
+  196 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/DesktopStatistics/src/main/java/org/gephi/desktop/statistics/StatisticsControllerUIImpl.java|
+EmptySet()
+  197 of 1321 processed succesfully!
+  199 of 1321 processed succesfully!
+  208 of 1321 processed succesfully!
+  304 of 1321 processed succesfully!
+  324 of 1321 processed succesfully!
+  325 of 1321 processed succesfully!
+  326 of 1321 processed succesfully!
+  339 of 1321 processed succesfully!
+  351 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/ToolsPlugin/src/main/java/org/gephi/tools/plugin/Painter.java|
+EmptySet()
+  380 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/LayoutAPI/src/main/java/org/gephi/layout/LayoutModelImpl.java|
+EmptySet()
+  434 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/ProjectAPI/src/main/java/org/gephi/project/impl/ProjectControllerImpl.java|
+EmptySet()
+  435 of 1321 processed succesfully!
+  460 of 1321 processed succesfully!
+  463 of 1321 processed succesfully!
+  486 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/ImportPlugin/src/main/java/org/gephi/io/processor/plugin/AppendProcessor.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/ImportPlugin/src/main/java/org/gephi/io/processor/plugin/MultiProcessor.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/ImportPlugin/src/main/java/org/gephi/io/processor/plugin/MergeProcessor.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/ImportPlugin/src/main/java/org/gephi/io/importer/plugin/file/spreadsheet/AbstractImporterSpreadsheet.java|
+EmptySet()
+  555 of 1321 processed succesfully!
+  557 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/FiltersImpl/src/main/java/org/gephi/filters/FilterProcessor.java|
+EmptySet()
+  589 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/DesktopBranding/src/main/java/org/gephi/branding/desktop/MemoryStarvationManager.java|
+EmptySet()
+  642 of 1321 processed succesfully!
+  717 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/ExportPlugin/src/main/java/org/gephi/io/exporter/plugin/ExporterSpreadsheet.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/ExportPlugin/src/main/java/org/gephi/io/exporter/plugin/ExporterGEXF.java|
+EmptySet()
+  761 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/AppearancePlugin/src/main/java/org/gephi/appearance/plugin/palette/PaletteManager.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/AppearancePluginUI/src/main/java/org/gephi/ui/appearance/plugin/PartitionColorTransformerPanel.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/AppearancePluginUI/src/main/java/org/gephi/ui/appearance/plugin/RecentPalettes.java|
+EmptySet()
+  818 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/LayoutPlugin/src/main/java/org/gephi/layout/plugin/AbstractLayout.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/LayoutPlugin/src/main/java/org/gephi/layout/plugin/forceAtlas2/Region.java|
+EmptySet()
+  833 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/LayoutPlugin/src/main/java/org/gephi/layout/plugin/labelAdjust/LabelAdjust.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/LayoutPlugin/src/main/java/org/gephi/layout/plugin/openord/DensityGrid.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/DesktopLayout/src/main/java/org/gephi/desktop/layout/LayoutPanel.java|
+EmptySet()
+  887 of 1321 processed succesfully!
+  888 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/DesktopDataLaboratory/src/main/java/org/gephi/desktop/datalab/DataTableTopComponent.java|
+EmptySet()
+  906 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/AppearanceAPI/src/main/java/org/gephi/appearance/AppearanceModelImpl.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/PreviewPlugin/src/main/java/org/gephi/preview/plugin/builders/EdgeLabelBuilder.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/PreviewPlugin/src/main/java/org/gephi/preview/plugin/builders/NodeLabelBuilder.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/DesktopAppearance/src/main/java/org/gephi/desktop/appearance/AppearanceUIModel.java|
+EmptySet()
+  1007 of 1321 processed succesfully!
+  1008 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/DesktopAppearance/src/main/java/org/gephi/desktop/appearance/AppearanceToolbar.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/FiltersPlugin/src/main/java/org/gephi/filters/plugin/attribute/AttributeRangeBuilder.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/FiltersPlugin/src/main/java/org/gephi/filters/plugin/attribute/AttributeEqualBuilder.java|
+EmptySet()
+  1041 of 1321 processed succesfully!
+  1043 of 1321 processed succesfully!
+  1044 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/StatisticsPlugin/src/test/java/org/gephi/statistics/plugin/StatisticalInferenceTest.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/StatisticsPlugin/src/main/java/org/gephi/statistics/plugin/Modularity.java|
+EmptySet()
+  1073 of 1321 processed succesfully!
+  1074 of 1321 processed succesfully!
+  1078 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/StatisticsPlugin/src/main/java/org/gephi/statistics/plugin/StatisticalInferenceClustering.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/StatisticsPlugin/src/main/java/org/gephi/statistics/plugin/ConnectedComponents.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/ImportAPI/src/main/java/org/gephi/io/importer/impl/ImportContainerImpl.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/DesktopImport/src/main/java/org/gephi/desktop/importer/ReportPanel.java|
+EmptySet()
+  1151 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/VisualizationImpl/src/main/java/org/gephi/visualization/VizModel.java|
+EmptySet()
+  1181 of 1321 processed succesfully!
+  1199 of 1321 processed succesfully!
+  1202 of 1321 processed succesfully!
+  1240 of 1321 processed succesfully!
+|file:///home/dataset/gephi/modules/AlgorithmsPlugin/src/main/java/org/gephi/algorithms/shortestpath/DijkstraShortestPathAlgorithm.java|
+EmptySet()
+|file:///home/dataset/gephi/modules/AlgorithmsPlugin/src/main/java/org/gephi/algorithms/shortestpath/BellmanFordShortestPathAlgorithm.java|
+EmptySet()
+46
+INFO:root:  Formating the source code
+INFO:root:   Done

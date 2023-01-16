@@ -1,0 +1,87 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: jeromq
+Creating log file at: /output/log-20230115002958
+Processing jeromq...
+0
+[Project Analyzer] project: jeromq
+Processing jeromq...
+0
+[Project Analyzer] project: jeromq
+Processing jeromq...
+0
+[Project Analyzer] project: jeromq
+Processing jeromq...
+
+|file:///home/dataset/jeromq/src/test/java/zmq/CtxTest.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/zmq/socket/reqrep/DealerSpecTest.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/zmq/socket/reqrep/TestReqRelaxed.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/zmq/socket/reqrep/RouterSpecTest.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/zmq/socket/reqrep/ReqSpecTest.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/zmq/socket/reqrep/RepSpecTest.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/zmq/socket/pipeline/PushPullSpecTest.java|
+EmptySet()
+  83 of 414 processed succesfully!
+|file:///home/dataset/jeromq/src/test/java/zmq/io/StreamEngineTest.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/zmq/proxy/ProxyTest.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/guide/lruqueue3.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/guide/mdbroker.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/guide/ppqueue.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/guide/clonesrv6.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/guide/clonesrv5.java|
+EmptySet()
+  195 of 414 processed succesfully!
+|file:///home/dataset/jeromq/src/test/java/org/zeromq/TestZPoller.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/test/java/org/zeromq/ParanoidPiratServerWithLazyPiratClientTest.java|
+EmptySet()
+  215 of 414 processed succesfully!
+  220 of 414 processed succesfully!
+  225 of 414 processed succesfully!
+  226 of 414 processed succesfully!
+  228 of 414 processed succesfully!
+  234 of 414 processed succesfully!
+|file:///home/dataset/jeromq/src/main/java/zmq/Signaler.java|
+EmptySet()
+  245 of 414 processed succesfully!
+|file:///home/dataset/jeromq/src/main/java/zmq/Ctx.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/main/java/zmq/socket/pubsub/Mtrie.java|
+EmptySet()
+  274 of 414 processed succesfully!
+  277 of 414 processed succesfully!
+|file:///home/dataset/jeromq/src/main/java/zmq/io/net/tcp/TcpUtils.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/main/java/org/zeromq/ZMsg.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/main/java/org/zeromq/ManagedContext.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/main/java/org/zeromq/ZAuth.java|
+EmptySet()
+  366 of 414 processed succesfully!
+  372 of 414 processed succesfully!
+|file:///home/dataset/jeromq/src/main/java/org/zeromq/ZLoop.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/main/java/org/zeromq/ZConfig.java|
+EmptySet()
+|file:///home/dataset/jeromq/src/main/java/org/zeromq/ZMonitor.java|
+EmptySet()
+  381 of 414 processed succesfully!
+14
+INFO:root:  Formating the source code
+INFO:root:   Done

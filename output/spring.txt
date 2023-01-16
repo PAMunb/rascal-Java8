@@ -1,0 +1,33 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: spring
+Creating log file at: /output/log-20230114235246
+Processing spring...
+|file:///home/dataset/spring/src/main/java/org/mybatis/spring/annotation/MapperScan.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: spring
+Processing spring...
+|file:///home/dataset/spring/src/main/java/org/mybatis/spring/annotation/MapperScan.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: spring
+Processing spring...
+|file:///home/dataset/spring/src/main/java/org/mybatis/spring/annotation/MapperScan.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: spring
+Processing spring...
+
+  16 of 120 processed succesfully!
+  52 of 120 processed succesfully!
+  65 of 120 processed succesfully!
+|file:///home/dataset/spring/src/main/java/org/mybatis/spring/annotation/MapperScan.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  104 of 120 processed succesfully!
+4
+INFO:root:  Formating the source code
+INFO:root:   Done

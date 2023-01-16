@@ -1,0 +1,232 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: azkaban
+Creating log file at: /output/log-20230114235417
+Processing azkaban...
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/JdbcProjectImpl.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final String INSERT_FLOW_RESOURCE_RECOMMENDATION =\n        \"INSERT INTO project_flow_resource_recommendations (project_id, flow_id, modified_time) values (?,?,?)\";\n\n    final SQLTransaction\<Integer\> insertFlowResourceRecommendation = transOperator -\>\n        transOperator.update(INSERT_FLOW_RESOURCE_RECOMMENDATION, projectId, flowId, System.currentTimeMillis());;")
+|file:///home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/imagemgmt/services/ImageRampRuleService.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+0
+[Project Analyzer] project: azkaban
+Processing azkaban...
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/JdbcProjectImpl.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final String INSERT_FLOW_RESOURCE_RECOMMENDATION =\n        \"INSERT INTO project_flow_resource_recommendations (project_id, flow_id, modified_time) values (?,?,?)\";\n\n    final SQLTransaction\<Integer\> insertFlowResourceRecommendation = transOperator -\>\n        transOperator.update(INSERT_FLOW_RESOURCE_RECOMMENDATION, projectId, flowId, System.currentTimeMillis());;")
+  840 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/imagemgmt/services/ImageRampRuleService.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+1
+[Project Analyzer] project: azkaban
+Processing azkaban...
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/JdbcProjectImpl.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final String INSERT_FLOW_RESOURCE_RECOMMENDATION =\n        \"INSERT INTO project_flow_resource_recommendations (project_id, flow_id, modified_time) values (?,?,?)\";\n\n    final SQLTransaction\<Integer\> insertFlowResourceRecommendation = transOperator -\>\n        transOperator.update(INSERT_FLOW_RESOURCE_RECOMMENDATION, projectId, flowId, System.currentTimeMillis());;")
+|file:///home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/imagemgmt/services/ImageRampRuleService.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+0
+[Project Analyzer] project: azkaban
+Processing azkaban...
+
+|file:///home/dataset/azkaban/az-hdfs-viewer/src/main/java/azkaban/viewer/hdfs/HdfsBrowserServlet.java|
+EmptySet()
+  20 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/az-flow-trigger-dependency-type/kafka-event-trigger/src/test/trigger/kafka/KafkaDepInstanceCollectionTest.java|
+EmptySet()
+|file:///home/dataset/azkaban/az-flow-trigger-dependency-type/kafka-event-trigger/src/main/java/trigger/kafka/KafkaDependencyCheck.java|
+EmptySet()
+  34 of 1000 processed succesfully!
+  44 of 1000 processed succesfully!
+  45 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/az-reportal/src/main/java/azkaban/reportal/util/Reportal.java|
+EmptySet()
+  60 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-exec-server/src/test/java/azkaban/execapp/FlowRunnerTestBase.java|
+EmptySet()
+  79 of 1000 processed succesfully!
+  87 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-exec-server/src/test/java/azkaban/dag/DagTest.java|
+EmptySet()
+  107 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-exec-server/src/main/java/azkaban/execapp/JobRunner.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-exec-server/src/main/java/azkaban/execapp/FlowRunner.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-exec-server/src/main/java/azkaban/execapp/FlowRunnerManager.java|
+EmptySet()
+  115 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-exec-server/src/main/java/azkaban/execapp/TriggerManager.java|
+EmptySet()
+  137 of 1000 processed succesfully!
+  146 of 1000 processed succesfully!
+  149 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/StatsUtils.java|
+EmptySet()
+|file:///home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/HadoopJobUtils.java|
+EmptySet()
+  170 of 1000 processed succesfully!
+  171 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/HadoopSecurePigWrapper.java|
+EmptySet()
+  182 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/pig/PigJobStats.java|
+EmptySet()
+  205 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/hiveutils/azkaban/hive/actions/ExecuteHiveQuery.java|
+EmptySet()
+  213 of 1000 processed succesfully!
+  214 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/javautils/AbstractHadoopJob.java|
+EmptySet()
+|file:///home/dataset/azkaban/az-hadoop-jobtype-plugin/src/main/java/azkaban/jobtype/javautils/ValidationUtils.java|
+EmptySet()
+  252 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/test/java/azkaban/logs/MockExecutionLogsLoader.java|
+EmptySet()
+  266 of 1000 processed succesfully!
+  274 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/test/java/azkaban/executor/ExecutorManagerTest.java|
+EmptySet()
+  299 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/test/java/azkaban/executor/ExecutableFlowTest.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/test/java/azkaban/executor/QueuedExecutionsTest.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/test/java/azkaban/executor/InteractiveTestJob.java|
+EmptySet()
+  326 of 1000 processed succesfully!
+  328 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/test/java/azkaban/jobExecutor/WordCountLocal.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/FlowTrigger.java|
+EmptySet()
+  370 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/NodeBeanLoader.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/JdbcProjectImpl.java|
+Ambiguity(|unknown:///|,"BlockStatement+","final String INSERT_FLOW_RESOURCE_RECOMMENDATION =\n        \"INSERT INTO project_flow_resource_recommendations (project_id, flow_id, modified_time) values (?,?,?)\";\n\n    final SQLTransaction\<Integer\> insertFlowResourceRecommendation = transOperator -\>\n        transOperator.update(INSERT_FLOW_RESOURCE_RECOMMENDATION, projectId, flowId, System.currentTimeMillis());;")
+  373 of 1000 processed succesfully!
+  379 of 1000 processed succesfully!
+  389 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/project/ProjectManager.java|
+EmptySet()
+  402 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/user/Permission.java|
+EmptySet()
+  411 of 1000 processed succesfully!
+  414 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/scheduler/ScheduleManager.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/scheduler/TriggerBasedScheduleLoader.java|
+EmptySet()
+  435 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/cluster/Cluster.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/imagemgmt/daos/ImageTypeDaoImpl.java|
+EmptySet()
+  474 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/imagemgmt/daos/RampRuleDaoImpl.java|
+EmptySet()
+  478 of 1000 processed succesfully!
+  490 of 1000 processed succesfully!
+  492 of 1000 processed succesfully!
+  527 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/trigger/TriggerManager.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/trigger/builtin/ExecuteFlowAction.java|
+EmptySet()
+  543 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/metric/MetricReportManager.java|
+EmptySet()
+  553 of 1000 processed succesfully!
+  554 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/flow/Flow.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/flow/FlowUtils.java|
+EmptySet()
+  566 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/ExecutableFlowRampMetadata.java|
+EmptySet()
+  573 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/ExecutionFlowDao.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/ExecutorManager.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/ExecutableFlowBase.java|
+EmptySet()
+  599 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/ExecutableNode.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/ExecutorHealthChecker.java|
+EmptySet()
+  612 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/RunningExecutionsUpdater.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/AbstractExecutorManagerAdapter.java|
+EmptySet()
+  616 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/mail/DefaultMailCreator.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/container/ContainerizedDispatchManager.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/container/KubernetesContainerizedImpl.java|
+EmptySet()
+  638 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/executor/selector/CandidateComparator.java|
+EmptySet()
+  663 of 1000 processed succesfully!
+  674 of 1000 processed succesfully!
+  681 of 1000 processed succesfully!
+  687 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/jobExecutor/utils/process/AzkabanProcessBuilder.java|
+EmptySet()
+  694 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/utils/YarnUtils.java|
+EmptySet()
+  703 of 1000 processed succesfully!
+  713 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/utils/FileIOUtils.java|
+EmptySet()
+  722 of 1000 processed succesfully!
+  724 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/utils/RestfulApiClient.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-common/src/main/java/azkaban/utils/EmailMessage.java|
+EmptySet()
+|file:///home/dataset/azkaban/az-core/src/main/java/azkaban/utils/Utils.java|
+EmptySet()
+|file:///home/dataset/azkaban/az-core/src/main/java/azkaban/utils/PropsUtils.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-web-server/src/test/java/azkaban/flowtrigger/FlowTriggerServiceTest.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-web-server/src/test/java/azkaban/flowtrigger/MockFlowTriggerInstanceLoader.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/imagemgmt/services/ImageRampRuleServiceImpl.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/imagemgmt/services/ImageRampRuleService.java|
+ParseError(|unknown:///|(0,0,<1,0>,<1,0>))
+|file:///home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/imagemgmt/services/ImageRampupServiceImpl.java|
+EmptySet()
+  863 of 1000 processed succesfully!
+  866 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/webapp/plugin/PluginRegistry.java|
+EmptySet()
+  870 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/webapp/servlet/StatsServlet.java|
+EmptySet()
+  871 of 1000 processed succesfully!
+  874 of 1000 processed succesfully!
+  876 of 1000 processed succesfully!
+  904 of 1000 processed succesfully!
+|file:///home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/flowtrigger/FlowTriggerService.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/flowtrigger/quartz/FlowTriggerScheduler.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-web-server/src/main/java/azkaban/flowtrigger/database/JdbcFlowTriggerInstanceLoaderImpl.java|
+EmptySet()
+|file:///home/dataset/azkaban/azkaban-hadoop-security-plugin/src/main/java/azkaban/security/HadoopSecurityManager_H_2_0.java|
+EmptySet()
+62
+INFO:root:  Formating the source code
+INFO:root:   Done

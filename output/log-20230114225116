@@ -1,0 +1,101 @@
+[Project Analyzer] processing project: jadx
+- applying aic into /home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/inner/TestAnonymousClass8.java
+- applying aic into /home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/inner/TestAnonymousClass7.java
+- applying aic into /home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/inner/TestAnonymousClass6.java
+- applying aic into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/device/debugger/SmaliDebugger.java
+- Number of files:  1312
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 10
+- Total of transformations: 10
+- Errors: 4
+- Final Time: 20230114225138
+- Elapsed Time: 21752.0ms
+[Project Analyzer] processing project: jadx
+- applying filter pattern into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/nodes/LoopInfo.java
+- Number of files:  1312
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 4
+- Final Time: 20230114225154
+- Elapsed Time: 15586.0ms
+[Project Analyzer] processing project: jadx
+- applying exist pattern into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java
+- applying exist pattern into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/instructions/args/ArgType.java
+- applying exist pattern into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/SignatureProcessor.java
+- applying exist pattern into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/InsnNode.java
+- applying exist pattern into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/codegen/ClassGen.java
+- applying exist pattern into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/device/debugger/DebugController.java
+- Number of files:  1312
+- Processed Files: 6
+- Exported Files:   6
+- Total of files changed: 10
+- Total of transformations: 10
+- Errors: 4
+- Final Time: 20230114225209
+- Elapsed Time: 15483.0ms
+[Project Analyzer] processing project: jadx
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-plugins/jadx-dex-input/src/main/java/jadx/plugins/input/dex/DexLoadResult.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/clsp/ClsSet.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/utils/DebugChecks.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/xmlgen/ResourceStorage.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-cli/src/main/java/jadx/cli/JCommanderWrapper.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/trycatch/ExceptionHandler.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/ui/MainWindow.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/DotGraphVisitor.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/test/java/jadx/tests/api/compiler/TestCompiler.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/regions/Region.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/utils/logs/LogCollector.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/utils/Utils.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/generics/TestGenerics6.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/CheckCode.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/device/debugger/BreakpointManager.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/ui/TabComponent.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/ui/codearea/JNodePopupListener.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/ui/TabbedPane.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MethodInvokeVisitor.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/treemodel/JSources.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionStack.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/treemodel/JPackage.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/typeinference/TypeUpdateInfo.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/utils/codecache/disk/adapters/ArgTypeAdapter.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/regions/RegionMakerVisitor.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/blocks/FixMultiEntryLoops.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/regions/conditions/IfCondition.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/plugins/quark/QuarkReportData.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/utils/ErrorsCounter.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/ui/codearea/SmaliArea.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/usage/UsageInfo.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/api/ResourcesLoader.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/utils/BlockUtils.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/treemodel/JResource.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-plugins/jadx-dex-input/src/main/java/jadx/plugins/input/dex/smali/SmaliCodeWriter.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/jobs/BackgroundExecutor.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/MarkMethodsForInline.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/utils/CertificateManager.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-plugins/jadx-java-input/src/main/java/jadx/plugins/input/java/JavaLoadResult.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/api/JadxArgsValidator.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/names/TestReservedPackageNames.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/clsp/ClspGraph.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/attributes/AttributeStorage.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/test/java/jadx/tests/integration/trycatch/TestTryCatchFinally11.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/finaly/InsnsSlice.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-plugins/jadx-plugins-api/src/main/java/jadx/api/plugins/JadxPluginManager.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/utils/ListUtils.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/finaly/MarkFinallyVisitor.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/nodes/parser/SignatureParser.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/clsp/ClspClass.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-plugins/jadx-java-convert/src/main/java/jadx/plugins/input/javaconvert/ConvertResult.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-gui/src/main/java/jadx/gui/treemodel/ApkSignature.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/main/java/jadx/core/dex/visitors/shrink/CodeShrinkVisitor.java
+- applying ForLoopToFunctional into /home/dataset/jadx/jadx-core/src/test/java/jadx/tests/functional/JadxVisitorsOrderTest.java
+- Number of files:  1312
+- Processed Files: 54
+- Exported Files:   54
+- Total of files changed: 81
+- Total of transformations: 81
+- Errors: 77
+- Final Time: 20230114225454
+- Elapsed Time: 164645.0ms

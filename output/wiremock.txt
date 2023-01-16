@@ -1,0 +1,73 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: wiremock
+Creating log file at: /output/log-20230114233913
+Processing wiremock...
+  34 of 751 processed succesfully!
+  70 of 751 processed succesfully!
+  103 of 751 processed succesfully!
+  135 of 751 processed succesfully!
+  288 of 751 processed succesfully!
+  317 of 751 processed succesfully!
+  318 of 751 processed succesfully!
+  352 of 751 processed succesfully!
+  493 of 751 processed succesfully!
+  579 of 751 processed succesfully!
+  646 of 751 processed succesfully!
+  659 of 751 processed succesfully!
+  708 of 751 processed succesfully!
+  710 of 751 processed succesfully!
+  719 of 751 processed succesfully!
+15
+[Project Analyzer] project: wiremock
+Processing wiremock...
+0
+[Project Analyzer] project: wiremock
+Processing wiremock...
+  282 of 751 processed succesfully!
+  289 of 751 processed succesfully!
+  361 of 751 processed succesfully!
+3
+[Project Analyzer] project: wiremock
+Processing wiremock...
+
+|file:///home/dataset/wiremock/perf-test/src/main/java/wiremock/LoadTestConfiguration.java|
+EmptySet()
+|file:///home/dataset/wiremock/wiremock-webhooks-extension/src/test/java/testsupport/WireMockTestClient.java|
+EmptySet()
+|file:///home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/AdminApiTest.java|
+EmptySet()
+  26 of 751 processed succesfully!
+  58 of 751 processed succesfully!
+  75 of 751 processed succesfully!
+  96 of 751 processed succesfully!
+  131 of 751 processed succesfully!
+|file:///home/dataset/wiremock/src/test/java/com/github/tomakehurst/wiremock/testsupport/WireMockTestClient.java|
+EmptySet()
+  163 of 751 processed succesfully!
+|file:///home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/matching/StringValuePatternJsonDeserializer.java|
+EmptySet()
+|file:///home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/matching/MatchesXPathPattern.java|
+EmptySet()
+|file:///home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/matching/MatchResult.java|
+EmptySet()
+  409 of 751 processed succesfully!
+  479 of 751 processed succesfully!
+  486 of 751 processed succesfully!
+  492 of 751 processed succesfully!
+  524 of 751 processed succesfully!
+|file:///home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/verification/diff/Diff.java|
+EmptySet()
+|file:///home/dataset/wiremock/src/main/java/com/github/tomakehurst/wiremock/recording/ScenarioProcessor.java|
+EmptySet()
+  565 of 751 processed succesfully!
+  685 of 751 processed succesfully!
+  716 of 751 processed succesfully!
+  732 of 751 processed succesfully!
+  737 of 751 processed succesfully!
+16
+INFO:root:  Formating the source code
+INFO:root:   Done

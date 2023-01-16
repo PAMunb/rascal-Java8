@@ -1,0 +1,40 @@
+[Project Analyzer] processing project: spring
+- Number of files:  120
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230114235249
+- Elapsed Time: 2095.0ms
+[Project Analyzer] processing project: spring
+- Number of files:  120
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230114235250
+- Elapsed Time: 1020.0ms
+[Project Analyzer] processing project: spring
+- Number of files:  120
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230114235251
+- Elapsed Time: 974.0ms
+[Project Analyzer] processing project: spring
+- applying ForLoopToFunctional into /home/dataset/spring/src/test/java/org/mybatis/spring/annotation/MapperScanTest.java
+- applying ForLoopToFunctional into /home/dataset/spring/src/main/java/org/mybatis/spring/batch/MyBatisBatchItemWriter.java
+- applying ForLoopToFunctional into /home/dataset/spring/src/test/java/org/mybatis/spring/config/NamespaceTest.java
+- applying ForLoopToFunctional into /home/dataset/spring/src/test/java/org/mybatis/spring/mapper/MapperScannerConfigurerTest.java
+- Number of files:  120
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 4
+- Total of transformations: 4
+- Errors: 1
+- Final Time: 20230114235302
+- Elapsed Time: 11516.0ms

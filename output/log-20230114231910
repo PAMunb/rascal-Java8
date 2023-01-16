@@ -1,0 +1,101 @@
+[Project Analyzer] processing project: mockito
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/stubbing/StubbingWithAdditionalAnswersTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/verification/VerificationInOrderWithTimeoutTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/spies/SpyingOnRealObjectsTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitoutil/async/AsyncTesting.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/junitrule/StubbingWarningsJUnitRuleTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/configuration/ClassCacheVersusClassReloadingTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/concurrentmockito/VerificationInOrderFromMultipleThreadsTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockito/internal/runners/DefaultInternalRunnerTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/verification/VerificationWithTimeoutTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/strictness/StrictnessWithRulesTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitoutil/async/AsyncTestingTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/stubbing/StubbingWithDelegateTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/serialization/AcrossClassLoaderSerializationTest.java
+- applying aic into /home/dataset/mockito/src/main/java/org/mockito/internal/runners/RunnerFactory.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/strictness/StrictnessWhenRuleStrictnessIsUpdatedTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/matchers/CustomMatchersTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/matchers/HamcrestMatchersTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockito/internal/session/DefaultMockitoSessionBuilderTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/stubbing/StrictStubbingEndToEndTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/verification/VerificationStartedListenerTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockito/internal/configuration/ClassPathLoaderTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/bugs/MultithreadedStubbingHalfManualTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/junitrunner/StrictRunnerTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/junitrule/StrictJUnitRuleTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/stubbing/StubbingWithBadThrowablesTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockito/internal/progress/MockingProgressImplTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/stubbing/StrictStubbingTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/verification/VerificationWithAfterTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/junitrule/StubbingWarningsMultiThreadingTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/strictness/StrictnessPerStubbingWithRunnerTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockito/junit/TestableJUnitRunner.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitousage/strictness/LenientMockAnnotationTest.java
+- applying aic into /home/dataset/mockito/src/test/java/org/mockitoutil/SafeJUnitRule.java
+- Number of files:  961
+- Processed Files: 33
+- Exported Files:   33
+- Total of files changed: 64
+- Total of transformations: 64
+- Errors: 1
+- Final Time: 20230114231924
+- Elapsed Time: 14502.0ms
+[Project Analyzer] processing project: mockito
+- Number of files:  961
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 1
+- Final Time: 20230114231933
+- Elapsed Time: 8857.0ms
+[Project Analyzer] processing project: mockito
+- applying exist pattern into /home/dataset/mockito/src/main/java/org/mockito/internal/util/collections/IdentitySet.java
+- applying exist pattern into /home/dataset/mockito/src/main/java/org/mockito/internal/creation/MockSettingsImpl.java
+- applying exist pattern into /home/dataset/mockito/src/main/java/org/mockito/internal/InOrderImpl.java
+- Number of files:  961
+- Processed Files: 3
+- Exported Files:   3
+- Total of files changed: 3
+- Total of transformations: 3
+- Errors: 1
+- Final Time: 20230114231942
+- Elapsed Time: 9048.0ms
+[Project Analyzer] processing project: mockito
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/listeners/StubbingLookupNotifier.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/util/StringUtil.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/test/java/org/mockitointegration/NoByteCodeDependenciesTest.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/test/java/org/mockitousage/serialization/ParallelSerializationTest.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/framework/DefaultMockitoSession.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/handler/InvocationNotifierHandler.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/debugging/LoggingListener.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/test/java/org/mockitointegration/NoJUnitDependenciesTest.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/reporting/SmartPrinter.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/exceptions/Reporter.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/invocation/MatchersBinder.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/invocation/InvocationMatcher.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/junit/UnusedStubbings.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/debugging/WarningsFinder.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/verification/MockAwareVerificationMode.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/test/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSetTest.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/util/Checks.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/session/DefaultMockitoSessionBuilder.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/util/MockCreationValidator.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/configuration/IndependentAnnotationEngine.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/test/java/org/mockitousage/examples/use/ArticleManager.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/configuration/injection/MockInjection.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/invocation/InvocationMarker.java
+- applying ForLoopToFunctional into /home/dataset/mockito/src/main/java/org/mockito/internal/configuration/InjectingAnnotationEngine.java
+- applying ForLoopToFunctional into /home/dataset/mockito/subprojects/osgi-test/src/test/java/org/mockito/osgitest/OsgiTest.java
+- Number of files:  961
+- Processed Files: 29
+- Exported Files:   29
+- Total of files changed: 37
+- Total of transformations: 37
+- Errors: 24
+- Final Time: 20230114232115
+- Elapsed Time: 92674.0ms

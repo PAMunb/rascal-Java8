@@ -1,0 +1,110 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: spock
+Creating log file at: /output/log-20230114232923
+Processing spock...
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/model/TestTag.java|
+Ambiguity(|unknown:///|(2189,42,<85,29>,<85,71>),"EqualityExpression","(IntPredicate) other -\> codePoint == other")
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/model/DataProviderMetadata.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/extension/IGlobalExtension.java|
+Ambiguity(|unknown:///|,"InterfaceMemberDeclaration+","default void start() {};\n  ")
+|file:///home/dataset/spock/spock-spring/src/main/java/org/spockframework/spring/SpringBean.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/spock/spock-spring/src/main/java/org/spockframework/spring/ScanScopedBeans.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: spock
+Processing spock...
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/model/TestTag.java|
+Ambiguity(|unknown:///|(2189,42,<85,29>,<85,71>),"EqualityExpression","(IntPredicate) other -\> codePoint == other")
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/model/DataProviderMetadata.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/extension/IGlobalExtension.java|
+Ambiguity(|unknown:///|,"InterfaceMemberDeclaration+","default void start() {};\n  ")
+|file:///home/dataset/spock/spock-spring/src/main/java/org/spockframework/spring/SpringBean.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/spock/spock-spring/src/main/java/org/spockframework/spring/ScanScopedBeans.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: spock
+Processing spock...
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/model/TestTag.java|
+Ambiguity(|unknown:///|(2189,42,<85,29>,<85,71>),"EqualityExpression","(IntPredicate) other -\> codePoint == other")
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/model/DataProviderMetadata.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/extension/IGlobalExtension.java|
+Ambiguity(|unknown:///|,"InterfaceMemberDeclaration+","default void start() {};\n  ")
+  442 of 598 processed succesfully!
+  480 of 598 processed succesfully!
+|file:///home/dataset/spock/spock-spring/src/main/java/org/spockframework/spring/SpringBean.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/spock/spock-spring/src/main/java/org/spockframework/spring/ScanScopedBeans.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+2
+[Project Analyzer] project: spock
+Processing spock...
+
+|file:///home/dataset/spock/spock-junit4/src/main/java/org/spockframework/junit4/TestRuleInterceptor.java|
+EmptySet()
+|file:///home/dataset/spock/spock-junit4/src/main/java/org/spockframework/junit4/ClassRuleInterceptor.java|
+EmptySet()
+|file:///home/dataset/spock/spock-junit4/src/main/java/org/spockframework/junit4/MethodRuleInterceptor.java|
+EmptySet()
+  27 of 598 processed succesfully!
+  96 of 598 processed succesfully!
+  106 of 598 processed succesfully!
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/compiler/WhereBlockRewriter.java|
+EmptySet()
+  108 of 598 processed succesfully!
+  132 of 598 processed succesfully!
+  140 of 598 processed succesfully!
+  147 of 598 processed succesfully!
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/util/TeePrintStream.java|
+EmptySet()
+  150 of 598 processed succesfully!
+  152 of 598 processed succesfully!
+  153 of 598 processed succesfully!
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/util/ReflectionUtil.java|
+EmptySet()
+  186 of 598 processed succesfully!
+  195 of 598 processed succesfully!
+  246 of 598 processed succesfully!
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/mock/runtime/MockInvocation.java|
+EmptySet()
+  256 of 598 processed succesfully!
+  264 of 598 processed succesfully!
+  333 of 598 processed succesfully!
+  354 of 598 processed succesfully!
+  356 of 598 processed succesfully!
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/StandardStreamsCapturer.java|
+EmptySet()
+  378 of 598 processed succesfully!
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/model/TestTag.java|
+Ambiguity(|unknown:///|(2189,42,<85,29>,<85,71>),"EqualityExpression","(IntPredicate) other -\> codePoint == other")
+  396 of 598 processed succesfully!
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/model/DataProviderMetadata.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/extension/IGlobalExtension.java|
+Ambiguity(|unknown:///|,"InterfaceMemberDeclaration+","default void start() {};\n  ")
+  444 of 598 processed succesfully!
+  447 of 598 processed succesfully!
+  480 of 598 processed succesfully!
+  484 of 598 processed succesfully!
+  485 of 598 processed succesfully!
+  486 of 598 processed succesfully!
+|file:///home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/condition/DiffedMapRenderer.java|
+EmptySet()
+  518 of 598 processed succesfully!
+  550 of 598 processed succesfully!
+|file:///home/dataset/spock/spock-spring/src/main/java/org/spockframework/spring/SpringBean.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/spock/spock-spring/src/main/java/org/spockframework/spring/ScanScopedBeans.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  579 of 598 processed succesfully!
+29
+INFO:root:  Formating the source code
+INFO:root:   Done

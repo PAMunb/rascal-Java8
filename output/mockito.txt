@@ -1,0 +1,147 @@
+home/input.csv
+INFO:root:  RJTL: Loading and start rejuvenation process...
+Version: 0.28.2
+INFO: detected |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+INFO: resolved |lib://rascal| at |jar+file:///home/rascal-Java8/rascal-shell-stable.jar!/|
+[Project Analyzer] project: mockito
+Creating log file at: /output/log-20230114231910
+Processing mockito...
+throws in annonymous
+throws in annonymous
+throws in annonymous
+throws in annonymous
+throws in annonymous
+throws in annonymous
+[0,0,0,0,0,6]
+  88 of 961 processed succesfully!
+  89 of 961 processed succesfully!
+  90 of 961 processed succesfully!
+  108 of 961 processed succesfully!
+  110 of 961 processed succesfully!
+  117 of 961 processed succesfully!
+  136 of 961 processed succesfully!
+  171 of 961 processed succesfully!
+  185 of 961 processed succesfully!
+  187 of 961 processed succesfully!
+  196 of 961 processed succesfully!
+  199 of 961 processed succesfully!
+  201 of 961 processed succesfully!
+  202 of 961 processed succesfully!
+  206 of 961 processed succesfully!
+  220 of 961 processed succesfully!
+  222 of 961 processed succesfully!
+  226 of 961 processed succesfully!
+  232 of 961 processed succesfully!
+  233 of 961 processed succesfully!
+  235 of 961 processed succesfully!
+  239 of 961 processed succesfully!
+  242 of 961 processed succesfully!
+  257 of 961 processed succesfully!
+  265 of 961 processed succesfully!
+  271 of 961 processed succesfully!
+  337 of 961 processed succesfully!
+  348 of 961 processed succesfully!
+  404 of 961 processed succesfully!
+  431 of 961 processed succesfully!
+  481 of 961 processed succesfully!
+  488 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/main/java/org/mockito/Mock.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  754 of 961 processed succesfully!
+33
+[Project Analyzer] project: mockito
+Processing mockito...
+|file:///home/dataset/mockito/src/main/java/org/mockito/Mock.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+0
+[Project Analyzer] project: mockito
+Processing mockito...
+|file:///home/dataset/mockito/src/main/java/org/mockito/Mock.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+  620 of 961 processed succesfully!
+  674 of 961 processed succesfully!
+  716 of 961 processed succesfully!
+3
+[Project Analyzer] project: mockito
+Processing mockito...
+
+  11 of 961 processed succesfully!
+|file:///home/dataset/mockito/subprojects/inline/src/test/java/org/mockitoinline/StaticMockTest.java|
+EmptySet()
+|file:///home/dataset/mockito/src/test/java/org/mockitoutil/ClassLoaders.java|
+EmptySet()
+|file:///home/dataset/mockito/src/test/java/org/mockitoutil/ConcurrentTesting.java|
+EmptySet()
+  89 of 961 processed succesfully!
+  90 of 961 processed succesfully!
+  130 of 961 processed succesfully!
+  149 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/test/java/org/mockitousage/matchers/CapturingArgumentsTest.java|
+EmptySet()
+  377 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/test/java/org/concurrentmockito/ThreadsRunAllTestsHalfManualTest.java|
+EmptySet()
+|file:///home/dataset/mockito/src/main/java/org/mockito/Mock.java|
+Ambiguity(|unknown:///|,"ElementValueList?","")
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/MockitoCore.java|
+EmptySet()
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java|
+EmptySet()
+  621 of 961 processed succesfully!
+  635 of 961 processed succesfully!
+  638 of 961 processed succesfully!
+  644 of 961 processed succesfully!
+  657 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java|
+EmptySet()
+  671 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/junit/UnusedStubbingsFinder.java|
+EmptySet()
+  678 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/junit/DefaultStubbingLookupListener.java|
+EmptySet()
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/junit/StubbingHint.java|
+EmptySet()
+  689 of 961 processed succesfully!
+  691 of 961 processed succesfully!
+  692 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/creation/MockSettingsImpl.java|
+EmptySet()
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java|
+EmptySet()
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java|
+EmptySet()
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java|
+EmptySet()
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/stubbing/BaseStubbing.java|
+EmptySet()
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/stubbing/StubberImpl.java|
+EmptySet()
+  781 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/listeners/VerificationStartedNotifier.java|
+EmptySet()
+  784 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/configuration/SpyAnnotationEngine.java|
+EmptySet()
+  789 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/configuration/injection/ConstructorInjection.java|
+EmptySet()
+  797 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/configuration/injection/scanner/InjectMocksScanner.java|
+EmptySet()
+  799 of 961 processed succesfully!
+  800 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/configuration/plugins/PluginInitializer.java|
+EmptySet()
+  820 of 961 processed succesfully!
+  849 of 961 processed succesfully!
+  857 of 961 processed succesfully!
+  858 of 961 processed succesfully!
+  859 of 961 processed succesfully!
+|file:///home/dataset/mockito/src/main/java/org/mockito/internal/matchers/text/MatchersPrinter.java|
+EmptySet()
+  904 of 961 processed succesfully!
+  909 of 961 processed succesfully!
+29
+INFO:root:  Formating the source code
+INFO:root:   Done

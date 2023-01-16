@@ -1,0 +1,67 @@
+[Project Analyzer] processing project: spock
+- Number of files:  598
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 5
+- Final Time: 20230114232930
+- Elapsed Time: 6411.0ms
+[Project Analyzer] processing project: spock
+- Number of files:  598
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 5
+- Final Time: 20230114232934
+- Elapsed Time: 4055.0ms
+[Project Analyzer] processing project: spock
+- applying exist pattern into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/extension/builtin/PendingFeatureBaseInterceptor.java
+- applying exist pattern into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/extension/builtin/RetryBaseInterceptor.java
+- Number of files:  598
+- Processed Files: 2
+- Exported Files:   2
+- Total of files changed: 2
+- Total of transformations: 2
+- Errors: 5
+- Final Time: 20230114232938
+- Elapsed Time: 4061.0ms
+[Project Analyzer] processing project: spock
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/util/inspector/AstInspector.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/ExpressionInfoRenderer.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/util/AbstractMultiset.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/compiler/ConditionRewriter.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/compiler/InteractionRewriter.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/mock/runtime/MockController.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-spring/src/main/java/org/spockframework/spring/mock/SpockMockPostprocessor.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/mock/runtime/InteractionScope.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/extension/builtin/RevertMetaClassRunListener.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/compiler/SpockTransform.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/mock/TooFewInvocationsError.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/util/CollectionUtil.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/extension/builtin/ConfineMetaClassChangesInterceptor.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/condition/LineBuilder.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/condition/DiffedSetRenderer.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/mock/runtime/MockInteraction.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/SpecRunHistory.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/condition/ObjectRendererService.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/condition/DiffedCollectionRenderer.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/gentyref/GenericTypeReflector.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/util/IoUtil.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-spring/src/main/java/org/spockframework/spring/SpringMockTestExecutionListener.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/util/Filter.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/SpecUtil.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/compiler/model/Spec.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/model/ExpressionInfo.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-guice/src/main/java/org/spockframework/guice/GuiceInterceptor.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-core/src/main/java/org/spockframework/runtime/GlobalExtensionRegistry.java
+- applying ForLoopToFunctional into /home/dataset/spock/spock-tapestry/src/main/java/org/spockframework/tapestry/TapestryInterceptor.java
+- Number of files:  598
+- Processed Files: 29
+- Exported Files:   29
+- Total of files changed: 37
+- Total of transformations: 37
+- Errors: 14
+- Final Time: 20230114233018
+- Elapsed Time: 39998.0ms

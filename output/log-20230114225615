@@ -1,0 +1,42 @@
+[Project Analyzer] processing project: scribejava
+- Number of files:  315
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230114225621
+- Elapsed Time: 5478.0ms
+[Project Analyzer] processing project: scribejava
+- Number of files:  315
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230114225624
+- Elapsed Time: 2921.0ms
+[Project Analyzer] processing project: scribejava
+- applying exist pattern into /home/dataset/scribejava/scribejava-apis/src/main/java/com/github/scribejava/apis/SalesforceApi.java
+- Number of files:  315
+- Processed Files: 1
+- Exported Files:   1
+- Total of files changed: 1
+- Total of transformations: 1
+- Errors: 0
+- Final Time: 20230114225627
+- Elapsed Time: 2845.0ms
+[Project Analyzer] processing project: scribejava
+- applying ForLoopToFunctional into /home/dataset/scribejava/scribejava-apis/src/main/java/com/github/scribejava/apis/odnoklassniki/OdnoklassnikiOAuthService.java
+- applying ForLoopToFunctional into /home/dataset/scribejava/scribejava-core/src/main/java/com/github/scribejava/core/builder/ScopeBuilder.java
+- applying ForLoopToFunctional into /home/dataset/scribejava/scribejava-core/src/main/java/com/github/scribejava/core/model/ParameterList.java
+- applying ForLoopToFunctional into /home/dataset/scribejava/scribejava-httpclient-okhttp/src/test/java/com/github/scribejava/httpclient/okhttp/MockCall.java
+- applying ForLoopToFunctional into /home/dataset/scribejava/scribejava-apis/src/test/java/com/github/scribejava/apis/examples/RenrenExample.java
+- Number of files:  315
+- Processed Files: 5
+- Exported Files:   5
+- Total of files changed: 5
+- Total of transformations: 5
+- Errors: 0
+- Final Time: 20230114225654
+- Elapsed Time: 26973.0ms

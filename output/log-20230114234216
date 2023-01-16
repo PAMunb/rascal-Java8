@@ -1,0 +1,99 @@
+[Project Analyzer] processing project: mapstruct
+- Number of files:  3438
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 21
+- Final Time: 20230114234238
+- Elapsed Time: 22396.0ms
+[Project Analyzer] processing project: mapstruct
+- applying filter pattern into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/ForgedMethod.java
+- applying filter pattern into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/BeanMappingMethod.java
+- Number of files:  3438
+- Processed Files: 2
+- Exported Files:   2
+- Total of files changed: 2
+- Total of transformations: 2
+- Errors: 21
+- Final Time: 20230114234255
+- Elapsed Time: 16424.0ms
+[Project Analyzer] processing project: mapstruct
+- applying exist pattern into /home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/value/spi/CustomEnumMappingStrategy.java
+- applying exist pattern into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/common/DateFormatValidatorFactory.java
+- applying exist pattern into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/BeanMappingMethod.java
+- applying exist pattern into /home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/value/spi/CustomErroneousEnumMappingStrategy.java
+- Number of files:  3438
+- Processed Files: 4
+- Exported Files:   4
+- Total of files changed: 5
+- Total of transformations: 5
+- Errors: 21
+- Final Time: 20230114234311
+- Elapsed Time: 16281.0ms
+[Project Analyzer] processing project: mapstruct
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/spi/DefaultBuilderProvider.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/assignment/UpdateWrapper.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/assignment/SetterWrapper.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/AnnotationMapperReference.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/SupportingConstructorFragment.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/assignment/AdderWrapper.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/defaultcomponentmodel/NonInstanceIterableMapperImpl.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/PresenceCheckMethodResolver.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/AnnotatedConstructor.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/NormalTypeMappingMethod.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/ObjectFactoryMethodResolver.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/MappingMethodOptions.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/testutil/runner/FilteringParentClassLoader.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/defaultcomponentmodel/InstanceIterableMapperImpl.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/bugs/_1685/UserMapperImpl.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/defaultcomponentmodel/NonPublicIterableMapperImpl.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/dependency/GraphAnalyzer.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/collection/defaultimplementation/SourceTargetMapperImpl.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/selector/QualifierSelector.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/nestedbeans/UserDtoMapperSmartImpl.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/DelegatingOptions.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/callbacks/returning/NodeMapperContext.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/processor/MethodRetrievalProcessor.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/selector/MethodFamilySelector.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/selector/FactoryParameterSelector.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/MappingBuilderContext.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/collection/adder/PetMapper.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/common/ParameterBinding.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/bugs/_1453/Issue1453MapperImpl.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/ParameterProvidedMethods.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/MethodReference.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/common/TypeFactory.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/nestedbeans/UserDtoMapperClassicImpl.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/util/AbstractElementUtilsDecorator.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/resources/fixtures/org/mapstruct/ap/test/nestedbeans/UserDtoUpdateMapperSmartImpl.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/beanmapping/AbstractReference.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/testutil/runner/ModifiableURLClassLoader.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/Annotation.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/SupportingField.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/MappingMethod.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/assignment/LocalVarWrapper.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/presence/AllPresenceChecksPresenceCheck.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/Field.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/processor/AnnotationBasedComponentModelProcessor.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/dependency/GraphAnalyzerTest.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/selector/MostSpecificResultTypeSelector.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/test/java/org/mapstruct/ap/test/selection/qualifier/handwritten/PlotWords.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/processor/MapperCreationProcessor.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/selector/TargetTypeSelector.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/GeneratedType.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/assignment/StreamAdderWrapper.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/util/AnnotationProcessorContext.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/integrationtest/src/test/java/org/mapstruct/itest/testutil/extension/ProcessorInvocationInterceptor.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/processor/creation/MappingResolverImpl.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/assignment/WrapperForCollectionsAndMaps.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/source/SourceMethod.java
+- applying ForLoopToFunctional into /home/dataset/mapstruct/processor/src/main/java/org/mapstruct/ap/internal/model/NestedTargetPropertyMappingHolder.java
+- Number of files:  3438
+- Processed Files: 57
+- Exported Files:   57
+- Total of files changed: 92
+- Total of transformations: 92
+- Errors: 43
+- Final Time: 20230114234513
+- Elapsed Time: 122479.0ms

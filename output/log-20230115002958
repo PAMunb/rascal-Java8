@@ -1,0 +1,50 @@
+[Project Analyzer] processing project: jeromq
+- Number of files:  414
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230115003009
+- Elapsed Time: 10573.0ms
+[Project Analyzer] processing project: jeromq
+- Number of files:  414
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230115003016
+- Elapsed Time: 7154.0ms
+[Project Analyzer] processing project: jeromq
+- Number of files:  414
+- Processed Files: 0
+- Exported Files:   0
+- Total of files changed: 0
+- Total of transformations: 0
+- Errors: 0
+- Final Time: 20230115003023
+- Elapsed Time: 7222.0ms
+[Project Analyzer] processing project: jeromq
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/main/java/zmq/util/MultiMap.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/main/java/zmq/SocketBase.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/test/java/org/zeromq/TestRapidOpenCloseSocket.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/test/java/org/zeromq/ReqRepTest.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/main/java/org/zeromq/proto/ZNeedle.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/main/java/zmq/socket/radiodish/Dish.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/test/java/org/zeromq/TooManyOpenFilesTester.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/test/java/org/zeromq/timer/ZTicketTest.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/main/java/org/zeromq/ZPoller.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/test/java/org/zeromq/guide/AsyncServerTest.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/main/java/org/zeromq/ZContext.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/test/java/zmq/io/AbstractProtocolVersion.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/test/java/org/zeromq/timer/ZTimerTest.java
+- applying ForLoopToFunctional into /home/dataset/jeromq/src/main/java/zmq/Own.java
+- Number of files:  414
+- Processed Files: 14
+- Exported Files:   14
+- Total of files changed: 20
+- Total of transformations: 20
+- Errors: 26
+- Final Time: 20230115003145
+- Elapsed Time: 81763.0ms
