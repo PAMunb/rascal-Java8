@@ -30,14 +30,22 @@ constructs of the language.
    * Conver if-then-else-if on the value of strings to Switch String
    * Convert similar catch blocks into MultiCatch 
 
-### How to use it
+### Requirements
 
-   * clone this repository
-   * install [rascal-mpl ide](http://www.rascal-mpl.org/start/)
-   * import this project to the rascal workspace
-   * execute the rascal shell using this project as reference
-   * import the Driver module (such as > import Driver;)  
-   * execute the function refactorProjects passing as argument a location for an input file 
+   * Python 3
+   * Java 11
+
+### Build and run
+
+   * Clone this repository (`git clone git@github.com:PAMunb/rascal-Java8.git`)
+   * Change to the JUnit5Migration folder (`cd rascal-Java8`) 
+   * Download the Rascal shell (`wget https://update.rascal-mpl.org/console/rascal-shell-stable.jar`)
+   * Execute the `driver.py` script:
+
+```shell
+$ python3 driver.py -i <PATH_TO_INPUT_FILE>
+```
+   * PS: the input file path ".csv" must be passed without a "/" at the beginning. 
 
 The input file is in the CSV format, with at least the following columns: 
 

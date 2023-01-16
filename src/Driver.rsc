@@ -9,6 +9,7 @@ import ParseTree;
 import util::Math;
 import util::Benchmark;
 
+import Exception;
 import io::IOUtil; 
 
 import lang::java::refactoring::MultiCatch;
@@ -18,6 +19,10 @@ import lang::java::refactoring::Diamond;
 import lang::java::refactoring::AnonymousToLambda;
 import lang::java::refactoring::ExistPatternToLambda;
 import lang::java::refactoring::FilterPattern;
+import lang::java::refactoring::IntegerSumPattern;
+import lang::java::refactoring::JUnitClassDeclaration;
+import lang::java::refactoring::JUnitTestCaseDeclaration;
+
 
 import lang::java::refactoring::forloop::EnhancedForLoopRefactorer;
 import lang::java::analysis::ExceptionFinder;
@@ -35,7 +40,8 @@ str logFile = "";
  * Analyze all projecteds listed in 
  * the input file. 
  */
-public void refactorProjects(loc input, bool verbose = true) {
+public void main(str path = "", bool verbose = true) {
+    loc input = |file:///| + path;
     str ctime =  printTime(now(), "YYYYMMDDHHmmss");
     logFile = "log-" + ctime;
     list[str] projects = readFileLines(input);
@@ -58,7 +64,10 @@ public void refactorProjects(loc input, bool verbose = true) {
           case /DI/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorDiamond, "diamond");
           case /AC/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorAnonymousInnerClass, "aic");
           case /EP/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorExistPattern, "exist pattern");
-          case /FP/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorFilterPattern, "filter pattern");          
+          case /FP/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorFilterPattern, "filter pattern");
+          case /IS/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorIntegerSumPattern, "integer list sum pattern");
+          case /JUCD/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorJUnitClassDeclaration, "JUnit class declaration");
+          case /JUTD/: executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorJUnitTestCaseDeclaration, "JUnit class declaration");
           case /FUNC/: {
           	  checkedExceptionClasses = findCheckedExceptions(projectFiles);
               executeTransformations(projectFiles, toInt(projectDescriptor[3]), verbose, refactorForLoopToFunctional, "ForLoopToFunctional");
@@ -87,10 +96,15 @@ public void executeTransformations(list[loc] files, int percent, bool verbose, t
          println("  " + toString(acc) + " of " + toString((size(files))) + " processed succesfully!");
        }
        acc += 1;
-     }
-     catch : { 
-     	errors += 1; 
-        println("  file processed with errors!");
+     } catch Error(e): {
+       println(file);
+     	//  println(e);
+     	 errors += 1; 
+       println("  file processed with errors!");
+     } catch e: {
+       println(file);
+     	 println(e);
+     	 errors += 1; 
      };
      //if(acc == 200) break;
   }
@@ -153,7 +167,7 @@ int numberOfTransformationsToApply(int total, int percent) {
 }
 
 void logMessage(str message) {
-  loc out = |project://rascal-Java8/output/|;
+  loc out = |cwd:///output/|;
   out += logFile; 
   if(!exists(out)) {
      println("Creating log file at: " + out.path);	
